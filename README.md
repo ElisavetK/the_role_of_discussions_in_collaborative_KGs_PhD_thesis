@@ -6,6 +6,7 @@ This repo contains code and data produced for the experiments described in the P
 This folder includes code for gathering and processing the data of this thesis.
 * **download_Wikidata_dumps**: This is a script to download Wikidata xml dumps from https://dumps.wikimedia.org/wikidatawiki/ .
 * **process_Wikidata_dumps.py**: This is a script to process the xml files and extract pages for item and property talk pages.
+* **process_data.ipynb**: This notebook process the raw text to separate threads, posts, and then extract the username for each post.
 
 ## **Use of Discussions** 
 This folder includes code and data for the analysis in Chapter 6.
