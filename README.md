@@ -16,7 +16,8 @@ This folder includes code and data for the analysis in Chapter 6.
 
 ## **Collaboration Patterns in Discussions** 
 This folder contains code and data for the analysis in Chapter 7.
-* **graph analysis**: This folder consists of the network analysis code and data.
+* **graph_analysis.ipynb**: This notebook consists of the network analysis code.
+* **statistics_data.ipynb**: This notebook includes statistical analysis and figures for the editors' features. 
 
 
 ## **Impact of Discussions** 
