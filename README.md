@@ -22,6 +22,8 @@ This folder contains code and data for the analysis in Chapter 7.
 ## **Impact of Discussions** 
 This folder contains code and data for the analysis in Chapter 8.
 * **framework_analysis.ipynb**: This notebook includes the code for the text and graph embeddings, and the neural network model.
+* **items_cleaned.csv.zip**: This zip includes the dataset of discussions found in item talk pages.
+
 
 
 ## **Disagreements in Discussions** 
