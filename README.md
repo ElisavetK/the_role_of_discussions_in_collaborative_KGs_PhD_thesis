@@ -7,7 +7,7 @@ This folder includes code for gathering and processing the data of this thesis.
 * **download_Wikidata_dumps**: This is a script to download Wikidata xml dumps from https://dumps.wikimedia.org/wikidatawiki/ .
 * **process_dumps_for_discussions.py**: This is a script to process the xml files and extract discussion pages.
 * **process_dumps_for_edit_history.py**: This is a script to process the xml files and extract the edit history of editors.
-* **process_data.ipynb**: This notebook process the raw text to separate threads, posts, and then extract the username for each post.
+* **process_data_separate_threads.ipynb**: This notebook process the raw text to separate threads, posts, and then extract the username for each post.
 
 ## **Use of Discussions** 
 This folder includes code and data for the analysis in Chapter 6.
