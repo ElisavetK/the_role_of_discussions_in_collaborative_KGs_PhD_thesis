@@ -18,7 +18,7 @@ This folder includes code and data for the analysis in Chapter 6.
 This folder contains code and data for the analysis in Chapter 7.
 * **graph_analysis.ipynb**: This notebook consists of the network analysis code.
 * **statistics_data.ipynb**: This notebook includes statistical analysis and figures for the editors' features.
-* **process_data.ipynb**: This notebook presents the code for editors' features. 
+* **process_editor_features.ipynb**: This notebook presents the code for editors' features. 
 
 
 ## **Impact of Discussions** 
