@@ -1,0 +1,72 @@
+"{{RFCSubpage}}   [[Category:Requests for comment not added to summary page by requestor]] 
+
+I recently stumbled upon an issue which I want to explain here.  I looking for consensus on how it should be solved, if it is solvable or if it ''should'' be solved.
+
+I chose the above title to catch your attention: the more precise title would be: <blockquote>'''''The way the internet uses schema.org is incompatible the community consensus on wikidata'''''</blockquote>
+
+I am working on a [[Wikidata:Tools/Wikidata for Firefox|tool]] that tries to suggest statements to an entity. It does that based on structured or machine readable data found elsewhere on the internet. A while ago [https://www.wikidata.org/w/index.php?title=Topic:Vyovr3a9f9nrlb85&topic_showPostId=vyovr3a9fdlttf6d#flow-post-vyovr3a9fdlttf6d somebody suggested to me] it should parse JSON-LD. Which is a great idea!
+
+So one of my approaches was the following: we can determine the class of an object by 
+
+# looking at its class in schema.org 
+# finding an wikidata item with an {{P|1709}}
+# setting {{P|31}} with that equivalient classs.
+
+For instance:
+
+This website: [https://www.podchaser.com/creators/barack-obama-107Zzj88OJ podchaser.com/creators/barack-obama-107Zzj88OJ]
+Includes the following code:
+
+<pre>
+{
+    ""@context"": ""http://schema.org"",
+    ""@type"": ""Person"",
+    ""additionalName"": ""Barack"",
+    ""birthDate"": ""1961-08-04 00:00:00"",
+    ""name"": ""Barack Obama"",
+    ""description"": ""Host on Renegades: Born in the USA, Guest on The Breakfast Club, Fresh Air, and The Michelle Obama Podcast, and Archive Recording on Making. Barack Hussein Obama II is an American politician who served as the 44th President of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African American to be elected to the presidency and previously served as a United S…"",
+    ""url"": ""https://www.podchaser.com/creators/barack-obama-107Zzj88OJ""
+}
+</pre>
+
+So parsing the first two lines I come to the conclusion that this {{Q|76}} should have {{P|31}} → {{P|1709}} = <code>""http://schema.org/Person""</code>.
+
+The extension – of course – does nothing automatically without the user performing an action. So I didn't look into it but the statement…
+
+<blockquote>
+{{Q|76}} → {{P|31}} → {{Q|215627}}
+</blockquote>
+
+…intuitively made sense to me. I think it is actually correct. At least ''podchaser.com'' states, it is the case.
+
+I was kind of aware, that {{P|31}} → {{Q|5}} is more common. What I didn't know that ''The community™'' somewhere ages ago decided that existing non-fictional people should be {{P|31}} → {{Q|5}}, rather than {{P|31}} → {{Q|215627}} even if both statements are correct. I am not challenging this decision.
+
+To solve this issue I [https://www.wikidata.org/w/index.php?title=Q5&type=revision&diff=1461256249&oldid=1460712449 moved the equivalent class] statement to {{Q|5}}. 
+
+Now thinking about it, I think this move was wrong and it should be reverted because:
+
+<blockquote>
+A person (alive, dead, undead, or fictional).
+
+– https://schema.org/Person
+</blockquote>
+
+This sounds more like {{Q|215627}} than {{Q|5}}. Unfortunately, these two classes aren't even related, they just weirdly overlap.
+
+[[File:Venn diagram Q5 and Q215627.svg|800px|Venn diagram Q5 and Q215627]]
+
+== Solutions ==
+
+=== Use both classes in Wikidata ===
+
+The vast majority of {{Q|215627}} are also {{Q|5}}. Adding both classes to all instances reflects the situation best, but is highly impractical.
+
+=== https://schema.org/Human ===
+
+We could propose to add {{Q|5}} as a schema.org schema and convince the rest of the internet to use it where appropriate. It would be a subclass of https://schema.org/Thing, not https://schema.org/Person. This is unrealistic.
+
+=== Screw compatibility! ===
+
+Being compatible is more trouble than it is worth. Contributors have to review every statement added to Wikidata anyway. Third party tools like [[Wikidata:Tools/Wikidata for Firefox|this one]] should only make suggestions and assume the user knows consensuses made by the community.
+
+== Thoughts? =="

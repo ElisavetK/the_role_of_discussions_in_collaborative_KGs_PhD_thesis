@@ -1,0 +1,89 @@
+"{{RFCSubpage|closed=yes}}
+{{dtop|No consensus for the adoption of this process. Valid strong arguments were presented on both sides therefore this process may be used when appropriate, it should not be forced and if an administrator feels at any point consensus exists one way or another before the whole RfC process is done, it should be closed in order to avoid time wasting (a few opposes). [[User:John F. Lewis|John F. Lewis]] ([[User talk:John F. Lewis|{{int:Talkpagelinktext}}]]) 20:36, 4 October 2013 (UTC)"
+"}}
+{| class=""wikitable"" width=""100%""
+|-
+| width=""30%""|Closed state: Discussion ||Opening date of discussion: 18. August 2013 </br> Closing date of discussion: 2. September 2013
+|-
+| Current step: Decision ||Opening date of decision: 3. September 2013 </br> Closing date of decision: 3. October 2013
+|}
+
+
+<br/>
+<center><big><big>For discussion and comments go to the [[Wikidata talk:Requests for comment/Guidelines for RfC process|talk page]]</big></big></center>
+
+==Proposal==
+The RfC process needs improvements: right now there is no possibility to follow the progress of a RfC if you don't participate from the begining. To improve the current process the following guidelines are proposed:
+
+# A request for comment is composed of 2 parts: a discussion part and a decision part. The discussion part is used to define the questions, the framework and the conditions of the topic which is proposed in the RfC.
+# The discussion part lasts at least one week and the decision part at least four weeks. If one part needs more time an extension can be decided. The deadline of each part has to be mentioned in the main page of the request.
+# When a part starts (discussion or decision) an announcement has to be made in the [[Special:MyLanguage/Project:Community_portal|Community portal]] in English (a new section has to be created). Announcement in the different project chats is strongly recommended.
+# During the discussion chat the main page of the request should be keep blank of any comments or discussions. Only the results of the discussion should be displayed. The discussions have their place in the talk page. The main page is used for the draft proposal only, updated and modified as the discussion progresses. So each person opening the discussion page can see the current summary of the discussions.
+# Once the discussion part is complete and a draft proposal has been agreed then the decision part begins. This consists of users voting on the Project page for or against the proposal.
+# If any party decides that he or she can only accept the current proposal if a change is made to it then that party should vote no and add a comment referring to the desired change. If the proposal is voted down but a significant number of voters have called for the same change to the wording of the proposal then the RFC process can restart with a discussion of the new proposal followed by another decision phase.
+
+== Decision ==
+===Support===
+# '''Strong approval'''. --[[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 16:48, 4 September 2013 (UTC)"
+". This seems to give a sensible structure to the RFC process and will help keep it useful for developing policy. Even where a more open ended discussion is desired this structure can be used - Just declare that the discussion did not arrive at a proposal for approval and the Approval stage will not be used.
+# {{Support}} Imposing a small extra degree of order and standardization to the RFC process as the proposal above does seems like a promising way to ensure energy isn't needlessly wasted.  The guidelines give room for flexibility -- e.g. noting that time-boxed discussion and decision phases can be extended if needed.  If others think the proposed guidelines will prove excessively bureaucratic, how about we use this process with a few random RFCs as a pilot? [[User:Emw|Emw]] ([[User talk:Emw|talk]]) 02:06, 8 September 2013 (UTC)"
+"
+#: I don't see this as a ""small extra degree of order and standardization"". I guess we could do a pilot but this is way too rigid, beyond what I'd support.--[[User:Jasper Deng|Jasper Deng]] ([[User talk:Jasper Deng|talk]]) 02:18, 8 September 2013 (UTC)"
+"
+#:: How is the proposal too rigid?  The process has explicit room for flexibility, which would help to account for the varying nature of RFCs.  Your opposition seems to be that ""RfCs on different subjects may have special requirements due to the nature of the subject matter"".  Could you give an example of such special requirements, and how the proposed guidelines are too rigid to accommodate them?  
+#:: The proposal itself is simple.  Break RFCs into two phases: discussion and decision.  Discussions last one week, decisions last four weeks.  Time can be extended if needed.  Announce each phase in [[Wikidata:Project_chat|Project chat]].  Discuss the RFC on the talk page, and keep the main page as a running summary of the draft consensus.  Vote on the proposal drawn from that draft consensus.  If a significant number of voters suggest a change to the proposal, then restart the RFC.
+#:: How would you change that? [[User:Emw|Emw]] ([[User talk:Emw|talk]]) 16:45, 8 September 2013 (UTC)"
+"
+#::: For example, the CheckUser and Oversight RfCs each lasted a week because that was enough to form consensus. Furthermore, this structure makes no provision for multi-stage RfCs, nor multi-component RfCs. I don't see what problem this would solve. It's just pure inconvenience.--[[User:Jasper Deng|Jasper Deng]] ([[User talk:Jasper Deng|talk]]) 00:50, 9 September 2013 (UTC)"
+"
+#:::: You are right. But does the current approach support multi-stage RfCs or multi-component RfCs only because everything is discussed a little bit? Don't we see that this leads to pointless discussions? &nbsp;—&nbsp;[[User:FelixReimann|Felix&nbsp;Reimann]] ([[User talk:FelixReimann|talk]]) 11:35, 24 September 2013 (UTC)"
+"
+#::::: It most certainly does. And it doesn't lead to pointless discussions.--[[User:Jasper Deng|Jasper Deng]] ([[User talk:Jasper Deng|{{int:Talkpagelinktext}}]]) 00:08, 25 September 2013 (UTC)"
+"
+#{{s}} This is a solution-centric approach. Many RfCs we had so far ended without consensus and turn off-topic after some months. I do not think this is rigid but a straight structure anyone can follow. &nbsp;—&nbsp;[[User:FelixReimann|Felix&nbsp;Reimann]] ([[User talk:FelixReimann|talk]]) 11:35, 24 September 2013 (UTC)"
+"
+#:No... you fail to consider the fact that RfCs may not fit to this - i.e. not everyone is going to be able to follow it with a discussion.--[[User:Jasper Deng|Jasper Deng]] ([[User talk:Jasper Deng|{{int:Talkpagelinktext}}]]) 00:08, 25 September 2013 (UTC)"
+"
+#{{s}} This method is used by the French WP since some years allowing a clear description of the subject defined after a period of free dicussions. This is really important because not all contributors take part in the discussion and having at the end only the summary of the discussion give more opportunities to these contributors to take part in the decision. [[User:Snipre|Snipre]] ([[User talk:Snipre|{{int:Talkpagelinktext}}]]) 21:32, 24 September 2013 (UTC)"
+"
+#:That's great, but this is not the French Wikipedia, and we need a solution that works for Wikidata and that is agreeable to the community. For one, people do not come on here everyday (similar to Commons/Meta), and to find themselves cut off from discussion prematurely would be problematic. --'''[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]''' 21:40, 24 September 2013 (UTC)"
+"
+#::Isn't the problem that our ''current'' solution is problematic as it leads to long discussions which often fail to deliver a clear answer? But the creator of RfC desires a clear answer to know if bots may start adding claims based on the proposal or not. If it is just a little bit too rigid for you: I think the time spans can of course be subject of the discussion of each RfC. But as a starting point - why not? Also let's not see the outcome as a law - just a statement that the proposal seems reasonable enough to give it a try. My feeling is that this is what many creators of RfCs here would desire: A broad discussion and a result on which we can gather new experiences. &nbsp;—&nbsp;[[User:FelixReimann|Felix&nbsp;Reimann]] ([[User talk:FelixReimann|talk]]) 22:11, 24 September 2013 (UTC)"
+"
+#::: Sorry I break my own rules about no comment during decision part:@[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]] ''For one, people do not come on here everyday (similar to Commons/Meta), and to find themselves cut off from discussion prematurely would be problematic'', very nice argument but can you explain how the current process prevent closing a RfC before giving enough time to allow most contributors to have a chance to take part in the discussions/decisions ? And as you are taking care of the contributors which can have difficulties to take part in the discussions/decisions I hope you will do the necessary to announce each RfC with the different voting phases to each project chat. And please I never say we have to do as the French WP but as some persons say it too formal I just say that this is working in one important community so its manageable: French people are not the most formal persons so if it's possible for them to do that kind of process, other people can't do it ? [[User:Snipre|Snipre]] ([[User talk:Snipre|{{int:Talkpagelinktext}}]]) 22:32, 24 September 2013 (UTC)"
+"
+#::::But what works for one community may not work for another. Out at the English Wikipedia we ''don't'' structure most RFCs like this, and we still get stuff done. I never said that our current RFC process was fully effective, but I think that this would make it worse; I've even heard concerns that this very RFC is a knee-jerk reaction to the closure of the RFC that resulted in removing P107. --'''[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]''' 23:11, 24 September 2013 (UTC)"
+"
+#:::::I am inclined to agree. I do not think this would work for ''this'' project. And even if it works on the French Wikipedia, I would think it's far less efficient because of the inflexibility of the approach.--[[User:Jasper Deng|Jasper Deng]] ([[User talk:Jasper Deng|{{int:Talkpagelinktext}}]]) 00:08, 25 September 2013 (UTC)"
+"
+# {{Support}} Cette prise de décision est la première à laquelle je suis capable de donner une réponse claire. Ce sont toujours les mêmes personnes qui donnent leur avis, et ce n'est pas normal que seuls les professionnels de la prise de décision puissent participer. [[User:Ljubinka|Ljubinka]] ([[User talk:Ljubinka|{{int:Talkpagelinktext}}]]) 07:18, 25 September 2013 (UTC)"
+"
+#: Il est la résponsibilité du createur du discussion d'être clair. Un nouvel politique n'est pas la solution.--[[User:Jasper Deng|Jasper Deng]] ([[User talk:Jasper Deng|{{int:Talkpagelinktext}}]]) 00:21, 26 September 2013 (UTC)"
+"
+#::Justement, le système actuel fait que même si la proposition initiale est claire, à partir du moment où la discussion s'engage, elle devient impossible à suivre pour la plupart des gens. Et ensuite... rien. Cette proposition permet qu'après une phase de discussion où l'on développe les solutions possibles et les arguments pour et contre, chacun puisse donner un avis éclairé sur une ou plusieurs questions simples. [[User:Ljubinka|Ljubinka]] ([[User talk:Ljubinka|{{int:Talkpagelinktext}}]]) 08:27, 26 September 2013 (UTC)"
+"
+#::: C'est difficile de poser des questions simples dans certains cas, comme des problèmes de gestion du processus global. Ça implique (je pense) des petits changements incrémentaux, ce qui n'est pas forcément une mauvaise chose mais semble interdire tout gros changement dans la manière de s'organiser. Par exemple je pense qu'on est pas bon pour penser en terme de classe et d'instance, et que définir globalement la manière d'utiliser les propriété et les qualificatifs est très améliorable. Ça ne devrait pas nécessiter de passer par une RfC parce que la procédure est beaucoup trop lourde pour ce qui est le coeur de métier de Wikidata ... et c'est très difficile de faire passer cette idée parce qu'on est habitué à penser en terme de propriétés. Les création/suppressions sont quasi exclusivement basée sur les propriétés individuellement, et pas sur leur rôle dans le contexte de l'utilisation pour un type d'item globalement, c'est regrettable je pense. Au lieux de proposer des propriétés pour les ''terms'', on ferait mieux de les proposer pour les classes d'item (tiens, je vais essayer de proposer cette idée sur le project chat). [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|{{int:Talkpagelinktext}}]]) 09:16, 26 September 2013 (UTC)"
+"
+#:::: Mais, comment est-ce que ce nouvel politique va faire une solution? Si toute le monde ne comprend pas un RfC, ce RfC n'est pas clair, à mon avis. Je ne pense pas qu'il est difficile de poser de questions simples. A mon avis, le probleme est que les RfCs sont toujours en anglais. Mon conclusion est simplement que ce RfC n'est pas un solution; il creerait trop d'autres problemes, à mon avis.--[[User:Jasper Deng|Jasper Deng]] ([[User talk:Jasper Deng|{{int:Talkpagelinktext}}]]) 00:31, 27 September 2013 (UTC)"
+"
+# {{Support}} Not well gounded actions like [https://www.wikidata.org/w/index.php?title=Wikidata:Requests_for_comment/Migrating_away_from_GND_main_type&diff=prev&oldid=74010658 this] should be an exception.  --[[User:Succu|Succu]] ([[User talk:Succu|{{int:Talkpagelinktext}}]]) 21:48, 1 October 2013 (UTC)"
+"
+
+===Oppose===
+#{{strong oppose}} all as too rigid. RfCs on different subjects may have special requirements due to the nature of the subject matter. While I agree RfC tracking is not as easy as it should be, none of this will go forward to solving that problem.--[[User:Jasper Deng|Jasper Deng]] ([[User talk:Jasper Deng|talk]]) 02:40, 4 September 2013 (UTC)"
+"
+# {{strong oppose}} per above. Also, depending on the activity level and what is achieved from the RfC, as well as the purpose of the RfC itself may not need the minimum 5 weeks as per the proposal. Some might not even need two weeks, it all depends. <span style=""background:#008;border:2px solid #000;font-variant:small-caps"">&nbsp;[[User:Hazard-SJ|<b style=""color:#FFF"">Hazard</b>]]&nbsp;[[User talk:Hazard-SJ|<b style=""color:#FFF"">SJ</b>]]&nbsp;</span> 03:03, 4 September 2013 (UTC)"
+"
+# {{oppose}} While the RFC process could use improvements, making it this bureaucratic is not the way to go about it. --'''[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]''' 03:53, 4 September 2013 (UTC)"
+"
+# {{oppose}} Largely per above. The point of having established processes and procedures is to allow people to tackle the issue at hand without having to worry about how to go about tackling the issue at hand. Applied to RfCs, this means that if everyone broadly agrees about how to conduct a discussion, they can go straight to the actual discussion. If established processes and procedures are so rigid, or are so rigidly enforced, that they become a distraction, they lose their value. This policy is too rigid, and therefore runs too great a risk of becoming a distraction. [[User:Sven Manguard|<span style=""color:#207004"">'''<span style=""font-size:115%"">S</span>ven <span style=""font-size:115%"">M</span>anguard'''</span>]] [[User talk:Sven Manguard|<small><span style=""color:#F0A804"">'''Wha?'''</span></small>]] 07:43, 6 September 2013 (UTC)"
+"
+#{{oppose}} To formal, to bureaucratic. Why not have a special-purpose-Multi-ling-Village-pump instead? Where does the idea of these RfC-processes come from in the first place? -- [[User:Lavallen|Lavallen]] ([[User talk:Lavallen|{{int:Talkpagelinktext}}]]) 13:03, 24 September 2013 (UTC)"
+"
+#{{oppose}} doesn't even begin to solve the problem of massive, sweeping RfCs that are unintelligible to the average contributor. Lavallen's solution is something that I would like to see. [[User:Ajraddatz|Ajraddatz]] <small>([[User Talk:Ajraddatz|Talk]])</small> 01:50, 25 September 2013 (UTC)"
+"
+#An RFC on changing the RFC process... should ask for what problems exist and ask after why those might be the case. This RFC thus both a) fails to ask that question and b) because of that failure, fails to adequately solve the problem in a fashion which will with a high probability fix the problem. In general, it is better to propose solutions to problems after everyone agrees to what the problems are, and all I've seen is ""there are problems"" and not so much ""these are the problems"". --[[User:Izno|Izno]] ([[User talk:Izno|{{int:Talkpagelinktext}}]]) 23:17, 25 September 2013 (UTC)"
+"
+#{{oppose}} too much bureaucratic. Please, don't import Wikipedia bureaucracy here! [[User:Tpt|Tpt]] ([[User talk:Tpt|{{int:Talkpagelinktext}}]]) 15:42, 27 September 2013 (UTC)"
+"
+#:Yes, one of the reasons I guess this kind pages are so selldom visited by others than the inner part of the WD-{{Q|1416414}} is that this way of working is limited to some wikiprojects, and only users from those projects have any idea of how it is supposed to work. The Swedish version of RfC has been dormant since {{Q|150701}} and has only treated user-conflicts around subjects like {{Q|1191575}}. That is nothing Swedish users would find themself invited to. You may keep RfC for more difficult conflicts, but for the development of the infrastructure here, keep those talks in a more inviting environment. Lets move that kind of talks to something more looking like a VillagePump, where people can feel that they are free to speak in any language they like. -- [[User:Lavallen|Lavallen]] ([[User talk:Lavallen|{{int:Talkpagelinktext}}]]) 16:50, 27 September 2013 (UTC)"

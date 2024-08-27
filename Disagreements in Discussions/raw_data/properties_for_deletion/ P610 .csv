@@ -1,0 +1,11 @@
+"
+{{dtop|Kept. [[User:Lavallen|Lavallen]] ([[User talk:Lavallen|{{int:Talkpagelinktext}}]]) 17:32, 15 October 2013 (UTC)"
+"}}
+{{rfd links|Property:P610|The datatype should really be coordinate, not item. This change would allow us to enter in high point data without creating items for non-notable hills in the middle of nowhere. --[[User:King jakob c 2|Jakob]] <small>([[User talk:King jakob c 2|Scream about]] [[Special:Contributions/King jakob c 2|the things I've broken]])</small> 15:52, 7 October 2013 (UTC)"
+"}} 
+The datatype should really be coordinate, not item. This change would allow us to enter in high point data without creating items for non-notable hills in the middle of nowhere. --[[User:King jakob c 2|Jakob]] <small>([[User talk:King jakob c 2|Scream about]] [[Special:Contributions/King jakob c 2|the things I've broken]])</small> 15:52, 7 October 2013 (UTC)"
+".
+
+:Then you have to add {{P|805}} to identify {{Q|513}} in {{Q|2}} and then add the coordinates of Q513  in ''two'' items! Would it not be better to use ""somevalue"" in P610 and {{P|625}} as qualifer when the place lack wp-notability? -- [[User:Lavallen|Lavallen]] ([[User talk:Lavallen|{{int:Talkpagelinktext}}]]) 17:05, 7 October 2013 (UTC)"
+"
+::Thanks for the tip. I didn't think if that. I '''withdraw''' this nomination. --[[User:King jakob c 2|Jakob]] <small>([[User talk:King jakob c 2|Scream about]] [[Special:Contributions/King jakob c 2|the things I've broken]])</small> 12:02, 8 October 2013 (UTC)"

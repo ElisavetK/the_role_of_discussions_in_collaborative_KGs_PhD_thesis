@@ -1,0 +1,43 @@
+"=== {{TranslateThis | anchor = en
+| en = Czech cohesion region ID
+| cs = kód regionu soudržnosti podle RÚIAN
+}} ===
+{{Property proposal
+|status			= 7735
+|description		= {{TranslateThis
+| en = identifier for a cohesion region, conferred by 'Český úřad zeměměřický a katastrální'
+<!-- | xx = descriptions in other languages -->
+ }}
+|subject item           = Q12049098
+|infobox parameter	= <!-- Wikipedia infobox parameters, if any; ex: ""population"" in [[:en:template:infobox settlement]] -->
+|datatype		= external-id
+|domain			= {{Q|Q3507889}}
+|allowed values		= \d+
+|source			= State Administration of Land Surveying and Cadastre
+<!-- you should provide 3 examples at least-->
+|example 1		= {{Q|Q5061457}} → [https://vdp.cuzk.cz/vdp/ruian/regiony/78 78]
+|example 2		= {{Q|Q6192497}} → [https://vdp.cuzk.cz/vdp/ruian/regiony/60 60]
+|example 3		= {{Q|Q7458002}} → [https://vdp.cuzk.cz/vdp/ruian/regiony/43 43]
+|number of ids          = 8
+|expected completeness  = Q21873974
+|formatter URL		= https://vdp.cuzk.cz/vdp/ruian/regiony/$1
+|external links         = https://vdp.cuzk.cz/vdp/ruian/regiony/
+|see also               = {{P|P7674}}, {{P|P7673}}
+|filter			= <!-- sample: 7 digit number can be validated with edit filter [[Special:AbuseFilter/17]] -->
+|robot and gadget jobs	= <!-- Should or are bots or gadgets doing any task with this? (Checking other properties for consistency, collecting data, etc.) -->
+|subpage		= Czech cohesion region ID
+|topic			= place
+}}
+
+====Motivation====
+Official ID for all Czech cohesion regions, conferred by State Administration of Land Surveying and Cadastre. --[[User:Harold|Harold]] ([[User talk:Harold|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:31, 5 December 2019 (UTC)"
+"
+
+===={{int:Talk}}====
+{{Ping project|Czech Republic}}
+*{{S}} [[User:ديفيد عادل وهبة خليل 2|David]] ([[User talk:ديفيد عادل وهبة خليل 2|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 05:13, 6 December 2019 (UTC)"
+"
+*{{S}} [[User:Vojtěch Dostál|Vojtěch Dostál]] ([[User talk:Vojtěch Dostál|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:55, 10 December 2019 (UTC)"
+"
+
+{{Ping|ديفيد عادل وهبة خليل 2|Harold|Vojtěch Dostál}}  {{done}}: {{P|P7735}}. − [[User:Pintoch|Pintoch]] ([[User talk:Pintoch|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:50, 30 December 2019 (UTC)"

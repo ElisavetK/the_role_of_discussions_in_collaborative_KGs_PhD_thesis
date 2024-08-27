@@ -1,0 +1,43 @@
+"'''Obsolete proposal'''
+
+=== {{TranslateThis | anchor = en
+| en = close match
+<!-- |xx = property names in some other languages -->
+}} ===
+{{Property proposal
+|status			= withdrawn<!-- leave this empty -->
+|description		= {{TranslateThis
+ | en = used to link two concepts, which are similar in meaning, but cannot be used interchangeably
+<!-- | xx = descriptions in other languages -->
+ }}
+|subject item           = <!-- item corresponding to the concept represented by the property, if applicable; example: {{Q|Q7569}} for {{P|P40}} -->
+|infobox parameter	= <!-- Wikipedia infobox parameters, if any; ex: ""population"" in [[:en:template:infobox settlement]] -->
+|datatype		= URL
+|domain			= 
+|allowed values		= URI
+|allowed units          = -
+|source			= in analogy to [https://www.w3.org/TR/skos-reference/#closeMatch skos:closeMatch] (see also ""inter-KOS mapping relationships"" in [http://www.w3.org/TR/skos-primer SKOS Primer]). <br />ISO-25964-2:2013's ""inexact equivalence"" has the same meaning: ""Sometimes the most closely matching concepts in two or more vocabularies are not exactly the same. The problem is particularly acute when the vocabularies have emerged from different cultural communities. ... The following cases commonly raise: - The concepts may be equivalent in some contexts but not in others. - The concepts may have overlapping scopes or small differences in connotation. ..."" (clause 11.3, p. 27)
+|example		= <!-- {{Q|1}} → value -->{{q|Q4127}} → http://zbw.eu/stw/descriptor/30083-1 (Lake Constance region)
+|planned use            = mapping of {{q|Q26903352}} to Wikidata ([http://tools.wmflabs.org/mix-n-match/#/catalog/507 already started in Mix-n-match])
+|formatter URL		= <!-- for external identifiers, URL pattern where $​1 replaces the value -->
+|external links         = <!--  search string to pass to sister projects' Special:LinkSearch pages, e.g. example.com  -->
+|see also               = {{p|P2888}}
+|filter			= <!-- sample: 7 digit number can be validated with edit filter [[Special:AbuseFilter/17]] -->
+|robot and gadget jobs	= <!-- Should or are bots or gadgets doing any task with this? (Checking other properties for consistency, collecting data, etc.) -->
+|subpage		= close match
+|topic			= authority control
+}}
+
+;Motivation
+
+Exact mappings from an external vocabulary to Wikidata can be created via {{p|P2888}} or via a property of type external id for that particular vocabulary, which means that the thing identified by that property is excactly the same as the given item. This works very well for persons, and to a lesser degree for organizations, but often fails for general (abstract) concepts, or even for geographic entities. ([https://www.wikidata.org/wiki/Wikidata:Project_chat#Wikidata_Mapping see discussion here]) Even when it would be valueable or at least legitimate to create a new and exactly-matching Wikidata item, this often does not match a main purpose of a mapping from an external vocabulary (to link to existing Wikipedia pages in different languages). That leaves the user with the choice of either creating an inaccuarate not-really-exact mapping using the available means (which may cause harm later on, particularly in derived transitive relations), or skipping the external concept completely. A ""close match"" property would solve this. [[User:Jneubert|Jneubert]] ([[User talk:Jneubert|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:12, 10 August 2017 (UTC)"
+"
+
+;{{int:Talk}}
+*{{Comment}} {{Reply to|Jneubert}} According to description, it looks like it's the same idea of {{Property|P1889}} Or are they different?Thank you [[User:ديفيد عادل وهبة خليل 2|David]] ([[User talk:ديفيد عادل وهبة خليل 2|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:36, 16 November 2017 (UTC)"
+"
+** Hi {{ping|ديفيد عادل وهبة خليل 2}} Actually no - {{Property|P1889}} is about the relation betwee two item, whereas this draft for an proposal was aimed at the relation between an item and an external resource, identified by its URL. However, the whole draft is a (completely forgotten) leftover from an approach, which finally resulted in {{p|4390}} (using a qualifier for external ids with different allowed values), and probably should be deleted. Thanks for making me aware that its still lingering around. [[User:Jneubert|Jneubert]] ([[User talk:Jneubert|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:09, 16 November 2017 (UTC)"
+"
+***{{Reply to|Jneubert}} Do you mean that you are withdrawing the proposal? [[User:ديفيد عادل وهبة خليل 2|David]] ([[User talk:ديفيد عادل وهبة خليل 2|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:39, 16 November 2017 (UTC)"
+"
+**** {{ping|ديفيد عادل وهبة خليل 2}} Yes (I actually did not submit it). I've added a note on top to make that more obvious. However, if you see a use case for such a property, I'm happy to discuss. [[User:Jneubert|Jneubert]] ([[User talk:Jneubert|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:55, 16 November 2017 (UTC)"

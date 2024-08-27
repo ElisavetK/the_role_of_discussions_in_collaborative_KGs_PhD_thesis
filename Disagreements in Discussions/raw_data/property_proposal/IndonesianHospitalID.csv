@@ -1,0 +1,78 @@
+"=== {{TranslateThis | anchor = en
+| en = Ministry of Health Hospital ID (Indonesia)
+<!-- |xx = property names in some other languages -->
+}} ===
+{{Property proposal
+|status			= ready
+|description		= {{TranslateThis
+ | en = hospital id from Board for Development and Empowerment Human Resources of Health, Indonesian Ministry of Health
+ | id = pengenal rumah sakit dari Badan Pengembangan dan Pemberdayaan SDM Kesehatan, Kementerian Kesehatan RI
+ }}
+|subject item           = <!-- item corresponding to the concept represented by the property, if applicable; example: item child (Q29514218) for property child (P40) -->
+|infobox parameter	= <!-- Wikipedia infobox parameters, if any; ex: ""population"" in [[:en:template:infobox settlement]] -->
+|datatype		= external-id
+|domain			= item
+|allowed values		= \d{7}
+|allowed units          = <!-- units that are allowed for values of this property -->
+|source			= <!-- external reference URL, Wikipedia list article, etc. -->
+<!-- you should provide 3 examples at least-->
+|example 1		= {{Q|107645349}} → [http://bppsdmk.kemkes.go.id/info_sdmk/info/fasyankes?unit=1171145 1171145] 
+|example 2		= {{Q|107645817}} → [http://bppsdmk.kemkes.go.id/info_sdmk/info/fasyankes?unit=1172016 1172016]
+|example 3		= {{Q|19731704}} → [http://bppsdmk.kemkes.go.id/info_sdmk/info/fasyankes?unit=5171016 5171016]
+|example 4		= 
+<!-- if convenient, include more examples by following the same pattern:
+|example ...		=  {{Q|1}} → value
+-->
+|planned use            = <!-- what use do you plan to make of the property within the next month -->
+|number of ids          = <!-- for identifiers, the number of ids available from the source -->
+|expected completeness  = {{Q|21873974}}
+|formatter URL		= http://bppsdmk.kemkes.go.id/info_sdmk/info/fasyankes?unit=$1
+|external links         = <!-- for identifiers, search string to pass to sister projects' Special:LinkSearch pages, e.g. example.com  -->
+|see also               = <!-- other, related properties -->
+|robot and gadget jobs	= <!-- Should or are bots or gadgets doing any task with this? (Checking other properties for consistency, collecting data, etc.) -->
+|subpage		= Indonesian Hospital ID
+|topic			= organization
+|applicable stated in value = <!-- If the proposed property (for an external identifier) is to be used in references, create an item for its database or website suitable as value for ""stated in"" (P248) and add this here. It is added to properties with P9073 on creation. The item used as value can be the same as used with ""subject item"". -->
+|single best value constraint      = <!-- yes - if the property should get a single best value constraint, otherwise no text needed -->
+|distinct values constraint   = <!-- yes - if the property should get a distinct values constraint, otherwise no text needed -->
+|Wikidata project  = <!-- item of the Wikidata project that's related to the property -->
+}}
+
+====Motivation====
+
+{{Ping project|Indonesia}}
+After listening to the talk on WikidataCon, I realized we can link Indonesian hospitals to the official govt site. [[User:Germartin1|Germartin1]] ([[User talk:Germartin1|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:26, 31 October 2021 (UTC)"
+"
+
+
+
+===={{int:Talk}}====
+:really? How to do it? [[User:Volstand|Volstand]] ([[User talk:Volstand|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:56, 2 November 2021 (UTC)"
+"
+::{{ping|Volstand}} I have a dataset with all hospitals and I can import them to Wikidata using Openrefine. Let me know if you want to help. [[User:Germartin1|Germartin1]] ([[User talk:Germartin1|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:29, 2 November 2021 (UTC)"
+"
+:::{{support}} i would like help this project [[User:Volstand|Volstand]] ([[User talk:Volstand|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:18, 25 November 2021 (UTC)"
+"
+:: Your edits like [[Q104883576|this one]], can be automated [[User:Germartin1|Germartin1]] ([[User talk:Germartin1|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:30, 2 November 2021 (UTC)"
+"
+:::When it's time to do the import, I wish the description of each hospital would be defined as at least ""hospital in [province name], Indonesia"", rather than only ""hospital in Indonesia"". Better yet if it can include city/regency name where it's located. [[User:RXerself|RXerself]] ([[User talk:RXerself|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 06:40, 24 November 2021 (UTC)"
+"
+:Apparently, the webpage is [http://bppsdmk.kemkes.go.id down] right now.. [[User:Rtnf|Rtnf]] ([[User talk:Rtnf|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:19, 4 November 2021 (UTC)"
+"
+:: {{ping|Rtnf}} It's working for me, but Indonesian websites are often down.[[User:Germartin1|Germartin1]] ([[User talk:Germartin1|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:30, 4 November 2021 (UTC)"
+"
+*{{comment}} any one? {{Ping project|Indonesia}} [[User:Germartin1|Germartin1]] ([[User talk:Germartin1|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:03, 23 November 2021 (UTC)"
+"
+*:@[[User:Germartin1|Germartin1]]: Just curious: how many of them are available on the website? '''&middot;&middot;&middot;''' <span title=""Cherry blossom"">🌸</span> [[User:Rachmat04|'''Rachmat04''']] '''&middot;''' [[User talk:Rachmat04|<span title=""Let's discuss!"">☕</span>]] 11:59, 23 November 2021 (UTC)"
+"
+*::{{ping|Rachmat04}} All Indonesian hospitals are listed there. I have a CSV file of 2700. [[User:Germartin1|Germartin1]] ([[User talk:Germartin1|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:09, 23 November 2021 (UTC)"
+"
+*:::@[[User:Germartin1|Germartin1]]: Is the example 1 correct? The [http://bppsdmk.kemkes.go.id/info_sdmk/info/fasyankes?unit=3172050 website] gave me ""RS Pusdikkes"" in '''East Jakarta''', instead of RS Umum Meutia in '''Aceh'''. '''&middot;&middot;&middot;''' <span title=""Cherry blossom"">🌸</span> [[User:Rachmat04|'''Rachmat04''']] '''&middot;''' [[User talk:Rachmat04|<span title=""Let's discuss!"">☕</span>]] 12:22, 23 November 2021 (UTC)"
+"
+*::::{{ping|Rachmat04}} Fixed it now, must've been my mistake [[User:Germartin1|Germartin1]] ([[User talk:Germartin1|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:28, 23 November 2021 (UTC)"
+"
+*:::::@[[User:Germartin1|Germartin1]]: Thanks. {{support}} this proposal. '''&middot;&middot;&middot;''' <span title=""Cherry blossom"">🌸</span> [[User:Rachmat04|'''Rachmat04''']] '''&middot;''' [[User talk:Rachmat04|<span title=""Let's discuss!"">☕</span>]] 12:29, 23 November 2021 (UTC)"
+"
+*{{support}} [[User:Hddty|Hddty]] ([[User talk:Hddty|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 06:33, 24 November 2021 (UTC)"
+"
+* {{support}} No objection. [[User:David Wadie Fisher-Freberg|dwadieff]] [[User talk:David Wadie Fisher-Freberg|✉]] 08:17, 28 November 2021 (UTC)"

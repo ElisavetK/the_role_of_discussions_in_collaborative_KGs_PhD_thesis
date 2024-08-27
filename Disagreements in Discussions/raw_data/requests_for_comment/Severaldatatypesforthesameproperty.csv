@@ -1,0 +1,37 @@
+"{{RFCSubpage|closed=yes}}
+{{dtop|Changes in [[Wikidata:Notability]] seems to have solved this issue. --[[User:4th-otaku|4th-otaku]] ([[User talk:4th-otaku|talk]]) 02:55, 13 July 2013 (UTC)"
+"}}
+
+Starting to add references to statements I have a problem to introduce data about author and editor: these properties requires item datatype but I don't have an item for all authors and editors. (And if you want to have an idea about the problem of creating an item for each author, in the chemical infobox of [[:fr:Méthane]] I have 10 authors for different references)
+
+My proposition is to create new properties for author and editor with the string datatype and I want to have the opinion of the community about the fact of having different properties used for the same purpose. I know that string datatype doesn't allow an automatic translation, but if an author is Chinese and uses its Chinese name to publish, better to have the correct name in Chinese instead of an translation which won't be useful because not used.
+
+If people consider those properties as a source of confusion we can think to reserve those new properties for referencing purpose only. [[User:Snipre|Snipre]] ([[User talk:Snipre|talk]]) 10:17, 23 March 2013 (UTC)"
+"
+
+== Discussion ==
+* I don't agree with your argument, that it's better to have the original name of an author (e.g. Chinese) than the Latin transcription for two reasons:
+# People who are not familiar with that language won't have the ability to associate the name with a person, even if they know the person who wrote the book. Also they cannot remember the information behind the value of the property. If you see something, which is not understandable for you, you cannot remember it.
+# If the person does not use that language, maybe no font is installed on the computer which can render the letters of that language.
+Also I see a problem of unlinked items: If someone creates an item for that author, all string references to that author would have no link to that item and would need to be changed to the property with the item datatype. --[[User:Faux|Faux]] ([[User talk:Faux|talk]]) 15:17, 23 March 2013 (UTC)"
+"
+
+I think a better solution would be to expand notability to include authors and editors of reference items. Along with the reference items themselves, of course. [[User:Silver hr|Silver hr]] ([[User talk:Silver hr|talk]]) 02:03, 25 March 2013 (UTC)"
+"
+: That's the point: right now it is impossible to add an item for an editor or author without a link to a wikipedia article (I tried but bots and admins are working very fast to delete item without sitelink) or we have to create new properties based on string datatype for these two properties. [[User:Snipre|Snipre]] ([[User talk:Snipre|talk]]) 02:19, 25 March 2013 (UTC)"
+"
+::An alternative to string would be a multilanguage-string. It would allow us to translate the name of an author. You have the same kind of problems with mayors in smaller cities for example. Most of them will never have an article on any wp. Some arguments has been said, that it will be worth a lot to identify XY as a mayor i Z city, that XY also has written a book, won a gold medal in some sport. I'm not so sure if that is that easy. I have already large problems separating items with identical labels. On svwp, we recently identified a gold-medalist from one of the first modern olympics, as identical as a politican some decades later. What made it harder, was that he had changed names. - [[User:Lavallen|Lavallen]] ([[Special:Block/Lavallen|block]]) 06:27, 13 April 2013 (UTC)"
+"
+:::I've worked on articles about communes in France, some of them very small (less than 10 inhabitants). In order to provide data about their mayors we should have to write articles (tens of thousands at least) about all those people. It doesn't make sense to write an article about somebody that was mayor of a 5-person commune. [[User:B25es|B25es]] ([[User talk:B25es|talk]]) 19:46, 26 April 2013 (UTC)"
+"
+:Personally I don't see why every author of an obscure reference or every mayor of a tiny village needs to be named at all but if the consensus is that they should be then they certainly don't each need a separate Wikidata item page so I guess a property with a string variable is the way to go. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 16:17, 8 May 2013 (UTC)"
+"
+:: Just think to the data user in wikipedia: with one property you can recover the data value using the code <nowiki>{{#property:p169}}</nowiki> but if you have 2 properties (one string and one item property) you will need to test each property, something like <nowiki>{{if|#property:p169|#property:p170}}</nowiki>. Not so easy to use if you don't know that several properties exist for the same concept. [[User:Snipre|Snipre]] ([[User talk:Snipre|talk]]) 20:59, 8 May 2013 (UTC)"
+"
+
+:: This discussion seems to be going on in multiple places, so I'll repeat my previous statement here and expand on it. Why wouldn't there be an item about something that's connected to a notable item? We're not going to run out of hard drive space. As for the problem of search pollution (where you could get a huge number of probably irrelevant results in your search), there is a technical solution. First, the result ordering can take into consideration the number of statements in an item, which would result in obscure items with few statements being at the bottom of the list. Second, Wikidata's interface is still unfriendly to the general-purpose user. Searching in particular would benefit greatly from being able to specify, sort and filter according to the class of an item, and other properties as well. With an interface like that in place, a large number of relatively insignificant items will not be a problem. [[User:Silver hr|Silver hr]] ([[User talk:Silver hr|talk]]) 00:09, 25 May 2013 (UTC)"
+"
+
+The recent development of the sourcing guidelines solves this disscusion. [[User:Snipre|Snipre]] ([[User talk:Snipre|talk]]) 11:58, 8 June 2013 (UTC)"
+"
+:I can't find anything in [[Help:Sources]] about non-so-notable authors, but it says that {{P|50}} is only ""usually required"". It's sligthly unclear for me, but it seems that it's out of the scope of this RfC. --[[User:4th-otaku|4th-otaku]] ([[User talk:4th-otaku|talk]]) 02:22, 13 July 2013 (UTC)"

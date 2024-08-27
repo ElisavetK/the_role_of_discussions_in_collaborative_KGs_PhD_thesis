@@ -1,0 +1,41 @@
+"=== {{TranslateThis | anchor = en
+|it = codice identificativo CNT
+|en = CNT-INGV earthquake ID
+}} ===
+{{Property proposal
+|status			= 4207
+|description		= {{TranslateThis
+|it = codice identificativo del terremoto presente sul database del Centro Nazionale Terremoti (CNT) dell'Istituto Nazionale Geofisica e Vulcanologia (INGV)
+|en = identifier for an earthquake in the Italian National Earthquake Centre database
+ }}
+|subject item           =
+|infobox parameter	=
+|datatype		= external-id
+|domain			= {{Q|7944}}
+|allowed values		= [1-9]\d*
+|source			= http://cnt.rm.ingv.it/
+|example		= {{Q|Q37730232}} → [http://cnt.rm.ingv.it/event/16796811 16796811]
+|planned use            =
+|formatter URL		= http://cnt.rm.ingv.it/event/$1
+|external links         = cnt.rm.ingv.it/event/
+|see also               =
+|filter			=
+|robot and gadget jobs	=
+|subpage		= Italian National Earthquake Center ID
+|topic			= event
+}}
+
+; Motivation
+
+Very important source for earthquakes in Italy. Data can be downloaded under CC-BY on <code><nowiki>http://</nowiki>webservices.ingv.it/fdsnws/event/1/query?eventId=$1&includeallmagnitudes=true&includeallorigins=true&includearrivals=true&includeallstationsmagnitudes=true</code> where <code>$1</code> is the ID <!--
+Ping me, I might don't have this page in Watchlist
+--><small style=""background:#f00;"">'''★&nbsp;[[User:Airon90|<span style=""color:#000;"">→ A</span>]][[Special:Contributions/Airon90|<span style=""color:#f00;background:#000;"">ir</span>]][[User talk:Airon90|<span style=""color:#000;"">on&#32;90</span>]]'''</small> 11:19, 22 August 2017 (UTC)"
+"
+
+{{ping project|Geology}}{{Ping project|Italy}}
+; {{int:Talk}}
+* {{S}}. <span class=""vcard""><span class=""fn"">[[User:Pigsonthewing|Andy Mabbett]]</span> (<span class=""nickname"">Pigsonthewing</span>); [[User talk:Pigsonthewing|Talk to Andy]]; [[Special:Contributions/Pigsonthewing|Andy's edits]]</span> 16:51, 26 August 2017 (UTC)"
+"
+* {{s}} looks good. --[[User:99of9|99of9]] ([[User talk:99of9|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:01, 5 September 2017 (UTC)"
+"
+*{{ping|Airon90|Pigsonthewing|99of9}} {{done}}--[[User:GZWDer|GZWDer]] ([[User talk:GZWDer|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:19, 7 September 2017 (UTC)"

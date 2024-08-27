@@ -1,0 +1,16 @@
+"
+{{Property proposal
+|status            = 972
+|description=  catalog 
+|infobox parameter=
+|datatype= item
+|domain= Creative works, celestial objects, probably other things.
+|allowed values= 
+|source= 
+|example=
+|robot and gadget jobs=
+|proposed by= various
+}}
+The above proposal for a ""catalog number""is outdated, as we already have {{P|528}}. But, as mentionned there we need a ""catalog name"" property. I think ""catalog"" is better than ""catalog type"" that seems a bit unclear or ""catalog name"" (on logical grounds, because the value is an item, not a string, and because I am not sure that the catalog always have a name, for music it might simply be the label). 
+I think that catalog/catalog number should be associated by a main snak/qualifier relation but I am not sure which one should be the main property. It would sound more logical to use ""catalog number"" as the qualifier but I am not sure it is more convenient: sometimes, the catalog number is widely used without explicitly stating the catalog name (that is often the case for music, and in some contexts, visual artworks)
+:{{Support}}. I've thought about this a bit and concluded the {{P|528}} should be the main property with this as the qualifier. This is because in many cases the catalog reference is well known by itself (Beethoven's fifth). The qualifier is there to remove any ambiguity. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 16:14, 12 October 2013 (UTC)"

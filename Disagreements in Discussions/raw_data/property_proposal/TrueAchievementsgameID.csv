@@ -1,0 +1,53 @@
+"=== {{TranslateThis | anchor = en
+| en = TrueAchievements game ID
+| fr = identifiant TrueAchievements d’un jeu vidéo
+}} ===
+{{Property proposal
+|status			= not done
+|description		= {{TranslateThis
+ | en = identifier of a video game in the TrueAchievements database
+ | fr = identifiant d’un jeu vidéo dans la base de données TrueAchievements
+ }}
+|subject item           = Q7847301
+|infobox parameter	= <!-- Wikipedia infobox parameters, if any; ex: ""population"" in [[:en:template:infobox settlement]] -->
+|datatype		=  external-id
+|domain			= {{Q|Q7889}}
+|allowed values		= \w[-\w]*(?:dlc/[-\w]+)?
+|source			= https://www.trueachievements.com/games.aspx
+<!-- you should provide 3 examples at least-->
+|example 1		= {{Q|Q25340021}} → [https://www.trueachievements.com/game/observer observer]
+|example 2		= {{Q|Q302839}} →  [https://www.trueachievements.com/game/BioShock-2 BioShock-2]
+|example 3		= {{Q|Q24806656}} → [https://www.trueachievements.com/game/BioShock-2/dlc/Minervas-Den BioShock-2/dlc/Minervas-Den]
+|example 4		= {{Q|Q40889213}} → [https://www.trueachievements.com/game/Zone-of-the-Enders-HD-Collection Zone-of-the-Enders-HD-Collection] 
+|example 5      = {{Q|Q717600}} → [https://www.trueachievements.com/game/Metal-Gear-Solid-V-The-Phantom-Pain Metal-Gear-Solid-V-The-Phantom-Pain], [https://www.trueachievements.com/game/Metal-Gear-Solid-V-The-Phantom-Pain-Xbox-360 Metal-Gear-Solid-V-The-Phantom-Pain-Xbox-360]
+|planned use            = <!-- what use do you plan to make of the property within the next month -->
+|number of ids          = 6300+
+|expected completeness  = Q21873974
+|formatter URL    		= https://www.trueachievements.com/game/$1
+|external links         = https://www.trueachievements.com/game/
+|see also               = <!-- other, related properties -->
+|filter			= <!-- sample: 7 digit number can be validated with edit filter [[Special:AbuseFilter/17]] -->
+|robot and gadget jobs	= <!-- Should or are bots or gadgets doing any task with this? (Checking other properties for consistency, collecting data, etc.) -->
+|subpage		= TrueAchievements game ID
+|topic			= authority control
+}}
+
+====Motivation====
+
+{{Q|Q7847301}} is a database of {{Q|Q7889}}, mostly published on Xbox (but also Windows). It also has {{Q|Q1066707}} − I don’t think they warrant their own property though, so I integrate them here (we currently consider DLCs a subclass of video games). A little usage on English Wikipedia. The data model is per platform-realization, so there may be more than one entry for our Q7889 items. [[User:Jean-Frédéric|Jean-Fred]] ([[User talk:Jean-Frédéric|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:23, 24 January 2020 (UTC)"
+"
+
+{{ping project|Video games}}
+
+===={{int:Talk}}====
+* {{s}} [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:39, 3 February 2020 (UTC)"
+"
+* {{s}} [[User:Jc86035|Jc86035]] ([[User talk:Jc86035|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:05, 2 April 2020 (UTC)"
+"
+* {{comment}} Aaarg, realised there is a numerical ID system which does resolves, eg {{Q|Q25340021}} → [https://www.trueachievements.com/game.aspx?gameid=6599 6599]. However, it does not work for DLCs. Meanwhile, there is a parallel ID system “Product ID”, which has a wider scope (also includes bundles), but does work for both games and DLCs (eg [https://www.trueachievements.com/products/27037 27037])… Not too sure how best to proceed... [[User:Jean-Frédéric|Jean-Fred]] ([[User talk:Jean-Frédéric|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:08, 2 April 2020 (UTC)"
+"
+*: {{re|Jean-Frédéric}} My suggestion would be to edit this property proposal to be for the numeric game ID and then create another for the numeric product ID. [[User:Jc86035|Jc86035]] ([[User talk:Jc86035|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:46, 8 April 2020 (UTC)"
+"
+* {{s}} [[User:AntisocialRyan|AntisocialRyan]] ([[User talk:AntisocialRyan|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 03:54, 28 March 2021 (UTC)"
+"
+*Withdrawing this − will likely follow Jc86035 advice and make new proposals. [[User:Jean-Frédéric|Jean-Fred]] ([[User talk:Jean-Frédéric|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:30, 28 March 2021 (UTC)"

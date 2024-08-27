@@ -1,0 +1,56 @@
+"=== {{TranslateThis | anchor = en
+| en = geographic shape
+<!-- |xx = property names in some other languages -->
+}} ===
+{{Property proposal
+|status			= 3896
+|description		= {{TranslateThis
+ | en = file with geographic shape of feature at Commons<!-- DESCRIPTION IN ENGLISH -->
+<!-- | xx = descriptions in other languages -->
+ }}
+|subject item           = <!-- item corresponding to the concept represented by the property, if applicable; example: item child (Q7569) for property child (P40) -->
+|infobox parameter	= <!-- Wikipedia infobox parameters, if any; ex: ""population"" in [[:en:template:infobox settlement]] -->
+|datatype		= geo-shape
+|domain			= <!-- types of items that may bear this property -->
+|allowed values		= <!-- type of linked items (Q template or text), list or range of allowed values, string pattern... -->
+|source			= <!-- external reference, Wikipedia list article, etc. -->
+|example		= similar to kml sample<!-- {{Q|1}} → {{Q|2}} -->
+|planned use            = <!-- what use do you plan to make of the property within the next month -->
+|see also               = {{P|3096}}<!-- other, related properties -->
+|filter			= <!-- sample: 7 digit number can be validated with edit filter [[Special:AbuseFilter/17]] -->
+|robot and gadget jobs	= <!-- Should or are bots or gadgets doing any task with this? (Checking other properties for consistency, collecting data, etc.) -->
+|subpage		= geoshape
+|topic			= sister projects
+}}
+;Motivation
+
+Now that the new datatype is about to be created ([[Phab:T151334]]). {{Ping|Evad37}} who got us started on KML <br/>--- [[User talk:Jura1|Jura]] 18:48, 4 January 2017 (UTC)"
+"
+
+;{{int:Talk}}
+
+*{{support}} obviously. <br/>--- [[User talk:Jura1|Jura]] 18:48, 4 January 2017 (UTC)"
+"
+** Time, again, to remind you that you do not need to !vote on your own proposals. <span class=""vcard""><span class=""fn"">[[User:Pigsonthewing|Andy Mabbett]]</span> (<span class=""nickname"">Pigsonthewing</span>); [[User talk:Pigsonthewing|Talk to Andy]]; [[Special:Contributions/Pigsonthewing|Andy's edits]]</span> 19:18, 6 January 2017 (UTC)"
+"
+*{{s}} --'''[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]''' 01:15, 7 January 2017 (UTC)"
+"
+*{{s}} --[[User:Pasleim|Pasleim]] ([[User talk:Pasleim|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:10, 8 January 2017 (UTC)"
+"
+*{{s}} --[[User:Fralambert|Fralambert]] ([[User talk:Fralambert|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 02:41, 19 January 2017 (UTC)"
+"
+*{{s}} ~<span style='color: green'><span title=""Lernu Esperanton!"">★ '''[[User:NMaia|nmaia]]''' <sup>[[User talk:NMaia|d]]</sup></span></span> 17:44, 20 January 2017 (UTC)"
+"
+*{{question}} I maybe have missed something here, but from what I can see, this will be stored in a new namespace at Commons. That does not look like a new datatype to me, but rather something like {{P|373}}. -- [[User:Innocent bystander|Innocent bystander]] ([[User talk:Innocent bystander|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:10, 21 January 2017 (UTC)"
+"
+*{{s}}[[User:MechQuester|MechQuester]] ([[User talk:MechQuester|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:59, 23 January 2017 (UTC)"
+"
+* {{ping|Pigsonthewing|Jura1|MechQuester|Fralambert|MechQuester|Pasleim|Rschen7754}} {{Done}} [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:36, 24 January 2017 (UTC)"
+"
+**Ah .. I think you got the wrong datatype. We will have to wait a couple of days. <br/>--- [[User talk:Jura1|Jura]] 15:43, 24 January 2017 (UTC)"
+"
+***I deleted the property. --[[User:Pasleim|Pasleim]] ([[User talk:Pasleim|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:47, 24 January 2017 (UTC)"
+"
+* Was redone as {{P|3896}}. [[User:Matěj Suchánek|Matěj Suchánek]] ([[User talk:Matěj Suchánek|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:05, 24 April 2017 (UTC)"
+"
+* {{ping|Rschen7754|Evad37|Jura1|Pasleim|Fralambert|MechQuester|Pasleim}} {{Done}} This time with the correct datatype. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:12, 24 April 2017 (UTC)"

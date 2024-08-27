@@ -1,0 +1,4 @@
+"}}
+If i call [https://www.wikidata.org/w/api.php?action=query&prop=revisions&titles=Q17127876&rvprop=timestamp|ids|content&format=json&rvslots=main the API for Q17127876] and [https://www.wikidata.org/w/api.php?action=query&prop=revisions&titles=Q27144290&rvprop=timestamp|ids|content&format=json&rvslots=main the API for Q27144290] i get the dates 1983-01-01 and 1988-00-00. Both entries seem to have only the year specified. Why do they once have it look like the 1. January? --[[User:Tidoni|Tidoni]] ([[User talk:Tidoni|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:10, 20 August 2018 (UTC)"
+"
+:Because there are different ways of inserting the date and the software does not enforce the only format. Since both dates have year precision, the other digits are unsignificant. [[User:Matěj Suchánek|Matěj Suchánek]] ([[User talk:Matěj Suchánek|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:55, 20 August 2018 (UTC)"

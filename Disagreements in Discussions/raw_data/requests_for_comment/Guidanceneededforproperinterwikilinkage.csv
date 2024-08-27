@@ -1,0 +1,23 @@
+"{{RFCSubpage|closed=yes}}
+{{Discussion top|stale --[[User:Pasleim|Pasleim]] ([[User talk:Pasleim|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:11, 20 August 2016 (UTC)"
+"}}
+Do any guidelines exist on how to use interwiki links on Wikidata items? With regard to Wikipedia, it is obvious - the Wikidata item for the concept ""guitar"" ([[Q6607]]) is linked to the Wikipedia article about that very same concept, [[w:Guitar]]. But what about Wikibooks? There could be many wikibooks that happen to concern guitars - ""Learning to play the guitar"", ""How to build a guitar"", ""The history of the guitar"", etc. Is it at all appropriate to link the generic concept of ""guitar"" into a one-to-one relation with any one of these specific books? If it is, then how should the appropriate book be chosen (beyond mere [[w:coin tossing|coin tossing]])?--[[User:Anders Feder|Anders Feder]] ([[User talk:Anders Feder|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:14, 13 March 2015 (UTC)"
+"
+
+:I think you should separate two different things: '''Interwiki''' and '''Wikidata-sitelinks'''. Interwiki can use Wikidata-sitelinks, but it can also use the old-style links <nowiki>[[b:How to play a guitar]]</nowiki> or templates like <nowiki>{{Commonscat|Learning to play a guitar}}</nowiki>. Interwiki with the use of links and templates are private concern for the local projects, and should ''not'' be discussed here. Our concerns here is only and only ''sitelinks''. -- [[User:Innocent bystander|Innocent bystander]] ([[User talk:Innocent bystander|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:18, 13 March 2015 (UTC)"
+"
+::Indeed.--[[User:Anders Feder|Anders Feder]] ([[User talk:Anders Feder|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:24, 13 March 2015 (UTC)"
+"
+
+''my opinion'': When it comes to Wikidata-sitelinks, I think we ''not'' should allow neither ""b:How to play a guitar"" or ""b:How to build a guitar"" to share item with ""w:Guitar"".  Instead we should create a Property like ""Learning subject"" (if it does not exist already) to be able to connect the ""How to""-item with the ""Guitar""-subject. Books about Math could link to items like {{Q|149999}} and others in that way. Templates can be designed to create iw-linking through these properties. In that way we would allow both ""build"" and the ""play""-page to have links to the ""guitar""-articles on WP. -- [[User:Innocent bystander|Innocent bystander]] ([[User talk:Innocent bystander|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:21, 13 March 2015 (UTC)"
+"
+:Regarding the property, we have {{P|921}}.--[[User:Anders Feder|Anders Feder]] ([[User talk:Anders Feder|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 03:08, 14 March 2015 (UTC)"
+"
+::Sounds good! -- [[User:Innocent bystander|Innocent bystander]] ([[User talk:Innocent bystander|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:34, 14 March 2015 (UTC)"
+"
+
+I agree that we shouldn't link a Wikipedia article on a concept to a specific Wikibooks book. There are pages on Wikibooks such as [[:b:Subject:Aerospace engineering|Subject:Aerospace engineering]] that can be linked to {{q|3798668}} painlessly. '''However''', I suggest making an exception for Cookbook recipes. They should be directly linked to their counterparts in Wikipedia since there is a 1-1 relation. [[User:Pikolas|Pikolas]] ([[User talk:Pikolas|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:39, 27 March 2015 (UTC)"
+"
+:I am not sure that exception works easily. On svbooks I find 18 recipe-pages based on {{Q|35517}} and five on {{Q|7535}}. You may argue that you can separate the general moose-recipe-page from the moose-meatballs-recipe-page. But there is still two pages about rhubarb-lemonade and several pages about moose-sausage. I find one article with the name ""{{Q|904889}} 2"", so I guess there is also a ""sourdough 1""-page somewhere. -- [[User:Innocent bystander|Innocent bystander]] ([[User talk:Innocent bystander|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:04, 28 March 2015 (UTC)"
+"
+:Pikolas's idea is so nice but subject namespace is supposed to be treated like the ""Portal:"" namespace on other wikis!--[[User:Doostdar|دوستدار ایران بزرگ]] ([[User talk:Doostdar|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:08, 1 April 2015 (UTC)"

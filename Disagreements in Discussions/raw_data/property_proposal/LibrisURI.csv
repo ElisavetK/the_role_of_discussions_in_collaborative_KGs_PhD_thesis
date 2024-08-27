@@ -1,0 +1,56 @@
+"=== {{TranslateThis | anchor = en
+| en = Libris-URI 
+| sv = Libris-URI 
+}} ===
+{{Property proposal
+|status			= 5587
+|description		= {{TranslateThis
+ | en = identifier for an item in the catalogue of the Swedish National Library
+ | sv = Kungliga bibliotekets nya system LIBRIS-XL vill ha en ny identifierare
+ }}
+|subject item           = 
+|infobox parameter	= 
+|datatype		= external-id
+|example		= {{Q|7724}} → [https://libris.kb.se/katalogisering/tr574vdc33gk2cc tr574vdc33gk2cc] 
+|domain			= {{Q|5}} {{Q|7725634}} {{Q|43229}}
+|planned use            = it will be used as P906
+|number of ids          = >50000
+|expected completeness  = {{Q|21873886}}
+|formatter URL		= https://libris.kb.se/katalogisering/$1
+|external links		= libris.kb.se/katalogisering/
+|see also               = P906
+|subpage		= Libris-URI
+|topic			= authority control
+}}
+
+<h4>Motivation</h4>
+The Swedish National Library is changing to a system using [https://librisbloggen.kb.se/2017/04/11/bibframe-in-libris-xl/ BIBFRAME] and will have a new URI identifier that will be used in parallel with the old one [[Property_talk:P906]].
+Task [https://phabricator.wikimedia.org/T200708 T200708] {{Tracked|T200708}}<small>&nbsp;&ndash; {{Autotranslate|base=Unsigned/text|1=Salgo60|2=16:06, 8 June 2018‎}}</small><!--Inserted with Template:Unsigned-->
+
+<h4>{{int:Talk}}</h4>
+*{{S}}--[[User:VisbyStar|VisbyStar]] ([[User talk:VisbyStar|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:46, 9 June 2018 (UTC)"
+"
+*{{Strong oppose}} the given formatter URL is to their public test environment. All existing items will also get an new URI that has a lot of benefits therefor there is no need to create a new property ([http://librisbloggen.kb.se/2018/04/25/nya-id-i-libris/ source (in Swedish)]). When this new system is live we could just update the existing property. [[User:Abbe98|Abbe98]] ([[User talk:Abbe98|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:35, 9 June 2018 (UTC)"
+"
+::{{u|Abbe98}} please call me I feel your comments is very confusing +46-70-5937579 I cant understand your logic. The main reason to store the new identifier in a new field is that it is a new identifier and you will avoid problems with other solutions who use  [[Property_talk:P906|Property P906]] so they don't break. Suggesting an one time conversion ==> that you need to coordinate that with other people using [[Property_talk:P906|Property P906]] something not needed if we create a new property.   
+::My thought is: 1. Create an new property 2. Populate it.... 3. When other solutions like [https://viaf.org/viaf/54154627/ VIAF] is also using the new ID upgrade scripts and when we know todays [[Property_talk:P906|Property P906]] is not used maybe delete it  
+::# New system is planned to [http://librisbloggen.kb.se/2018/06/01/produktionssattning-av-nya-libris/ go live on monday 11 june]
+::# E.g. todays Libris ID is used by [https://viaf.org/viaf/54154627/ VIAF] and I guess they will have both the old and new ID...  
+::## We have scripts used today getting eg. [https://viaf.org/processed/SELIBR%7C94541 LIBRIS ID] from VIAF that will be broken if you do an one time conversion and reuse the name for the new content without a lot of coordination
+::### I use [https://www.wikidata.org/wiki/User:Magnus_Manske/authority_control.js User:Magnus_Manske/authority_control.js] that finds matches at VIAF and e.g. populate [[Property_talk:P906|P906]] With what is stored in [https://viaf.org/processed/SELIBR%7C94541 viaf.org/processed/SELIBR].... if we do an one time conversion scripts like this need to be changed at the same time and maybe we need to wait until VIAF is updated   
+:: - [[User:Salgo60|Salgo60]] ([[User talk:Salgo60|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:03, 9 June 2018 (UTC)"
+"
+::: To get a ''second opinion'' I asked a question at the LIBRIS support forum [https://kundo.se/org/librisxl/d/viaf-libris-uri-gamla-librisnumret-plantankar-for-/ link] what they recommend and if they know what e.g. VIAF will do - [[User:Salgo60|Salgo60]] ([[User talk:Salgo60|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:37, 10 June 2018 (UTC)"
+"
+:::: Task set up that maybe will impact how this property should be designed/used [https://phabricator.wikimedia.org/T200067 T200067] - [[User:Salgo60|Salgo60]] ([[User talk:Salgo60|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:16, 20 July 2018 (UTC)"
+"
+*{{comment}} From a Wikidata perspective, I don't think we should replace P906 with different identifiers. A property for an identifier can be created without a formatter url being available.  <br/>--- [[User talk:Jura1|Jura]] 11:27, 10 June 2018 (UTC)"
+"
+:* I think tomorrow monday 2018-jun-11 the formatter URL will be https://libris.kb.se/katalogisering/$1 --> {{Q|7724}} → [https://libris.kb.se/katalogisering/tr574vdc33gk2cc tr574vdc33gk2cc] is my understanding...
+::Yes I agree the ""cost"" of having 2 properties in WD when a system part of an rather complex and [[:en:Loose_coupling|loosely coupled]] echo system like [[Wikidata:WikiProject_Authority_control|Bibliographic Authority control]] is a good guarantee that we don't get any surprises   - [[User:Salgo60|Salgo60]] ([[User talk:Salgo60|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:23, 10 June 2018 (UTC)"
+"
+*{{S}} A new property is needed since the old identifier will still be useful as it is used by many third parties (and will be for some time). It could however get an constraint saying that items with that property should always also have this new property. Sadly there does not seem to be an easy way of looking up the new identifier based on the old one that does not involve downloading large datasets. I'll check with the library later this month to see if there are any planned solutions for this. The {{P|P1921}} should probably be <code>https://libris.kb.se/$1</code> (the canonical URI), I haven't checked if it supports content negotiation but e.g. .ttl is reachable under https://libris.kb.se/tr574vdc33gk2cc/data.ttl. The domain in the proposal is likely too narrow as the library will use this identifier for DVDs, editions of works and possibly other concepts such as events. /[[User:André Costa (WMSE)|André Costa (WMSE)]] ([[User talk:André Costa (WMSE)|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:34, 30 July 2018 (UTC)"
+"
+::''Easy way of looking up new identifier'' preffered would be to have a solution that is easily ""plugged into"" a script like [[User:Magnus_Manske/authority_control.js]] - [[User:Salgo60|Salgo60]] ([[User talk:Salgo60|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:32, 2 August 2018 (UTC)"
+"
+{{Ping|Salgo60|André Costa (WMSE)|VisbyStar|Abbe98|Jura1}}  {{done}}: {{P|P5587}}. − [[User:Pintoch|Pintoch]] ([[User talk:Pintoch|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:40, 5 August 2018 (UTC)"

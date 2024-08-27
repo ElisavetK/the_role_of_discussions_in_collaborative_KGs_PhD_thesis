@@ -1,0 +1,55 @@
+"=== {{TranslateThis | anchor = en
+| en = ACER code
+<!-- |xx = property names in some other languages -->
+}} ===
+{{Property proposal
+|status			= 8692
+|description		= {{TranslateThis
+ | en = code of energy market player by the Agency for the Cooperation of Energy Regulators
+<!-- | xx = descriptions in other languages -->
+ }}
+|subject item           =  {{Q|392883}}
+|infobox parameter	= <!-- Wikipedia infobox parameters, if any; ex: ""population"" in [[:en:template:infobox settlement]] -->
+|datatype		= external-id
+|domain			= {{Q|43229}}
+|allowed values		= <!-- type of linked items (Q template or text), string pattern (regex if possible), list or range of allowed values, etc. -->
+|allowed units          = <!-- units that are allowed for values of this property -->
+|source			= https://www.acer-remit.eu/portal/european-register , https://www.acer-remit.eu/portal/export-public-eu-register
+|example 1		= {{Q|12723070}} → [https://www.acer-remit.eu/portal/mp-details?tab=1&ac=B00020987.RO B00020987.RO]
+|example 2		= {{Q|93357797}} → [https://www.acer-remit.eu/portal/mp-details?tab=1&ac=B0000212Z.NL B0000212Z.NL]
+|example 3		= {{Q|93361389}}, {{Q|6759012}} → [https://www.acer-remit.eu/portal/mp-details?tab=1&ac=A0012202S.UK A0012202S.UK]
+|example 4		= {{Q|93359203}} → [https://www.acer-remit.eu/portal/mp-details?tab=1&ac=B0000819Q.PT B0000819Q.PT]
+|example 5		= {{Q|2568787}} → [https://www.acer-remit.eu/portal/mp-details?tab=1&ac=A0000774C.AT A0000774C.AT]
+|example 6		= {{Q|28920259}} → [https://www.acer-remit.eu/portal/mp-details?ac=A0000532A.CZ&tab=1 A0000532A.CZ]
+|planned use            = Import it
+|number of ids          = 15280
+|expected completeness  = {{Q|21873974}}
+|formatter URL		= https://www.acer-remit.eu/portal/mp-details?tab=1&ac=$1
+|external links         = <!-- for identifiers, search string to pass to sister projects' Special:LinkSearch pages, e.g. example.com  -->
+|see also               = {{P|8645}}
+|filter			= [A-Z][A-Z0-9]{8}\.[A-Z]{2}
+|robot and gadget jobs	= <!-- Should or are bots or gadgets doing any task with this? (Checking other properties for consistency, collecting data, etc.) -->
+|subpage		= ACER code
+|topic			= authority control
+}}
+
+====Motivation====
+
+{{ping project|Companies}} {{ping project|Economics}}
+
+An important code for the liberated EU energy market.
+* Also includes these codes: EIC ({{P|8645}}), BIC (bank code {{P|2627}}), LEI ({{P|1278}}), GS1 ({{P|3193}}).
+* Out of 15.3k entries, 15k are from EU/EEA. But there are a total of 70 countries represented: the largest non-EU countries are the US (90), Singapore, Macedonia, Serbia.
+[[User:Vladimir Alexiev|Vladimir Alexiev]] ([[User talk:Vladimir Alexiev|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:08, 28 September 2020 (UTC)"
+"
+
+===={{int:Talk}}====
+* {{s}} Nice database with multiple identifiers. --[[User:Jklamo|Jklamo]] ([[User talk:Jklamo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:57, 28 September 2020 (UTC)"
+"
+* {{s}} Looks useful. [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:26, 28 September 2020 (UTC)"
+"
+* {{s}} - [[User:PKM|PKM]] ([[User talk:PKM|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:26, 28 September 2020 (UTC)"
+"
+*{{s}}. [[User:YULdigitalpreservation|YULdigitalpreservation]] ([[User talk:YULdigitalpreservation|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:39, 1 October 2020 (UTC)"
+"
+: {{ping|Vladimir Alexiev|Jklamo|ArthurPSmith|PKM|YULdigitalpreservation}} {{done}} {{p|8692}} [[User:Pamputt|Pamputt]] ([[User talk:Pamputt|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:21, 7 October 2020 (UTC)"

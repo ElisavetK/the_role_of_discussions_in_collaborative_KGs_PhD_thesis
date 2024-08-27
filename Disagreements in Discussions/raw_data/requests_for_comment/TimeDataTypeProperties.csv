@@ -1,0 +1,96 @@
+"{{RFCSubpage|closed=yes}}
+{{discussion top|There is no clear consensus regarding anything concerning the time datatypes, and there's been no discussion here in almost two months. [[User talk:TCN7JM|<font color=""blue"" face=""Tahoma"">T</font>]][[Special:Contributions/TCN7JM|<font color=""red"" face=""Tahoma"">C</font>]][[User:TCN7JM|<font color=""gray"" face=""Tahoma"">N7</font><font color=""black"" face=""Tahoma"">JM</font>]] 23:10, 1 August 2013 (UTC)"
+"}}
+
+So time datatype is available, finally. This raises some questions of course. We already have:
+
+*{{P|569}}
+*{{P|570}}
+*{{P|571}}
+*{{P|572}}
+*{{P|573}}
+*{{P|574}}
+*{{P|575}}
+*{{P|576}}
+*{{P|577}}
+*{{P|578}}
+*{{P|580}}
+*{{P|582}}
+*{{P|585}}
+
+== Problems ==
+
+This is one way to handle it, but there is a completely different system proposed at [[Wikidata:Property_proposal/Generic#Key_event]]. One property that specifies the exact type of event by an item (for example: ''key event: {{Q|4}}'') with a ''date:'' qualifier to specify the date. I think this prevents massive redundancy, because otherwise we would have to create an enormous amount of properties for each different type of event.
+
+What are your thoughts on this? —[[User:23PowerZ|<font color=""red"">★</font>P''οωερ''<font color=""black""><b>Z</b></font>]]<sub><sub>[[User talk:23PowerZ|talk]]</sub></sub> 12:07, 30 May 2013 (UTC)"
+"
+:#I don't think that item-type-specific properties should be used when a generic beginning/end of item's existence property could be used, except maybe for birth and death. I don't think that a ""key event"" property should be used in cases where a regular statements with a date qualifier could provide the same data, ie Discovered by X at time Y as opposed to Key event discovery time Y. In other cases, I'm not sure if key event is the best solution, or maybe just many properties should be made. I'm not really sure how many properties would likely arise from this. 
+:#:<small>(Actually, I'm not sure whether using qualifiers would usually work. Entities are sometimes discovered by more than one person, so the couldn't really have combined qualifiers. Related point: {{P|575}} was added to some ~15,000 items recently... --[[User:Yair rand|Yair rand]] ([[User talk:Yair rand|talk]]) 13:56, 2 June 2013 (UTC)"
+")
+:#Re {{P|572}} and {{P|573}}, I think they should be deleted until the/a property can support lengths of time. --[[User:Yair rand|Yair rand]] ([[User talk:Yair rand|talk]]) 13:20, 30 May 2013 (UTC)"
+"
+:::I agree, we have the proposals of ""from time"", ""to time"", ""as of"", etc. for the cases the date is a qualifier of a specific statement, but ""key event"" is for something different, where the event itself is the statement. —[[User:23PowerZ|<font color=""red"">★</font>P''οωερ''<font color=""black""><b>Z</b></font>]]<sub><sub>[[User talk:23PowerZ|talk]]</sub></sub> 13:28, 30 May 2013 (UTC)"
+"
+::Why didn't you made this RfC in the last months, while the discussion of the property proposals were ongoing? But I see the point. Even more, the same discussion we could make for other topics too: Why do we need a logo image, seal image, locator map image, coat of arms image, or flag image property, when we could just create one property image and use a image type qualifier to different between a logo, seal locator map,...? Why do we need properties for GND identifier, ISNI, LCCN identifier, VIAF identifier, NDL identifier, NLA identifier,...when we could just use one property authority control together with qualifiers? I think we should dicsuss this in generic, not only for events. --[[User:Nightwish62|Nightwish62]] ([[User talk:Nightwish62|talk]]) 16:23, 30 May 2013 (UTC)"
+"
+:Ok, back to your question: After I has thinking about it, I think we shouldn't collect them together under one 'key event' property. The main reason which make me think so is, that we just have one level for qualifiers. And if we use 'key event' for the type and the qualifier for the date, we don't have any possibility to define the statement more specific. Example: <Nintendo WII U> key event <publication> date <YYYY-MM-DD> already uses the qualifiers, so we can't add more information like the countries in which the console was released at this date, since there are multiple launch dates in several countries. Ok, I can't see any case where ""date of birth"" or ""date of death"" should have qualifiers, but this doesn't mean there aren't cases. Perhaps there are two different dates for 'real' death and brain death? Having the qualifiers left we could use the qualifier. But if we already use the qualifier for the date itself, we can't add more statement information. --[[User:Nightwish62|Nightwish62]] ([[User talk:Nightwish62|talk]]) 17:16, 30 May 2013 (UTC)"
+"
+::You can have multiple qualifiers and qualifiers of qualifiers in a claim. —[[User:23PowerZ|<font color=""red"">★</font>P''οωερ''<font color=""black""><b>Z</b></font>]]<sub><sub>[[User talk:23PowerZ|talk]]</sub></sub> 17:40, 30 May 2013 (UTC)"
+"
+:::You can? Could you please give a link to an example of this? --[[User:Yair rand|Yair rand]] ([[User talk:Yair rand|talk]]) 19:39, 30 May 2013 (UTC)"
+"
+:::You can have multiple qualifiers, but you can't have qualifier of a qualifier. But you're right that multiple qualifiers would solve the problem I descripted. --[[User:Nightwish62|Nightwish62]] ([[User talk:Nightwish62|talk]]) 19:45, 30 May 2013 (UTC)"
+"
+::::My bad, the latter is impossible. —[[User:23PowerZ|<font color=""red"">★</font>P''οωερ''<font color=""black""><b>Z</b></font>]]<sub><sub>[[User talk:23PowerZ|talk]]</sub></sub> 21:49, 30 May 2013 (UTC)"
+"
+::Just because we have qualifiers we don't must use it everywhere. Yes we need some consistent systematic and yes maybe it would be better to have only one Imagetype with qualifiers but I think things like birth and death are quite intuitive to use and putting everything one layer above helps nobody. --[[User:FischX|FischX]] ([[User talk:FischX|talk]]) 22:07, 31 May 2013 (UTC)"
+"
+:I think a 'key event' property with a 'date' qualifier (to be created) would be useful for some events but we should still keep birthdate and deathdate for now as they such widely used properties. 
+
+:I think we should go ahead and create the 'date' property now even without 'key event' as it will be useful as a qualifier to many other properties (along with 'start date' and 'end date').  [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 11:18, 1 June 2013 (UTC)"
+"
+
+:At first I thought ""key event"" is a good idea, but it seems we will have problems if we want to add specific sources to different qualifiers. For instance, when two sources state two different birth dates of a person respectively, we may want to know which date comes from which source. And if at the same time there are two other sources stating two different places of birth of the person, the situation will be even worse, we will have a lot of qualifiers and a lot of sources, but we don't know the relations between the qualifiers and the sources. Is there any way to avoid this problem? --[[User:Stevenliuyi|Stevenliuyi]] ([[User talk:Stevenliuyi|talk]]) 07:26, 3 June 2013 (UTC)"
+"
+::There can be two same <key event> values. see the {{P|107}} of [//www.wikidata.org/w/index.php?title=Q8012976&oldid=49406793 this] --[[User:Li3939108|<span style=""font-family:sans-serif;"">凡其</span>]][[User talk:Li3939108|<span style=""font-family:sans-serif;""><sub>Fanchy</sub></span>]] 15:26, 3 June 2013 (UTC)"
+"
+:::Yes, multiple statements can work. But I thought the ""key event"" proposal is trying to combine different aspects (e.g. date and place) of an event (e.g. birth) together, such as:
+:::* <person X> ''key event''  <birth>, qualifiers: <place>, <date>
+:::Using multiple statements means we have to separate them (otherwise we will have redundant data) such as:
+:::* <person X> ''key event'' 1 <birth>, qualifier: <date 1>
+:::* <person X> ''key event'' 2 <birth>, qualifier: <date 2>
+:::* <person X> ''key event'' 3 <birth>, qualifier: <place 1>
+:::* <person X> ''key event'' 4 <birth>, qualifier: <place 2>
+:::I'm not saying it's a bad idea, just not what I thought. --[[User:Stevenliuyi|Stevenliuyi]] ([[User talk:Stevenliuyi|talk]]) 16:01, 3 June 2013 (UTC)"
+"
+
+::::I think the idea is to have it like this
+:::::*<person X>
+::::::*""key event"" <birth>. Qualifiers: ""Date"" <date 1>, ""Place"" <place 1>, ""Source"" <nowiki><source 1></nowiki>
+::::::*""key event"" <birth>. Qualifiers: ""Date"" <date 2>, ""Place"" <place 2>, ""Source"" <nowiki><source 2></nowiki>
+::::Having said that I, personally, think we should keep Date of birth and Date of death and only use Key event for other properties[[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 09:40, 6 June 2013 (UTC)"
+"
+
+==Date retrieved==
+Can we use {{P|585}} as a qualifier for web sites citations or should we create a separate 'date retrieved' property?
+:I would say that we need a separate property, as {{P|585}} could also be intepreted to mean something like ""publication date. --[[User:Zolo|Zolo]] ([[User talk:Zolo|talk]]) 11:45, 1 June 2013 (UTC)"
+"
+::In my opinion, ""as of"" should mean ""when it was true"".  E.g. say the Census Bureau said ""the population was X in May 2010""; we should use ""as of"" May 2010.  They may have published that statement in 2012, but the ""as of"" is still May 2010. [[User:Superm401|Superm401]] - [[User_talk:Superm401|Talk]] 06:21, 4 June 2013 (UTC)"
+"
+:{{S}}. New [[Wikidata:Property_proposal/References#date_retrieved|'date retrieved' property proposed]]. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 11:25, 8 June 2013 (UTC)"
+"
+
+==<strike>Date accessed</strike>==
+<strike>For sources referencing web pages and online databases we need to note the date the information was downloaded. Should we use {{P|585}} or create a new ""date accessed"" property? [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 09:44, 6 June 2013 (UTC)"
+"</strike>. Deleted. See above [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 11:22, 8 June 2013 (UTC)"
+"
+
+==Where to use start/end date?==
+I think it makes sense to use ""start date"" as a qualifier of ""spouse"" to indicate date of marriage, but does it make sense to add ""end date"" if the spouse dies? This is relevant data, but it could be deduced from preexisting data in a separate item. Should we have a list of rules for when start date or end date could be considered deducible or assumed? We would probably put start and end dates for given names and such if it was changed, but would be put start dates for the name the person was given shortly after birth or end dates for names that the person died with? A problem with a general rule of no start date signifying since birth/start and no end date signifying until death/end is that sometimes we just don't have the data added yet. We can't put ""unknown"", because that's an actual statement saying that it's unknown to the world, and not just unknown to the current Wikidata database. Also, it is sometimes ambiguous: JFK died as President of the United States, so one might think that adding an end date to his term as president would be unnecessary, as it could be deduced from his death date. However, Kim Il-Sung died on 8 July 1994, yet still holds the office of Eternal President of North Korea. --[[User:Yair rand|Yair rand]] ([[User talk:Yair rand|talk]]) 10:28, 6 June 2013 (UTC)"
+"
+:We really lack a way to point out something starts/ends ''because of'' something else. {{Q|451753}}: Her {{P|428}} changed, because her surname (still lacking property for that >.>) changed, because she married. So actually adding the start date of her marriage would be enough, '''if''' there were some way to state the consequences of that. As with your example of JFK: in principle it ''could be'' stated ""ends by: death"", but what if there are multiple possible claims this could refer to (Brandegee had actually been married two times)? To be precise there has to be a way to link a claim to another claim and I can't even imagine this being implemented. The only solution I can think of for these cases would be to create items for each event (e.g. ""event of marriage between M. K. Curran and T. S. Brandegee"") and link all effected claims to it via an item property and state the actual time there, but that's <u>incredibly</u> impractical. —[[User:23PowerZ|<font color=""red"">★</font>P''οωερ''<font color=""black""><b>Z</b></font>]]<sub><sub>[[User talk:23PowerZ|talk]]</sub></sub> 01:44, 11 June 2013 (UTC)"
+"
+::Yes it does sound impractical. We should just list her marriage and her various {{P|428}}s, with start and end dates and leave people to notice for themselves (or not) that one coincides with the other. Wikipedia is the place for explanations; not here. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 21:44, 11 June 2013 (UTC)"
+"
+::@23PowerZ, a concept to solve this would be some sort of ""sub-items"", i.e. items that can only be created and used within the scope of their ""parent""-item. For each person, e.g., you could then create a sub-item ""death"" and set all properties like time, place, reason, etc. for it. Then you could use this sub-item as a value for properties of the item. In my opinion, this is what would actually be required for the ""key event"" property as well. With the current datamodel of property-value-qualifier, it can't be implemented properly. However, as we probably all know, this is something that won't come anytime soon (we don't even have a number datatype yet).
+::@Yairrand: I've come across the same question (giving end date for a marriage), and I chose to enter the end date. The reason is that Wikidata is an open project which will never be finished; so if you see a marriage with a start date but no end date given, you can never be sure if it indeed lasted until a spouse's death, or if it didn't and just noone has entered the end date yet. This is the same for public offices - you can only know that JFK kept his office until his death when you know history. Dates, although appearing to be obvious at the time of entering the data, are additional information that you cannot derive, and rules when to enter a date and when not won't be able to help there.--[[User:Kompakt|Kompakt]] ([[User talk:Kompakt|talk]]) 06:45, 12 June 2013 (UTC)"

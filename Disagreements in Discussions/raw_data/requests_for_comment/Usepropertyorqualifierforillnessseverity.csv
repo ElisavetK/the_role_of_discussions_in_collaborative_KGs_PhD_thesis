@@ -1,0 +1,7 @@
+"{{RFCSubpage}}   [[Category:Requests for comment not added to summary page by requestor]] 
+I added {{q|Q96278582}} severity (of illness or symptom), with qualifiers for mild, {{q|Q96278776}} moderate, etc. But should any of these have been properties? I can't follow the description of the difference.
+I want to be able to say things like:
+* spinal cord injury - has symptom - paralysis - moderate, paralysis - severe (or just - not - mild).
+* codeine - used to treat condition - pain - severity - moderate 
+I am not sure if I also need to add extra statements to the disease / drug / severity / moderate qualifier etc to link these up.
+[[User:JustScienceJS|JS]] ([[User_talk:JustScienceJS|talk]]) 15:01, 4 July 2020 (UTC)"

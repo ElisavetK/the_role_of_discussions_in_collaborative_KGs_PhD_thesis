@@ -1,0 +1,76 @@
+"{{RFCSubpage|closed=yes}}
+{{dtop|Stale, not enough discussion to make conclusions. [[User:John F. Lewis|John F. Lewis]] ([[User talk:John F. Lewis|{{int:Talkpagelinktext}}]]) 16:29, 27 April 2014 (UTC)"
+"}}
+This topic have been discussed on [[Wikidata:Project_chat/Archive/2013/07#How_long_should_property_proposal_discussed.3F|Project chat]], where there was an agreement that we need to change the property process, and changes has been proposed, but no decisions has been taken. This proposal is meant to (at best) take concrete decision approved by community and to discuss how the new process will be implemented.
+
+
+== Towards a model oriented Workflow ==
+=== Introduction : organizing models ===
+;models
+:I propose we, in the spirit of infoboxes task forces pages, introduce a new type of pages who serve as a reference for structuring datas : ''model pages''
+:Those model pages will be linked to one or more datatypes and will define how to organise datas into a specific domains, such as genes and protein datas, TV serials data, source and editions (like in [[Help:sources]]). In that spirit, the [[Wikidata:Requests_for_comment/Typing_:_class_⇄_instance_relationship_in_Wikidata|previously proposed RfC about a language to define model]] is an attempt to define how the model could be expressed on those pages.
+;model pages content
+:* Some example items
+:* A model in a community approved regular format, which for example could be processed by bot
+:* Example and documentation, explanation, ...
+; model organisation
+: A main ''model page'' would allow the access to all domain specific model as a hierarchical index page, organized hierarchically with pages associated with a whole domain referencing models associated with it's subdomains, eg.
+::*Audiovisual
+::** programs
+::*** series
+::** channels
+: These organization would not have to be perfect as there is several possible hierarchy, but would meant for a user to easily find what he is looking for
+: A general model page would be created which recence general rules that should be followed by domain specific models as much as possible, indexing general properties and so on.
+
+=== proposed Workflow===
+We propose that instead of discussing property creation, we discuss : model and datatypes introduction (or removal) and model modification. These discussion would check, for example:
+* if the proposed model does not already exists if it's a model proposal
+* if the general rules for models are well followed
+* if there is not alternatives solutions which does not require new properties addition ...
+* {{question}} other stuffs ?
+
+{{question|open questions}}
+* Where is the best place to discuss these proposals:
+** A model modification proposal general page ?
+** The discussion page of a model, with an announce on a announce page ?
+** other suggestions ?
+
+When a consensus is reached, if the proposal is accepted :
+* We modify the model reference page with the proposed amendments, or we create the new model
+* We archive the discussion
+* We create the needed items and properties if required.
+
+=== Other open questions ===
+The proposed section
+
+
+== Votes and discussion ==
+=== Discussions, questions, remarks, untreated points ... ===
+#{{comment}} I think this RfC needs some more editing. I don't understand what many sections are about. Why not make an example page and link it here. --[[User:Tobias1984|Tobias1984]] ([[User talk:Tobias1984|talk]]) 10:19, 7 August 2013 (UTC)"
+"
+#I don't like that we are introducing a new jargon word ""model"". I don't like that we are introducing yet another new page.
+#:In my opinion we should 
+#* rename the 'Task force' pages as 'WikiProject' pages, to match the other projects.
+#* Move all the proposed, pending and approved Properties to the appropriate WikiProject pages. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 11:31, 7 August 2013 (UTC)"
+"
+#:: Then we want a great organisation and perimeters of Wikiprojects. Wikiprojects have a problem: some of them are empty, and creating one of them take times, they are organized as they want and lack coherence. Having a ''model'' or ''reference''/''whatever'' is an entry point oeganized hierarchicaly is the same for everybody and will make the indexing of information easier. Then Wikiproject could monitor the subpages they are interested for and keep to be organized as they want. But I just want to push a better organization, the proposition is just a base. [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|talk]]) 11:43, 7 August 2013 (UTC)"
+". One more thing I forgot : a model subpage would not need an active Wikiproject behind it to be maintained and modified, as some or them are often dead. The procedure does not need that as it's the same for everody and it imply to keep things organised and information easy to find with a minimal investment. [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|talk]])
+# I have to say that I don't like the temr ""modeling"": we aren't doing any modeling we just structure data in order to access them more easily. The correct term is for me ""data structure"" because we don't care if the proposed properties in wikidata are the good ones to characterize an element, if they redundant or not.
+#: I don't agree, déciding how to organize datas (this ''how'' is called ''a model'' that all datas of this sort (or almost in this case) should meet) is one definition of modeling (in computer science for example), there is not only one definition of modeling and we meet the most general one :). But I'm not opposed to another wording, I just can't find any better. [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|talk]]) 11:59, 9 August 2013 (UTC)"
+" 
+: Then we can forget to manage a help page with all model/data structures in a single page or even in a reduced number of page: just have a look at [[Help:Sources]] to the length of a page containing a small structure complexity. The best is to let the task forces organizing the models/data structures and to use and help page only to provide a page with all links to the models/data structures. [[User:Snipre|Snipre]] ([[User talk:Snipre|talk]]) 11:40, 9 August 2013 (UTC)"
+"
+:: I have not been clear enough, there would not be only one single page, just one single entry point with hierarchically organized subpages (which a Wikiproject could be responsible for). But the problem in my mind is that there will probably not be one Wikiproject per datatype (so many dead projects on pedias, there is already problems with no Wikiprojects discussed on project page for example), so we need something that is independant from them and regular enough so that anybody can take care of, and having the same organization in each case will help. I promised a mockup to discuss that more concretely, it will come sometime :). [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|talk]]) 11:59, 9 August 2013 (UTC)"
+"
+
+=== Votes ===
+==== General idea : modify and introduce models and not vote for new properties====
+===== Original general ideas of the proposal =====
+*{{oppose}} --[[User:Nightwish62|Nightwish62]] ([[User talk:Nightwish62|talk]]) 16:44, 6 August 2013 (UTC)"
+"
+===== Alternative ideas =====
+<!-- insert your alternative proposals here -->
+
+==== Votes on the Workflow idea ====
+===== Original workflow of the proposal =====
+*{{oppose}} --[[User:Nightwish62|Nightwish62]] ([[User talk:Nightwish62|talk]]) 16:44, 6 August 2013 (UTC)"

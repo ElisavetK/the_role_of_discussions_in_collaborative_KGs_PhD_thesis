@@ -1,0 +1,72 @@
+"
+{{discussion top|1= It is clear that a large number of people don't like this, but that there is no consensus for deleting it. This mirrors the last discussion. While I could let this drag out for a while longer, I have little doubt that it would matter. For discussions this complex, PfD is not an effective venue for finding a solution. I will be starting a two part RfC myself shortly. [[User:Sven Manguard|<span style=""color:#207004"">'''<span style=""font-size:115%"">S</span>ven <span style=""font-size:115%"">M</span>anguard'''</span>]] [[User talk:Sven Manguard|<small><span style=""color:#F0A804"">'''Wha?'''</span></small>]] 17:42, 30 June 2013 (UTC)"
+"}}
+{{rfd links|Property:P107|its use is arbitrary and specific to an external source. There is no reason that I see why we should keep this property.}} 
+Its use is arbitrary and specific to an external source. There is no reason that I see why we should keep this property. --[[user:GerardM|GerardM]]
+* {{info}}. This property has already been proposed for deletion once 6 deletes and 11 keeps: [[Wikidata:Requests_for_deletions/Archive/2013/Properties/1#Property:P107]]. --[[User:Zolo|Zolo]] ([[User talk:Zolo|talk]]) 19:47, 17 June 2013 (UTC)"
+"
+* {{keep|Speedy keep}} as a repeated nomination. --'''[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]''' 21:10, 17 June 2013 (UTC)"
+"
+* Here's a new reason it should be deleted: It's use cannot be verified. Based on the discussion currently ongoing at [[WD:Project chat]], if we can't verify a claim, then we probably shouldn't make it. In that event then, P107 is tying us to an ontology which has not claimed to represent the million or so items which P107 is now on. I.e., it is not verifiable. On top of this, P107 can ''only'' be verified where there is already a GND ID. That fact makes it even useless for the cases where it can be verified, as the type can be gotten from querying the database if the type is even desirable for someone in those cases; its nonuse on en.wiki would indicate that that is not the case for our primary external users.<p>This is besides its other salient points for deletion, which are numerous and continuing to cause us problems in other ways. We should cease pretending like this is a good property. I was planning to start yet ''another'' RFC on it, but this seems opportune. /shrug --[[User:Izno|Izno]] ([[User talk:Izno|talk]]) 22:16, 17 June 2013 (UTC)"
+"
+*:Well, we shouldn't delete this until we have a good replacement for it... --'''[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]''' 08:16, 20 June 2013 (UTC)"
+"
+*::That's kind of irrelevant to me. Each property should be able to stand with or without another to replace it. We can discuss the replace property after-the-fact IMO. That said, Zolo's outline on the below referenced talk page seems sensible and easy-to-use. --[[User:Izno|Izno]] ([[User talk:Izno|talk]]) 20:46, 21 June 2013 (UTC)"
+"
+*:::After the info is gone and it's harder to restore... not a very good idea. --'''[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]''' 20:53, 21 June 2013 (UTC)"
+"
+*::::See my proposal below for what should replace this. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 22:06, 21 June 2013 (UTC)"
+"
+*::::You seem to have a mistaken assumption Rschen. There's no reason to believe that this property would be deleted ''before'' it could be replaced by another property. The data is unlikely to go anywhere. As I said earlier, Zolo's proposal on the referenced page is a suitable candidate to replace most uses of this property. --[[User:Izno|Izno]] ([[User talk:Izno|talk]]) 02:09, 22 June 2013 (UTC)"
+"
+* {{Vote delete}} – I looked at the archived discussion and saw many strong arguments for deletion, which in my opinion was not adequately answered by those who voted keep. P107 is by some supposed to give a high level classification system, but it doesn't work. I have worked a lot with the database dumps for Wikidata, and it is hard to use P107 for anything useful. Pr. 2013-06-10 there was 1221158 items with GND type person, but I cannot tell how many reel persons there is. If we dropped that useless GND type property and instead used the resources to {{P|31}} and {{P|279}} and other properties giving reel information, I could tell much more about the items. [[User:Byrial|Byrial]] ([[User talk:Byrial|talk]]) 23:15, 17 June 2013 (UTC)"
+"
+*{{keep}} - I think that before we can even begin to discuss the deletion of this property we need a really good alternative in place. As long as there is no consensus how to separate fictional people from real ones for example. --[[User:Tobias1984|Tobias1984]] ([[User talk:Tobias1984|talk]]) 06:42, 18 June 2013 (UTC)"
+"
+:: {{Question}} – I do not quite understand. P107 can not be used to separate fictional people from real ones, so what is the connection between this property and the missing consensus about fictional people? [[User:Byrial|Byrial]] ([[User talk:Byrial|talk]]) 06:52, 18 June 2013 (UTC)"
+"
+::: General classification is necessary especially in query to be able to restrict the search in a medium extend. I agree with you about GND classification and its small number of possibilities but we need this kind of classification. The only good way to delete GND property is to propose first another classification: don't delete an bad system with nothing but with a proposition of a better system. [[User:Snipre|Snipre]] ([[User talk:Snipre|talk]]) 08:05, 18 June 2013 (UTC)"
+"
+
+
+I have started a table to see what are the possible use, shortcomings and alternatives for the current GND values --[[User:Zolo|Zolo]] ([[User talk:Zolo|talk]]) 09:15, 18 June 2013 (UTC)"
+":
+: This is not the best place to start the discussion, better move the discussion of a new system or an improvement in [[Wikidata:Infoboxes task force]]. [[User:Snipre|Snipre]] ([[User talk:Snipre|talk]]) 10:03, 18 June 2013 (UTC)"
+"
+{| class=""wikitable""
+|-
+! value !! use !! problem !! solution
+|-
+| {{Q|215627}} || identify people (useful for various things) || conflates people and groups of people || use {{P|31}} for people (what for group of people, any use in that ?)
+|-
+| {{Q|43229}} ||  || || 
+|-
+| {{Q|1656682}} || unsure (used only for organised events, not things like war or eclipses) ||  || 
+|-
+| {{Q|386724}} || identify items that can be used as sources ?  || does not differentiate works from editions || 
+|-
+| {{Q|1969448}} || possibly something like ""can have instance"" or ""can use {{P|279}}"" || not really, much too general for that || 
+|-
+| {{Q|618123}} || identify geolocalisable items ? || includes celestial bodies. Some item are not places but are still geolocalisable || 
+|-
+| {{Q|11651459}} || identify disambiguation items || seems to distort the original GND meaning || use P31
+|}
+: I have [[Wikidata:Property_proposal/Generic#instances_of_.28en.29|proposed an ""instances of"" property]] which can used for groups of people when replacing P107. [[User:Byrial|Byrial]] ([[User talk:Byrial|talk]]) 10:08, 18 June 2013 (UTC)"
+"
+
+{{info}} I have made a proposal at [[Help talk:High-level classification]]. I think it would cover all arguably useful uses of P107. --[[User:Zolo|Zolo]] ([[User talk:Zolo|talk]]) 07:13, 20 June 2013 (UTC)"
+"
+
+*{{keep}} It's the most used property and as well as the skeleton of wikidata properties. ––[[User:Doostdar|دوستدار ایران بزرگ]] ([[User talk:Doostdar|talk]]) 09:51, 21 June 2013 (UTC)"
+"
+*:The first is irrelevant. The second makes no sense; why should there be a skeleton? If you look into the previous discussion, there are strong reasons ''not'' to use anything resembling a main type. (And discussed elsewhere!) --[[User:Izno|Izno]] ([[User talk:Izno|talk]]) 20:46, 21 June 2013 (UTC)"
+"
+*{{vote delete}} Replace {{P|107}} with 'instance of GND Main type' ONLY for the 7 pages which describe the GND main types. For all the other pages use instance of (and all it's 'type of' synonyms) to assign basic items to hundreds of classes then use 'subclass of' to link the classes together in a hierarchy which may (or may not) eventually end in these seven classes. --[[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 22:06, 21 June 2013 (UTC)"
+"
+* {{keep}}, useful property. But we must not extend it by additional values. — [[User:Ivan A. Krestinin|Ivan A. Krestinin]] ([[User talk:Ivan A. Krestinin|talk]]) 09:14, 22 June 2013 (UTC)"
+"
+* {{keep}} The classification can certainly be improved, but I do not see any advantage in deleting it. It remains an effective way to quickly define an item. [[User:Alexander Doria|Alexander Doria]] ([[User talk:Alexander Doria|talk]]) 10:21, 23 June 2013 (UTC)"
+"
+*:""an effective way to quickly define an item"" is not what we are here to do. Beyond that, there are the many issues with the property that continue to go unanswered. See also Zolo's proposal above. --[[User:Izno|Izno]] ([[User talk:Izno|talk]]) 23:50, 26 June 2013 (UTC)"
+"
+* {{Vote delete}} None of the several major problems with P107 that I laid out in [[Wikidata:Requests_for_deletions/Archive/2013/Properties/1#Property:P107|P107's previous nomination for deletion]] have been resolved.  [[Property:P31|P31]] and [[Property:P279|P279]] are much better alternatives to P107: they're W3C recommendations for the Semantic Web that do what P107 does, but more robustly and without the major problems described in the linked discussion. [[User:Emw|Emw]] ([[User talk:Emw|talk]]) 23:36, 26 June 2013 (UTC)"

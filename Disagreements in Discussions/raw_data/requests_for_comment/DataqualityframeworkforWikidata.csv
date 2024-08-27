@@ -1,0 +1,354 @@
+"{{RFCSubpage|closed=yes}}
+{{Discussion top|result=The below discussion was closed on 7 December 2016‎ by Alessandro Piscopo with the summary ""Sufficient feedback received"" [https://www.wikidata.org/w/index.php?title=Wikidata:Requests_for_comment&diff=prev&oldid=414762527]. Meaning ? <br/>--- [[User talk:Jura1|Jura]] 10:33, 12 December 2016 (UTC)"
+"
+}}
+
+
+
+Dear Wikidata members,
+
+Providing high-quality data will be crucial for Wikidata’s future. To achieve high quality, it is important to define first what data quality is on this knowledge base.
+As part of the Web and Internet Science group at the University of Southampton, I am currently a guest of Wikimedia Deutschland, where I am carrying out a study about data quality on Wikidata.
+My research group aims to prepare a data-quality framework to describe the quality issues affecting Wikidata, and ultimately to perform a large-scale assessment of it.
+Wikidata community members are responsible for the creation and maintenance of this knowledge base, and are likely to be aware of the quality issues that are most important for Wikidata. With this request for comment, we would like to leverage the user contribution to:
+* Help describe and categorise Wikidata quality issues;
+* Add further quality aspects (dimensions) to those that have already been identified, or to improve the focus of dimensions that have already been selected.
+We ask users to provide comments and advice about the data-quality dimensions we have already identified. We will be glad to discuss about each data quality aspect why it is important, what are practical examples of it, and whether there are other aspects that may be of interest. The discussion will be open until 4 September 2016.
+
+Data quality is usually defined as fitness for use, which means that it is evaluated from the point of view of the data consumer and with respect to a task at hand. Nevertheless, the specifics of collaboratively created knowledge bases require us to look at data quality under a different perspective. Following Lukanyenko et al., 2014<ref>Lukyanenko, R., Parsons, J., & Wiersma, Y. F. (2014). The IQ of the crowd: understanding and improving information quality in structured user-generated content. ''Information Systems Research, 25''(4), 669-689.</ref>, we define data quality as “the extent to which stored information represents the phenomena of interest to data consumers (and project sponsors), as perceived by information contributors”.
+Data quality dimensions are the aspects of quality that can be considered while assessing a knowledge base. In the first step of our research, we have selected a number of dimensions from the scientific literature. The main sources for our selection have been articles of Wang & Strong, 1996<ref>Wang, R. Y., & Strong, D. M. (1996). Beyond accuracy: What data quality means to data consumers. ''Journal of management information systems, 12''(4), 5-33.</ref> and Zaveri et al., 2015<ref>Zaveri, A., Rula, A., Maurino, A., Pietrobon, R., Lehmann, J., & Auer, S. (2015). Quality assessment for Linked Data: A survey. ''Semantic Web, 7''(1), 63-93</ref>. We decided to include or discard dimensions on the basis of their relevance to the peculiarities of Wikidata and of their possible application for a large-scale quality evaluation.
+However, Wikidata is a community project: its active community is its strength and the main responsible for its maintenance and growth. Therefore, as mentioned above, we would like to refine the quality dimensions selected with the help of the community. We publish them here, inviting everyone to contribute by commenting or providing any advice, to discuss the choices made, improve the definitions created, and develop appropriate metrics for the relevant dimensions. 
+You will probably notice the repeated use of words such as “relevant” and “appropriate”. What these words actually refer to depends on context. The help of the Wikidata community will allow us to better define them.
+Any contribution by community members will be appreciated; please feel free to ask any questions if you find anything unclear.
+
+Many thanks,
+--[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]])
+
+== Intrinsic dimensions ==
+Intrinsic dimensions refer to characteristics of data that can be evaluated independently from the context. The ones we included are accuracy, objectivity, reputation, and consistency.
+
+=== Accuracy === 
+The extent to which data are accepted as true and free of error. 
+* '''Description and examples''': A statement is said to be accurate if it is in agreement with what stated in its reference. In case a reference is not available or not needed, a statement is considered as accurate if it correctly represent a fact in the real world. For example, Milan’s population as of 31 December 2015 is stated as 1,359,905 ([[Q490]]). This value corresponds to that in the specified source, therefore it can be considered as accurate. 
+
+=== Objectivity ===
+The extent to which data are free of bias and impartial.
+* '''Description and examples''': Labels, descriptions, and aliases should not be derogatory and as much as possible not express a partial point of view. In case of debated facts, statements accounting for different positions should be given.
+
+=== Reputation ===
+The extent to which sources specified for data are trustworthy.
+* '''Description and examples''': References should be sources recognised as impartial and authoritative. E.g. for demographic data, census governmental sources are considered as trustworthy, whereas poorly documented websites are not. Sources must be easily verifiable as well: the referenced piece of information should be easy to find within the source, e.g. a human or a machine should be possibly able to retrieve it directly on the page linked. In the above case of Milan ([[Q490]]), for instance, after clicking on the source link, users must click on another link to open a PDF file where the data is found.
+
+=== Consistency ===
+The extent to which data comply with or concur to form a consistent knowledge representation.
+* '''Description and examples''': Class membership relations must be clear and consistent. Misuse of subclass of and instance of relations is among the causes of errors related to this dimension.
+
+== Contextual dimensions ==
+Contextual dimensions refer to the extent to which data are fit for the task at hand. They may be therefore hard to measure without clear use cases defined and may need to identify an optimal standard. The contextual dimensions we included are ''timeliness'' and ''completeness''.
+
+=== Timeliness ===
+The extent to which data are sufficiently up to date.
+* '''Description and examples''': This dimension refers to how frequently is data updated, whether its validity time is specified (start and end date), and its currency, i.e. whether it represents a present state of things in the real world.
+
+=== Completeness ===
+Completeness describes whether data have sufficient breadth, depth, and scope. Following the literature, we identify:
+
+==== Schema completeness ====
+The extent to which a sufficient number of classes and properties is present.
+* '''Description and examples''': Classes and properties should allow to represent concepts and state facts with a certain degree of precision, but they cannot be in a number such as to be a burden for users when adding new content.
+
+==== Item completeness ====
+The extent to which the instances of a class (i.e. Items) include all the properties/statements relevant to that class.
+* '''Description and examples''': All instances of the class ""human"" ([[Q5]]) must have the ""date of birth"" ([[Property:P569]]) property.
+
+==== Population completeness ====
+The extent to which all the possible instances of a class are represented.
+* '''Description and examples''': All Italian towns should be present, given the class ""comune of Italy"" ([[Q747074]]).
+
+== Representational dimensions ==
+
+=== Interpretability ===
+The extent to which data can be interpreted by machines without ambiguity.
+* '''Description and examples''': The value of a property must be expressed in an appropriate format and with appropriate units, enriched with ranks, and described using external vocabularies. Classes and properties should be linked to external KBs, by using the ""equivalent class"" ([[Property:P1709]]) property or the ""equivalent property"" ([[Property:P1628]]) property.
+
+=== Ease of understanding ===
+The extent to which data can be comprehended without ambiguity by humans.
+* '''Description and examples''': Labels and descriptions should be provided in an appropriate number of languages.
+
+== Accessibility ==
+
+=== Interlinking ===
+The extent to which data are sufficiently interlinked to other resources, either within or without Wikimedia.
+* '''Description and examples''': Items should be linked to equivalent entities in other knowledge bases; Items should have an appropriate number of links to other Wikimedia projects.
+
+== Other dimensions ==
+The following are quality dimensions that were in the framework we mainly relied upon (Wang & Strong, 1996<ref>Wang, R. Y., & Strong, D. M. (1996). Beyond accuracy: What data quality means to data consumers. ''Journal of management information systems, 12''(4), 5-33.</ref>), but which were not included in our selection. The definitions are from Wang & Strong (1996).
+
+;Believability
+The extent to which data are accepted or regarded as true, real, and credible.
+
+;Relevancy
+The extent to which data are applicable and helpful for the task at hand.
+
+;Value-added
+The extent to which data are beneficial and provide advantages from their use.
+
+;Appropriate amount of data
+The extent to which the quantity or volume of available data is appropriate.
+
+;Representational consistency
+The extent to which data are always presented in the same format and are compatible with previous data.
+
+;Concise representation
+The extent to which data are compactly represented without being overwhelmed.
+
+;Accessibility
+The extent to which data are available or easily and quickly retrievable.
+
+;Access security
+The extent to which access to data can be restricted and hence kept secure.
+
+== Comments and questions ==
+This space is reserved to comments and questions. Please try to address the following questions in your comments:
+==== Do you think that the above mentioned quality dimensions are sufficient to describe the characteristics of the data in Wikidata and the types of possible quality issues? ====
+: It seems to me this is an excellent way to think about and assess quality issues. However, I don't believe, and I'm guessing the wikidata community won't feel, that all these are of equal importance, or even necessarily desirable as goals. Completeness for example - we have discussed notability requirements before; the main reason to be concerned about notability is that having a huge number of less-frequented items invites neglect and abuse. So the degree of completeness is dependent on the number of eyeballs we have available (enhanced by whatever automated tools we have) to review things. So I'm guessing the approach would be more to figure out along which dimensions we are doing well, which ones we need to improve, and which ones we can neglect (at least for now)? This does seem like a good list of conceptual measures for us. [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:45, 12 August 2016 (UTC)"
+"
+:: I'm not sure that using notability as a strategy for limiting the amount of data given limited eyeballs is a good strategy. In the area of family history for example there are people who care about doing high quality research on the history of their family. ::Allowing those kinds of people into Wikidata would be valuable for growing the amount of eyeballs. 
+::Recently I looked at the family of {{Q|Q160202}}. After a bid of searching I found that his father-in-law owned {{Q|Q26252088}} at the Wiki for the History of the city of Vienna (the Wiki is a project of the city of Vienna). Knowing that the father-in-law was dead at the time of the marriage of {{Q|Q160202}} is interesting information that wasn't available in the biographies of {{Q|Q160202}} that I read but only at the Vienna Wiki.
+::Being able to connect that information was interesting but the fact that the connection exist couldn't be seen beforehand. The same is true for many people that lived in the 19th century or earlier. Their significance can only be found by gathering data from multiple sources.
+::The fact that Wikidata allows me to link the father to the pharmacy in which he worked also allows information to be documented that couldn't have been documented in ancestry databases like http://www.ancestry.com/ that are also unfortunately closed information.
+::I think that generally information for which real sources exist and that isn't simply personal opinion should be welcomed at Wikidata. I think it would also be very good to invite communities like the family history community into Wikidata to grow the amounts of eyeballs that we have. With editing family history the people are also interested in the locations where their family members acted and therefore likely won't only edit items of people in their family.[[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:23, 13 August 2016 (UTC)"
+"
+::: I think that what ""deserves"" to be included in Wikidata, i.e. the notability policy and consequently the concept of completeness, defines the aim itself of the project. This is a topic much greater than this discussion, I believe. For this reason, it could be useful to define a level of completeness that the community thinks it fits the possible uses of Wikidata (well, also this point could be debated a lot, but perhaps it is simpler). 
+::: With regard to [[User:ArthurPSmith|ArthurPSmith]]'s remarks about the approach to be followed, this is actually the goal of this RfC and of our research. We would like to understand what quality means to Wikidata, which dimensions are important, and how we define them in order to successively build some metrics to measure the issues deemed as the most relevant by the community. --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:29, 16 August 2016 (UTC)"
+"
+:::: We already have a tool to asses completeness of a dataset. It's way more easy to define the boundaries of subdatasets of wikidata and to work on their completeness than to define notability in general, evaluate how complete is wikidata as a whole wrt. the whole potential entities that could exists and the totals potential data there is for each, which is not the same considering not only the type of entities themselves but also beetween entities of the same kind - take a politician career, it can have a very different number of lines considering the politician. This is an holistic approach, but what about a ""part to whole"" approach using https://www.wikidata.org/wiki/Wikidata:Tools/External_tools/fr#COOL-WD:_A_Completeness_Tool_for_Wikidata that would evaluate the completeness of subsets of wikidata, the proportion of items covering of such specific complete datasets wrt. a defined criteria wrt the whole wikidata dataset, and as such evaluate some kind of quality score of one subset of wikidata. This seem way more practical to have a divide and conquer strategy than to try to take the problem holistically. And this would not require once and for all to have binary criterias such has ""OK to go in, not OK"". By definition of ""non notable"" entities on other wikimedia projects, they should have a poor covering score and we hardly would be able to prove they are complete without external references, could not we ? <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 13:00, 16 August 2016 (UTC)"
+" 
+:::: Another completeness approach, as wikidata aims to be a secondary database, is a relative one : how much wikidata is complete on some dataset wrt. another one ? <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 13:00, 16 August 2016 (UTC)"
+"
+
+::::: Hi, thanks for letting me know COOL-WD, I didn't know it and it is a very interesting tool. I have still not very clear how it works, I will read the paper they published about it to understand it a bit more. However, it covers only one of the three aspects of completeness in this framework draft, i.e. 'item completeness'. It is an aspect that can be approached by Item and does not need to be evaluated on Wikidata as a whole. The results obtained with COOL-WD could be compared to other approaches, in other to choose the one that offers the best performance. Furthermore, COOL-WD employs user-generated completeness statements: it is an interesting features, which nicely fits with the collaborative nature of Wikidata, but in order to be used on a large scale it would be to be implemented in the system.
+::::: The other completeness approach you suggest would be related to 'population completeness'. This is I think the type of completeness most related to the notability policy. Regarding to your idea to use external datasets, it would be actually good to use it to assess how complete Wikidata is on determined domains, e.g. biology; the problem is: how do we define golden standard external datasets?--[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:13, 17 August 2016 (UTC)"
+"
+:::::: Part of the anwser is imho here. https://blog.wikimedia.de/2013/06/04/on-truths-and-lies/ . With wikidata, we'll have tool to judge datasets : how consistent are they internally, how consistent are datasets wrt. each overs ? My guess is that good datasets will have more internal consistency for example.
+:::::: Also 'population completeness' can't be achived if our model is not complete enough to import some dataset - if we lack an essential property for example. So some answer on this may also lie in this direction : even if for some reason we don't have the dataset, could we theorically to completely import its datas in the sense of the previous definitions ? <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 15:25, 19 August 2016 (UTC)"
+"
+
+To go a little further, there might be a solution to totally reverse the problem ""inclussionnist versus suppresssionnist"" : We take an inclusionnist approach BUT we provide a score with the datas. If the data can't be seconded, then it's condemned to stay with a poor public quality score. Then we could keep the data and spare the effort to delete it which is time consuming and conflict prone - this can destroy a community - and providing people with high standards with quality information and let them have a personal discipline ""I ignore information with a score no higher than x"". <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 13:24, 16 August 2016 (UTC)"
+"
+: I'm in favor. It might not even need personal discipline. The software could automatically hide information below a certain quality score for users that only want to see information over the score. An alternative to the numeric score is also the one used by Uniprod with Swiss-prod (reviewed quality data) and TrEMBL (lower quality data). [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:36, 18 August 2016 (UTC)"
+"
+
+""possible quality issues"" - I´m writing lua code that uses this data. My experience is that the lua code and the WD data is connected. Maybe I could say that the lua module shows the quality of the data, by crashing, showing nonsense or showing nothing. There is another lua module using the same data as my module and I have seen that sometimes the other module wants the data in a way that is different from the way my module want them. Another point is maybe ""Representational consistency"". I have build some flexibility into the lua modules so that the module could work with different ways (e.g. different qualifier) and items an information is stored. I´m afraid this will be a big problem for the future, maybe we will have a lot of work to rearrange the data in a more consistent way. Another problem is that for maintaining data it is necessary to find all those items that should be maintained with a sparql-query. But it is not possible to get 100% of all items belonging to a topic. Therefore there will always be some errors in the code. I would say that we need to have ways to show to users that there is an error and help is needed. A crashing lua module, for example, is no good way to do that. For companies there is something like ""ISO 9000"" (quality management systems standards), I would say that there should be something similar for databases and maybe Wikidata could be a place to develop something like that. --[[User:Molarus|Molarus]] 10:11, 1 September 2016 (UTC)"
+"
+
+==== Would you add any other dimensions to the ones already listed? ====
+
+Uniqueness - Is there more than one definiton or representation for the same information. E.g. Q5 and Q22828631 for human.
+
+Connectedness - How well Wikidata items are connected to each other -- [[User:JakobVoss|JakobVoss]] ([[User talk:JakobVoss|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:58, 14 August 2016 (UTC)"
+"
+::How does Connectedness differ from Interlinking? Would you join these two dimensions?--[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:11, 16 August 2016 (UTC)"
+"
+
+: How connectedness is quality ? Some items may just be not really connected because they are not meant to, I don't see how this make them bad quality. On the other hand, in text mining you have to remove some very frequent word because they are so used they just are not really relevant to the analysis and removing them just add noise. Don't we risk the same effect for highly connected items ? <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 13:40, 16 August 2016 (UTC)"
+"
+:: I suppose that connectedness actually refers to resources being linked to other resources, e.g. an Item including links to other datasets and site links to other relevant Wikimedia projects. In that case, this is actually a values, as it allows knowledge discovery on various KBs.--[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:15, 17 August 2016 (UTC)"
+"
+::: I agree unless you consider it included in [[#Interpretability]] and [[#Interlinking]]. <br/>--- [[User talk:Jura1|Jura]] 09:38, 23 August 2016 (UTC)"
+"
+
+Conflict resolution - is there a stable process to flag and resolve conflicts in sources and referring databases? to the extent wikidata reflects many data sources, as in VIAF, there may be conflicts, and a stable process to provide feedback to referring institution, for resolution will be important. [[User:Slowking4|Slowking4]] ([[User talk:Slowking4|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:56, 18 August 2016 (UTC)"
+"
+: I would say that this is what ranks are for or perhaps I am misunderstanding your comment. Also, you mention providing feedback to referring institutions, what do you mean by that? Thanks, --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:02, 22 August 2016 (UTC)"
+"
+::{{ping|Alessandro Piscopo}} Ranks are the outcome of some conflict resolution process. I think {{ping|Slowking4}} means the ability to report errors, diagnose the cause, report back to data source institutions, and track resolution. --[[User:Vladimir Alexiev|Vladimir Alexiev]] ([[User talk:Vladimir Alexiev|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:47, 28 September 2016 (UTC)"
+"
+:::yes, saying every statement must be referenced is insufficient, rather you must provide a process for conflict resolution, and data improvements at sources. we are linking databases, and data quality will be improved throughout the data system. see also https://en.wikipedia.org/wiki/Virtual_International_Authority_File https://www.wikidata.org/wiki/Property:P214 [[User:Slowking4|Slowking4]] ([[User talk:Slowking4|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:15, 28 September 2016 (UTC)"
+"
+:::see also http://hangingtogether.org/?p=5710 [[User:Slowking4|Slowking4]] ([[User talk:Slowking4|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 02:03, 2 October 2016 (UTC)"
+"
+
+
+*Multi-sourcing -- provide multiple independent sources if possible (mentioned on talk) <br/>--- [[User talk:Jura1|Jura]] 16:06, 19 August 2016 (UTC)"
+"
+
+*Non-reliance on external identifier -- a quality dataset shouldn't rely primarily on an external identifier selection. <br/>--- [[User talk:Jura1|Jura]] 13:11, 13 September 2016 (UTC)"
+"
+**I fail to understand this one. External identifiers are data in itself, giving links to other datasets, and so yielding more ""interlinking"" (one of the suggested dimensions). They may or may not even be source of ""content data"". So perhaps you can clarify more extensively what you mean here? [[User:Lymantria|Lymantria]] ([[User talk:Lymantria|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:55, 21 October 2016 (UTC)"
+"
+***The idea is that if you attempt to build a quality dataset on, e.g., US senators, you should select it [https://query.wikidata.org/#select%20%2a%20%7B%20%3Fs%20wdt%3AP39%20wd%3AQ13217683%20%7D like this] and not rely on some external identifier instead. <br/>--- [[User talk:Jura1|Jura]] 13:51, 21 October 2016 (UTC)"
+"
+
+==== How would you improve the definitions above? ====
+
+I think the framework could be improved a lot by differentiating between {{Q|Q1757694}} and {{Q|Q3412851}}. It is common to mix ""data"" and ""information"" but a study on their quality should better use a clear terminology. I cannot give a perfect definition of both but I'd say simplified 
+
+* ''data quality:'' alignment to a specification
+* ''information quality:'' fitness for use
+
+Data quality and information quality can match if you can define criteria to be fulfilled for use but ''as soon as you need to ask people or to compare data with ""reality""'', this cannot be expressed in data quality. Note that data quality and information quality can even collide, if specification and use do not align (this is very common in information systems because use scenarios are much more complex than any specification can be)! 
+
+From the given list if definitions only consistency, schema completeness, item completeness can be part of data quality (and part of timeliness but not whether there are ""enough"" updates). The other dimensions are about information quality. -- [[User:JakobVoss|JakobVoss]] ([[User talk:JakobVoss|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:54, 14 August 2016 (UTC)"
+"
+::I am well aware of the difference between ''data'' and ''information''. Nevertheless, I decided to use the terms as synonyms in this case to keep the discussion open to non-specialists and avoid excessive technicalities. The choice of using the two terms without making any distinction is by the way common also to part of the scientific literature.--[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:05, 16 August 2016 (UTC)"
+"
+:::I would do differently or call the proposal ""data and information quality"" but the choice is yours. Anyway, I think the definitions can be improved by distinguishing between those dimensions that can be checked by comparing Wikidata with a set of rules (this what I would call data quality) and those dimensions that can only be checked by comparing Wikidata with other sources or user feedback (this what I would call information quality). -- [[User:JakobVoss|JakobVoss]] ([[User talk:JakobVoss|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:49, 16 August 2016 (UTC)"
+"  
+
+
+
+Description about consistency seems incomplete. Consistency isn't only related to class membership relations, but it concerns a wide range of statements between values that should be satisfied. For example, we should implement the {{tl|Constraint:Contemporary}} as soon as possible. It's risky to be able to say that {{Q|Q882}} was {{P|26}} of {{Q|Q11903}}, or that {{Q|Q76}} is {{P|P463}} the {{Q|Q1114493}}. However, this is, and will be, absolutely possible if we only focus on class membership relations. --<span style=""font-size:95%;"">[[User:Abián|abi]][[User talk:Abián|án]]</span> 09:56, 16 August 2016 (UTC)"
+"
+
+:This is actually quite interesting. A good outcome of this RfC could be, beyond defining which dimensions are important for data quality in Wikidata, to understand how constraints relate to each dimensions. This could be used afterwards to obtain a measure of how good is Wikidata with regard to different quality aspects. Which other constraints would you use to spot Consistency issues? --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:19, 16 August 2016 (UTC)"
+"
+::I think that almost [[:Category:Constraint templates|all current constraints]] try to spot Consistency issues. But many of these soft constraints, when they are marked as mandatory, are only acting as community-driven patches to try to solve Wikidata structural deficiencies. For example, duplicating information is one of the worst things to do in a database, and this is possible, even demanded, in Wikidata on properties with the {{tl|Constraint:Symmetric}}. Wikidata should ensure (but is currently not ensuring) by itself the accomplishment of this constraint by automatically adding (B.propertyX := A) every time that (A.propertyX := B) is defined by a user, where propertyX is a property with a mandatory Constraint:Symmetric. The same with {{tl|Constraint:Inverse}}, mutatis mutandis. These soft constraints are currently not implemented as a part of the Wikidata interface, so well-known inconsistencies [[Wikidata:Database reports/Constraint violations/Mandatory constraints/Violations|grow dangerously over time]] and the Wikidata community cannot avoid this data degradation by now.
+::Apart from linked constraints:
+::* we shouldn't let users include URLs that point to non-existent or non-accesible resources (for example, to pages that return a 404 error) as values for properties like {{P|2002}} (external identifier) or {{P|856}} (URL);
+::* we should use unit conversion to avoid inconsistencies as it would let us define range limits not only focused on numbers, but also on what these numbers mean with their units;
+::* we should limit quantity properties to integers when needed (see [[phab:T112247]]);
+::* we should only create couples of equal items on certain properties ({{Q|Q7810}} can be the {{P|26}} of {{Q|Q7828}}, and {{Q|Q76}} can be the {{P|26}} of {{Q|Q13133}}, but {{Q|Q7810}} cannot be the {{P|26}} of {{Q|Q13133}} as both are instances of different items);
+::* we should avoid that an item A can be a value for two incompatible or redundant properties on an item B (for example, {{Q|Q19943}} should not be marked as {{P|22}} of {{Q|Q191045}} and as {{P|1038}} of {{Q|Q191045}} at the same time);
+::* we could force users to define properties {{P|31}} or {{P|279}} for any new item.
+::Only some examples that come to mind. --<span style=""font-size:95%;"">[[User:Abián|abi]][[User talk:Abián|án]]</span> 12:27, 16 August 2016 (UTC)"
+"
+
+::: My opinion is that different constraints could be used to find different types of issues. For example, some constraints could be helpful to spot classification errors ({{tl|Constraint:Type}}), others would be helpful to check for possible accuracy errors ({{tl|Constraint:Format}}, and other examples could be added. With regard to the duplication of information, it would be a conciseness issues, but I don't think that the examples you made are really problems for Wikidata: unless we want to incorporate more sofisticated reasoning capabilities, duplicating information in the fashion of (B.propertyX := A) and (A.propertyX := B) is necessary to answer queries like ""give all the objects for B.propertyX := A"".
+::: As for your other points: I think it would be more in line with the spirit of Wikidata to avoid to force users to enter this or that value. It would be probably more acceptable to perform checks afterwards (which is also the purpose of our research). For example, it should be easy to verify whether URLs are working; some properties have the {{tl|Constraint:Range}}; incompatible values should be also easy to verify (to address just some of your points. Thanks, --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:45, 17 August 2016 (UTC)"
+"
+::::I completely disagree.
+::::Duplicating information is one of the worst practices in any database, not for the lack of ""conciseness"", but for the lack of consistency since the first minute that we have two different values that should be the same. In that moment, we stop knowing what's right and what's wrong, and this trend will presumably grow over time concluding, in the worst-case scenario, in a useless database for its data degradation.
+::::We neither have to waste the time of our contributors (the most valuable thing we have) reviewing and cleaning every violation report every single day (that's what we are doing right now), nor allow adding mistakes and vandalisms in the cases that we know by hand that they are mistakes and vandalisms. This is currently a nonsense. This is as in Wikipedia, 10 years ago. --<span style=""font-size:95%;"">[[User:Abián|abi]][[User talk:Abián|án]]</span> 11:41, 18 August 2016 (UTC)"
+"
+::::: Hi, could you make an example of the consistency issues that would arise from such data duplication?
+::::: Do you suggest to automatically fix constraint violations, then? --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:55, 22 August 2016 (UTC)"
+"
+::::::For example, let's imagine that we have an element A (woman), an element B (man), an element C (woman) and an element D (man). User U1 defines A <{{P|40}}> C and B <{{P|40}}> C. Then, user U2 finds that C hasn't got a defined statement using {{P|22}} and defines C <{{P|22}}> D. Now, we know there's something wrong, but we absolutely don't know which statement(s) are wrong because data aren't consistent, so all these data should be considered wrong and be ignored. This degradation effect can be transitively propagated over the project if a human doesn't fix the first inconsistency, as everything is linked and many items are based on these wrong ones.
+::::::However, by automatically preventing inconsistencies and adding C <{{P|22}}> B just after defining B <{{P|40}}> C, this example would be avoided and much editing time would be saved. --<span style=""font-size:95%;"">[[User:Abián|abi]][[User talk:Abián|án]]</span> 16:17, 24 August 2016 (UTC)"
+"
+
+==== Could you mention some examples of quality issues related to the above mentioned dimensions? ====
+:: I think the postmodern definition of accuracy that's used in this proposal is problematic. I think one sign of real high quality data is that data is accurate with respect to the real world.
+:: The idea that government sources are impartial sources of information is also problematic. The GDP that the Chinese government reports in their official statistics isn't a impartial number for any reasonable definition of ""impartial"" but it's still an official number that should be listed. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:18, 12 August 2016 (UTC)"
+"
+::: I agree with you that the current definition of accuracy is not perfect. However, it was formulated to adhere the definition of Wikidata as a ""secondary database"": if we keep this definition, then Wikidata's accuracy cannot be assessed by comparing it to the real world – which could even be hard to define – but with respect to a primary source.
+::: It is true that assuming that government sources are impartial sources of information is problematic, but this is why Wikidata allows contrasting statements to exist. If an information contradicting a governmental source is present, that should be stated, together with a reference. Defining accuracy as conformity to what stated in a source allows to consider two contrasting pieces of information from different sources as accurate. --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:49, 16 August 2016 (UTC)"
+"
+:::: ""but this is why Wikidata allows contrasting statements to exist."" Yes, that's why the Wikidata status quo exist. Your data quality guideline however doesn't say anything about contrasting pieces of information when speaking about accuracy or reputation.
+:::: I think data end users care about data that matches reality. If a government of an African country releases statistics that make that government look good and an independent authoritative body that hasn't a conflict of interest and has a reputation for accurate data has different data, I don't think it should be Wikidata policy to weight the numbers of the African country has having a better reputation as your data quality document suggests. You standards claim that the most authoritative source says that the Armenian genocide didn't happen given that it didn't happen in the offical numbers that the government of the territory presents offers.
+:::: I see no reason why the data quality document should suggest that government data is impartial. If you want to point to an example of impartial information than point to peer reviewed academic numbers. 
+:::: Listing government data on Wikidata makes sense but for reasons that aren't that the data is impartial. 
+:::: As far as defining whether data matches reality, if you want to have an operational definition I would use: ""Does a subject level expert consider the Wikidata number to be the best number available?"" That's the kind of number that a data customer of Wikidata wants to get. 
+:::: Besides I'm not sure what ""A statement is said to be accurate if it is in agreement with what stated in its reference. "" means. Let's say I have a statement that Joe is born at 30.03.1855. The statement also has an authoritative reference from an authoritative biography stating that he is born in 1855.
+:::: Technically there's no disagreement between the two claims. They both agree. On the other hand the source doesn't accept ""30.03.1855"" as true, it makes no statment about whether or not that specific data is true. From a data quality perspective I however think agreement is not enough.
+:::: It becomes more interesting when the statement has a second low quality reference from someone's personal website saying that he's born at 30.03.1855. I think then it becomes more unclear about whether it's good data quality. I also don't think that your data quality document gives me a good answer. 
+:::: Wikidata has the habit of requiring explicit statements about uncertainity of data. A lot of sources aren't explicit about data uncertainty. There we again have a difference between the source being in agreement or whether the source accepts the statement as true. 
+:::: Another test case would be institutions. On Wikidata {{Q|Q152087}} is a successor of {{Q|Q20266330}}. {{Q|Q9235}} was a professor at {{Q|Q20266330}}. As Wikidata understands it {{Q|Q152087}} didn't exist when } lived. There are other source who see {{Q|Q152087}} and {{Q|Q20266330}}. As the same organisation and say that {{Q|Q9235}} was a professor at Humboldt-Universität Berlin. I think it makes sense to not state on Wikidata that he was a professor at {{Q|Q20266330}}. Do you think it would be more accurate when Wikidata would state that he is and adds that the statement is disputed? [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:02, 18 August 2016 (UTC)"
+"
+::::: https://blog.wikimedia.de/2013/06/04/on-truths-and-lies/ . I'll create [[Wikidata:Truth]]. <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 15:19, 19 August 2016 (UTC)"
+"
+
+::::: @[[User:ChristianKl|ChristianKl]] I am not saying that government data is impartial, but – as stated in the link posted by [[User:TomT0m|TomT0m]] – Wikidata has verifiability as a criterion for inclusion, rather than veracity. --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:56, 22 August 2016 (UTC)"
+"
+:::::: Are you really saying that ""References should be sources recognised as impartial and authoritative. E.g. for demographic data, census governmental sources are considered as trustworthy"" isn't claiming that census government sources are impartial? That seems to me like a nonstandard usage of ""E.g."". [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:23, 22 August 2016 (UTC)"
+"
+::::::: OK, I might have forgotten some adverbs there. I think that census governmental sources should be generally considered, at least for western countries, as impartial and authoritative. This mean that they cannot always deemed as such and distinctions should be made (let's leave aside how as for now). E.g. if I want to get data about the British population, the ONS provides accurate and reliable data. --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:28, 23 August 2016 (UTC)"
+"
+
+::::: According to the fact that Wikidata is not about truth, but about reporting referenced statements from primary databases, my answer to your question is: yes, I would not see any problem in adding a statement saying that Hegel was a professor at Humboldt University, provided that a reference is specified and appropriate ranks are given (I would add also some statement saying that Humboldt and Frederick William Universities are said to be the same somewhere). All this IMHO, of course. --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:56, 22 August 2016 (UTC)"
+"
+:::::: Criteria for inclusion means that we don't include information that can't be verified. That doesn't directly imply that we don't care for veracity as you imply. We have ""deprecated"" to mark notable verified information that's wrong.
+::::::There's in principle no statement saying that Hegel was professor at Humboldt University as Wikidata doesn't do strings. The question is whether he's professor at {{Q|Q152087}}. {{Q|Q152087}} has the property that it was founded in 1949 and that it follows {{Q|Q20266330}}. I think it's very strange to say {{Q|Q152087}} follows {{Q|Q20266330}} and is said-to-be-the-same. 
+::::::Additionally you likely will find statement for some professors at {{Q|Q20266330}} that they are employed at Humboldt University, so your proposal would mean that the data on Wikidata is internally inconsistent. You would have to drop the point about data consistency from your list of quality metrics. Any attempt at creating consistency means to commit to a certain way of modeling a domain and not modeling it in 10 different ways because 10 different sources model it differently. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:23, 22 August 2016 (UTC)"
+"
+:::::::''Any attempt at creating consistency means to commit to a certain way of modeling a domain and not modeling it in 10 different ways because 10 different sources model it differently.'' => not really as long as you can totally express rules (as in {{Project|Reasoning}} that express the fact that two models say the same thing. But it's right that we don't have to create 10 ways to say the same thing as we totally should have to translate the source data into OUR model, of course, as long as this is equivalent in meaning. We don't have to use any model of any source to import them. <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 09:29, 22 August 2016 (UTC)"
+"
+:::::::: In the case of Hegel, I think I'm translating information into our model when I say that he wasn't professor at {{Q|Q152087}} (founded 1949) but at it's predecessor {{Q|Q20266330}}. Do you disagree with this being translation into our model? 
+:::::::: Another interesting case would be drug names. There are data bases that list a drug and the chemical entity that it contains as the same thing. To me that doesn't imply that Wikidata should copy that approach to modeling but it would be better if Wikidata internally distinguish the concept of the drug and the concept of it's chemical.
+:::::::: Different brand names of a drug can have different Wikidata items.
+:::::::: Modeling a domain well, so that different concepts aren't muddled together is for me a sign of data quality but that takes decisions about how to model data that aren't simply about copying the structure of external databases as accurately as possible.[[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:23, 23 August 2016 (UTC)"
+"
+::::::::: I agree the structure is not relevant, but the semantics is crutial. If some database use the drug that might be a choice of them for reasons we might not have to import our way if that is a treason to the semantics of their reason and might be a data loss that can imply inaccuracies or wrong stuffs at worse. On the other hand if we consider the molecule is the most important, it's always possible to find the molecule from the drug, the information is probably just a (sub)query away. But I think that's a consumer of the information matter ... We just have to provide him a way to retrieve the informations he want and how stuffs are modelled in Wikidata. <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 18:01, 23 August 2016 (UTC)"
+"
+:::::::::: The problem is that currently accuracy as defined in this document isn't about ""retrieve the informations he wants"". The data consumer cares a great deal about veracity but [[User:Alessandro Piscopo|Alessandro Piscopo]] thinks that veracity shouldn't be in the data quality guidelines. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:12, 24 August 2016 (UTC)"
+"
+::::::::::: Hi [[User:ChristianKl|ChristianKl]], this RfC has been opened to collect advice and opinions and stimulate discussions about data quality within the community. The contribution of the community is important because we hope that the framework resulting from this discussion could be adopted by Wikidata in the future. In other words, any contribution is appreciated and valuable and you are free to suggest to include any dimension that was not included in the original draft. Thanks, --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:58, 24 August 2016 (UTC)"
+"
+:::::::::::: It seems to me like the current point of ""accuracy"" mixes two concepts. We could call them ""veracity"" and ""accurate source representation"". I would see ""veracity"" to exist when Wikidata gives an answer that a domain expert would consider the best answer. Wikidata's answer could also be less specific than the answer of the domain expert without ""veracity"" suffering.
+:::::::::::: Apart from that it's also important that if Wikidata has a reference that reference backs up the claim for which it's cited. That's ""accurate source representation"". I just noticed a case where the primary source tool took a source who said ""Georg Forster (ca.1510 — 12. November 1568)"" and translated it into the claim that Georg Forster was born in 1510 without the qualifier sourcing circumstances"" (P1480) with ""circa"". That violates my idea of ""accurate source representation"" and thus I filed a bug report at the tool under https://github.com/Wikidata/primarysources/issues/121.
+:::::::::::: There might be better names for the two, but both seem important to me. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:29, 24 August 2016 (UTC)"
+"
+
+::::::::: Considering the university problem, I'd guess we would have to provide an actual model :) Things are mostly informal at this point. Then we could discuss discrepancies beetween models. <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 18:03, 23 August 2016 (UTC)"
+"
+
+==== General remarks ====
+* I have to say that if the intention is really good, the process of this RfC is not really efficient. In order to say something about the above parameters we have to know the metrics used to assess each parameter and the calculation method of the metrics. For me it is useless to discuss about the possible use of these parameters if we don't know how to calculate/define them. If a interesting parameter is requiring a huge amount of accurate data, this is not interesting to assess it before we have a sufficient amount of data. So for each parameter we should have the metric scale and the calculation method. [[User:Snipre|Snipre]] ([[User talk:Snipre|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:58, 18 August 2016 (UTC)"
+"
+*: This is epistemology. Does a theory comes from observation or does theory problem ? Metrics usually don't come out of thin air, but need a few thing to be sort out and we need to know what is actually important from Wikidata. A metrics that does not measure anything meaningful is pretty useless. In science, sometimes we can't know what to measure before we actually have a theory to describe it. Take light polarisation. This can come only from some degree of theory of what light is and don't come out of thin air. As long as we don't know what quality can be and in which direction we should dig, we likely wil fail to define good metrics. This step is essential, and there no way to foresee if it has to be efficient. <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 15:16, 19 August 2016 (UTC)"
+"
+::: So the whole RfC process is wrong: why this RfC selects already a list of parameters ? If the process you described was correctly done we shouldn't have two lists of parameters and a question asking to support the first list without providing the reasons of that choice. There is two ways to do thing: you put everything on the table and you start the selection from the beginning with the whole community or you come with a good selection of parameters and you show why you select them and how you plan to use them.
+::: So I ask me what is the purpose of this RfC: to support the selection of one specialist or to really discuss about what the community defines as good quality parameters and how it wants to track that parameters ? If the objective was the second one we shouldn't have a section ''Other dimensions'' and some general questions at the end of the list but an equal treatment of each parameter (description, advantage, difficulty to measure) and an approval section after each parameter section.
+::: Perhaps the subject is difficult and the specialist wants to save time and long discussions. No problems, specialists are there for that, but in that case we need explanations about why the selected parameters are good for WD and how they can be used. So I repeat my first remark: as the whole discussion about the selection of the parameters was skipped, can we have the advantages of the selected parameters, and for me the most important advantage is the ease of use. But to be able to assess that criterion I need to know how the selected parameters will be calculated. [[User:Snipre|Snipre]] ([[User talk:Snipre|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:21, 22 August 2016 (UTC)"
+"
+:::: OK, then let's say this is a RfC in the sense ""request for comment""  broader sense and that it's not mature enough for you to ""vote"" or something like that. Maybe a next version/attempt. As far as I know it's a decent way to get comments and we don't have any better place for deep discussion here. <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 06:29, 23 August 2016 (UTC)"
+"
+
+===What is the practical point of a framework===
+I have followed the discussions and as far as I am concerned, it is truly theoretical and consequently it is theoretical. It is fine that there is literature about data quality but it does not follow that this has a practical consequence. When you want a framework for data quality, I expect a framework that includes methods to improve that quality. I do not care for yet another round of definitions. 
+
+I have said it before, I say it again, when content is the same in multiple sources CHANCES are that it is correct. When you spend time to annotate differences by suplying sources you improve quality. That is what I seek in a framework. 
+
+When Wikidata is to support Wikimedia projects, it is important to consider what it is that makes the data useful in those projects. It has a priority over importing data from elsewhere. Given that Wikidata is used in over 280 Wikipedias, language support is of extreme importance. So far it is not even a KPI. 
+
+It is relevant to be able to link to other sources and it is fine and dandy that some people do. But that they can does not mean that it is important when the results are only available to them. Linking to other sources is relevant with an ID when we also seek to make a difference in this way. It is fine to say that a substance is known in a registry of substances cleared for medical use, it is wrong to say that they are a medicine. We do not have a framework to indicate that substances are probably as good as a placebo and many substances have that and negative side effects. How would a framework help?
+
+We do not need a framework researched by students from whatever university (I mean no disrespect) what we need is a practical discussion on what practical ways there are to improve our quality. When measures fit a framework it becomes important because then we get that these measures interact and increase their effectiveness. We need practical improvements that start from where we are as a resource. Wikidata is immature and mature requirements are not what we can impose at this time. We can work towards improvements but that is it. Thanks, [[User:GerardM|GerardM]] ([[User talk:GerardM|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:12, 28 August 2016 (UTC)"
+"
+: This is also a theoritical post, and by its standards, also irrelevant :p <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 09:16, 28 August 2016 (UTC)"
+"
+: Alessandro Piscopo is an academic who wants to study Wikidata. He's not WMDE employee of as far as I can see is payed by a Wikimedia grant. Academic work doesn't need to have direct practical implication. In this case publishing work about data quality that shows that Wikidata cares about data quality in a venue that people who care about open data read, makes it more likely that they consider Wikidata a serious project and donate their data to it. 
+: The people who did their work on vandalism detection in Wikidata have it easier in academia when they can cite a definition of quality standards.
+: Nothing in this article prevents you from having a discussion about direct ways to improve Wikidata's usefulness for Wikipedia. But that's not the discussion about the definition of data quality, it's likely to be had elsewhere.
+: There are many ways to interact with Wikidata. Live and let live. 
+: If you want to improve Wikipedia integration it might make more sense to focus your energies on the practical project of https://www.wikidata.org/wiki/Wikidata:List_generation_input [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:44, 31 August 2016 (UTC)"
+"
+:: Academic work does not need to have direct practical implications, but – I believe – it should always take them into account and aim at concrete effects on things. I would not even find it totally correct to ask the Wikidata community to discuss this draft, if I did not think that it could be one day adopted (even partially) by Wikidata or at least be directly beneficial to it. So yes, it will be good if the outcome of this work will be published, it will be better it this will bring someone to donate to Wikidata, and it will be even better if quality measures will be developed and then used, based on this framework. And by the way, no, I do not get any Wikimedia grant :) --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:39, 2 September 2016 (UTC)"
+"
+
+===Completeness===
+Hi Alessandro, thanks for the RfC and your valiant participation in the discussion.
+
+Many of the contributions to the discussion point to specific implementations that can help by finding errors easier - such as constraints on data values, or consistency rules. I think those are very important in order to keep control of the data set - but in the end, they are merely a proxy to measuring quality. They do not really capture your quality measures, such as ‘accuracy’ and ‘completeness’, etc.
+
+While these suggestions and implementations are very important, I would be extremely happy to see you stay focused on the quality dimensions you mention. Your definitions look sane and good. Personally, I would weight these dimensions - e.g. have accuracy very high, consistency rather low, etc. - but your selection looks already quite complete, and I am not sure I would drop anything, besides on the completeness dimension.
+
+For schema completeness, I would argue that since Wikidata does not have a standard class system, maybe we should focus on the properties only.
+
+For item completeness, I would argue that focusing on just the classes and see whether they have all relevant properties is insufficient. My suggestion would be to compare to the Wikipedia article and see whether the most important information about a given item that is mentioned in the article is actually covered. 
+
+For population completeness, again I would argue against relying solely on classes.
+
+All of the three subdimensions of completeness I would actually consider maybe complementing or partially replacing with query completeness. Given relevant queries, can we express these queries and do we get all results we are expecting. This would cover your subdimensions, and is also motivated by Wikidata’s arguably most important role, to support the Wikimedia projects. Query results are planned to be available for integration and exposure in the other Wikimedia projects at some point (the legendary Phase 3 of the Wikidata project), and such a query completeness would directly capture how realistic such a goal is.
+
+I am looking forward to see your suggestions on how to operationalize these quality dimensions and the concrete metrics and measurements you will suggest. I hope this helps, and again, thank you! —[[User:Denny|Denny]] ([[User talk:Denny|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:47, 1 September 2016 (UTC)"
+"
+
+:: Hi [[User:Denny|Denny]], thanks for your suggestions! The completeness dimension is indeed that one that gave me more doubts (not that the others did not), due to its strong connection with the task at hand, which in my opinion requires to answer the question ""What is Wikidata for?""
+
+::I agree that query completeness is a good approach; the authors of COOL-WD have already explored it, I would like to have a more careful look at it and think about how it can be improved.
+
+::I will start elaborating the metrics in the next days, taking into account the discussions had on this page. As soon as I will devise the most appropriate metrics for the dimensions chosen, I will again update the community again on our findings. Thanks, --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:26, 2 September 2016 (UTC)"
+"
+
+:: Thanks, that sounds good! --[[User:Denny|Denny]] ([[User talk:Denny|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:02, 6 September 2016 (UTC)"
+"
+
+=== Completeness heuristic by comparing to Wikipédia internal links graphs ===
+Thanks to the Wikipédia articles / Items mapping, we could compare the graphs generated by the internal links in wikipedias and the wikidata graph. For example, I expect that for a complete item, almost every articles linked in a language version of wikipédia (or the union of all versions) be very close - say, one or two statements away - of the items used in the corresponding Wikidata item or that uses it. Maybe a very simple proportion of such items that uses the item we want to know is complete union all the items used by it compared to the items of the sitelinks of the corresponding article could be a good heuristic to evaluate the completeness of an item wrt. Wikipedia. <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;"">author&nbsp;</span><span style=""background-color:#FFFFFF;"">&nbsp;[[User:TomT0m|TomT0m]] / </span>talk [[User talk:TomT0m|page]]</span> 13:29, 7 September 2016 (UTC)"
+"
+: Hi [[User:TomT0m|TomT0m]], yours is a good idea, I would be curious to try it, in order to understand how feasibile it is (e.g. I think that using a union of all version may be challenging) and the insights that it would give. My doubt is whether it would shed some light on the degree on interlinking of entities in the two projects, rather than providing information about completeness. Thanks, --[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:05, 13 September 2016 (UTC)"
+"
+=== [[Wikidata:Living people]] ===
+I will not support any proposal that does not include provisions for the protection of information regarding living people. Wikipedias will be less likely to trust us without such a provision.--[[User:Jasper Deng|Jasper Deng]] ([[User talk:Jasper Deng|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:11, 28 October 2016 (UTC)"

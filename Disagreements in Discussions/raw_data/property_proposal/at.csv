@@ -1,0 +1,73 @@
+"=== {{TranslateThis | anchor = en
+| en = to
+| el = στο(ν)/στη(ν)
+}} ===
+{{Property proposal
+|status			= not done<!-- leave this empty -->
+|description		= {{TranslateThis
+ | en = For use as a qualifier of statements with {{P|2882}} or {{P|2881}}.
+ | ru = В качестве квалификатора утверждений с {{P|2882}} или {{P|2881}} ([[w:ru:Выбывание и повышение в классе]]).
+<!-- | xx = descriptions in other languages -->
+ }}
+|subject item           = <!-- item corresponding to the concept represented by the property, if applicable; example: item child (Q7569) for property child (P40) -->
+|infobox parameter	= <!-- Wikipedia infobox parameters, if any; ex: ""population"" in [[:en:template:infobox settlement]] -->
+|datatype		= item
+|domain			= <!-- types of items that may bear this property -->
+|allowed values		= <!-- type of linked items (Q template or text), list or range of allowed values, string pattern... -->
+|allowed units          = <!-- units that are allowed for values of this property -->
+|source			= <!-- external reference, Wikipedia list article, etc. -->
+|example		= {{claim|Q19346732|P2882|Q18716|to|Q24067533}}.
+|planned use            = Add it to many pages that are using {{P|2882}} or {{P|2881}}
+|formatter URL		= <!-- for external identifiers, URL pattern where $​1 replaces the value -->
+|see also               = <!-- other, related properties -->
+|filter			= <!-- sample: 7 digit number can be validated with edit filter [[Special:AbuseFilter/17]] -->
+|robot and gadget jobs	= <!-- Should or are bots or gadgets doing any task with this? (Checking other properties for consistency, collecting data, etc.) -->
+|subpage		= at
+|topic			= generic
+}}
+
+;Motivation
+
+I need a qualifier to show where a team promoted or relegated, to show where the team played the next season due to promotion or relegation of the previous season. [[User:Xaris333|Xaris333]] ([[User talk:Xaris333|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:11, 17 August 2016 (UTC)"
+"
+
+;{{int:Talk}}
+
+* {{comment}} In English at least, I don't think that ""at"" is the right thing for your use case. I would expect ""at"" to have a value of a location, an event or a time of day. ""to"" is what I'd expect, or possibly something more specific if ""to"" is too generic for others. [[User:Thryduulf|Thryduulf]] ([[User talk:Thryduulf|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:35, 18 August 2016 (UTC)"
+"
+:[[User:Thryduulf|Thryduulf]] Ok, rename to ""to"". [[User:Xaris333|Xaris333]] ([[User talk:Xaris333|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:19, 18 August 2016 (UTC)"
+"
+* {{O}} This should be computable, once the old league is marked with its next highest and lowest league. <span class=""vcard""><span class=""fn"">[[User:Pigsonthewing|Andy Mabbett]]</span> (<span class=""nickname"">Pigsonthewing</span>); [[User talk:Pigsonthewing|Talk to Andy]]; [[Special:Contributions/Pigsonthewing|Andy's edits]]</span> 11:36, 18 August 2016 (UTC)"
+"
+:[[User:Pigsonthewing|Andy Mabbett]] An example:
+{{claim|Q19906304|P2882|Q17442894|to|Q24067920}}
+
+Is different from:
+
+{{claim|Q19906304|P2500|Q19905070}}
+
+[[User:Xaris333|Xaris333]] ([[User talk:Xaris333|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:19, 18 August 2016 (UTC)"
+"
+*{{ec}} {{Replyto|Pigsonthewing}} It is only computable when both leagues have exactly one league above and exactly one league below, this is not always true. For example lower leagues very often have different geographical scope. For example a team relegated from {{Q|Q58916}} may play the next season in either {{Q|Q59041}} or {{Q|Q58915}} depending on geography not only of the relegated team but also that of other teams relegated to, promoted from and promoted to the level below {{Q|Q58916}}. A team in the Midlands may also move between leagues without promotion or relegation to balance the leagues (e.g. if only southern teams are relegated from the national level). The representation method on Wikidata must work for all levels, not just national to national. [[User:Thryduulf|Thryduulf]] ([[User talk:Thryduulf|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:28, 18 August 2016 (UTC)"
+"
+:: It seems to me computable from the fact that the team is in session A in league X and in season B in league Y. If I additional know that the team was relegated it seems to me like all information is available. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:41, 1 September 2016 (UTC)"
+"
+*{{support}} as ""to"". [[User:Thryduulf|Thryduulf]] ([[User talk:Thryduulf|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:29, 18 August 2016 (UTC)"
+"
+
+* {{o}} as ""to"". There should be a better (maybe generalized term) for ''promoted'' or ''relegated'' --[[User:Succu|Succu]] ([[User talk:Succu|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:38, 15 September 2016 (UTC)"
+"
+:[[User:Succu|Succu]] Like what? Suggest one... [[User:Xaris333|Xaris333]] ([[User talk:Xaris333|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:55, 15 September 2016 (UTC)"
+"
+:: Nope, [[User:Xaris333|Xaris333]], it's your turn to clarify your propsal (at/to). --[[User:Succu|Succu]] ([[User talk:Succu|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:58, 15 September 2016 (UTC)"
+"
+:::: But you are saying ''There should be a better (maybe generalized term)...''. How can you be sure about that? What are we going to do? We need the qualifier. [[User:Xaris333|Xaris333]] ([[User talk:Xaris333|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:45, 16 September 2016 (UTC)"
+"
+* {{O}} [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:08, 6 October 2016 (UTC)"
+"
+
+[[User:ChristianKl|ChristianKl]], why? Can you suggest something else; I am trying to find something. [[User:Xaris333|Xaris333]] ([[User talk:Xaris333|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:17, 7 October 2016 (UTC)"
+"
+:As I said above (and without getting a reply) the information is already possible to be calculated. Furthermore a short word like ""to"" as a high likelihood of being abused in for different purposes besides the one's defined here. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:19, 7 October 2016 (UTC)"
+"
+*'''Not done''', no consensus to create. -- [[User:Ajraddatz|Ajraddatz]] ([[User Talk:Ajraddatz|talk]]) 19:35, 31 October 2016 (UTC)"

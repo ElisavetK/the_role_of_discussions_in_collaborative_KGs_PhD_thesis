@@ -1,0 +1,24 @@
+"
+{{Property proposal
+|status                 = not done
+|description            = the diagonal screen size
+|infobox parameter      = 
+|datatype               = number
+|domain                 = devices with a screen (for example computers or smartphones)
+|allowed values         = 
+|suggested values       = 
+|source                 = 
+|example                = <br /> [[Q49047|Nexus 4]] => 4.7 <nowiki>''</nowiki><br />[[Q49047|Nexus 4]] => 11,938 cm
+|filter                 = 
+|robot and gadget jobs  = A bot can search in the wikis for the screen size value in tables.
+|proposed by            = [[Special:Contributions/88.65.195.123|88.65.195.123]] 11:14, 30 June 2013 (UTC)"
+"
+}}
+;Discussion
+:{{support}} --[[User:Nightwish62|Nightwish62]] ([[User talk:Nightwish62|talk]]) 22:39, 30 June 2013 (UTC)"
+"
+:{{oppose}} Oppose without a general concept of size definition of object. Because there are plenty of other length parameters which can be used to describe an object and only a general concept can avoid the creation of specialized properties. Why not a property ""Dimension"" and a qualifier ""element"" which can be used for screen but other characteristics too ? [[User:Snipre|Snipre]] ([[User talk:Snipre|talk]]) 11:35, 1 July 2013 (UTC)"
+"
+:{{oppose}} --[[User:Tobias1984|Tobias1984]] ([[User talk:Tobias1984|talk]]) 20:22, 25 July 2013 (UTC)"
+"
+{{not done}} --[[User:Tobias1984|Tobias1984]] ([[User talk:Tobias1984|talk]]) 08:19, 27 July 2013 (UTC)"

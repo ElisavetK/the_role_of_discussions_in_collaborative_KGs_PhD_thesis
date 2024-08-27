@@ -1,0 +1,54 @@
+"=== {{TranslateThis | anchor = en
+| en = TMDB movie id
+<!-- |xx = property names in some other languages -->
+}} ===
+{{Property proposal
+|status			= 4947
+|description		= {{TranslateThis
+ | en = identifier for a movie at The Movie Database
+<!-- | xx = descriptions in other languages -->
+ }}
+|subject item           = Q20828898
+|infobox parameter	= <!-- Wikipedia infobox parameters, if any; ex: ""population"" in [[:en:template:infobox settlement]] -->
+|datatype		= external-id
+|domain			= {{Q|5}}, {{Q|11424}}, {{Q|5398426}}
+|allowed values		= <!-- type of linked items (Q template or text), string pattern (regex if possible), list or range of allowed values, etc. -->
+|source			= https://www.themoviedb.org/
+|example		= {{Q|23068002}} → [https://www.themoviedb.org/movie/336843 336843]
+|planned use            = <!-- what use do you plan to make of the property within the next month -->
+|number of ids          = 400,000<!-- for identifiers, the number of ids available from the source -->
+|expected completeness  = Q21873886
+|formatter URL		= https://www.themoviedb.org/movie/$1 https://www.themoviedb.org/people/$1 https://www.themoviedb.org/tv/$1
+|external links         = https://www.themoviedb.org/
+|see also               = <!-- other, related properties -->
+|filter			= <!-- sample: 7 digit number can be validated with edit filter [[Special:AbuseFilter/17]] -->
+|robot and gadget jobs	= <!-- Should or are bots or gadgets doing any task with this? (Checking other properties for consistency, collecting data, etc.) -->
+|subpage		= TMDb id
+|topic			= authority control
+}}
+
+<h4>Motivation</h4>
+
+TMDb data and its API are reused by applications such as Plex, XMBC and MythTV. It is a crowdsourced website. [[User:NMaia|NMaia]] ([[User talk:NMaia|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:19, 4 March 2018 (UTC)"
+"
+
+<h4>{{int:Talk}}</h4>
+*{{S}} [[User:ديفيد عادل وهبة خليل 2|David]] ([[User talk:ديفيد عادل وهبة خليل 2|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:55, 5 March 2018 (UTC)"
+"
+* {{Comment}} It looks as though we should perhaps have three(?) identifier properties, the one in the given example ([https://www.themoviedb.org/movie/336843-the-maze-runner-the-death-cure movie/336843-the-maze-runner-the-death-cure]) having the formatter URL <code><nowiki>https://www.themoviedb.org/movie/$1</nowiki></code>. Also, the example's value should then be <code>336843</code>; the string <code>-the-maze-runner-the-death-cure</code> being superfluous. <span class=""vcard""><span class=""fn"">[[User:Pigsonthewing|Andy Mabbett]]</span> (<span class=""nickname"">Pigsonthewing</span>); [[User talk:Pigsonthewing|Talk to Andy]]; [[Special:Contributions/Pigsonthewing|Andy's edits]]</span> 21:02, 5 March 2018 (UTC)"
+"
+**Thanks, I've corrected the proposal based on your second suggestion. Regarding the first, I don't feel strongly either way so I'm curious about what others have to say on it. What would be a main reason for splitting this into three different properties? [[User:NMaia|NMaia]] ([[User talk:NMaia|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:56, 5 March 2018 (UTC)"
+"
+*** they have different formatter URL's. You can only have one formatter URL per property (it is auto-linked from the identifier). [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:26, 12 March 2018 (UTC)"
+"
+* {{s}} [[User:GAllegre|GAllegre]] ([[User talk:GAllegre|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:17, 9 March 2018 (UTC)"
+"
+* {{s}} I've created 3 scrapers/catalogs: [https://tools.wmflabs.org/mix-n-match/#/catalog/1066 TMDB movie id] (limited to the 1000 first pages, sorted by ""popularity""), [https://tools.wmflabs.org/mix-n-match/#/catalog/1067 TMDB person id] and [https://tools.wmflabs.org/mix-n-match/#/catalog/1068 TMDB tv series id]. --[[User:Gerwoman|Gerwoman]] ([[User talk:Gerwoman|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:13, 11 March 2018 (UTC)"
+"
+* I have marked this property as ready and updated its name and description to signal that it is about movies - feel free to propose new properties for the others − [[User:Pintoch|Pintoch]] ([[User talk:Pintoch|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:38, 13 March 2018 (UTC)"
+"
+{{Ping|Gerwoman|Pigsonthewing|NMaia|Pintoch|GAllegre|ArthurPSmith}} {{Ping|ديفيد عادل وهبة خليل 2}}  {{done}}: {{P|P4947}}. − [[User:Pintoch|Pintoch]] ([[User talk:Pintoch|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:19, 14 March 2018 (UTC)"
+"
+* {{Comment}} Will more properties be created for TMDB Person ID and TMDB TV Series ID? [[User:Here here shoegazefan]] ([[User talk:Here here shoegazefan|Talk]])</span> 17:27, 15 March 2018 (UTC)"
+"
+**{{Ping|Here here shoegazefan}} please see [[Wikidata:Property proposal/TMDb person ID]] and [[Wikidata:Property proposal/TMDb TV series ID]]. [[User:NMaia|NMaia]] ([[User talk:NMaia|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:42, 16 March 2018 (UTC)"

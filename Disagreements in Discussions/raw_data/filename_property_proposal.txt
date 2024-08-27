@@ -1,0 +1,23 @@
+ACERcode.csv
+at.csv
+ Catalog name .csv
+closematch.csv
+ Code for parishes in the Church of Sweden .csv
+ current singles ranking en  aktuelle Weltranglistenplatzierung im Einzel de .csv
+CzechcohesionregionID.csv
+DNVID.csv
+Eldoblaje.csv
+geoshape.csv
+grammaticalnumber.csv
+IFLAkeyofmusicalworkID.csv
+IndonesianHospitalID.csv
+introducedby.csv
+IrishSitesandMonumentsRecordNo.csv
+ItalianNationalEarthquakeCenterID.csv
+LibrisURI.csv
+ Recorded at .csv
+ Screen size en  Bildschirmgröße de.csv
+shearmodulus.csv
+TMDbid.csv
+Totalpowerplaygoalsincareer.csv
+TrueAchievementsgameID.csv

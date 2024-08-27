@@ -1,0 +1,60 @@
+"=== {{TranslateThis | anchor = en
+| en = Eldoblaje IDs
+| es = Identificadores Eldoblaje
+}} ===
+
+{{Q|24717251}} is an online database of Spanish {{Q|187657}} of movies, TV series and videogames. In Wikidata there's already another property of the database ({{P|2897}}, for {{Q|26160672}}).
+
+==== {{TranslateThis | anchor = en
+| en = Eldoblaje dubbing actor ID
+| es = identificador de actor de doblaje en Eldoblaje
+}} ====
+{{Property proposal
+|status = 4681
+|description = {{TranslateThis
+ | en = identifier for a dubbing actor in a Spanish dubbed film
+ | es = identificador de un actor de doblaje en una película doblada en castellano
+}}
+|subject item = {{Q|11481802}}
+|datatype = external-id
+|domain = {{Q|5}}
+|allowed values = \d+
+|source = http://www.eldoblaje.com
+|example = {{Q|15730893}} → [http://www.eldoblaje.com/datos/FichaActorDoblaje.asp?id=7889 7889]
+|formatter URL = http://www.eldoblaje.com/datos/FichaActorDoblaje.asp?id=$1
+|subpage = Eldoblaje
+|topic = authority control
+}}
+
+==== {{TranslateThis | anchor = en
+| en = Eldoblaje original actor ID
+| es = identificador de actor original en Eldoblaje
+}} ====
+{{Property proposal
+|status = 4682
+|description = {{TranslateThis
+ | en = identifier for an original actor in a Spanish dubbed film
+ | es = identificador de un actor original en una película doblada en castellano
+}}
+|subject item = {{Q|33999}}
+|datatype = external-id
+|domain = {{Q|5}}
+|allowed values = \d+
+|source = http://www.eldoblaje.com
+|example = {{Q|312051}} → [http://www.eldoblaje.com/datos/FichaActorOriginal.asp?id=2645 2645]
+|formatter URL = http://www.eldoblaje.com/datos/FichaActorOriginal.asp?id=$1
+|subpage = Eldoblaje
+|topic = authority control
+}}
+
+;Motivation
+
+Eldoblaje is a well-known database of films dubbed in Spanish. There's already a property in Wikidata about films, so with new properties actors and voice actors can be added too. [[User:Escudero|Escudero]] ([[User talk:Escudero|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:15, 13 October 2017 (UTC)"
+"
+
+;{{int:Talk}}
+*{{S}} [[User:ديفيد عادل وهبة خليل 2|ديفيد عادل وهبة خليل 2]] ([[User talk:ديفيد عادل وهبة خليل 2|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:25, 14 October 2017 (UTC)"
+"
+*{{S}} − [[User:Pintoch|Pintoch]] ([[User talk:Pintoch|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:29, 14 December 2017 (UTC)"
+"
+* {{Ping|Escudero|ديفيد عادل وهبة خليل 2|Pintoch}} {{done}} [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:58, 21 December 2017 (UTC)"

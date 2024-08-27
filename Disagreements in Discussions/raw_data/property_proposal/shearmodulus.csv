@@ -1,0 +1,47 @@
+"=== {{TranslateThis | anchor = en
+| en = shear modulus
+| fr = module de cisaillement
+| de = schubmodul
+| es = módulo de cizalladura
+}} ===
+{{Property proposal
+|status			= 5673
+|description		= {{TranslateThis
+ | en = ratio of shear stress to the shear strain
+ | fr = grandeur physique qui intervient dans la caractérisation des déformations causées par des efforts de cisaillement
+ | de = die Auskunft gibt über die linear-elastische Verformung eines Bauteils infolge einer Scherkraft oder Schubspannung
+ | es = caracteriza el cambio de forma que experimenta un material elástico (lineal e isótropo) cuando se aplican esfuerzos cortantes
+ }}
+|subject item           =  {{Q|Q461466}}
+|infobox parameter	=  This proprety request is part of the project of creating an infobox for materials
+|datatype		=  quantity
+|domain			=  Mechanical property of all solid [[Q214609|Materials]]
+|allowed values		=  Any number. Qualifiers : {{P|P2076}} (shall be mandatory), {{P|P2077}}, {{P|P459}}, {{P|P5594}}, [[Wikidata:Property proposal/Work hardening strain|Work hardening strain]], [[Wikidata:Property proposal/Heat treating|Heat treating]]
+|allowed units          =  {{Q|Q53448922}}, {{Q|Q21062777}}, {{Q|Q626299}}, ksi, and others {{Q|Q10751953}}
+|source			= [[w:Shear modulus]]
+|example 1		= {{Q|Q5283}} → 478 {{Q|53448922}}
+|example 2		= {{Q|Q535566}} → 41.4 {{Q|53448922}}
+|example 3		= {{Q|Q143429}} → 117 {{Q|21062777}}
+|planned use            = Creating an infobox for materials
+|number of ids          = <!-- for identifiers, the number of ids available from the source -->
+|expected completeness  = <!-- for identifiers, the coverage we can hope for in Wikidata: Q21873886 (always incomplete) or Q21873974 (eventually complete) -->
+|formatter URL		= <!-- for identifiers, URL pattern where $​1 replaces the value -->
+|external links         = <!-- for identifiers, search string to pass to sister projects' Special:LinkSearch pages, e.g. example.com  -->
+|see also               = <!-- other, related properties -->
+|filter			= <!-- sample: 7 digit number can be validated with edit filter [[Special:AbuseFilter/17]] -->
+|robot and gadget jobs	= <!-- Should or are bots or gadgets doing any task with this? (Checking other properties for consistency, collecting data, etc.) -->
+|subpage		= shear modulus
+|topic			= Natural science
+}}
+
+<h4>Motivation</h4>
+
+This property request is part of the project of creating an infobox for materials. --[[User:Thibdx|Thibdx]] ([[User talk:Thibdx|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:45, 9 August 2018 (UTC)"
+"
+
+<h4>{{int:Talk}}</h4>
+* {{s}} [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:10, 9 August 2018 (UTC)"
+"
+*{{S}} [[User:ديفيد عادل وهبة خليل 2|David]] ([[User talk:ديفيد عادل وهبة خليل 2|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:58, 11 August 2018 (UTC)"
+"
+{{Ping|Thibdx|ديفيد عادل وهبة خليل 2|ArthurPSmith}}  {{done}}: {{P|P5673}}. − [[User:Pintoch|Pintoch]] ([[User talk:Pintoch|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:33, 19 August 2018 (UTC)"

@@ -1,0 +1,41 @@
+"
+{{archive top|{{not deleted}} - no consensus to delete.--[[User:Jasper Deng|Jasper Deng]] ([[User talk:Jasper Deng|{{int:Talkpagelinktext}}]]) 03:55, 9 December 2013 (UTC)"
+"}}
+Delete {{P|513}}, {{P|743}} and proposed property [[Wikidata:Property_proposal/Pending/3#Official_name_.2F_Name_.2F_Nom_.2F|Official name]] and replace with new property 'Name' (with monolingual datatype).
+
+People and things have all kinds of names. If we have a separate property for each type of name then an infobox or a query must guess which property has been used for an item. If all names use the same property then it is easier to find a persons names. When we have ranks we can mark one name as preferred.  We can use {{P|31}} as a qualifier to indicate the type of name (birth name, pen name, stage name, nom de guerre, legal name) or start date/end date as qualifiers where a name is changed. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 22:19, 7 November 2013 (UTC)"
+"
+: {{vd}} Same as ""first name"" ([[Property:P153]]). --[[User:Kolja21|Kolja21]] ([[User talk:Kolja21|{{int:Talkpagelinktext}}]]) 22:36, 7 November 2013 (UTC)"
+"
+:{{Vote delete}} {{P|513}} without replacing it; it's redundant to the personal name properties. If you need something's simple name, use the label, not a property. Anything else is complex data, and shouldn't use a simple ""Name"" property without giving further information. --[[User:Yair rand|Yair rand]] ([[User talk:Yair rand|{{int:Talkpagelinktext}}]]) 00:14, 8 November 2013 (UTC)"
+"
+::I Don't agree that birth name is redundant to the 'given name' 'surname' properties - people can change their name or can use an alias spelling so a property with monolingual text datatype is also required to give the exact spelling and the order of their birth and sur names (where people have middle names and double barelled surnames). Often people use various names. If they are famous then they may have their name transliterated in the title of wikipedia articles in other languages. In these cases the label is not not enough. We need a property to (for example) tell chinese people that '布鲁斯·斯普林斯廷' is known in his own language as 'Bruce Springsteen'. Also note that I didn't say we should use 'Name' without giving further information; the proposal is that qualifiers be used for the necessary further information. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 16:45, 8 November 2013 (UTC)"
+"
+:{{comment}} Re: ""Short name"", it was me who proposed it. The intension was to use it when you need to design links like: ""<nowiki>[[Stockholms kommun|Stockholm]]</nowiki>"", like in navigation-templates, where the ""short name"" often is used. Having ""Stockholm"" in the ''label'' doesn't make sense, at least not in Swedish. It's not only wrong, it's also misleading. I agree that the datatype maybe isn't correct. I guess we need a ""multilingual datatype"" to describe it correctly.  -- [[User:Lavallen|Lavallen]] ([[User talk:Lavallen|{{int:Talkpagelinktext}}]]) 08:38, 8 November 2013 (UTC)"
+"
+::I would be very strongly against using 'multilingual' datatype. I think it should be 'monolingual' so we can use it for the 'official' spelling and we don't tempt people to do their own unofficial transliterations. We should probabl;y have a separate 'translation/transliteration' property with multilingual datatype which could be used as a qualifiers in a lot of cases but that is a separate issue. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 16:52, 8 November 2013 (UTC)"
+"
+:::There is nothing ''official'' with a ''short name''. The official name of Stockholm Municipality is ""Stockholms kommun"" according to the Swedish municipality-law, but ""Stockholms stad"" according to Stockholm municipality counsil. Both of them are official, but ""Stockholm"" is not official anywhere. Short name is a property to make it easier to make templates that do not need the ''full'' official name or label. The portugese short name could be ""Estocolmo"" and the Finnish ""Tukholma"". But that is up to some fi- or pt-speakers to decide. -- [[User:Lavallen|Lavallen]] ([[User talk:Lavallen|{{int:Talkpagelinktext}}]]) 18:38, 8 November 2013 (UTC)"
+"
+
+:{{comment}} No 2. Does it ''today'' make sense to propose a property for deletion, when the datatype of the proposed replacing property does not even exist yet? Every time we get a new datatype, we often rethink the whole thing of how the datatype can be used. I therefor vote: {{hold|Hold this PfD}}  until the relevant datatypes are available. -- [[User:Lavallen|Lavallen]] ([[User talk:Lavallen|{{int:Talkpagelinktext}}]]) 08:38, 8 November 2013 (UTC)"
+"
+:: I think it is better to have a plan so we avoid too much abortive work. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 16:58, 8 November 2013 (UTC)"
+"
+:::The ""abortive work"" can be modified later by a bot. -- [[User:Lavallen|Lavallen]] ([[User talk:Lavallen|{{int:Talkpagelinktext}}]]) 18:38, 8 November 2013 (UTC)"
+"
+
+: {{keep}}, it is more simple manage and use separate properties, then property+qualifier. — [[User:Ivan A. Krestinin|Ivan A. Krestinin]] ([[User talk:Ivan A. Krestinin|talk]]) 19:38, 8 November 2013 (UTC)"
+"
+: {{keep}}, it is easier to insert and easier to query [[User:לערי ריינהארט|לערי ריינהארט]] ([[User talk:לערי ריינהארט|{{int:Talkpagelinktext}}]]) 17:00, 16 November 2013 (UTC)"
+"
+
+:: I think 'Name' is easier to insert and easier to query and easier to manage because you don't need to guess which property has been used on the wikidata page - it's always the 'Name' property. Where more information is available then it can still be included via a qualifier. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 13:26, 27 November 2013 (UTC)"
+"
+:::How about a ""Designation""-property? I have a set of pages, where the ""name"" is only a designation. Using a ""name""-property will give it more authority than is intended. -- [[User:Lavallen|Lavallen]] ([[User talk:Lavallen|{{int:Talkpagelinktext}}]]) 13:36, 27 November 2013 (UTC)"
+"
+
+::: '''Insert:''' How many clicks are needed to insert 'Name' property + 'Short name' qualifier? How many clicks are needed to specify 'Short name' property? '''Query:''' that is more simple and more stable: <nowiki>{{#property:P513}}</nowiki> or <nowiki>{{invoke:Wikidata | formatStatements|property=P186|qualifier=P518|qualifiervalue=Q12014132}}</nowiki>? Please give a sample of infobox where you need some name without specifying its type. '''Manage:''' How many error types are possible with P513? (I know two: invalid value, invalid domain) How many error types are possible with 'Name' + qualifier? (I know: invalid value, invalid domain, missing qualifier, invalid qualifier property, invalid qualifier value, unexpected qualifier value). How to detect every of these error types? — [[User:Ivan A. Krestinin|Ivan A. Krestinin]] ([[User talk:Ivan A. Krestinin|talk]]) 20:47, 27 November 2013 (UTC)"
+"
+
+: {{keep}} Very useful for queries and for adding sources (that cannot be done with labels). --[[User:Paperoastro|Paperoastro]] ([[User talk:Paperoastro|{{int:Talkpagelinktext}}]]) 10:18, 8 December 2013 (UTC)"

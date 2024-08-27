@@ -1,0 +1,22 @@
+"
+{{Property proposal
+|status                 = 778
+|description            = {{Q|10501451}}
+|infobox parameter      = 
+|datatype               = string
+|domain                 = 
+|allowed values         = 
+|suggested values       =
+|source                 = 
+|example                = 228202 for {{Q|10601889}}
+|filter                 = 
+|robot and gadget jobs  = Gather data from template ""församlingsfakta"" from field ""församlingskod""
+|proposed by            = [[User:Lavallen|Lavallen]] ([[Special:Block/Lavallen|block]]) 11:24, 1 August 2013 (UTC)"
+"
+}}
+;Discussion
+*{{support}} - used in infobox --[[User:Tobias1984|Tobias1984]] ([[User talk:Tobias1984|talk]]) 13:22, 1 August 2013 (UTC)"
+"
+*{{support}} Looks okay too me. &mdash;''[[User:Ruud Koot|Ruud]]'' 13:46, 1 August 2013 (UTC)"
+"
+{{done}} --[[User:Tobias1984|Tobias1984]] ([[User talk:Tobias1984|talk]]) 10:58, 7 August 2013 (UTC)"

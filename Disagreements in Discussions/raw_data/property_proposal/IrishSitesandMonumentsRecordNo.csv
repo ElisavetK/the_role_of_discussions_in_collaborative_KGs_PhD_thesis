@@ -1,0 +1,45 @@
+"=== {{TranslateThis | anchor = en
+| en = Irish Sites and Monuments Record ID
+<!-- |xx = property names in some other languages -->
+}} ===
+{{Property proposal
+|status			= 4057
+|description		= {{TranslateThis
+ | en = identifier in Sites and Monuments Record database of Ireland. 
+<!-- | xx = descriptions in other languages -->
+ }}
+|infobox parameter	=  <code><nowiki>|1=</nowiki></code> in [[commons:Template:Archaeological Survey of Ireland]]
+|datatype		= external-id
+|domain			= archaeological monuments and sites of the Republic of Ireland
+|allowed values		= <nowiki>[A-Z]{2}[0-9]{3}-[0-9-]{7}</nowiki>
+|source			= https://data.gov.ie/dataset/national-monuments-service-archaeological-survey-of-ireland
+|example		= 
+* {{Q|1775146}} → [http://webgis.archaeology.ie/historicenvironment/?SMRS=LE014-004001- LE014-004001-]
+* {{Q|33313}} → [http://webgis.archaeology.ie/historicenvironment/?SMRS=CW007-010---- CW007-010----]
+|planned use            = 
+|formatter URL		= http://webgis.archaeology.ie/historicenvironment/?SMRS=$1
+|external links         = webgis.archaeology.ie/historicenvironment/
+|see also               = 
+|filter			= 
+|robot and gadget jobs	= 
+|subpage		= Irish Sites and Monuments Record No.
+|topic			= authority control
+}}
+
+;Motivation
+
+Identifier for cultural heritage monuments in Ireland. Take a look at Commons template documentation and [[:en:Archaeological Survey of Ireland]] for more information. [[User:Pawel Marynowski (WMIE)|Pawel Marynowski (WMIE)]] ([[User talk:Pawel Marynowski (WMIE)|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:05, 6 June 2017 (UTC)"
+"
+
+;{{int:Talk}}
+*{{s}}. [[User:Thierry Caro|Thierry Caro]] ([[User talk:Thierry Caro|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:12, 9 June 2017 (UTC)"
+"
+* {{S}}. <span class=""vcard""><span class=""fn"">[[User:Pigsonthewing|Andy Mabbett]]</span> (<span class=""nickname"">Pigsonthewing</span>); [[User talk:Pigsonthewing|Talk to Andy]]; [[Special:Contributions/Pigsonthewing|Andy's edits]]</span> 14:01, 9 June 2017 (UTC)"
+"
+*{{s}}. Useful for authority control for monuments. [[User:YULdigitalpreservation|YULdigitalpreservation]] ([[User talk:YULdigitalpreservation|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:33, 13 June 2017 (UTC)"
+"
+* {{ping|Pawel Marynowski (WMIE)|YULdigitalpreservation|Pigsonthewing|Thierry Caro}} {{Done}} Created as {{P|4057}}. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:54, 14 June 2017 (UTC)"
+"
+** {{ping|ChristianKl}} Thanks, can you look at this one too [[Wikidata:Property proposal/Irish National Monument No.]]? I think we are done there. [[User:Pawel Marynowski (WMIE)|Pawel Marynowski (WMIE)]] ([[User talk:Pawel Marynowski (WMIE)|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:36, 14 June 2017 (UTC)"
+"
+***{{ping|Pawel Marynowski (WMIE)}} That proposal is open for 6 days and not 7. At best you set it to ""ready"" once the 7 days are up. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:42, 14 June 2017 (UTC)"

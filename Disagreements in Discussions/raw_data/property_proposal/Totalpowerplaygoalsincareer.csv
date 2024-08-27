@@ -1,0 +1,94 @@
+"=== {{TranslateThis | anchor = en
+| en = Total power play goals in career
+| fr = total de buts en avantage numérique en carrière
+}} ===
+{{Property proposal
+|status			= not done 
+|description		= {{TranslateThis
+ | en = hockey statistic
+ | fr = statistique de hockey
+ }}
+|subject item           = {{Q|18530}}
+|infobox parameter	= <!-- Wikipedia infobox parameters, if any; ex: ""population"" in [[:en:template:infobox settlement]] -->
+|datatype		= number
+|domain			= {{P|P31}}
+|allowed values		= [\d+]
+
+|allowed units          = numbers
+|source			= https://www.hockey-reference.com/
+<!-- you should provide 3 examples at least-->
+|example 1		= {{Q|209518}} → 204 <!-- Gretzky NHL -->
+*→ {{P|642}} → {{Q|1215892}}
+*→ {{P|580}} → 1979
+*→ {{P|582}} → 1999
+|example 2		= {{Q|970861}} → 138 <!-- Sergei Mozyakin KHL -->
+*→ {{P|642}} → {{Q|190001}}
+*→ {{P|580}} → 2008
+*→ {{P|813}} → 19 February 2019
+
+|example 3		= {{Q|2806736}} → 19 <!-- Connor McDavid, NHL -->
+*→ {{P|642}} → {{Q|1215892}}
+*→ {{P|580}} → 2015
+*→ {{P|813}} → 19 February 2019
+
+|planned use            = to upload statistics for retired NHL players, to be available for use in other leagues
+|number of ids          = 6218
+|expected completeness  = {{Q|21873886}}, career statistics for retired players may be added, but there will always be new players retiring with static career statistics to add
+|formatter URL		=
+|external links         = <!-- for identifiers, search string to pass to sister projects' Special:LinkSearch pages, e.g. example.com  -->
+|see also               = {{P|6509}}
+|filter			= <!-- sample: 7 digit number can be validated with edit filter [[Special:AbuseFilter/17]] -->
+|robot and gadget jobs	= I will import these statistics through OpenRefine's Wikidata interface
+|subpage		= Total power play goals in career
+|topic			= sports
+}}
+====Motivation====
+This proposal follows a successful property proposal for the property {{P|6509}}. Please see that property proposal page for a fuller discussion: https://www.wikidata.org/wiki/Wikidata:Property_proposal/Total_goals_in_career
+
+I'd like to add basic statistical data for individual hockey players. Sports statistics such as these could be incredibly useful for ordering, sorting, and classifying players in SPARQL queries.
+This data is freely available online but not, anywhere I've found, in any structured data format that would allow for complex queries.
+
+Qualifiers for this property may include the league in which the statistic was recorded and the dates between which the statistic was recorded.
+
+As far as I know, this property would be applicable to the sport of ice hockey only, but I would be happy to amend my proposal if it would be useful for other sports too. <small>&nbsp;&ndash; {{Autotranslate|base=Unsigned/text|1=LesserJerome|2=18:10, 19 February 2019‎ (UTC)}}</small><!--Inserted with Template:Unsigned-->
+===={{int:Talk}}====
+
+*{{S}} [[User:ديفيد عادل وهبة خليل 2|David]] ([[User talk:ديفيد عادل وهبة خليل 2|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:14, 20 February 2019 (UTC)"
+"
+*{{Wait}} It can be performed by {{P|6509}} with some qualifers. [[User:Сидик из ПТУ|Сидик из ПТУ]] ([[User talk:Сидик из ПТУ|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:34, 22 February 2019 (UTC)"
+"
+::{{Ping|Сидик из ПТУ}} That's a good idea, depending on how it is handled. Ideally, I'd love to see qualifiers under total goals that break down the total number into meaningful categories, like this:
+
+::Gretzky --> Total goals --> 894
+::* Qualifier: Even strength --> 617
+::* Qualifier: Power play --> 204
+::* Qualifier: Short handed --> 73
+::* Qualifier: Game-winning --> 91
+
+::This is one statement for goals with four qualifiers. The alternative, as I see it, would be to have five separate statements. This is less attractive to me, something like:
+
+::Gretzky --> Total goals --> 894
+
+::Gretzky --> Total goals --> 617
+::* Qualifier: Type --> Even strength
+
+::Gretzky --> Total goals --> 204
+::* Qualifier: Type --> Power play
+
+::Gretzky --> Total goals --> 73
+::* Qualifier: Type --> Short handed
+
+::Gretzky --> Total goals --> 91
+::* Qualifier: Type --> Game-winning
+
+::Sorry for the ugly formatting of my examples! But what do you think? [[User:LesserJerome|LesserJerome]] ([[User talk:LesserJerome|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:20, 27 February 2019 (UTC)"
+"
+::: Don't forget that league qulifer needed. I think it is more rational to try to allocate strictly one statement for each league. On the other hand, then we will lose the ability to specify the date of the first power play goal, so your second variant is more useful. In addition, for each statement there will be a separate verification date, that is, there will be less chance that one of the parameters will be spoiled during the update. [[User:Сидик из ПТУ|Сидик из ПТУ]] ([[User talk:Сидик из ПТУ|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:38, 27 February 2019 (UTC)"
+"
+::: Yes, definitely the league qualifier is important. I think, though, that if the best plan is to make a single statement for each kind of goal, the best thing would be to establish properties for each kind of goal, i.e. total power play goals in career, total short handed goals in career, etc. Otherwise, we'd still have to have a property to indicate the type of goal as a qualifier. I think separate properties would be clearer. If all kinds of goals used the property ""total goals in career,"" if I was running a simple SPARQL query asking for ""Gretzky -- Total goals in career -- ?"", I'd get five different answers unless I specifically used qualifiers in my query. Also, since the statement for total goals in career is unqualified, you'd have to filter out all the other statements in order to receive the most basic answer. However if each statement had its own property, this would be much clearer - that query would return only one result, and I'd have to ask a different question for power play goals, short handed goals, etc.
+*{{status oppose2}} {{ping|LesserJerome}}
+**Can we have the exact URL with the data $1?
+**RegEx is between braces, but from your examples, it's not a list, it's a integer. <code>[1-9]\d{0,3}</code> should be closer to what you thought, but without any additional data... [https://regex101.com/?regex= This link] can help you to form your RegEx.
+**unit: {{Q|Q21199}}
+**datatype: number
+**What is {{P|P31}} for {{Q|Q209518}}? --[[User:Eihel|Eihel]] ([[User talk:Eihel|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:37, 2 April 2019 (UTC)"

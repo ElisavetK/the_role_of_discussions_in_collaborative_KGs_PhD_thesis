@@ -1,0 +1,21 @@
+"
+{{Discussion top|{{Not deleted}}, no willingness to delete except that of the proposer. [[User:Pamputt|Pamputt]] ([[User talk:Pamputt|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:56, 22 October 2020 (UTC)"
+"}}
+
+{{rfd links|1=Property:P8531|2=redundant (see creation discussion)}}
+
+Redundant (see [[Wikidata:Property proposal/Filmstarts title ID|creation discussion]]): the same identifiers is used on several websites of the publisher and we already have a property for it ([[Property:P1265]]). Unfortunatly the proposer omitted mentioning this when the proposal was first made. --- [[User talk:Jura1|Jura]] 08:43, 17 August 2020 (UTC)"
+"
+:You and {{u-|99of9}} were the only ones opposed to the creation of this property. {{u-|Eihel}} responded on the creation proposal page to all your arguments. This property is also similar to others we already have such as {{P|7777}}. [[User:Pamputt|Pamputt]] ([[User talk:Pamputt|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:50, 17 August 2020 (UTC)"
+"
+*{{vk}}The ""proposer"", It's me ! You might have the courage of your convictions: when you write about a contributor, you notify him. It's the least of politeness, because what you write is completely false and you know it very well. The deletion procedure is clearly explained in the header of this page. I don't understand your eagerness to suppress these properties. The examples and opinions show that the identifiers of the proposition are <u>not</u> always the same. The proponent (me) has clearly explained the gain in having this property and not citing other properties on the proposal is not a valid criterion. {{u-|Jura1}}'s opposition has already been rejected twice, [[Wikidata:Requests_for_deletions/Archive/2020/Properties/1#Property:P7777|here]] and then again in the debate. Therefore, like the last time, I will immediately request the early closure (without waiting 7 days) of this deletion request, because it has no serious basis. Thanks for the contributors' waste of time. —[[User:Eihel|Eihel]] ([[User talk:Eihel|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:30, 17 August 2020 (UTC)"
+"
+* Not mentioning this was previously listed for deletion by the same person seems bad faith to me. Keep if only on those grounds. [[User:BrokenSegue|BrokenSegue]] ([[User talk:BrokenSegue|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:39, 17 August 2020 (UTC)"
+"
+* {{neutral}} Maybe another datatype would be better? --[[User:Liuxinyu970226|Liuxinyu970226]] ([[User talk:Liuxinyu970226|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:29, 23 August 2020 (UTC)"
+"
+* {{keep}} Description of {{Q|1415290}} is ""German movie website"" (filmstarts.'''de''') and so it is. I don't know if the identifier is equal to Allocine-ID, but the content is not, e.g. for {{Q|52777610}} there is http://www.filmstarts.de/kritiken/254579/kritik.html and http://www.filmstarts.de/kritiken/254579/pressespiegel/ . This is absolutely NOT redundant. -- [[User:MovieFex|MovieFex]] ([[User talk:MovieFex|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:19, 1 September 2020 (UTC)"
+"
+** It's frequent that the same identifier is shared by several sites. It's even the purpose of identifiers. --- [[User talk:Jura1|Jura]] 07:17, 15 October 2020 (UTC)"
+"
+::The sites are different. -- [[User:MovieFex|MovieFex]] ([[User talk:MovieFex|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:20, 16 October 2020 (UTC)"

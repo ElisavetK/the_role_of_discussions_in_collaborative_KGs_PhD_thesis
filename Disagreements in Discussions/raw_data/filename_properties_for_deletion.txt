@@ -1,0 +1,23 @@
+ P107 .csv
+P154.csv
+ P610 .csv
+ PfD521 .csv
+ PfDPropertyP10089 .csv
+ PfDPropertyP1549 .csv
+ PfDPropertyP1623 .csv
+ PfDPropertyP3303 .csv
+ PfDPropertyP3873 .csv
+ PfDPropertyP5326 .csv
+ PfDPropertyP646 .csv
+ PfDPropertyP802 .csv
+ PfDPropertyP907 .csv
+ PfDPropertyQ87727973 .csv
+ PropertyP1158 .csv
+ PropertyP1646 .csv
+ PropertyP2157 .csv
+ PropertyP4420 .csv
+ PropertyP734 surname .csv
+ PropertyP8531 .csv
+ PropertyP93 .csv
+ Relation with P2439 .csv
+ Short name Birth name Official name .csv

@@ -1,0 +1,256 @@
+"{{RFCSubpage|closed=yes}}
+{{archive top|Consensus was reached to sort identifiers and a system is now in place using [[MediaWiki:Wikibase-SortedProperties]]. [[User:Andrew Gray|Andrew Gray]] ([[User talk:Andrew Gray|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:08, 27 July 2020 (UTC)"
+"}}
+
+I propose sorting identifiers alphabetically when displayed, so that user can easily follow them. If there are those of priority, they would be first of course (such as Freebase, or I don't know which but I know there are some of priority). Others can be sorted alphabetically or some grouped (e.g. Instagram always follows Facebook if available because they are of same characteristics). --[[User:Obsuser|Obsuser]] ([[User talk:Obsuser|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:54, 26 December 2019 (UTC)"
+"
+
+== Comments ==
+* {{comment}} There is already a sorting mechanism for Wikidata properties, but I don't believe it includes any of the identifier properties? [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:01, 30 December 2019 (UTC)"
+"
+** I noticed that VIAF is now going first, so I suppose it does. With this change, VIAF would go more or less last, unless treated specially (which would probably be confusing). [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:31, 30 December 2019 (UTC)"
+"
+* {{support}} I perfectly agree about the proposal of sorting identifiers in some way, in order to make it easier to find them. At the moment the sorting of all properties is managed through [[MediaWiki:Wikibase-SortedProperties]], {{ping|ArthurPSmith}}; the only identifier which is sorted at the moment is {{P|214}}, which is set to appear first, {{ping|Ghouston}}, as a result of [[Wikidata:Requests for comment/Sort identifier statements on items that are instances of human|this RFC]] which has just closed (to be more precise: the RFC resulted in a consensus to have VIAF as first identifier on human items; however, Wikibase-SortedProperties doesn't have the possibility to restrict a sorting to a class of items at the moment, so I had to enforce the sorting on all items).
+: I agree with the proposal of setting first the most important identifiers and then others in alphabetical order; it can be considered the possibility of establishing an alphabetical order between topic-groups of identifiers (e.g. all cinema identifiers sorted alphabetically between them, then all music identifiers sorted alphabetically between them, then etc.). The most important task is, firstly, establishing which are the ''most important identifiers'', which should go first. I think two criteria should be considered: how many times a property is used and how diverse are the items where it is used. Looking at [[Wikidata:Database reports/List of properties/Top100]] (update six months ago), the most widely used identifier is {{P|698}}; however, it is used only in scientific articles items, so in my opinion it shouldn't go first; similar cases of sectorial identifiers are, in that list, {{P|932}}, {{P|5875}}, {{P|846}}, {{P|2326}}, {{P|830}}, {{P|351}}, {{P|5055}}, {{P|352}}, {{P|3382}}, {{P|590}}, {{P|3151}}, {{P|815}}, {{P|637}}, in some sense also {{P|345}}); in conclusion, the most widely used and ""universal"" identifiers seem to be, in this order, {{P|356}}, {{P|1566}}, {{P|214}}, {{P|646}}, {{P|244}}, {{P|213}}, {{P|227}}. However, there is a problem: this list has been updated six months ago and it takes into account all uses of the identifiers (not only as main value, but also as qualifiers and references), so it is not completely fit to our scope.
+: Given all these premises, I would suggest to proceed in the following way: finding an updated statistic of all identifiers which have more than 500k (or 100k, as preferred) uses as main value; choosing, from that list, only the identifiers which are used on a wide range of items, not only in a restricted sector; sorting the choosed identifiers to make them appear always first; then start reflecting on the sorting of other identifiers, evaluating the possibility of sorting them alphabetically according to topic-groups. --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 12:25, 31 December 2019 (UTC)"
+"
+* {{support}} While teaching Wikidata, I have to stress to the students that the sorting of the IDs section is quite ""random"" and I don't like that. It's not a big waste of time but it looks sloppy. I might not fully agree with the choice of alphabetical order, in my opinion something based on effective use here could be more interesting, but I am not an expert. I mean that sorting alphabetically is not bad, it's clearly better than no sorting at all. I leave the final decision to more expert users, but I would like to see a decision of some kind.--[[User:Alexmar983|Alexmar983]] ([[User talk:Alexmar983|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:21, 1 January 2020 (UTC)"
+"
+* {{support}} They are now generally ordered by the order in which they have been added to the item, which isn't meaningful. [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:25, 1 January 2020 (UTC)"
+"
+* {{support}} Sounds more useful than the current order. --[[User:Nw520|Nw520]] ([[User talk:Nw520|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:36, 1 January 2020 (UTC)"
+"
+* {{neutral}}: Any idea how this could be implemented in a language independent way? ---[[User:Succu|Succu]] ([[User talk:Succu|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:39, 1 January 2020 (UTC)"
+"
+** If you look at the labels on something like {{P|698}}, it's basically ""PubMed"" in any Latin-scripted language. Some are using variants like ""identificador Pubmed"", and you'd still want to sort that under ""P"", not ""i"". So sorting by the English label would generally work in this case. I don't know about Arabic, Chinese, etc. [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:07, 1 January 2020 (UTC)"
+"
+***That's an interesting point about the possible issues of using an alphabetical order. In any case, even the order based on the English label would be in my opinion an improvement compared to the current situation.--[[User:Alexmar983|Alexmar983]] ([[User talk:Alexmar983|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:55, 1 January 2020 (UTC)"
+"
+*** @[[User:Ghouston|Ghouston]]: As far as I'm aware a lot of {{P|698}} labels (other than en) start with ''ident''*. I think this is true for a bulk of other external ids. --[[User:Succu|Succu]] ([[User talk:Succu|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:30, 2 January 2020 (UTC)"
+"
+**** Rather than alphabetical, how about having the default ordering identifiers be by property ID (i.e. P999 before P1000 etc.) - that's neutral and somewhat logical. [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:51, 3 January 2020 (UTC)"
+"
+***** {{re|ArthurPSmith}} I don't think this would be as useful as sorting alphabetically. Wikidata's property ID order is more or less arbitrary, so this would mainly be useful to people who've memorized particular property IDs (which isn't really a lot of people). [[User:Jc86035|Jc86035]] ([[User talk:Jc86035|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 04:51, 18 January 2020 (UTC)"
+"
+* {{Support}} I think this would be appropriate. I think I would sort identifiers based on their type before sorting alphabetically: ""[[:w:Authority control|authorities]]"" first, with large international organizations before the others, possibly followed by non-profits, commercial organizations and unofficial/other databases (or some other permutation). However, since there hasn't been a lot of activity here, I don't know if it would be possible to get a consensus for that without another RfC. [[User:Jc86035|Jc86035]] ([[User talk:Jc86035|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 04:46, 18 January 2020 (UTC)"
+"
+*: {{ping|Jc86035}} This is RfC would be enough for such a decision; I substantially agree with you, authority control should go first, followed by other things, ordered according to topic (e.g. not mixing politics and music or sport in one item's identifiers) and/or, as you say, by economic nature. --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 08:04, 18 January 2020 (UTC)"
+"
+*: {{ping|Jc86035}} I also think properties should be sorted in categories and only then alphabetically. For this the already existing statements like {{Q|55452870}} could be used but at present many identifier properties are not described properly with these and I also think they would need revision and expansion. --[[User:Adam Harangozó|Adam Harangozó]] ([[User talk:Adam Harangozó|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:19, 28 January 2020 (UTC)"
+"
+*: I'd just sort the lot alphabetically, it would make it easier to know where to find any particular identifier without having to guess which category it's in. [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:32, 28 January 2020 (UTC)"
+"
+* {{Support}} It's extremely jarring to have properties sorted in order but not identifiers. --[[User:Trade|Trade]] ([[User talk:Trade|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:34, 31 January 2020 (UTC)"
+"
+*: {{ping|Trade}} There is wide consensus about the necessity of some ordering: which would be your preference (alphabetical, by topic, a mix of the two, by number of usages etc.)? --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 10:18, 31 January 2020 (UTC)"
+"
+**:I'll like for identifiers to be sorted by topic and for identifiers to be grouped with other similar identifiers as suggested by Obsuser. While i like the idea of ordering by number of usages i can easily imagine a situation where the lesser used identifier are more useful and of higher quality than the more used one. --[[User:Trade|Trade]] ([[User talk:Trade|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:41, 1 February 2020 (UTC)"
+"
+* I think sorting identifiers in a alphabetical order is not the best way. When I look for item which uses {{P|39}}, then I think that the start time should be mentioned before the end time. Then it is easier to calculate the difference between that to dates for a human. So there should be a scheme for the order the identifiers are mentioned. -- [[User:Hogü-456|Hogü-456]] ([[User talk:Hogü-456|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:16, 1 February 2020 (UTC)"
+"
+*{{support}} a general sorting approach by thematic groups - the approach we use for normal properties. So all the library-authority-type identifiers together, all the identifiers for sportspeople together, all the identifiers for genes together, all the identifiers for places together, all the taxonomic identifiers together, and so on. This will probably be the easiest and most intuitive for readers. It doesn't really matter what order the groups go in, as they probably won't appear on the same items very often.
+
+:Sorting by usage or overall-alphabetical seems like more trouble and complexity than it's worth, but prioritising the most common/important ones at the top, or alphabetising inside groups, seems reasonable. [[User:Andrew Gray|Andrew Gray]] ([[User talk:Andrew Gray|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:05, 11 February 2020 (UTC)"
+"
+:: I think sorting overall-alphabetical is actually the easiest option. Anything else will require that somebody decides how to group them into categories. [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:49, 11 February 2020 (UTC)"
+"
+::: That doesn't seem amazingly difficult, though? We manage fine for normal properties, and it can easily be an incremental project to tinker with as time goes on.
+::: The more I think about it, the more alphabetical (or property-number-order) seems like a bad idea. Users will have to hop around a bit to find identifiers that naturally fit together - they'll be in a reliable order, certainly, but not necessarily a ''helpful'' one. Plus people won't always know that there are other relevant properties, or what they're called - an alphabetical list will be just as unhelpful as a random-order list if you're scrolling through looking for things that might be useful. Topic grouping avoids that problem, and it's consistent with what we already have. [[User:Andrew Gray|Andrew Gray]] ([[User talk:Andrew Gray|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:43, 11 February 2020 (UTC)"
+"
+
+* {{comment}} I'd rather first sort by subclasses of {{Q|18616576}} (of multiple present use the deepest) and within those groups something else would be needed. Okay, alphabetically, but which language? The users preferred language? So if two people, one with primary language set to German and the other to English, talk/share screen/communicate about the statements the have different orders? {{unsigned|CamelCaseNick}}
+** As far as I know, the sort order is listed at [[MediaWiki:Wikibase-SortedProperties]], and sorting differently according to the user's language isn't possible. [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:49, 12 February 2020 (UTC)"
+"
+** New properties are created quite often, but these only get added to the list on an adhoc basis. [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 01:00, 12 February 2020 (UTC)"
+"
+{{Support}} Grouped by topic, then sorted alphabetically would be my preference. But honestly any sorting is great, tweaking can surely be done later. [[User:Moebeus|Moebeus]] ([[User talk:Moebeus|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:32, 12 February 2020 (UTC)"
+"
+* '''Support''' some kind of sorting, but '''Oppose''' alphabetical sorting. The VIAF identifier is one of the most important, and alphabetical sorting would put it last. It would make more sense to ask major Projects here which identifiers are the most useful and then consider sorting based on responses to that survey. --[[User:EncycloPetey|EncycloPetey]] ([[User talk:EncycloPetey|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 02:20, 23 February 2020 (UTC)"
+"
+* {{s}} but identifiers should be sorted thematically, WikiProjects (if there are in specific field) should propose the order of ids, the order of new ids should be included in property proposals (i.e. there should be another field in the template with values like ''after Pxxxx'', ''before Pyyyy'' etc. so as to admin could easily add the new property (id) to the sorting page. ''[[User:Wostr|Wostr]]'' <small>([[User talk:Wostr|talk]])</small> 02:30, 23 February 2020 (UTC)"
+"
+* {{comment}} I'm not sure that this really needs to be discussed further, given that there seems to be consensus to sort the identifiers, and sorting purely alphabetically doesn't seem to be popular, so it seems like they can be sorted using the same process that's used for the non-id properties, which seems to be via discussion on [[MediaWiki_talk:Wikibase-SortedProperties]]. [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 03:55, 25 February 2020 (UTC)"
+"
+* {{comment}} I'd like to remind an example WHY a good sorting is necessary [https://twitter.com/Alexmar983/status/1237106051083833346 here] I left a comment noticing that the first IDs of {{Q|84263196}} was subreddit. Now one [https://www.wikidata.org/w/index.php?title=Q84263196&type=revision&diff=1132871670&oldid=1132844714 user] finally add today also COVID-19 but for the first days the first ID we put on one of the most critical topic of the year was not only poorly scientific but even slightly worng (journalist call it coronavirus, but this is no good practice).--[[User:Alexmar983|Alexmar983]] ([[User talk:Alexmar983|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:07, 10 March 2020 (UTC)"
+"
+
+=== Summary of previous comments ===
+I will try to summarize the previous comments and then (in the next <s>hours</s> <small>days</small>) to make a concrete proposal below. So, at the moment 17 users have commented in this page, '''all of them supporting some kind of sorting''', and specifically expressing the subsequent opinions (please report if I misunderstood anyone!):
+
+{|class=""wikitable""
+|most relevant/used identifiers first, followed by others ordered alphabetically or by topic||3||{{ping|Obsuser|Nw520|Trade}}
+|-
+|most relevant/used identifiers (especially authority control) first, followed by others ordered firstly by topic and secondly alphabetically||3||{{ping|Epìdosis|Jc86035|Andrew Gray}}
+|-
+|identifiers ordered firstly by topic and secondly alphabetically||2||{{ping|Adam Harangozó|Moebeus}}
+|-
+|identifiers ordered firstly by topic and secondly maybe alphabetically||1||{{ping|CamelCaseNick}}
+|-
+|identifiers not ordered alphabetically, each project should choose most useful identifiers to put them first||2||{{ping|EncycloPetey|Wostr}}
+|-
+|identifiers ordered not only alphabetically||1||{{ping|Hogü-456}}
+|-
+|identifiers ordered only alphabetically||1||{{ping|Ghouston}}
+|-
+|identifiers ordered by P number||1||{{ping|ArthurPSmith}}
+|-
+|identifiers ordered by usage||1||{{ping|Alexmar983}}
+|}
+
+Given the technical limitations of [[MediaWiki:Wikibase-SortedProperties]], we can assume (correct me if I'm wrong) that at the moment ordering by usage and ordering alphabetically are actually impossible in an automatic way; reviewing periodically the order of all identifiers given the stats about their usage is clearly inconvenient, so it should be discarded; sorting properties alphabetically can't rely on each user's interface language, but requires choosing one language (English). 
+
+Given the previous summary, we can also assume (again, correct me if I'm wrong) that ordering by P number is not much supported and that ordering only alphabetically is also not so popular, while ordering in some way by topic is widely appreciated. --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 12:11, 28 February 2020 (UTC)"
+"
+* {{re|Epìdosis}} Before you formulate the formal RfC, is it actually necessary to do the sorting automatically (regardless of whether or not that's possible)? Presumably it would be sufficient to re-order properties something like once a week or once a month. In any case, it's not clear if it would be appropriate to edit the page automatically, since such edits would require a bot with administrator permissions. [[User:Jc86035|Jc86035]] ([[User talk:Jc86035|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:30, 28 February 2020 (UTC)"
+"
+* I'd like to add I'm happy with almost any solution for ordering, my ""P number"" suggestion was just a way to have a sensible default if no other ordering was specified (right now the default is the order in which identifiers are added to an item, so it changes from item to item which is annoying). [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:54, 28 February 2020 (UTC)"
+"
+* Please apply any type of sorting as soon as possible, in order to have items with so many identifiers comparable. It is not actually important what type of sorting we have, currently there is no any and that is a shame for Wikidata that promises structured and not mixed up data.
+:And btw, please link somehow pencil link in Authority control and Official website templates on Wikipedia lead to Identifiers and Official website identifier/property if possible for the latter (if not then that one too to identifiers section because it is there where is website located, AC elements of course all are in Identifiers section and currently pencil just leads us to item on Wikidata and hover text says edit on Wikidata but one cannot immediately find it to edit it here). --[[User:Obsuser|Obsuser]] ([[User talk:Obsuser|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:17, 28 February 2020 (UTC)"
+"
+* I have adjusted your interpretations of my comments, I did '''not''' advocate for alphabetical sorting, and in fact I '''opposed''' it, but your interpretation said that I supported it. --[[User:EncycloPetey|EncycloPetey]] ([[User talk:EncycloPetey|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:55, 28 February 2020 (UTC)"
+"
+* Than you for the summary... Look if P-ordering is the simplest one technically, that's also fine with me. We can't keep having randomly ordered IDs, it's getting complex to handle.--[[User:Alexmar983|Alexmar983]] ([[User talk:Alexmar983|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:58, 28 February 2020 (UTC)"
+"
+I've made a [[User:Trade/Requests for changing the order of identifiers|page]] for people to post their requests that we can use while waiting. --[[User:Trade|Trade]] ([[User talk:Trade|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:57, 28 February 2020 (UTC)"
+"
+
+=== Filtering and sorting ===
+Discussing this RFC with {{ping|Gentile64}}, we agree about sorting identifiers by ascending P <b>number</b>. This solution could be the default, meaning that identifiers could also be managed on a user basis, like the Babel template filters and sorts languages. E.g.: &#123;&#123;IDs:P214|P213|P5379|P5371&#125;&#125;, or even &#123;&#123;IDs:P214|P213|P5379|P5371|others&#125;&#125;, where ""others"" are ordered by P number. [[User:Bargioni|Bargioni]] ([[User talk:Bargioni|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:30, 2 March 2020 (UTC)"
+"
+* {{ping|Bargioni}} Thanks! The ordering by P number seems not much supported (see above), however the idea of personalizing the order on user basis in a way similar to the #babel is really interesting. {{ping|Lea Lacroix (WMDE)}} Would such a personalization of the order of external identifiers be possible? --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 16:26, 2 March 2020 (UTC)"
+"
+::Enabling custom sorting for each user seems like a good usecase for a user script. Maybe something in the direction of [[User:Seb35/sortValues.js]] but adapted to properties? [[User:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]] ([[User talk:Lea Lacroix (WMDE)|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:32, 3 March 2020 (UTC)"
+"
+:::{{ping|Lea Lacroix (WMDE)}} OK, interesting possibility. Thanks! --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 14:59, 3 March 2020 (UTC)"
+"
+
+== Proposal 1 ==
+<small>Lists of properties: [[Wikidata:List_of_properties]] and subpages</small>
+
+So, here is my proposal.
+
+At the moment there are 4799 properties with datatype ""external-id"".
+
+For now the only ordering enacted for identifiers is: ''{{P|214}} first'' (according to [[Wikidata:Requests for comment/Sort identifier statements on items that are instances of human|this RFC]]).
+
+According to some favorable opinions to setting authority controls first, I propose to set the following order:
+# {{P|214}} (as it is now)
+# {{P|213}}
+# All VIAF members, ordered according to their VIAF code (51 IDs in total), as showed by the following query
+#:{{SPARQL|query=
+SELECT ?id ?idLabel ?cod
+WHERE {
+  ?id wdt:P31 wd:Q55586529 ;
+      p:P1552 [ ps:P1552 wd:Q26921380; pq:P3295 ?cod ] .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language ""[AUTO_LANGUAGE],en"". }
+}
+ORDER BY ?cod
+}}
+# {{P|356}}
+# {{P|212}}
+# {{P|957}}
+# {{P|236}}
+# {{P|7363}}
+# All the other 4799 - 58 = 4741 properties ''temporarily'' ordered according to their English label [waiting for further discussions about the order of topics and of IDs afferent to the same topic]
+
+It's obviously possible to propose adjustments or entirely different orderings. I wait for your comments {{ping|Obsuser|Nw520|Trade|Jc86035|Andrew Gray|Adam Harangozó}} {{ping|Moebeus|CamelCaseNick|EncycloPetey|Wostr|Hogü-456|Ghouston}} {{ping|ArthurPSmith|Alexmar983|Bargioni|Gentile64}}. Bye, --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 19:44, 2 March 2020 (UTC)"
+"
+
+* {{Support}} {{Comment}} Mainly working with music, I would very much like to see the international standard identifiers given some prominence over the myriad music databases out there. The main ones are:
+# {{P|1827}} for musical works
+# {{P|1243}} for recordings
+# {{P|1828}} for ""Interested parties"", e.g. composers, lyricists, publishers
+[[User:Moebeus|Moebeus]] ([[User talk:Moebeus|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:03, 2 March 2020 (UTC)"
+"
+* {{Support}} For me it's ok. In any case if we need a fixed order this way, let's just assume we will also create a help page with the rationale linked from the general pages describing IDs and there we define a clear discussion talk page where we can monitor the situation and if other technical solution remain challenging, we can propose slight changes over the time. This aspect has a decent impact but it's a very technical topic, I don't expect cluttering, just a dozen users who really care who will discuss small adjustements once in a while.--[[User:Alexmar983|Alexmar983]] ([[User talk:Alexmar983|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:48, 2 March 2020 (UTC)"
+"
+* {{s}}. I would agree with Moebeus's point about adding P1827, P1243 and P1828 before the alphabetical identifiers; however, I think it would also be pertinent to identify similarly important identifiers in other areas and gradually add them in that section of the list. It could be appropriate for us to determine specific criteria for selecting such identifiers, and for determining what to do if there are lots of dominant identifiers in a particular field. [[User:Jc86035|Jc86035]] ([[User talk:Jc86035|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:56, 2 March 2020 (UTC)"
+"
+::besides adding some geenric obvious guideline about taking into account massive cross-use as IDs or as sources or as authority control on local projects, we could allow a voting phase as a final passage... it's not perfect but a threshold of ""at least X users supporting the insertion above the alphabetical order with less than X% opposing"" is not elegant but more or less should work. This should also encourages to inform projects about it and share more and more different scenarios among us. I am actually interested to discover more point of views on the best possible order, fixing the first part of this list is obviously an interative process if we cannot adopt any other ""formal"" method--[[User:Alexmar983|Alexmar983]] ([[User talk:Alexmar983|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:26, 3 March 2020 (UTC)"
+"
+* {{comment}} What is the reason for giving priority to {{P|212}}, {{P|957}}, and {{P|236}}? In most instances where these values appear, they are either on the wrong data item, or appear with at most one or two other identifiers.  So either we're emphasizing incorrectly placed data, or applying a data sort that will have almost no utility. --[[User:EncycloPetey|EncycloPetey]] ([[User talk:EncycloPetey|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:10, 2 March 2020 (UTC)"
+"
+*:Looking at {{P|236}} I cannot see particular reasons for concern about wrong data, while the problem seems more serious for {{P|212}} and {{P|957}}, which are actually often misused in work-items. So, in my opinion the importance of one identifier isn't spoilt by the fact it's often misused (e.g. I would like to have {{P|214}} first even if it had 1M misuses; and ISBN is clearly the most important identifier for book editions, obviously from the 20th century), moreover the modification of the order would be less noted if the number of identifiers present in the items is small and this modification could make the problem of misuses more evident, prompting a discussion about possible solutions; in conclusion, I complessively think that this ordering would be positive, but if other users too think that evidentiating {{P|212}} and {{P|957}} would be bad, we can strip them out ('''proposal 1bis'''). --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 21:24, 2 March 2020 (UTC)"
+"
+*:: On Mediawiki we have a long history of people seeing something done, assuming it's correct, and copying the same to multiple other pages or items.  If we promote the ISBN identifiers, which are more often wrong than right, then we promote error in our dataset.  Unless someone is willing to regularly run a bot that strips out ISBN identifiers from items that should not have them, then giving the identifier priority will cause far more issues than it will solve. --[[User:EncycloPetey|EncycloPetey]] ([[User talk:EncycloPetey|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:24, 4 March 2020 (UTC)"
+"
+*::: {{ping|EncycloPetey}} It could be done periodically using PetScan, no problem; if you want, I can remove most wrong IDs just now (I should remove all ISBN in items not having {{st||31|3331189}}, correct?). --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 18:04, 4 March 2020 (UTC)"
+"
+*:::: Correct.  If it isn't {{st||31|3331189}} then it can't have an ISBN. --[[User:EncycloPetey|EncycloPetey]] ([[User talk:EncycloPetey|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:08, 4 March 2020 (UTC)"
+"
+*::::: {{ping|EncycloPetey}} OK, you can run [http://petscan.wmflabs.org/?psid=15691546&al_commands=-P212%0A-P957 this]. --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 18:15, 4 March 2020 (UTC)"
+"
+*:::::: That's not working for me.  I don't know if it's something in PetScan, something in the query, or related to the internet issues I've been having over the past few hours. --[[User:EncycloPetey|EncycloPetey]] ([[User talk:EncycloPetey|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:28, 4 March 2020 (UTC)"
+"
+*::::::: Strange, it works on my PC; it may be due to the Internet issues. You can retry later. --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 18:41, 4 March 2020 (UTC)"
+"
+* {{s}} Proposal 1 seems fine. We could check with each Wikiproject to see what identifiers they care about most to prioritize those. [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:54, 2 March 2020 (UTC)"
+"
+* {{Contra}} {{P|846}} has more ids at hand than {{P|214}}. --[[User:Succu|Succu]] ([[User talk:Succu|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:38, 2 March 2020 (UTC)"
+"
+*:{{ping|Succu}} The comment is true, although the difference is small (2128k vs 2030k). In my first comment I acknowledged that there are identifiers which are more widespread than VIAF, but I also said that they were much more sectorial, which is true also for {{P|846}}. Moreover, there are an inconsistency in your vote: [[Special:Search/haswbstatement:P214 haswbstatement:P846|there seem to be only 13 items]] containing both GBIF and VIAF ... so where is the problem? --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 23:36, 2 March 2020 (UTC)"
+"
+*::put this way, I don't see a practical problem, in facts.--[[User:Alexmar983|Alexmar983]] ([[User talk:Alexmar983|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:26, 3 March 2020 (UTC)"
+"
+*::@Epìdosis: All of them are misplaced and I removed them. But we need a language independend, domain specific solution. --[[User:Succu|Succu]] ([[User talk:Succu|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:55, 4 March 2020 (UTC)"
+"
+* {{s}} --[[User:Obsuser|Obsuser]] ([[User talk:Obsuser|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:41, 3 March 2020 (UTC)"
+"
+* {{s}} Yep. I especially appreciate that authority control identifiers are at top and more general identifiers above sectorial ones. --[[User:Nw520|Nw520]] ([[User talk:Nw520|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:40, 4 March 2020 (UTC)"
+"
+
+{{Done}} In 14 days - no comments in the last 12 days - there were 8 votes (9 including mine): 6 (+1) support, 1 against (for ISBN and ISSN) and 1 against (totally). At the moment I've applied my proposal ''in toto'', obviously this RfC can remain open for other improvement proposals. Thanks to all of you for now! --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 15:15, 16 March 2020 (UTC)"
+"
+
+=== Comments on new sorting ===
+Feel free to make comments or proposals here. --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 15:18, 16 March 2020 (UTC)"
+"
+:Crap, how did I not see this?
+:# It sorts *English labels* alphabetically; this is now even more confusing for users with another UI language than English, as it sorts mostly alphabetically, but some identifiers are placed incorrectly. 
+:# ""Most important identifiers first"" makes an assumption about what's important; from my perspective, it lists less-important and even least-important identifiers first now, and particularly the VIAF matching is so much flawed that I consider it broken beyond repair.
+:# It does not scale. Each new property needs to be added manually; each English label modification needs to be reflected in [[MediaWiki:Wikibase-SortedProperties]] as well.
+:Can we please make this opt-in for users? The sorting of regular properties can be left activated by default, but please do not force me to use this. —[[User:MisterSynergy|MisterSynergy]] ([[User talk:MisterSynergy|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:37, 16 March 2020 (UTC)"
+"
+:*{{ping|MisterSynergy}} Hi!
+:*# As can be seen in the [[#Summary of previous comments|summary]], most users (among which me) strongly preferred a sorting which would take into account each user's interface language; unfortunately, [[MediaWiki:Wikibase-SortedProperties]] (the only way to sort properties at the moment) doesn't allow such a solution, so English has seemed to me (and to the users who supported my proposal) the best compromise
+:*# """"Most important identifiers first"" makes an assumption about what's important"": it's perfectly true, opinions about ""most important identifiers"" can differ; if you have an alternative proposal for sorting, this can be voted of course (I numbered my proposal as ""1"" because I supposed other proposals would be made); talking specifically about VIAF, its first position hasn't been decided here, but [[Sort identifier statements on items that are instances of human|here]] (the RfC regarded only humans, but again [[MediaWiki:Wikibase-SortedProperties]] at the moment doesn't allow such a solution which differentiates sorting on the basis of {{P|31}}, so it was applied to all items), and the only objection which has been made has been ""{{P|846}} has more ids at hand than {{P|214}}"", which is true but in fact doesn't matter, because there is no item which has both properties. I know VIAF has many problems of clustering (we are trying to list them [[Wikidata:WikiProject Authority control/VIAF errors|here]]), but I think that the majority of the clusters is substantially OK.
+:*# Yes, I know each new property and each English label modification should be added manually; however, it wouldn't probably be impossible to have it done periodically by an admin-bot (I will [[Wikidata:Bot requests|make a request]] if we decide to keep proposal 1). Of course something automatic would be much better, but again [[MediaWiki:Wikibase-SortedProperties]] doesn't allow such a solution at the moment.
+::Finally, I would certainly approve making this sorting an opt-in; however, again, [[MediaWiki:Wikibase-SortedProperties]] doesn't allow such a solution at the moment. If you want to set your own order for identifiers, you can try [[User:Bargioni/personal sort identifiers.js]] - you can set an order for the identifiers, all the identifiers you don't mention will appear sorted by P number. I finally ask {{ping|Lea Lacroix (WMDE)}} to check all my claims about ""doesn't allow such a solution"" :) --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 21:25, 16 March 2020 (UTC)"
+"
+:::I know that we currently cannot make it opt-in using [[MediaWiki:Wikibase-SortedProperties]] only, but it should not be that difficult to implement something additionally ([[MediaWiki:Wikibase-SortedIdentifiers]] perhaps? Needs to be read from Wikibase of course, and needs a toggle switch in the user preferences). I'd rather not load even more Javascript code, as the Wikidata UI is already much slower than I can click and type on my actually not so bad machine and this makes my editing inefficient. —[[User:MisterSynergy|MisterSynergy]] ([[User talk:MisterSynergy|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:34, 16 March 2020 (UTC)"
+"
+::::Is it now per default and when yes, where can I disable it? -- [[User:MovieFex|MovieFex]] ([[User talk:MovieFex|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 06:34, 17 March 2020 (UTC)"
+"
+:::::Yes it is on per default, and no you cannot disable it. —[[User:MisterSynergy|MisterSynergy]] ([[User talk:MisterSynergy|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 06:51, 17 March 2020 (UTC)"
+"
+
+*I am a little confused - the proposal above was to put half a dozen key identifiers at the top, and then ''temporarily'' (emphasis original) alphabetically. But now they're all alphabetically (inc key identifiers) and everyone is talking as though alphabetical is permanent. Have I missed something or are we just waiting to sort out the next batch of ordering? I can write up some groups I'd like to put together if so. [[User:Andrew Gray|Andrew Gray]] ([[User talk:Andrew Gray|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:55, 17 March 2020 (UTC)"
+"
+
+==== Couple of sorting requests ====
+Can we please make it so {{P|P7335}} comes after {{P|P4467}}, {{P|P6783}} comes after {{P|P2816}}, {{P|P6262}} comes after {{P|P6623}}, {{P|P4073}} comes after {{P|P6867}} and {{P|P5905}} comes after {{P|P5247}}? --[[User:Trade|Trade]] ([[User talk:Trade|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:08, 16 March 2020 (UTC)"
+"
+
+: {{ping|Trade}} Why that order? <span class=""vcard""><span class=""fn"">[[User:Pigsonthewing|Andy Mabbett]]</span> (<span class=""nickname"">Pigsonthewing</span>); [[User talk:Pigsonthewing|Talk to Andy]]; [[Special:Contributions/Pigsonthewing|Andy's edits]]</span> 19:39, 16 March 2020 (UTC)"
+"
+::{{Ping|Pigsonthewing}} Mixer is the second most well known streaming service after Twitch. Both speedrun and HLTB are related to completion times with the former being more specific. Gamepedia tends to be of much higher quality than Fandom Wikia and are steadily becoming the more popular option. Comic Vine is a spin-off of Giant Bomb with both sharing similar layout. --[[User:Trade|Trade]] ([[User talk:Trade|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:17, 16 March 2020 (UTC)"
+"
+
+==== Is this thing on? ====
+IDs are not sorted as described, for me, for example on [[Q4911143]]. <span class=""vcard""><span class=""fn"">[[User:Pigsonthewing|Andy Mabbett]]</span> (<span class=""nickname"">Pigsonthewing</span>); [[User talk:Pigsonthewing|Talk to Andy]]; [[Special:Contributions/Pigsonthewing|Andy's edits]]</span> 19:36, 16 March 2020 (UTC)"
+"
+:{{ping|Pigsonthewing}} Now it works. --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 21:05, 16 March 2020 (UTC)"
+"
+::Indeed so. Thank you. <span class=""vcard""><span class=""fn"">[[User:Pigsonthewing|Andy Mabbett]]</span> (<span class=""nickname"">Pigsonthewing</span>); [[User talk:Pigsonthewing|Talk to Andy]]; [[Special:Contributions/Pigsonthewing|Andy's edits]]</span> 21:34, 16 March 2020 (UTC)"
+"
+
+=== Personal Sort using a script ===
+As I proposed in [[Wikidata:Requests_for_comment/Sort_identifiers#Filtering_and_sorting]], the sort could be managed on a personal choice.<br>
+This solution can be implemented using a script I wrote: [[User:Bargioni/personal_sort_identifiers.js]].
+<br>Please, test it. You can add it to your common.js. The default is P ascending number, but you can modify it predefining an array of Ps named ""identifiers_preferred_sort"". Comments at the top of my script describe the array, and include as well the possibility to enhance the functionalities of the script to more sort criteria, even the proposal of {{ping|Epìdosis}} about VIAF members.<br>
+This script doesn't stop the discussion about the default sort, of course. --[[User:Bargioni|Bargioni]] ([[User talk:Bargioni|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:27, 5 March 2020 (UTC)"
+"
+:{{ping|Bargioni}} Thanks! [https://www.wikidata.org/w/index.php?title=Wikidata%3ATools%2FEnhance_user_interface&type=revision&diff=1129508847&oldid=1094337507 I've added it] to [[Wikidata:Tools/Enhance user interface]]. --[[User:Epìdosis|'''Epì''']][[User talk:Epìdosis|<span style=""color:green"">'''dosis'''</span>]] 11:01, 5 March 2020 (UTC)"
+"
+::{{ping|Epìdosis}} Thanks, grazie. --[[User:Bargioni|Bargioni]] ([[User talk:Bargioni|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:01, 5 March 2020 (UTC)"

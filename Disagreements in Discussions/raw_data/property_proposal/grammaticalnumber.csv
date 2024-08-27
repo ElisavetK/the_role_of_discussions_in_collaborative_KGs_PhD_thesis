@@ -1,0 +1,91 @@
+"=== {{TranslateThis | anchor = en
+| fr = nombre grammatical
+| en = grammatical number
+| vi = số ngữ pháp
+<!-- |xx = noms de la propriétés dans d'autres langues -->
+}} ===
+{{Property proposal
+|status			= not done
+|description		= {{TranslateThis
+| fr = nombre grammatical du mot
+| en = grammatical number of the word
+<!-- | xx = descriptions dans d'autres langues -->
+ }}
+|subject item           = Q104083
+|infobox parameter	= <!-- attributs d'infobox de Wikipédia, s'il en existe ; par exemple : « population » dans [[:fr:Modèle:Infobox Subdivision administrative]] -->
+|datatype		= item
+|domain			= Lexemes and Forms
+|allowed values		= {{Q|110786}}, {{Q|1450795}}, {{Q|110022}},  {{Q|2142560}}, {{Q|489410}}, {{Q|146786}}, {{Q|694268}}, {{Q|857325}}, {{Q|Q53998049}}
+|allowed units          = <!-- unités permises pour les valeurs de cette propriété. -->
+|source			= <!-- référence externe, article de liste de Wikipédia, etc. -->
+|example		= * dog <small>(en)</small> → {{Q|110786}}
+* planètes <small>(fr)</small> → {{Q|146786}}
+|planned use            = <!-- usage de la propriété dans les prochains mois -->
+|number of ids          = <!-- pour les identifiants, nombre d'IDs disponibles dans la source -->
+|expected completeness  = <!-- pour les identifiants, la couverture espérée dans Wikidata: Q21873886 (toujours incomplète) ou Q21873974 (complète à terme) -->
+|formatter URL		= <!-- pour les identifiants externes, le modèle de l'URL où $​1 remplace la valeur. -->
+|external links         = <!-- chaîne de caractères de recherche pour accéder aux pages Spécial:Recherche de lien des projets frères, p. ex. example.com  -->
+|see also               = <!-- autre, propriétés liées. -->
+|filter			= <!-- exemple : un nombre à 7 chiffres peut être validé avec le filtre d'édition [[Special:AbuseFilter/17]] -->
+|robot and gadget jobs	= <!-- Devrait-il y avoir ou existe-t-il des bots ou des gadgets qui effectueront des tâches avec cette propriété ? (Par exemple: vérifier les autres propriétés afin d'être cohérent, collecter des données, automatiser un lien externe, etc.) -->
+|subpage		= grammatical number
+|topic			= lexemes
+}}
+
+[[User:Tubezlob|Tubezlob]] ([[User talk:Tubezlob|🙋]]) 19:32, 17 April 2018 (UTC)"
+"
+
+<h4>{{int:Talk}}</h4>
+Statement directly in the lexeme for the main form, and in forms for specific forms. [[User:Tubezlob|Tubezlob]] ([[User talk:Tubezlob|🙋]]) 19:32, 17 April 2018 (UTC)"
+"
+* How does this make sense on the Lexeme? --[[User:Denny|Denny]] ([[User talk:Denny|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:38, 17 April 2018 (UTC)"
+"
+*: {{ping|Denny}} For example, the word ""mathématiques"" (in French) is just plural (a {{Q|138246}}). So it has to be possible to indicate that the lexeme is a {{Q|146786}}. [[User:Tubezlob|Tubezlob]] ([[User talk:Tubezlob|🙋]]) 20:13, 17 April 2018 (UTC)"
+"
+:: Wouldn't it be sufficient to simply not have a singular form? --[[User:Denny|Denny]] ([[User talk:Denny|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:15, 17 April 2018 (UTC)"
+"
+::: {{ping|Denny}} OK, but where do you indicate that the lexeme is plural? [[User:Tubezlob|Tubezlob]] ([[User talk:Tubezlob|🙋]]) 20:17, 17 April 2018 (UTC)"
+"
+::: Forms are plural, not lexemes, I'd think. Yes, some lexemes like ""mathématiques"" only have plural forms, but to me, it seems, this has no import for the lexeme itself. (I might be entirely mistaken and I'm happy to learn, this is not my area of expertise). So yes, on Forms there definitively should be a number property - I am just not sure about Lexemes. --[[User:Denny|Denny]] ([[User talk:Denny|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:38, 18 April 2018 (UTC)"
+"
+* {{support}} at least for forms, <s>{{comment}} it could be useful for lexemes if we adopted the several lexemes for a lexeme solution (like we talked a bit about, on [[Wikidata_talk:Lexicographical_data#Senses_vs_forms]] or [[Wikidata_talk:Lexicographical_data#Form:_text_or_lexeme]] for instance)</s>. Cdlt, [[User:VIGNERON|VIGNERON]] ([[User talk:VIGNERON|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 06:33, 18 April 2018 (UTC)"
+"
+* {{o}} - already covered by the ""grammatical features"" functionality of Lexemes. [[User:Deryck Chan|Deryck Chan]] ([[User talk:Deryck Chan|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:19, 26 April 2018 (UTC)"
+"
+* {{comment}} - but it must have also ""indefinite"" form, per Basque using it. -[[User:Theklan|Theklan]] ([[User talk:Theklan|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:17, 23 May 2018 (UTC)"
+"
+* {{Ping|Tubezlob|Denny|VIGNERON|Theklan}} Now that lexemes are out, I believe [[User:Deryck Chan|Deryck Chan]] above is correct that this is covered by ""grammatical features"" for forms, which specifically indicate that the form is plural or singular (or I suppose other if needed). Do you disagree? If so can you provide a clear example where ""grammatical features"" does not cover what you are trying to do? [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:46, 23 May 2018 (UTC)"
+"
+*:{{ping|ArthurPSmith}} OK it's covered by ""grammatical features"" for forms. But I cited the example of ""mathématiques"" in French that is a {{Q|138246}}. How can we indicate this if we can't add ""grammatical number: plural"" in a statement? [[User:Tubezlob|Tubezlob]] ([[User talk:Tubezlob|🙋]]) 19:52, 23 May 2018 (UTC)"
+"
+*:: Hmm, are you allowed to indicate {{Q|138246}} as the Lexical Category, instead of noun? [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:58, 23 May 2018 (UTC)"
+"
+*:: I tried this on [[Lexeme:L123]], it seems to be accepted. Not sure what other effect it may have... [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:01, 23 May 2018 (UTC)"
+"
+*:::{{ping|ArthurPSmith}} not entirely sure but agreed to wait before creation, there is not rush, we should take our time. {{u-|Tubezlob}}: ""mathématiques"" is an interesting example, some sources says it's {{Q|138246}} but meanwhile some mathematicians use the singular ""mathématique"" (mostly in old text but some modern texts too, it regains some interest, for example {{Q|334065}} use almost only the singular), [[Lexeme:L471]] will be a nightmare to model too. I still think a property may be useful and do more than the ""grammatical features"" as properties can have qualifiers and references. Cdlt, [[User:VIGNERON|VIGNERON]] ([[User talk:VIGNERON|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:11, 23 May 2018 (UTC)"
+"
+* {{o}} this is not a property of a Lexeme, but a grammatical feature of a Form. Since grammatical features are modeled directly, no Property is needed. For things like ""avionics"", use '''{{P|31}}''' {{Q|138246}}. I'd recommend against using {{Q|138246}} as a lexical category; it's more useful to stick to established parts-of-speech like {{Q|1084}} there. -- [[User:Duesentrieb|Duesentrieb]] ([[User talk:Duesentrieb|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 12:10, 24 May 2018 (UTC)"
+"
+** I noted that [[Lexeme:L362]] has the lexical category {{Q|202444}}. I suppose that is not an ""established parts-of-speech""? &mdash; [[User:Fnielsen|Finn Årup Nielsen (fnielsen)]] ([[User talk:Fnielsen|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:51, 28 May 2018 (UTC)"
+"
+*** In my opinion, it is not. ""Lydia"" ''is a'' {{Q|202444}}, but its lexical category should be {{Q|Q147276}}. -- [[User:Duesentrieb|Duesentrieb]] ([[User talk:Duesentrieb|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:19, 29 May 2018 (UTC)"
+"
+* {{comment}} As the suggestion appears now it seems to mix up with the grammatical features. However, there does seem to be a necessity for some form of property that indicates what kind of grammatical numbers are possible for the feature. It relates (also) to {{Q|489168}} and {{Q|1520033}}. I suppose that {{P|31}} could be used as mention above by [[User:Duesentrieb|Duesentrieb]]? [https://www.wikidata.org/w/index.php?title=Lexeme:L117&diff=686352937&oldid=685167668 Example]. One Danish word that I am unsure of is ""vand"" (water). Usually that is  {{Q|489168}}, so you do not say ""one water"" nor ""two waters"". However, in one sense of ""vand"" you can say ""one vand"" (short for ""one sodavand"", {{Q|147538}}). &mdash; [[User:Fnielsen|Finn Årup Nielsen (fnielsen)]] ([[User talk:Fnielsen|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:47, 28 May 2018 (UTC)"
+"
+** The same ambiguity exists in German: ""Wasser"" in general (the plural, ""Wässer"", exists but is so rare it's rather obscure and strange sounding) vs. ""ein Wasser"" as ""a drink of water"", the the plural being the same: ""zwei Wasser bitte!"". One could argue that these should be two separate lexemes, since they have different morphology (different plural forms). Strangely, we do not do the same with food... -- [[User:Duesentrieb|Duesentrieb]] ([[User talk:Duesentrieb|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:31, 29 May 2018 (UTC)"
+"
+*** @[[User:Duesentrieb|Duesentrieb]] Counterexample: “zwei Eis am Stiel”. I previously did not consider this as a real plural but now tend to think otherwise, cf. [[wikt:de:Diskussion:Mikrogramm|my remarks in German]] (“Ich frage mich an der Stelle, was wir alles als Plural ansehen sollen.”). -- [[User:IvanP|IvanP]] ([[User talk:IvanP|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:50, 31 May 2018 (UTC)"
+"
+*{{ping|Tubezlob|VIGNERON}} is this still needed? <br/>--- [[User talk:Jura1|Jura]] 05:36, 26 July 2018 (UTC)"
+"
+**{{ping|Jura1}} I still think this could be useful, at least to duplicate the grammatical features if we need to add a references. That said, we're still at the beggining so a suggest to {{Wait}} until there is more discussion. Cdlt, [[User:VIGNERON|VIGNERON]] ([[User talk:VIGNERON|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:59, 26 July 2018 (UTC)"
+"
+
+{{not done}} Not enough support.--[[User:Micru|Micru]] ([[User talk:Micru|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:24, 7 November 2018 (UTC)"
+"
+----
+*{{ping|Tubezlob|VIGNERON}}: As this was closed as not done, maybe we should formulate an alternative to address the need. --- [[User talk:Jura1|Jura]] 17:33, 7 November 2018 (UTC)"
+"
+** {{ping|Jura1|Tubezlob}} do we really need to? I would prefer to find some references to see how to structures this before doing a new proposal (especially as most {{Q|138246}} do have a singular form, I just added it for {{L|19807}} for instance and tried to put the data into the ""Grammatical features"", not sure if it's a best way though). Cdlt, [[User:VIGNERON|VIGNERON]] ([[User talk:VIGNERON|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:57, 7 November 2018 (UTC)"
+"
+***I think it generally works. I'm not really convinced by your sample. In any case, the problem is that if you want to add references, you'd need some property. Maybe a generic ""grammatical features"" property to add references should work. --- [[User talk:Jura1|Jura]] 18:01, 7 November 2018 (UTC)"

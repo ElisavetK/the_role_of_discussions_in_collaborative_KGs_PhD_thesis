@@ -1,0 +1,26 @@
+"{{RFCSubpage|closed=yes}}
+{{Discussion top|no consensus --[[User:Pasleim|Pasleim]] ([[User talk:Pasleim|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:09, 20 August 2016 (UTC)"
+"}}
+{{p|743}} was already changed to {{p|1813}}, unfortunately. Now i wonder, what language should ""{{Q|46280}}"" be?
+
+Hopefully, it isn't too late for {{p|513}} (deprecated in favor of {{p|1477}})... What would be chosen for {{Q|157130}}? And would {{Q|58067}} be given a value of ""German"", while {{Q|338212}} would be ""French""?! -- [[User:Jokes Free4Me|Jokes Free4Me]] ([[User talk:Jokes Free4Me|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:19, 13 April 2015 (UTC)"
+"
+: PS I've done a little digging, and found only [[Property talk:P513#Wrong_datatype]] as explanation for why it's being done. I really don't think an unsupported ""it seems to me"" statement and no feedback is enough for such a restrictive change as it was proposed. -- [[User:Jokes Free4Me|Jokes Free4Me]] ([[User talk:Jokes Free4Me|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:25, 13 April 2015 (UTC)"
+"
+: PPS The argument for deleting P743 however, was much more open (and lengthy). It can currently be seen at [[Wikidata:Properties for deletion#Datatype_change:_invalid_ID_.28P743.29]]. But still, being open and lengthy doesn't make it correct: i still assert that it wasn't the right thing to do (it ""fixed"" a non-issue). -- [[User:Jokes Free4Me|Jokes Free4Me]] ([[User talk:Jokes Free4Me|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:53, 13 April 2015 (UTC)"
+"
+
+:{{comment}} beside the two mentioned discussions, there were also discussions on [[WD:PFD]] about the datatype change of the following properties: [[Wikidata:Requests_for_deletions/Archive/2014/Properties/1#Datatype_change:_.28OBSOLETE.29_birth_name_.28P513.29|P513]] and [[Wikidata:Requests_for_deletions/Archive/2015/Properties/1#Datatype_change:_.28OBSOLETE.29_title_.28use_P1476.2C_.22title.22.29_.28P357.29.2C_.28OBSOLETE.29_quote_.28use_P1683_.29_.28P387.29.2C_.28OBSOLETE.29_subtitle_.28use_P1680.29_.28P392.29.2C_.28OBSOLETE.29_inscription_.28use_P1684.29_.28P438.29|P357, P387, P392, P438]] --[[User:Pasleim|Pasleim]] ([[User talk:Pasleim|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:56, 13 April 2015 (UTC)"
+"
+
+::: Indeed, i just discovered  {{P|357}} myself... So what will happen to {{Q|3757786}} or even {{Q|10202}}/{{Q|27321}}/etc? -- [[User:Jokes Free4Me|Jokes_Free4Me]] ([[User talk:Jokes Free4Me|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:48, 15 April 2015 (UTC)"
+"
+::::They are all unambiguous. If I write an English text and mention in this text that Albert Einstein was a Nobel laureate that doesn't mean I write now German, Latin or Swedish. It's still English. --[[User:Pasleim|Pasleim]] ([[User talk:Pasleim|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:18, 15 April 2015 (UTC)"
+"
+
+:{{Comment}} I have added some comments to [[Property talk:P1477]]. I see several problems with adding a language to a full name. It does not make sense to me. That the Swedish name of {{Q|13106534}} is Hälla and Hïelle is the South Sapmi name is clear. But what makes my combination of an American, a Latin, a Danish first name and a Celtic last name Swedish? That the official language in the country I was born was only one (Swedish) when I was born? And if we should implement the idea of Jura1, to add the language of the birth registry, what language should we then use for persons born before administration was invented? {{Q|350220}} had the name ""Magnus Birgersson"", but what language should we add? {{Q|10498031}} if we should use the language he and his parents spoke, but the software does not recognize that language. Today we call him ""Magnus Ladulås"" and that name is Swedish, but was not known when he lived. -- [[User:Innocent bystander|Innocent bystander]] ([[User talk:Innocent bystander|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:56, 14 April 2015 (UTC)"
+"
+
+::Also, parents' names can sometimes be used together in naming the child, and if they're not from the same language it ''won't'' be monolingual... -- [[User:Jokes Free4Me|Jokes_Free4Me]] ([[User talk:Jokes Free4Me|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:48, 15 April 2015 (UTC)"
+"
+:::In my example above, Birgersson is not a last name, it's a patronymicon. This is also before {{Q|43091}} was invented, so we know nothing about how their names should be spelled. -- [[User:Innocent bystander|Innocent bystander]] ([[User talk:Innocent bystander|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:59, 15 April 2015 (UTC)"

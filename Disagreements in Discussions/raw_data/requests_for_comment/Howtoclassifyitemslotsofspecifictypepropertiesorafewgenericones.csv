@@ -1,0 +1,185 @@
+"{{RFCSubpage|closed=yes}}
+{{dtop|This is stalish now and nothing really is coming out of this. Things seems to have gone off track from the original RfC title onto general property statements. The development team are working on property related things so this may deal with the original topic or not. The close for this is literally 'this seems stale and discusses unrelated things thus close' [[User:John F. Lewis|John F. Lewis]] ([[User talk:John F. Lewis|{{int:Talkpagelinktext}}]]) 16:24, 27 April 2014 (UTC)"
+"}}
+It is time to decide how to organize type properties in Wikidata before massive importation of data.
+We have now a lot of specific ""type properties"" and some generic ones: {{P|31}}, {{P|279}},  {{P|361}}, {{P|527}}. Some of us suggest to remove specific properties for using generic ones (e.g. [[Wikidata:Properties for deletion#Property:P289|deletion request of P:P289]]). With this discussion I (= [[User:Paperoastro|Paperoastro]]) ask to the community what direction we want to take to organize items: few generic type properties or a lot of specific ones?
+
+== A lot of specific type properties ==
+=== Pros ===
+* simple organization of [[Wikidata:Database reports/Constraint violations/Summary|Constraint violations]];
+* no need of specific rules to organize the properties;
+* ''better match the infoboxes and make it easier for editors to find the right items. Filceolaire (talk) 15:00, 4 June 2013 (UTC)"
+"'' (copied from [[wd:pc]]) Note that infoboxes may differ across languages but are often copied from en.wikipedia, sometimes without being even translated. 
+* ...
+
+=== Cons ===
+* a large number of properties to know and manage for users, bots, translators
+* much potential overlap / redundancy
+* dubious semantics. ""type of building"" blurs the instance/subclass and does not define a very sensical semantic relation between the item and the property value. ""Westminster Abbey is an instance of Church"" is more sensical than ""Westminster Abbey has the type of building Church"".
+
+=== Discussion ===
+*This is the general direction I'd like to go in. We should have every infobox field have a property. Sometimes these can overlap (""producer"" for a film, ""producer"" for a video game, and ""producer"" for an album all can share a property). There is a fine line between trimming down redundant properties and damaging usability of the data and ease of use for the maintainers and enterers of the data. Given a choice, I'd rather see a few redundant properties than suffer the headache of having to juryrig information into properties that don't fit well. [[User:Sven Manguard|<span style=""color:#207004"">'''<span style=""font-size:115%"">S</span>ven <span style=""font-size:115%"">M</span>anguard'''</span>]] [[User talk:Sven Manguard|<small><span style=""color:#F0A804"">'''Wha?'''</span></small>]] 22:00, 8 September 2013 (UTC)"
+"
+:: I think this RFC is more limited in scope.  The discussion is about whether there should be many or few so-called ""type"" properties.  For example, should we use type properties like {{P|289}}, {{P|60}}, {{P|31}} and {{P|279}} (the ""many"" option), or just the latter two generic type properties (the ""few"" option)?  Whether we should use non-type property like ""producer"" in many different domains seems like a legitimate question, but beyond the scope of this RFC. [[User:Emw|Emw]] ([[User talk:Emw|{{int:Talkpagelinktext}}]]) 02:28, 10 September 2013 (UTC)"
+"
+*For me, the user will be more comfortable with a lot of specific type properties that mean something to them than with properties that are to general to mean anything to normal user (like me). For new editors it will be even worst if they are not helped with constraints on the properties explaining them what are the possible values. --[[User:Dom|Dom]] ([[User talk:Dom|{{int:Talkpagelinktext}}]]) 05:48, 19 December 2013 (UTC)"
+"
+
+== Few generic type properties ==
+If this will be the choice of the community, we will need to open a discussion to establish rules and qualifiers for a flexible classification.
+
+=== Pros ===
+* few numbers of properties to classify a huge number of items;
+* no need for users to look up different domain-specific type properties every time they want to work with type information in different domains;
+* ability to leverage solutions from the rest of the [http://www.w3.org/standards/semanticweb/ Semantic Web] and other large ontologies, since {{P|31}} and {{P|279}} are based on relevant W3C standards;
+* [[:en:Transitive_relation|transitive]] nature of P31 and P279 enables constructing a taxonomy of all knowledge with a very small, simple set of components;
+* following [http://www.w3.org/TR/rdf-schema/ W3C standards] for defining item types makes Wikidata more interoperable with the rest of the Semantic Web;
+
+=== Cons ===
+* no idea how manage [[Wikidata:Database reports/Constraint violations/Summary|Constraint violations]];
+* may be difficult to know which ""instance of"" applies in which context. If we want know that the type of building of Westminster abbey is church, and the info is stored in a type of building property, it is easy to retrieve. If it is buried in the ""instance of"" property, along with things like ""grade I listed building"", it get more tricky. That is theoreitically possible, but an actual, easy-to-use tool would be desirable to see how it can actually work.
+
+=== Discussion ===
+It depends on the case.  However, if {{P|31}} is reasonable (as in the [[Wikidata:Properties_for_deletion#Property:P289|PFD I listed]]) (and probably the similar {{P|288}}), we should choose that.  This is particularly clear when the class of items exists in the real world, like {{Q|559026}}.  I don't think that should always be a strict requirement (particularly since not all of Wikidata's data is going to be used in infoboxes).  But an item like Q559026 should allow filtering the instance ofs to avoid false positives (i.e. USS Ship is an instance of something besides a ship class, or the church example above) in infoboxes.  This type of filtering requires a fix to [[bugzilla:47930]], since you need to check whether (e.g.) {{Q|309336}} is an instance of {{Q|559026}} when you're on an individual ship's page, such as {{Q|748902}}.  [[User:Superm401|Superm401]] - [[User_talk:Superm401|Talk]] 06:02, 3 June 2013 (UTC)"
+"
+:For the bottom of the hierarchy we keep property {{P|289}} for each ship referring to it's ship class such as {{Q|309336}} but {{Q|309336}} has properties {{P|31}}{{Q|559026}} and {{P|279}}{{Q|1186981}} and so on up the classification hierarchy to a Main Type. (Yes. This does mean {{P|107}} is removed from all except the 7 or so Main type items). [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 12:20, 3 June 2013 (UTC)"
+"
+::Hypothetically, assume [[bugzilla:47930]] is fixed (they're planning to, and it's marked 'critical').  Given that, what's the benefit of having P289, and custom properties like it (that have item equivalents)?  Once the Lua fix is done, we can accurately display the ship class (no false positives) on infoboxes (e.g. one on the Carl Vinson page) without needing P289. [[User:Superm401|Superm401]] - [[User_talk:Superm401|Talk]] 02:29, 4 June 2013 (UTC)"
+"
+::: [[bugzilla:47930]] seems to essentially be requesting support for [http://www.w3.org/TR/rdf-mt/#entail simple entailment] in Wikidata queries.  Roughly speaking, simple entailment enables queries to include transitively-implied information about a subject.  This is a core feature of querying in the Semantic Web -- it's a basic feature of [[:en:SPARQL|SPARQL]], the W3C-recommended querying language for RDF.  I asked about this at [[Wikidata:Contact_the_development_team/Archive/2013/04#Transitive_properties_and_SPARQL]].  [[User:Magnus Manske|Magnus]] is also interested in getting support for this kind of thing implemented; see [[meta:Talk:Wikidata/Development/Queries]].  Denny has replied in both threads. [[User:Emw|Emw]] ([[User talk:Emw|talk]]) 04:56, 4 June 2013 (UTC)"
+"
+::::As I understand it, fixing [[bugzilla:47930]] will mean we can find the watercraft type ({{Q|1186981}} in this case) and add it to the ship item by following the {{P|279}} up the hierarchy instead of adding {{P|288}} to the ship item. This will mean we can delete {{P|288}} but we still need {{P|289}}. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 10:27, 4 June 2013 (UTC)"
+"
+::::: The ticket is somewhat vague, and I would suggest that Matt's use case in [https://bugzilla.wikimedia.org/show_bug.cgi?id=47930#c2 Comment 2] should be much more ambitious.  We need to be able to go ""up the chain"" in a instance's type hierarchy to retrieve all classes that the subject is an instance of.  This would imply being able to retrieve the class at level n-1 (which would be defined by {{P|289}}) as well as the class at level n-2 (which would be defined by {{P|288}}).  Ideally, I would imagine the number of levels up the type hierarchy the query reaches would be adjustable by some clause in the query.  For example, this feature should be able to support the query ""return all instances of eukaryotes."" [[User:Emw|Emw]] ([[User talk:Emw|talk]]) 02:31, 5 June 2013 (UTC)"
+"
+:::::: To be clear, I am not requesting simple entailment in general, but a particular feature in the Lua library.  See [https://bugzilla.wikimedia.org/show_bug.cgi?id=47930#c3 comment 3].  This should allow implementing a form of entailment on-wiki (the number of steps in the chain would probably be limited only by the standard Lua performance limits), but not necessarily in the most efficient way.  For broader entailment support, you should probably file a separate bug. [[User:Superm401|Superm401]] - [[User_talk:Superm401|Talk]] 06:14, 5 June 2013 (UTC)"
+"
+{{tracked|50911}}
+::::::: Done: https://bugzilla.wikimedia.org/show_bug.cgi?id=50911. [[User:Emw|Emw]] ([[User talk:Emw|talk]]) 23:10, 7 July 2013 (UTC)"
+"
+::::: Filceolaire, no, I think it's the other way around.  We would be able to delete {{P|289}} (since we could deduce in Lua using the item {{Q|559026}}), but I don't yet no a way to avoid infobox false positives with {{P|288}}. [[User:Superm401|Superm401]] - [[User_talk:Superm401|Talk]] 06:14, 5 June 2013 (UTC)"
+"
+::::::If we delete {{P|289}} then there is nothing to tell us what the ship class is, unless we replace {{P|289}} with {{P|31}} (which I would oppose for the reasons listed elsewhere on this page). If we keep {{P|289}} then the infobox has to check the item referred to by {{P|289}} and see what that is an {{P|279}}. If any of the items it is an subclass of are {{P|31}} waterclass then that is the waterclass of the ship. You only get a false positive if the ship class is listed as a subclass of 2 different waterclasses - an obvious exceptional circumstance which bots can monitor and flag for checking. I think that will work. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 14:16, 5 June 2013 (UTC)"
+"
+
+== General discussion on the subject ==
+
+=== Subproperty of ===
+This is not on the roadmap, and someone asked on the question to developper page on this wiki (the answer was no) but if that become a real problem it may change : there exist a ''subproperty of'' relation beetwen properties in the semantic web world which could help us combine the advantages of both solution. It is as an example [http://semantic-mediawiki.org/wiki/Help:Special_property_Subproperty_of implemented in Semantic Mediawiki]. [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|talk]]) 12:48, 2 June 2013 (UTC)"
+"
+:I think it's a good solution. [http://www.w3.org/TR/rdf-schema/#ch_subpropertyof rdfs:subPropertyOf] is part of W3C recommendations, using it could help us to take the advantages of the generic properties and avoid their problems (such as ambiguity and confusing newcomers). --[[User:Stevenliuyi|Stevenliuyi]] ([[User talk:Stevenliuyi|talk]]) 18:47, 2 June 2013 (UTC)"
+"
+:{{support}}. This gives us the best of both worlds. We can have the (messy) infobox inspired properties but group them into W3C approved super-properties (or property groups) for external queries. Where a property doesn't fit into a super-property then that is probably an indication that we need to look again at that property. 
+::To implement this the first step is probably to add a field to the list of properties where the proposed super-property can be listed. 
+:: The problem with this is how do we manage substituting {{P|569}} and {{P|19}} with Property:Instance_of:birth with qualifiers 'date' and 'place'. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 21:54, 2 June 2013 (UTC)"
+"
+:It sounds interesting for cases when the subproperty refines the semantic relation between the item and the property value, but I do not think that would apply to [//www.wikidata.org/w/index.php?search=property%3Atype+of&button=&title=Special%3ASearch type of properties]. In other words, I would support this for {{P|289}}, but not for {{P|288}}, unless we can't practically do otherwise. --[[User:Zolo|Zolo]] ([[User talk:Zolo|talk]]) 04:46, 3 June 2013 (UTC)"
+"
+::I'm agree with Zolo: if we will decide to make semantic relations, we need to choose what properties include. Imho only for some type properties it is possible to make the job as Zolo showed with the example of P289 and P288. --[[User:Paperoastro|Paperoastro]] ([[User talk:Paperoastro|talk]]) 08:16, 3 June 2013 (UTC)"
+"
+:::What about this? Each ship has a {{P|289}}. Each 'ship class' item has property {{P|31}}:ship class and property {{P|279}}:battleship (or whatever watercraft type applies) (so P279 replaces P288 but we keep P289). Each item for a watercraft type has the property {{P|31}}:watercraft type and {{P|279}}:vehicle type. See my new section below. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 10:35, 3 June 2013 (UTC)"
+"
+: I agree that Wikidata would greatly benefit by supporting [http://www.w3.org/TR/rdf-schema/#ch_subpropertyof rdfs:subPropertyOf], but I disagree that such a property would make it sensible to have a proliferation of domain-specific 'type of' properties.  In other words, I think specifying 'ship class', 'watercraft type', and the arbitrarily large number of 'type of' properties as subproperties of 'instance of' or 'subclass of' would be a poor use of rdfs:subPropertyOf.  
+: Any Wikidata port of rdfs:subPropertyOf should be reserved for specifying deeper subproperty relations, like, say, the relationship between the transitive {{P|361}} property and an intransitive ""direct part"" subproperty (which many supported {{P|463}} as).  Properties like 'ship class' are different from 'instance of' in only a very superficial sense: they specify ""instance of"" relations ''in a specific class''.  I am not aware of any other large ontologies that use rdfs:subPropertyOf in this way.  
+: Beyond needlessly preserving evolutionary precursors of 'instance of' and 'subclass of' -- which domain-specific ""type of"" properties like 'ship class' and 'watercraft type' represent -- I see no reason to use rdfs:subPropertyOf like that. I don't find the assertion that it will reduce confusion for new users compelling: they would still need to look up the appropriate domain-specific ""type of"" property to use in their particular niche of interest, and even then they would still need to know the difference between ""instance of"" and ""subclass of"" to use their niche's custom ""type of"" subproperties accurately.  I think it would be simpler to stick with the two W3C-based ""type of"" properties, and preserve uses of rdfs:subPropertyOf for deeper subproperty relations.  [[User:Emw|Emw]] ([[User talk:Emw|talk]]) 04:41, 4 June 2013 (UTC)"
+"
+
+===Property inheritance===
+After reading the deletion discussion for {{P|132}} and sleeping on this I  realised there is another way to do some of this which doesn't always need a new""subproperty"".
+
+Here is an example: {{P|132}} refers to items which are 'administrative units'.  We should ensure each of these 'administrative unit' types have the property {{P|31}} 'administrative unit'. Bots can do sanity checks on edits by checking if the items referenced by P132 are the right type of item as given by their instance of property while we can still have exceptions where needed. 
+
+Each 'Administrative unit' item also needs to have the property {{P|279}} 'geographical feature'. Then 'geographical feature' can have the property {{P|107}} 'geographical feature' (or maybe 'instance of:GND Main type'). In this way we create a hierarchy of 'instance of' and 'subclass of' items and you can tell something is an 'instance of' by following the hierarchy. Effectively this is an alternative to the GND hierarchy of types and yes it would mean deleting {{P|107}} from all except a few items at the top of the hierarchy.
+
+That works for 'instance of' because all items are an 'instance of' something. Other properties will need the subproperty type. Take for example {{P|131}}. This is a subproperty of 'located in' which could be seen as a subproperty of {{P|279}} (if you squint real hard). If we just delete P131 and use only P279 then we lose some useful information and we also lose hints in the property titles which help editors find the right properties and allow bots to do sanity checks.
+
+Similarly {{P|569}} is a sub-property of 'key event - date' which is a sub-property of 'key event'.
+
+Are there any other properties defined by W3C besides ""instance of', 'subclass of' and 'sub-property of' which we should be considering? [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 09:58, 3 June 2013 (UTC)"
+"
+:We already had a deleting discussion for {{P|107}}. Wikidata main type of item is ''based'' on GND types (otherwise we would have need to discuss one or two years what kind of ""main types"" we want), but it is not identical with GND. --[[User:Kolja21|Kolja21]] ([[User talk:Kolja21|talk]]) 13:35, 3 June 2013 (UTC)"
+"
+
+:I'm not sure I totally understands, but I'm pretty sure that a main type is totally useless if we use a subclass/instanceof (and related subproperties). Let's not make a mess by mixing different systems :) If we don't have ''subproperty'' maybe we could find another way to model the fact that a property is a refinement of another (it seems to me that it is what we are trying to do). [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|talk]]) 15:54, 3 June 2013 (UTC)"
+"
+: more precisely, we do not know them because we can define something as ''main type'' as just a subset of the types which are at the top level of the hierarchy and let that emerge from the collaborative work. ''Main types'' would then not be needed to be stated and choosed explicitely (with all the limitations we know with GND), just deduced from the actual type hierarchy, and would not be treated differently as any other type. [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|talk]]) 16:56, 3 June 2013 (UTC)"
+"
+::Exactly. {{P|31}} and {{P|279}} are good for defining a hierarchy of Items but not so useful for defining a hierarchy of properties. London is located in England. It is not a subclass of England. Lets keep all the 'type of' properties for the bottom level of the hierarchy, because they have the useful properties discussed above, and lets use {{P|31}} and {{P|279}} to define a hierarchy of items all the way up from these to whatever main types we happen to arrive at. 
+::For other Properties however lets not try to define a hierarchy today. We can come back to that in another RFC later. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 21:54, 3 June 2013 (UTC)"
+"
+* Filceolaire, {{P|361}} is an important property we should also be considering when discussing basic membership properties.  It's based on the working draft [http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/ Simple part-whole relations in OWL Ontologies]  from the W3C, and represents Wikidata's top-level [[:en:Mereology|mereological]] property.  'located in' (and thus 'is in administrative unit') are really more subproperties of P361 than P279.  
+: As Kolja will tell you, I have been arguing against P107 for the reasons you cite for a while (cf. [[Wikidata:Requests_for_deletions/Archive/2013/Properties#Property:P107|P107 deletion discussion]], etc).  I think it's important to realize that the problem with P107 is not that it's based on the GND, but that it's premised on the idea of ""main types"".  Main types are a taxonomic kludge that have some serious inherent problems; I outlined these in the rejected GND-independent 'main type' property proposal (archived [[Wikidata:Property_proposal/Archive/7#en:Main_type_of_item_.28entity_type.29.2Fru:.D1.82.D0.B8.D0.BF_.D1.8D.D0.BB.D0.B5.D0.BC.D0.B5.D0.BD.D1.82.D0.B0_.28.D0.BE.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D0.BE.D0.B9_.D1.82.D0.B8.D0.BF.29.2Fde:Entit.C3.A4t_.28Typ.29.2Ffr:type_principal_.28entit.C3.A9.29|here]]).
+: So I think having multiple ""main types"" (whether GND or not) at the root of Wikidata's type hierarchy is not a good idea.  Wikidata's type hierarchy should have a single root.  Most large ontologies are rooted at a rough approximation of {{Q|35120}} (aka ""thing""), which is what I've used as the root while manually building a type hierarchy with {{P|279}}.  The type hierarchy should also not contain any [[:en:Cycle_%28graph_theory%29|cycles]].  In other words, I think Wikidata's type hierarchy -- its taxonomy of all knowledge -- should be a [[:en:Directed_acyclic_graph|DAG]] with a single root at ""entity"".  There is slightly less agreement among widely used [[:en:Upper ontology|upper ontologies]] about which items appear below the root, but nothing like GND's ""person"" type appears there. [[User:Emw|Emw]] ([[User talk:Emw|talk]]) 04:17, 4 June 2013 (UTC)"
+"
+::The Wikidata type hierarchy seems to be heading towards 2 roots. ""Item"" for all the item pages and ""Wikipedia non-item page"" for all the wikipedia pages which have wikidata pages but which don't correspond to single items which can be described in statements. I suppose the root joining these would be ""wikidata page"". [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 10:50, 4 June 2013 (UTC)"
+"
+::: I don't see a need for two roots, for two reasons.  Firstly, I don't think classifying Wikimedia entities is valuable enough to be in scope for Wikidata.  Secondly, even if it were, I don't see anything that ontologically distinguishes Wikimedia entities like WikiProjects, templates, etc. from all other subjects in the world.  If we were to pursue the (misguided, in my opinion) goal of classifying internal Wikimedia entities in addition to the rest of the world, then I would suggest that ""Wikidata page"" be a subclass of ""entity"" -- and probably not a direct subclass.  Having things the other way around seems like it would be a basic, mistaken inversion for a taxonomy of all knowledge.  It would also be different from all other knowledge representation systems that I'm aware of. [[User:Emw|Emw]] ([[User talk:Emw|talk]]) 02:07, 5 June 2013 (UTC)"
+"
+:::: Precisely, but in my own the question is not ''is it valuable enough to be in scope of wikidata'', but ''is it valuable enough to be usefull for wikimedia''. If we choose the latter option, having two roots could be an equivalent of namespaces in mediawikis. [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|talk]]) 11:51, 5 June 2013 (UTC)"
+"
+:::::EMW: The distinction is practical, not ontological. Wikidata is organised as a bunch of pages. Each collection of statements corresponds to a page.
+:::::When you say ""entity"" what do you mean? Are you referring to a a wikidata 'item' - a page with a collection of statements describing a 'thing'. 
+:::::Or are you referring to any wikidata page, no matter what it describes (i.e. items plus what I call 'wikipedia non-item pages')?
+:::::Or something else? [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 13:49, 5 June 2013 (UTC)"
+"
+:::::Plus, can you tell me how to make sense ontologically of fir example disambiguations? What do they represent in the real world? [[User:Littledogboy|Littledogboy]] ([[User talk:Littledogboy|talk]]) 23:21, 10 July 2013 (UTC)"
+"
+:::::: They are real, aren't they ? If they are not, the Internet is not real, and it seems i'm about to publish a comment on a real wikidata discussion page about right now :). [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|talk]]) 11:18, 11 July 2013 (UTC)"
+"
+:::::: Besides that, hat do they represent ? They represent an ambiguity, something that has a clear definition an event articles on Pedias. And an abbiguity is an abstract object, but ontologically it's arguably something, something we actually all face on a day to day basis.  [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|talk]]) 11:21, 11 July 2013 (UTC)"
+"
+::::::: No, no, look: [[:en:Sex (disambiguation)]] is a real thing (a service page of Wikipedia, or ambiguity, if you stretch it), and [[Q225833]] is also a real thing (a page of Wikidata). But if you look at what [[Q225833]] ''represents''? It's just a collection of links to different disambiguations, [[:en:Sex (disambiguation)]], [[:ro:Sex (dezambiguizare)]]... Look, no matter, how many differences there are in pages about William Shakespeare, even different dates of birth or whatever, they still refer to the same person with some unique DNA (or our belief that he existed), and that is what the Wikidata item ''represents''. The disambiguation pages, however, are each different and carry no meaning – at least that's the idea on Enwiki, see [[:en:WP:DDD]]. [[User:Littledogboy|Littledogboy]] ([[User talk:Littledogboy|talk]]) 19:50, 12 July 2013 (UTC)"
+"
+
+=== Should it be both? ===
+The question of whether to be specific or general isn't limited to {{P|31}} and {{P|107}}, many properties have this issue. For example, in {{Q|76}}, do we use
+*{{P|39}} => {{Q|11696}} or
+*{{P|39}} => {{Q|30461}} => {{P|642}} => {{Q|30}}?
+As I understand it, we should use both because people or algorithms sorting the data might want to sort by either option depending on what they're doing. Shouldn't the same be true for classification? Something could be an instance of a broad term and specific terms, like
+*{{P|31}}
+**=> {{Q|811979}}
+**=> {{Q|186363}}
+**=> {{Q|16970}}
+--[[User:Arctic.gnome|Arctic.gnome]] ([[User talk:Arctic.gnome|{{int:Talkpagelinktext}}]]) 23:40, 31 October 2013 (UTC)"
+"
+
+We shouldn't use ""*{{P|39}} => {{Q|30461}} => {{P|642}} => {{Q|30}}"". In Korean and Japanese, there is no way to translate it. In Korean, President of America is translated to 미국(America)의(of) 대통령(president). Korean is SOV language so some orders of words are different. Wikidata is global project so we need to consider it. --[[User:콩가루|{{LangSwitch|lang = {{#if:|{{{lang}}}|{{int:Lang}}}}|en = Konggaru|ko = 콩가루 }}]] ([[user talk:콩가루|{{int:Talkpagelinktext}}]]) 17:22, 25 February 2014 (UTC)"
+"
+
+:{{ping|콩가루}} Good point. Could we use ""President => {{P|1001}} => United States"" instead? --[[User:Arctic.gnome|Arctic.gnome]] ([[User talk:Arctic.gnome|{{int:Talkpagelinktext}}]]) 20:59, 25 February 2014 (UTC)"
+"
+:: No, we definitely should use ''president of the united states''. The fact that president of the united states is a special kind of president, of a states belongs in this item. It seems ways a better solutions, stating that for every president of the united states is a redundancy I can't find a good use for. [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|{{int:Talkpagelinktext}}]]) 22:22, 25 February 2014 (UTC)"
+"
+:I disagree. By that logic, ""of"" can't be used at all! That is preposterous. The issue of translating such a compound property is strictly a display/software problem, not a data structure problem, which is what is being discussed here. Furthermore, ''it's already present everywhere ""of"" is'', so the argument seems somewhat spurious to me. [[User:Circeus|Circeus]] ([[User talk:Circeus|{{int:Talkpagelinktext}}]]) 21:07, 17 March 2014 (UTC)"
+"
+
+===Procedural question===
+'''Databases''' How do ''other'' large, general-interest databases handle this? It's not necessarily incumbent upon us to mimic them but they may have some best practices which we could adopt. Does anyone know? —[[User:Koavf|Justin (<span style=""color:grey"">ko'''a'''vf</span>)]]<span style=""color:red"">❤[[User talk:Koavf|T]]☮[[Special:Contributions/Koavf|C]]☺[[Special:Emailuser/Koavf|M]]☯</span> 03:47, 9 December 2013 (UTC)"
+"
+: They use the ""few generic"" option, i.e. only [http://www.w3.org/TR/rdf-schema/#ch_type rdf:type] (the basis of {{P|31}}) and [http://www.w3.org/TR/rdf-schema/#ch_subclassof rdfs:subClassOf] (the basis of {{P|279}}).  A side note: these ""large, general-interest databases"" are called [[:en:Ontology_(information_science)|ontologies]].  For example, this includes [http://www.ifomis.org/bfo/ BFO] and the many [http://www.ifomis.org/bfo/users BFO domain ontologies], as well as [http://www.ontologyportal.org/ SUMO] and the many SUMO domain ontologies listed there.  In fact, I am not aware of any Semantic Web ontology that has domain-specific [http://www.w3.org/TR/rdf-schema/#ch_subpropertyof subproperties] of rdf:type (instance of) or rdf:subClassOf (subclass of) -- i.e. the ""lots of specific type properties"" option -- as has been proposed by [[User:Filceolaire|Filceolaire]]. [[User:Emw|Emw]] ([[User talk:Emw|{{int:Talkpagelinktext}}]]) 12:43, 9 December 2013 (UTC)"
+"
+:: Just to be clear; I am not in favour of '''lots''' of specific properties. We have a small number of properties which are specific to very broad classes (all admin units, all taxons, all astronomical objects) and seem to be useful and I am not in favour of deleting them until we can show that the replacement will work just as well. I don't see the need for any more 'specific' properties at the moment. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 22:46, 13 December 2013 (UTC)"
+"
+
+===Another Procedural question===
+We use '{{P|31}}:{{Q|Q571}}' for {{Q|Q1845}} and for {{Q|Q1816474}}.  This is a problem with all sorts of mass produced items (except ships). Is a mass produced item an instance of a brand/model/copyright/design or is it a class of objects? [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 22:46, 13 December 2013 (UTC)"
+"
+: It is a class, [[User:Filceolaire|Filceolaire]].  The claim {{Q|1845}} {{P|31}} {{Q|571}} is incorrect because the Bible is a ''type'' of book that has particular, concrete instances.  The overwhelming majority of items about books on Wikidata are about such classes of object.  The Lincoln Bible is an instance of a book -- more specifically, {{Q|1816474}} {{P|31}} {{Q|1845}}.  Items about instances of books are rare in Wikidata, but they're a great illustration of how the class-instance distinction applies.
+: If an item has instances, then it is a class.  {{Q|182323}} is a class of car, {{Q|826174}} is an instance of a car; {{Q|309336}} is a class of ship, {{Q|211658}} is an instance of a ship; {{Q|1116374}} is a class of tree, {{Q|590039}} is an instance of a tree; {{Q|5}} is a class of mammal, {{Q|187520}} is an instance of a mammal.
+: The fact that a mass-produced item is a class does not mean that information about branding, copyright, design, authorship, etc. cannot be captured.  Properties like that apply to a class and are inherited by its instances.  Consider the soft drink {{Q|2813}}.  Yes, Coca-Cola is a brand of cola, but a ""brand"" is a type.  Properties like ""calories per serving"", ""manufactured by"", ""[http://www.uspto.gov/trademarks/basics/#heading-2 trademark]"", etc. apply to the brand (i.e. type) and are inherited by all its instances. [[User:Emw|Emw]] ([[User talk:Emw|{{int:Talkpagelinktext}}]]) 15:54, 14 December 2013 (UTC)"
+"
+:: OK. I can see that. Do you want pursue it? I will vote {{S}} that change. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 17:46, 14 December 2013 (UTC)"
+"
+
+*{{ping|Emw|Filceolaire}} There is an interesting distinction to be made between physical objects and works. On one hand, {{Q|Q1816474}} is a physical object that is ""{{P|31}} => {{Q|Q1845}}"". But compare that to {{Q|7765504}}, which I just marked as ""{{P|31}} => {{Q|2698259}}"". There are probably tens of thousands of copies of that episode on DVD, but it makes more sense to treat the item as a singular instance of a work rather than as a class of DVD copies of the work. --[[User:Arctic.gnome|Arctic.gnome]] ([[User talk:Arctic.gnome|{{int:Talkpagelinktext}}]]) 21:09, 25 February 2014 (UTC)"
+"
+**{{ping|Artic.gnome}} if you want to get technical it is a 'subclass of:DVD' as well as an 'instance of:Seinfeld Episode' (So 'Seinfeld Episode' is a special type of class) but I don't see any benefit in adding 'subclass of:DVD' to the item. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 06:43, 26 February 2014 (UTC)"
+"
+*** Mmm as far as I know TV series are usually distributed on DVD as a whole sequence of episodes. A season beeing usually distributed as a set of DVDs. So the ''instance of'' <DVD> seems weird here. A DVD is more like a container of digital copies of the work, each of the copies is technically (philosophically speaking) a {{Q'|945419}} virtual episode representation, as a book which contains a play text is a virtual performance based on that text.
+
+===Catalogs and Authority Control===
+The area where we have the largest number of domain specific properties is in links to authority control and other types of database. Nearly all the properties with datatype 'string'  are in this category and they make up about a third of our properties. The whole lot could be replaced by {{P|528}} with qualifier {{P|972}}. I'm not convinced we should do it however. I suspect there may be reasons to have lots of separate properties. [[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|{{int:Talkpagelinktext}}]]) 23:05, 13 December 2013 (UTC)"
+"
+: I think this RFC is more narrow in scope.  The discussion is about whether there should be many or few so-called ""type"" properties.  There is more than enough to discuss about that. [[User:Emw|Emw]] ([[User talk:Emw|{{int:Talkpagelinktext}}]]) 16:00, 14 December 2013 (UTC)"
+"
+:: Authority control is used by WP. If we would change the system all WP templates would need to be rewritten. Imho {{P|528}} is only for minor (small) catalogs useful. The future UI will (hopefully) work with collapsed list. --[[User:Kolja21|Kolja21]] ([[User talk:Kolja21|{{int:Talkpagelinktext}}]]) 21:50, 14 March 2014 (UTC)"

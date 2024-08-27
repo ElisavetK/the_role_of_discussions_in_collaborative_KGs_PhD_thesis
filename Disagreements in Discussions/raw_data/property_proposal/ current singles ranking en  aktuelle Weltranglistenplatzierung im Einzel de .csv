@@ -1,0 +1,21 @@
+"
+{{Property proposal
+|status                 = 1118
+|description            = current ranking a tennis player has in the world singles ranking
+|infobox parameter      = ""currentsinglesranking"" in [[:en:Template:Infobox tennis biography]]
+|datatype               = number
+|domain                 = tennis players
+|allowed values         = 
+|suggested values       =
+|source                 = 
+|example                = {{Q|10132}} => ""5""
+|filter                 = 
+|robot and gadget jobs  = 
+|proposed by            = [[User:Kompakt|Kompakt]] ([[User talk:Kompakt|talk]])
+}}
+;Discussion
+*{{Support}}. --[[User:Stryn|Stryn]] ([[User talk:Stryn|talk]]) 12:30, 16 June 2013 (UTC)"
+"
+*{{Support}}. -- [[User:Edoderoo|Edoderoo]] ([[User talk:Edoderoo|talk]]) 07:52, 18 June 2013 (UTC)"
+"
+*{{done}} --[[User:Tobias1984|Tobias1984]] ([[User talk:Tobias1984|{{int:Talkpagelinktext}}]]) 13:04, 2 February 2014 (UTC)"

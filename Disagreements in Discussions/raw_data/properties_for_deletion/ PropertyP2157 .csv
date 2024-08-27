@@ -1,0 +1,42 @@
+"
+{{Discussion top|consensus to '''delete'''. Replace statements with {{P|2079}}. --[[User:Pasleim|Pasleim]] ([[User talk:Pasleim|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:36, 7 December 2019 (UTC)"
+"}}
+
+<!-- P2157 lithography -->
+{{rfd links|1=Property:P2157|2=This property seems over-specialized. I had been using statements like {{Q|28859206}} {{P|2079}} {{Q|25991737}} and they seem adequate. The statements would be easy to convert. {{ping|MisterSanderson|Ruud Koot|Tobias1984}}  [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:05, 26 June 2019 (UTC)"
+"}}
+
+This property seems over-specialized. I had been using statements like {{Q|28859206}} {{P|2079}} {{Q|25991737}} and they seem adequate. The statements would be easy to convert. {{ping|MisterSanderson|Ruud Koot|Tobias1984}}  [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:05, 26 June 2019 (UTC)"
+" —[[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 10:05, 26 June 2019 (UTC)"
+"
+
+Aside from the point that there are numerous manufacturing techniques that apply to more things than semiconductors, and we don't really want properties for them all, it seems that these semiconductor techniques can be described more accurately. E.g., according to [https://www.gizmochina.com/2017/10/18/samsungs-8nm-finfet-lpp-process-ready-production/] there are processes like ""8nm FinFET LPP (Low Power Plus)"" and ""7nm EUV (Extreme Ultra Violet)"". The source for the Exynos 9820 says it uses 8nm FinFET LPP. If it was desired to group the semiconductor lithography processes together, that can be done by creating a subclass of {{Q|1408288}}. (that would probably be {{Q|622938}}, judging by its enwiki article). [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:26, 27 June 2019 (UTC)"
+"
+
+{{ping project|Informatics}}
+:* Other participants of the proposal: {{ping|Kopiersperre|Filceolaire}}
+:* Participants of the more recent [[Wikidata:Property proposal/microarchitecture]]: {{ping|Amitie 10g|Mahir256|John Samuel|Tetizeraz}} [[User:Visite fortuitement prolongée|Visite fortuitement prolongée]] ([[User talk:Visite fortuitement prolongée|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:00, 7 July 2019 (UTC)"
+"
+
+*{{vote_delete}} Using {{P|2079}} makes sense to me. [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:23, 27 June 2019 (UTC)"
+"
+
+* I would vote {{Vote delete}}, but not without discussing its usage in templates. Over-simplifying Wikidata by removing properties in favour of qualifiers is not the best solution for those uses. Let discuss at the Spanish Wikipedia, and depending the consensus, this property should be deleted or kept. --[[User:Amitie 10g|Amitie 10g]] ([[User talk:Amitie 10g|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:32, 7 July 2019 (UTC)"
+"
+:* Template use is a good question, I can see a link to [[:ca:Plantilla:Infotaula equipament informàtic]] on the talk page, and it's visible on [[:ca:Intel 8085]], for example. My suggested alternative would be using a different property, not a qualifier, but it would have a wider range of possible values: any manufacturing process. [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 07:56, 8 July 2019 (UTC)"
+"
+
+* I already broke it a bit by changing a few of the English labels, before I figured out what was going on, and that they were supposed to have a special format. E.g., {{Q|2750603}}, which originally resembled {{Q|56062805}}. [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 08:01, 8 July 2019 (UTC)"
+"
+
+: Is it really that bad if there is a property that describes the production size of microprocessors? Should all information (eg. 8nm FinFET) really be stored in one property? Or would it be better to split it to production size (8nm) and production method (FinFET)? What if you know one, but not the other. In that case the provided entry would not be correct. However, there may is a better name other than lithography for that. Since I don't see any good other way I go with {{vk}} for now --[[User:D-Kuru|D-Kuru]] ([[User talk:D-Kuru|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]])
+:: Unmentioned that this property (the microprocessors' structure size) is a very important information for all microprocessors and improves over time. I don't really care how the information is added, but it is an important piece of information. --[[User:D-Kuru|D-Kuru]] ([[User talk:D-Kuru|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:49, 20 August 2019 (UTC)"
+"
+::: It seems that there's not a lot of enthusiasm for removing the property, or much interest in it all really. I suppose we should just leave the status-quo. Reading the original discussion for the creation of the property, it's clear the the items are supposed to represent fabrication processes, and the labels like ""14 nanometer"" are just inherited from the English Wikipedia. I don't think it would do any harm to change them to ""14nm lithography process"" and make them subclasses of {{Q|622938}}. It should also be fine to further distinguish fabrication techniques, e.g.,         14LPE or 14LPP discussed at [https://wccftech.com/globalfoundries-14nm-finfet-amd-zen-2016/]. It can be clarified that the property P2157 is purely a subproperty of {{P|2079}} for semiconductor lithography. [[User:Ghouston|Ghouston]] ([[User talk:Ghouston|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 04:18, 25 August 2019 (UTC)"
+"
+*{{Vote delete}} The template using isn't a problem: Lua modules can be useful in those cases. --<span style=""text-shadow: 1px 1px 4px purple"">[[User:Tinker Bell|Tinker Bell]] [[User_talk:Tinker Bell|<span style=""color:#ed428d;font-size:1.4em"">★</span>]] [[Special:Contributions/Tinker Bell|<span style=""color:#ed428d;font-size:1.1em"">♥</span>]]</span> 02:54, 20 September 2019 (UTC)"
+"
+*{{Vote delete}} after migrating data from {{P|2157}} to {{P|2079}}. [[User:Dhx1|Dhx1]] ([[User talk:Dhx1|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:18, 27 September 2019 (UTC)"
+"
+{{Discussion bottom}}
+{{Section resolved|--[[User:Pasleim|Pasleim]] ([[User talk:Pasleim|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:36, 7 December 2019 (UTC)"

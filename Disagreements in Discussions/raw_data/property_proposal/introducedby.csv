@@ -1,0 +1,37 @@
+"=== {{TranslateThis | anchor = en
+| en = introduced by/first appeared in/first published in
+<!-- |xx = property names in some other languages -->
+}} ===
+{{Property proposal
+|status			= <!-- leave this empty -->
+|description		= {{TranslateThis
+ | en = main value/qualifier: item that introduced the subject (inverse to {{P|751}}
+ }}
+|subject item           = {{Q|3331189}} and {{Q|20826013}}
+|datatype		= item
+|domain			= item
+<!-- you should provide 3 examples at least-->
+|example 1		= {{Q|27089068}} introduced by {{Q|21683650}}
+|example 2		= {{Q|368215}} introduced by {{Q|16927834}}
+|example 3		= {{Q|55973976}} introduced by {{Q|87724274}} (all Unicode characters could have this property)
+|planned use            = Unicode characters
+|number of ids          = 100,000+ (in Unicode)
+|expected completeness  = {{Q|21873886}}
+|see also               = {{P|751}}, {{P|9767}} and {{P|348}}
+|subpage		= introduced by
+|topic			= generic
+|applicable stated in value = <!-- If the proposed property (for an external identifier) is to be used in references, create an item for its database or website suitable as value for ""stated in"" (P248) and add this here. It is added to properties with P9073 on creation. The item used as value can be the same as used with ""subject item"". -->
+|single best value constraint      = <!-- yes - if the property should get a single best value constraint, otherwise no text needed -->
+|distinct values constraint   = <!-- yes - if the property should get a distinct values constraint, otherwise no text needed -->
+|Wikidata project  = <!-- item of the Wikidata project that's related to the property -->
+}}
+
+====Motivation====
+
+This seems to be sensible for situations where it's impractical to use {{P|751}} due to the number of new features being added by a particular version/edition. My particular use case is Unicode characters, where tens of thousands have sometimes been added by a particular version at once. [[User:Theknightwho|Theknightwho]] ([[User talk:Theknightwho|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:06, 18 November 2021 (UTC)"
+"
+
+===={{int:Talk}}====
+* {{comment}} So the idea is this is pretty much an inverse property to {{P|751}}, but only one of them should be used depending on which direction makes the most sense for Wikidata? I think this is ok, we have some other pseudo-inverses like this. [[User:ArthurPSmith|ArthurPSmith]] ([[User talk:ArthurPSmith|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:16, 19 November 2021 (UTC)"
+"
+:*Yes, that's the general idea. To be clear, I think there are likely to be use cases where it makes sense to have both, and where it's practical it would probably be desirable for the sake of completeness (e.g. those MediaWiki features seem likely candidates, for example). [[User:Theknightwho|Theknightwho]] ([[User talk:Theknightwho|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:26, 19 November 2021 (UTC)"

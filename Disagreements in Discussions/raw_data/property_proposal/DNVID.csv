@@ -1,0 +1,38 @@
+"=== {{TranslateThis | anchor = en
+| en = DNV ship ID
+<!-- |xx = property names in some other languages -->
+}} ===
+{{Property proposal
+|status			= Not done
+|description		= {{TranslateThis
+ | en = identifier for a ship, issued by DNV GL
+ }}
+|infobox parameter	= <!-- Wikipedia infobox parameters, if any; ex: ""population"" in [[:en:template:infobox settlement]] -->
+|datatype		= external-id
+|domain			= ships
+|allowed values		= \d+
+|allowed units          = <!-- units that are allowed for values of this property -->
+|source			= {{Q|18455539}}
+|example		= 
+* {{Q|Q885761}} → 20651
+* {{Q|379973}} → 38353
+|planned use            = <!-- what use do you plan to make of the property within the next month -->
+|formatter URL		= <!-- for external identifiers, URL pattern where $​1 replaces the value -->
+|see also               = <!-- other, related properties -->
+|filter			= <!-- sample: 7 digit number can be validated with edit filter [[Special:AbuseFilter/17]] -->
+|robot and gadget jobs	= unclear
+|subpage		= DNV ID
+|topic			= transportation
+}}
+
+;Motivation
+
+(Add your motivation for this property here.) [[User:GZWDer|GZWDer]] ([[User talk:GZWDer|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:33, 16 January 2017 (UTC)"
+"
+
+;{{int:Talk}}
+* What's DNV GL? [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 22:13, 17 February 2017 (UTC)"
+"
+:{{ping|GZWDer}} It should be clear to Wikidata users what this property is about and what DNV GL happens to be by reading the description. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:21, 3 March 2017 (UTC)"
+"
+*{{ping|GZWDer}} Not done. No support and no clarification what the property is about. [[User:ChristianKl|ChristianKl]] ([[User talk:ChristianKl|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 11:17, 8 March 2017 (UTC)"

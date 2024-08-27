@@ -1,0 +1,24 @@
+"
+{{Property proposal
+|status            = 483
+|description       = the studio where a song/album was recorded
+|infobox parameter = [[:en:template:Infobox single]] / [[:en:template:Infobox song]] / [[:en:template:Infobox album]]'''recorded'''
+|datatype          = Item
+|domain            = items about recordings (mostly songs and albums)
+|allowed values    = the name of the studio, regardless if the studio has, or not, a WP article (most studios are not notable)
+|source            = The list of studios can be found on the recording's booklet, or the artist's website. This information usually appears on the infobox of WP articles about the recording
+|example           = [[Q169453|On the Floor]] <''recorded at''> Cove Studios
+|robot and gadget jobs =
+|proposed by      = — [[User:Hahc21|<font color=""#333333"">'''ΛΧΣ'''</font>]][[User_talk:Hahc21|<font color=""#336699"">'''<sup>21</sup>'''</font>]]
+}}
+This is needed. — [[User:Hahc21|<font color=""#333333"">'''ΛΧΣ'''</font>]][[User_talk:Hahc21|<font color=""#336699"">'''<sup>21</sup>'''</font>]] 21:01, 18 April 2013 (UTC)"
+"
+:{{support}} --[[User:Nightwish62|Nightwish62]] ([[User talk:Nightwish62|talk]]) 10:19, 19 April 2013 (UTC)"
+"
+:{{Support}}, but it would be nice if we could set ""item"" DataType in case there's a WP article (not only for this case). --[[User:Viscontino|Viscontino]] ([[User talk:Viscontino|talk]]) 11:25, 19 April 2013 (UTC)"
+"
+::{{comment}} agree. Item is better. --[[User:Nightwish62|Nightwish62]] ([[User talk:Nightwish62|talk]]) 16:01, 19 April 2013 (UTC)"
+"
+:::I'd like to create items to all studios and change the type to item. Let me see if this can be done :) — [[User:Hahc21|<font color=""#333333"">'''ΛΧΣ'''</font>]][[User_talk:Hahc21|<font color=""#336699"">'''<sup>21</sup>'''</font>]] 17:59, 19 April 2013 (UTC)"
+"
+*{{done}} with datatype ""Item' at [[Property:P483]]. — [[User:Hahc21|<font color=""#333333"">'''ΛΧΣ'''</font>]][[User_talk:Hahc21|<font color=""#336699"">'''<sup>21</sup>'''</font>]] 16:46, 3 May 2013 (UTC)"

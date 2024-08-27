@@ -1,0 +1,73 @@
+"{{RFCSubpage|closed=yes}}
+{{Discussion top|stale --[[User:Pasleim|Pasleim]] ([[User talk:Pasleim|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 19:59, 3 March 2021 (UTC)"
+"}}
+==Request for comment==
+{{P|178}} has two issues:
+* is it limited to software?
+:If so, what's the purpose of {{P|943}}?
+:Otherwise, why his subject items are ""software developer"" and ""software house"" and why it's an instance of {{Q|21126229}};
+* is it limited to creators?
+:If so, why not renaming it to something like ""software creator"", given that a developer can be also the current maintainer of a software?
+:Otherwise, why is it a subproperty of {{P|170}}?--[[User:Malore|Malore]] ([[User talk:Malore|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:12, 6 May 2018 (UTC)"
+"
+
+== Comments ==
+* You should probably ping the people of the most relevant project:
+{{ping project|Informatics}}
+-- [[User:MichaelSchoenitzer|MichaelSchoenitzer]] ([[User talk:MichaelSchoenitzer|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:44, 12 May 2018 (UTC)"
+"
+
+* {{P|943}} is a subproperty of {{P|178}} and should be used when we know the name of the programmer who wrote the software. {{P|178}} is more general and can be used when we know only the name of the organization and not the individual contributors (despite considering its current usage). Personally, I would distinguish between programmers and maintainers. However, distinguishing developers and programmers is difficult. [[User:Jsamwrites|John Samuel]] 14:54, 12 May 2018 (UTC)"
+"
+
+* Programming is just one part of the software development process. A software developer (person) is not necessarily a programmer, or vice versa. In the same way a property developer is not always a hands-on builder. [[User:Danrok|Danrok]] ([[User talk:Danrok|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:03, 12 May 2018 (UTC)"
+"
+:* I don't think {{P|P178}} should be used for buildings.--[[User:Malore|Malore]] ([[User talk:Malore|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:12, 14 May 2018 (UTC)"
+" 
+
+* Could {{P|178}} also be used on {{Q|10630822}} with values including those in category [[:en:Category:Real_estate_and_property_developers]]? [[User:Dhx1|Dhx1]] ([[User talk:Dhx1|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 15:10, 13 May 2018 (UTC)"
+"
+:* I don't think because the property proposal says ""For building and structures, rather use {{P|P84}} or {{P|P631}}. See also {{P|P176}}.""--[[User:Malore|Malore]] ([[User talk:Malore|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 14:57, 14 May 2018 (UTC)"
+"
+::* A building developer is neither {{P|P84}} or {{P|P631}}, see https://www.designingbuildings.co.uk/wiki/Developer [[User:ChristianKl|<font color=""#0000EE"">'''ChristianKl'''</font>]] ❪[[User talk:ChristianKl|✉]]❫ 10:39, 27 May 2018 (UTC)"
+"
+:::* Then these are two separate concepts that just happen to use the same term in English, I think developer in terms of building should be a separate property (which I believe doesn't currently exist). --[[User:Cdo256|Cdo256]] ([[User talk:Cdo256|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 06:24, 8 September 2020 (UTC)"
+"
+
+* A software developer is a person who is involved in the design, construction of a model/prototype, pseudocode, then actual computer code. A programmer is a person who writes computer programs. Also called a coder, he/she is already given the design of the software he/she is building, to begin with. The coder needs to be only aware of the actual machine/platform that will run the code. [[User:I&#39;mfeistyincognito|I&#39;mfeistyincognito]] ([[User talk:I&#39;mfeistyincognito|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 20:54, 17 August 2020 (UTC)"
+"
+:* I agree. My thoughts are {{P|178}} should only refer to software and be the person/group that oversaw entire creation of the software and {{P|631}} should be the person/group that wrote/edited the code specifically. Generally I'd prefer to have just developer of a game or software as the group that created it but include programmer if there's an individual/organization that's particularly notable. Usually the programmers will be part of the development team or contracted out by the developers. As an example I think {{Q|189784}} does it correctly. --[[User:Cdo256|Cdo256]] ([[User talk:Cdo256|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 06:24, 8 September 2020 (UTC)"
+"
+
+== Proposal ==
+{{Ping project|Ontology}}<br />
+If no one opposes, I'm going to:
+* <del>change {{P|P178}} name from ""developer"" to ""software developer"";</del>
+* <del>change {{P|P178}} type constraint from {{Q|Q2424752}}, {{Q|17444171}} and {{Q|3249551}} to {{Q|Q7397}};</del>
+* <del>remove {{C|{{P|P178}}|P1647|{{P|P170}}}}.</del>
+--[[User:Malore|Malore]] ([[User talk:Malore|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:12, 14 May 2018 (UTC)"
+"
+
+== How is this currently being used? ==
+
+I don't see any information on how this property is currently being used.  If there is significant use of the property for something other than software developer then that use of the property should be respected.
+I view the underlying problem here as insufficient guidance as to the intended meaning of this property.  There should have been a description of what this property is for that makes its intended meaning clear.  This is not an isolated case---lack of clarity as to intended meaning is endemic in Wikidata.
+[[User:Peter F. Patel-Schneider|Peter F. Patel-Schneider]] ([[User talk:Peter F. Patel-Schneider|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 16:37, 14 May 2018 (UTC)"
+"
+: Yes, I created this discussion exactly for the lack of clarity in the description. However, you're right. The property is currently used 29000 times and only about 350 times the item is a software. I assume the property is for everything that can be developed, but not for buildings (there are  {{P|P84}}, {{P|P631}} and {{P|P176}}.--[[User:Malore|Malore]] ([[User talk:Malore|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 23:22, 14 May 2018 (UTC)"
+"
+
+== What I think and what I've done so far ==
+=== What I think ===
+I came to the conclusion that {{P|178}} refers to anything that can be developed, and {{P|P943}} shouldn't be a subproperty of {{P|P178}} because a programmer/software developer isn't necessary a creator, but can also be a maintainer. Maybe we need a ""software house"" property where the software is developed by a company.--[[User:Malore|Malore]] ([[User talk:Malore|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 00:37, 21 May 2018 (UTC)"
+"
+
+=== What I've done ===
+* I removed  {{C|{{P|P943}}|P1647|{{P|P178}}}}
+* I proposed a ""software house"" property
+* I removed {{C|{{P|P178}}|P1629|Q183888}} and {{C|{{P|P178}}|P1629|Q1058914}}
+{{unsigned|Malore}}
+:Update: The [[Wikidata:Property_proposal/software_developer|property proposal]] was marked as ""Not done"" on June 15. --[[User:Yair rand|Yair rand]] ([[User talk:Yair rand|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 02:55, 10 December 2018 (UTC)"
+"
+
+* {{Ping project|Informatics}}. The relevant Wikiproject is WikiProject Informatics. Please ping it when attempting to change the ontology that the project uses. There are multiple well-developed projects such as the one at the [http://openpreservation.org/blog/2016/09/30/wikidata-as-a-digital-preservation-knowledgebase/ Yale public library] that interact with the data about software and pinging the project is a way to notify the people for whom it's relevant. [[User:ChristianKl|<font color=""#0000EE"">'''ChristianKl'''</font>]] ❪[[User talk:ChristianKl|✉]]❫ 10:35, 27 May 2018 (UTC)"

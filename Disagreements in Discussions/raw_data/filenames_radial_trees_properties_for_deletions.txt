@@ -1,0 +1,23 @@
+ P107_connections.csv
+P15_connections.csv
+ P610_connections.csv
+ PfD521_connections.csv
+ PfDPropertyP10089_connections.csv
+ PfDPropertyP1549_connections.csv
+ PfDPropertyP1623_connections.csv
+ PfDPropertyP3303_connections.csv
+ PfDPropertyP3873_connections.csv
+ PfDPropertyP5326_connections.csv
+ PfDPropertyP646_connections.csv
+ PfDPropertyP802_connections.csv
+ PfDPropertyP907_connections.csv
+ PfDPropertyQ87727973_connections.csv
+ PropertyP1158_connections.csv
+ PropertyP1646_connections.csv
+ PropertyP2157_connections.csv
+ PropertyP4420_connections.csv
+ PropertyP734 surname_connections.csv
+ PropertyP8531_connections.csv
+ PropertyP93_connections.csv
+ Relation with P2439_connections.csv
+ Short name Birth name Official name_connections.csv

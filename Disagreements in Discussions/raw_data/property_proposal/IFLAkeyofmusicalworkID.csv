@@ -1,0 +1,59 @@
+"=== {{TranslateThis | anchor = en
+|en = IFLA key of musical work ID
+|it = IFLA chiave di una creazione musicale ID
+<!-- |xx = property names in some other languages -->
+}} ===
+{{Property proposal
+|status			= not done<!-- da lasciare vuoto -->
+|description		= {{TranslateThis
+|en = ID IFLA to identify musical tonality of a work
+|it = ID IFLA per identificare la tonalità musicale di un'opera
+<!-- | xx = descriptions in other languages -->
+ }}
+|subject item           = Q54410458 <!-- item corresponding to the concept represented by the property, if applicable; example: item child (Q7569) for property child (P40) -->
+|infobox parameter	= <!-- inserisci qui il parametro di un infobox di Wikipedia, se esiste. Ad esempio: ""Abitanti"" in [[:it:Template:Divisione amministrativa]] -->
+|datatype		= external-id <!-- inserisci il tipo di dato qui (''item'' (elemento), ''string'' (stringa), ''media'' (file), ''coordinate'' (coordinate), ''monolingual text'' (testo monolingua), ''multilingual text'' (testo multilingua), ''time'' (tempo), ''URL'', ''number'' (numero'')) -->
+|domain			= {{Q|Q534932}}  <!-- tipi di elementi che dovrebbero avere questa proprietà. Le tipologie principali sono: persone, luoghi, organizzazioni, eventi, opere, termini -->
+|allowed values		= <!-- tipi degli elementi collegati, valori permessi (se limitati) -->
+|allowed units          = <!-- units that are allowed for values of this property -->
+|source			= https://www.iflastandards.info/unimarc/terms/key <!-- Riferimento esterno, lista delle voci su Wikipedia (infobox o fonte) -->
+<!-- you should provide 3 examples at least-->
+|example 1		= {{Q|Q682779}} → https://www.iflastandards.info/unimarc/terms/key#db <!-- {{Q|1}} → value -->
+|example 2		= {{Q|Q1056662}} → https://www.iflastandards.info/unimarc/terms/key#cb
+|example 3		= {{Q|Q14254276}} → https://www.iflastandards.info/unimarc/terms/key#ebm
+|example 4		= 
+<!--  if convenient, include more examples by following the same pattern: 
+|example ...		=  {{Q|1}} → value
+-->
+|planned use            = add it on existing items about musical work's key and promote interoperability among domain ontologies. <!-- what use do you plan to make of the property within the next month -->
+|number of ids          = <!-- for identifiers, the number of ids available from the source -->
+|expected completeness  = <!-- for identifiers, the coverage we can hope for in Wikidata: Q21873886 (always incomplete) or Q21873974 (eventually complete) -->
+|formatter URL		= https://www.iflastandards.info/unimarc/terms/key#$1 <!-- for identifiers, URL pattern where $​1 replaces the value -->
+|external links         = <!-- for identifiers, search string to pass to sister projects' Special:LinkSearch pages, e.g. example.com  -->
+|see also               = <!-- other, related properties -->
+|filter			= <!-- (ad esempio: 7 cifre può essere convalidato con un filtro [[Special:AbuseFilter/17]]) -->
+|robot and gadget jobs	= <!-- Ci sono o dovrebbero esserci bot o gadget che svolgono attività con questa proprietà? (Controllo della consistenza con altre proprietà, raccolta dei dati, eccetera...) -->
+|subpage		= IFLA key of musical work ID
+|topic			= authority control
+|single value constraint      = <!-- yes - if the property should get a single value constraint, otherwise no text needed-->                
+|distinct values constraint   = <!-- yes - if the property should get a distinct values constraint, otherwise no text needed-->
+|Wikidata project  = <!-- item of the Wikidata project that's related to the property -->
+|proposed by       = [[User:LiaFla|LiaFla]] ([[User talk:LiaFla|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:17, 17 December 2020 (UTC)"
+"
+}}
+
+====Motivation====
+
+The aid of this proposal is add a reference to a controlled and multilingual vocabulary used to catalog bibliographic information about musical work's key. [[User:LiaFla|LiaFla]] ([[User talk:LiaFla|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 09:17, 17 December 2020 (UTC)"
+"
+
+===={{int:Talk}}====
+*{{O}} too small; only 31 concepts. Use {{P|P2888}} to link instead of creating a property. [[User:Sic19|Simon Cobb]] ([[User:Sic19|User:Sic19]] ; [[User_talk:Sic19|talk page]]) 19:54, 19 December 2020 (UTC)"
+"
+*{{O}} too small. See [[#RDA value vocabularies ID]] here about a better proposal to incorporate '''all''' RDA vocabs using one prop. {{re|LiaFla}} if you rework to make only '''one'''  IFLA proposal using a similar approach, I'll support you --[[User:Vladimir Alexiev|Vladimir Alexiev]] ([[User talk:Vladimir Alexiev|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 13:00, 23 December 2020 (UTC)"
+"
+* {{o}} yes, too small. [[User:Multichill|Multichill]] ([[User talk:Multichill|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 17:22, 23 December 2020 (UTC)"
+"
+* ok, thanks for your suggestions... {{re|Vladimir Alexiev}} i just created this request [[Wikidata:Property_proposal/IFLA_value_vocabularies_ID]], is ok? [[User:LiaFla|LiaFla]] ([[User talk:LiaFla|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 18:30, 28 December 2020 (UTC)"
+"
+*{{not done}} per lack of support and movement of discussion to [[Wikidata:Property_proposal/IFLA_value_vocabularies_ID]]. [[User:Mahir256|Mahir256]] ([[User talk:Mahir256|<span class=""signature-talk"">{{int:Talkpagelinktext}}</span>]]) 21:49, 29 December 2020 (UTC)"

@@ -1,0 +1,131 @@
+"{{RFCSubpage|closed=yes}}
+{{dtop|Not enough discussion in order to draw any consensus. Closing as '''no consensus'''. [[User:John F. Lewis|John F. Lewis]] ([[User talk:John F. Lewis|talk]]) 21:58, 19 May 2013 (UTC)"
+"}}
+[[File:Binomial authority - Wikidata 2013-04-14 11-02-27.png|thumb|The property with the ugly description]]
+[[File:Binomial authority - Wikidata 2013-04-14 11-22-59.png|thumb|The property with a banner]]
+Recently, I see this page [//www.wikidata.org/w/index.php?title=Property:P394&oldid=24790939 Property:P394] with the ugly description ""''DO NOT USE THIS PROPERTY. IT IS PROPOSED TO BE DELETED.''""
+
+<small>(I am not criticizing the fact that the text is here to prevent user from using this property. I only suggest just a prettier way to present it.)</small>
+
+And it's why I create ""[[User:Jitrixis/itemNotice.js|itemNotice]]"". This script want to add a template on the top, on the bottom or on the side of the item.
+
+'''How it's work actually :'''
+*To add a template, We have to '''add an alias in English'''
+*#<code>#HEAD:template!parameter=value!parameter2=value2!etc</code>
+*#*To add on the '''top''' of the item
+*#<code>#FOOT:template!parameter=value!parameter2=value2!etc</code>
+*#*To add on the '''bottom''' of the item
+*#<code>#ASIDE:template!parameter=value!parameter2=value2!etc</code>
+*#*To add on the '''right''' of the item
+*#<code>#NOTICE:template!parameter=value!parameter2=value2!etc</code>
+*#*The template determine ''automaticaly'' the position of the template <code>(DEFAULT : ASIDE)</code>
+*#**To add the default position on a template use:
+*#**#<pre><span style=""display:none"">itemNotice:HEAD</span></pre>
+*#**#<pre><span style=""display:none"">itemNotice:ASIDE</span></pre>
+*#**#<pre><span style=""display:none"">itemNotice:FOOT</span></pre>
+*What are the default parameter send to a template.
+**itemNotice send by default <nowiki>{{the template and the paramaters|title=video|item=Property:P10|id=p10|isQuery=false|isProperty=true|location=HEAD}}</nowiki>
+
+But I have many question about '''""How do we use this Script ?""''' :
+
+
+== Do you think this script can be usefull ? ==
+Do you think this script can be usefull? If you answer negativly, the script won't be official and won't be shown in the user interface.
+=== Support ===
+# {{support}} --[[User:Jitrixis|Jitrixis]] ([[User talk:Jitrixis|talk]]) 12:20, 14 April 2013 (UTC)"
+"
+#...
+=== Oppose ===
+#...
+=== Neutral ===
+# I can see where using the descriptions for such notices might come in useful. What happens when trying to use a property or item on another (for statements, for example)? It would show up there, but using this script, would that be possible? <b><span style=""border:2px solid;font-variant:small-caps"">[[User:Hazard-SJ|<span style=""background:#00008B;color:#FFF"">&nbsp;Hazard-SJ&nbsp;</span>]][[User talk:Hazard-SJ|<span style=""color:#00008B;background:red"">&nbsp;✈&nbsp;</span>]]</span></b> 02:01, 18 April 2013 (UTC)"
+"
+
+=== Comment ===
+*...
+== How does the script should be start : ==
+It's the way that the script should be start.
+=== Does the script should be start on launch ? ===
+""Does the script should be start on launch ?"" mean that the script is automatically launch for everyone but doesn't appear in the ''preferences'' so it can't be disable.
+#...
+=== Does the script should be start as default ? ===
+""Does the script should be start as default ?"" mean that the script appear in the gadget and check as default for everyone (anonymous too) but it can be disable.
+# {{support}} --[[User:Jitrixis|Jitrixis]] ([[User talk:Jitrixis|talk]]) 12:20, 14 April 2013 (UTC)"
+"
+# {{Support}} Seems like the most reasonable implementation. <b><span style=""border:2px solid;font-variant:small-caps"">[[User:Hazard-SJ|<span style=""background:#00008B;color:#FFF"">&nbsp;Hazard-SJ&nbsp;</span>]][[User talk:Hazard-SJ|<span style=""color:#00008B;background:red"">&nbsp;✈&nbsp;</span>]]</span></b> 01:59, 18 April 2013 (UTC)"
+"
+# {{support}} — [[User:Hahc21|<font color=""#333333"">'''ΛΧΣ'''</font>]][[User_talk:Hahc21|<font color=""#336699"">'''<sup>21</sup>'''</font>]] 15:57, 22 April 2013 (UTC)"
+"
+
+=== Only on user request ? ===
+""Only on user request ?"" mean that the script appear in the gadget but isn't check as default (anonymous should have an account to see banners).
+#...
+=== Comment ===
+*...
+== How does it work : ==
+How does the script should work.
+=== How the script should work with aliases : ===
+How does the script should interact with aliases
+==== Add an alias only in english to add a template ? ====
+# {{support}} --[[User:Jitrixis|Jitrixis]] ([[User talk:Jitrixis|talk]]) 12:20, 14 April 2013 (UTC)"
+"
+#...
+==== Add an alias in any language to add a template ? ====
+#...
+==== Don't use aliases ? ====
+#...
+==== Comment ====
+* Maybe set it up in a way as to define a template for all languages vs one for only English? <b><span style=""border:2px solid;font-variant:small-caps"">[[User:Hazard-SJ|<span style=""background:#00008B;color:#FFF"">&nbsp;Hazard-SJ&nbsp;</span>]][[User talk:Hazard-SJ|<span style=""color:#00008B;background:red"">&nbsp;✈&nbsp;</span>]]</span></b> 01:57, 18 April 2013 (UTC)"
+"
+
+=== How the script should work with descriptions : ===
+How does the script should interact with description
+==== Add a command in the descrition : ====
+Does the script should interact with description and How ?
+===== Where : =====
+What are the different position that a description is allow to do?
+====== HEAD ? ======
+# {{support}} --[[User:Jitrixis|Jitrixis]] ([[User talk:Jitrixis|talk]]) 12:20, 14 April 2013 (UTC)"
+"
+#...
+====== ASIDE ? ======
+#...
+====== FOOT ? ======
+#...
+===== What kind of notice : =====
+What kind of notice does a description is allow to show?
+====== Delete notice only ? ======
+# {{support}} --[[User:Jitrixis|Jitrixis]] ([[User talk:Jitrixis|talk]]) 12:20, 14 April 2013 (UTC)"
+"
+#...
+====== All notice ? ======
+#...
+====== Comment ======
+#...
+
+===== In which language : =====
+In which language does the description should interact?
+====== Only in english ? ======
+# {{support}} --[[User:Jitrixis|Jitrixis]] ([[User talk:Jitrixis|talk]]) 12:20, 14 April 2013 (UTC)"
+"
+#...
+====== In all language ======
+#...
+====== Comment ======
+*...
+==== Don't use description ====
+#...
+=== Default Use : ===
+What is the default location of a notice in ...
+==== In aliases : ====
+===== HEAD ? =====
+#...
+===== ASIDE ? =====
+# {{support}} --[[User:Jitrixis|Jitrixis]] ([[User talk:Jitrixis|talk]]) 12:20, 14 April 2013 (UTC)"
+"
+#...
+===== FOOT ? =====
+#...
+==== In descriptions : ====
+===== HEAD ? =====
+# {{support}} --[[User:Jitrixis|Jitrixis]] ([[User talk:Jitrixis|talk]]) 12:20, 14 April 2013 (UTC)"
