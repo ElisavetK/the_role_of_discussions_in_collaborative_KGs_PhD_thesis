@@ -10,7 +10,6 @@ This folder includes code for gathering and processing the data of this thesis.
 ## **Use of Discussions** 
 This folder includes code and data for the analysis in Chapter 6.
 * **data**: This folder includes the sample of discussions used for the thematic analysis.
-* **text_statistics.py**: This notebook processes the talk pages to separate threads and posts, and to count the words.
 * **statistical_tests.py**: This script includes statistical tests for the thematic analysis results.
 * **thematic_analysis_results.csv**: This file presents the thematic analysis results.
 
