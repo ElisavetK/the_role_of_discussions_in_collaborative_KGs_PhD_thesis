@@ -1,0 +1,582 @@
+﻿Files\\properties for deletion\\P107 - § 2 references coded [ 4.64% Coverage]
+Reference 1 - 2.31% Coverage
+{{keep}} - I think that before we can even begin to discuss the deletion of this property we need a really good alternative in place. As long as there is no consensus how to separate fictional people from real ones for example. --
+Reference 2 - 2.33% Coverage
+:The first is irrelevant. The second makes no sense; why should there be a skeleton? If you look into the previous discussion, there are strong reasons ’’not’’ to use anything resembling a main type. (And discussed elsewhere!)
+Files\\properties for deletion\\PfDPropertyP1549 - § 14 references coded [ 19.44% Coverage]
+Reference 1 - 1.42% Coverage
+{{hold}}. I agree with [[User:Jheald|Jheald]] that we need a place -> demonym property to keep infoboxes working. We should keep this property until we have a new Item -> Lexeme ""demonym"" property, migrate all existing uses and
+Reference 2 - 0.63% Coverage
+{{hold}}. Until infoboxes (as happens in cawiki) can be transformed after have access via LUA module
+Reference 3 - 1.42% Coverage
+{{Neutral}} <s>{{Keep}}</s> How to call an inhabitant of a neighborhood? We must also think of other languages. Nothing can replace it, for the moment. Examples: Germanopratin in {{Q|604717}}, Planpalistain in {{Q|2546289}}
+Reference 4 - 0.51% Coverage
+{{Keep}} Used in Wikipedias, no replacement for infoboxes seems to be available.
+Reference 5 - 2.48% Coverage
+I already put a comment on my opinion [[User:Liuxinyu970226|Liuxinyu970226]], so I return 2 questions to you: How to assemble ’’planpalistain’’ with {{Q|Q2546289}} since ’’planpalalistain’’ does not exist? How to add {{Q|604717}} in {{Q|3104247}} without this page appearing in [[Wikidata:Database reports/Constraint violations/P6271]]? With {{P|1549}}, it’s possible without error.
+Reference 6 - 1.43% Coverage
+{vd}}: With {{P|6271}} we have now a good option to link from lexeme senses to locality items and since the items work without demonyms, but the words/lexemes are literally filled with sense, the connection should come from that end
+Reference 7 - 1.30% Coverage
+{Keep}}: I think this one is very simple to maintain. I didnt very much understand the point for suppression? 
+*:Too complicated to query both Qid and Lexemes.Infobox should be looking only on Qid not on lexemes.
+Reference 8 - 0.86% Coverage
+{{Keep}}: Designating the inhabitants of a place by a specific name can be useful. Otherwise should we replace it with a longer expression ?
+Reference 9 - 1.00% Coverage
+{{hold}} : the comments of [[User:Jheald|Jheald]] and [[User:Vriullop|Vriullop]] sound pretty relevant to me, there are blocking points, so keep it for now.
+Reference 10 - 0.33% Coverage
+{{Keep}} useful to designate inhabitants of a place.
+Reference 11 - 1.17% Coverage
+{{Keep}} Using lexeme senses is a poor replacement since there will be one claim per language instead, severely bloating the item. It’s better that the sense links to an item like we do today
+Reference 12 - 0.65% Coverage
+{{Keep}} Extremely useful when translating label, descriptions, including in wikipedia templates.-
+Reference 13 - 5.17% Coverage
+{{Vote keep}} This is good for Wikidata but bad for infoboxes: Inverse properties is problematic, since is harder to code templates or modules to emulate the expected behaviour with inverse properties, and most of the nominators of those deletion request don’t even address the problems that leads this deletions. One of the warnings says clearly:
+:<blockquote>[[File:Skull and Crossbones.svg|25x25px]] Validate the property isn’t being used in other projects (using <code><nowiki>{{</nowiki>[[Template:ExternalUse|ExternalUse]]<nowiki>}}</nowiki></code>)
+: and if it is leave a message in Village pump of those projects!</blockquote> and this is an obvious case of potential use, and as this is already used, this request should be speedy closed. This should be discussed on other projects like Wikipedia first! --
+Reference 14 - 1.07% Coverage
+{{keep}} Nouns of countries are usually well known, Gentilés could be a question. I cannot understand how ""Gentilé of"" would help to find the gentilé of a country or a place
+Files\\properties for deletion\\PfDPropertyP3303 - § 4 references coded [ 7.27% Coverage]
+Reference 1 - 2.52% Coverage
+It also works from WD items, and it does show multiple outlinks (e.g. to Twitter/Keybase/Scholia/Unavatar) if it rates them high enough (usually when they have a {{P|137}} or a matching language). See this screenshot. I haven’t advertised this feature muc
+Reference 2 - 0.71% Coverage
+{{keep}} per Jklamo and Mormegil, whose comments I completely support.
+Reference 3 - 2.24% Coverage
+Placeholder {{keep}} for now. I use this as part of the decision making in [[WD:EE|Entity Explosion]], so have a preference for not doing extra work if there is a way of reconceiving of the difference between these two properties.
+Reference 4 - 1.80% Coverage
+{{keep}} - I use [[WD:EE|Entity Explosion]] and its excellent for a property like {{P|9616}} were we lack a ""EU"" formatter but maybe have formatters for some countries like {{Q|34}
+Files\\properties for deletion\\PfDPropertyP646 - § 13 references coded [ 18.74% Coverage]
+Reference 1 - 0.59% Coverage
+{{Keep}} We can link to others, they can link to us. It will be to our benefit in the end.
+Reference 2 - 0.84% Coverage
+{{comment}} This should be speedily closed as it was filed by a cross-wiki vandal (see their edits to mediawiki and meta)
+Reference 3 - 1.86% Coverage
+{{comment}} One edit account, see [[Special:Contributions/Sak4510]], probably intended trolling about relationship on Wikidata and Wikibase. I say remove the proposal. <span class=""mw-code"" style=""text-align:right; display: inline-block; padding:
+Reference 4 - 0.66% Coverage
+{{keep}} Please note a tool / gadget request at [[Wikidata talk:Tools#Freebase]]. gangLeri
+Reference 5 - 1.07% Coverage
+This is the [[special:Contributions/Sak4510|’’’only’’’ contribution]] of [[user:Sak4510|Sak4510]]. We get a new class of ""’’contributors’’""
+Reference 6 - 1.94% Coverage
+This is linked datas. One of the success of Wikidata at that point is the vast collection of identifier mappings such as authoritative databases, and specialized databases such as MusicBrainz and others. Freebase is a major database, whatever you think about it, this is enough
+Reference 7 - 2.16% Coverage
+{P|646}} can be used as a link to a non-disambiguous ontology because no language conflicts are known to me. The wording is short which avoids allusions to different topics which is not the case in WMF articles linked together on a ""’’similar as’’"" / ""’’related to’’"" (redirects) WMF custom / arrogance base
+Reference 8 - 0.25% Coverage
+Like [[User:TomT0m|TomT0m]] said
+Reference 9 - 7.66% Coverage
+Beyond that, my rationale for keeping this property is based upon Denny’s comment in [[Wikidata:Project_chat/Archive/2013/11#Freebase-Wikidata_mappings]]: 
+{{quote|
+The suggestion is about linking to Freebase, just as we link to IMDB, VIAF, OSM, or MusicBrainz. Bots and tools then have the possibility to integrate data from several sources. This is not about copying data from Freebase or sourcing data to Freebase, but merely about having more identifiers. Personally I think the possibility to be an authority and identity hub for the whole Web is one of the great use cases Wikidata can be, and at the same time available to anyone and free to use.
+I am surprised that it is assumed that Google would have a particular benefit from having these links in Wikidata. Google has published these links, so obviously they already have them. This is about adding more keys and identifiers to Wikidata, making it a stronger hub for identity and entity reconciliation throughout the Web.|[[User:Denny|Denny]] ([[User talk:Denny|{{int:Talkpagelinktext}}]]) 02:00, 13 November 2013 (UTC)"
+"}}
+Reference 10 - 0.86% Coverage
+Is not there dumps of freebase available somewhere ? Then the information should not be deleted and made hardly available.
+Reference 11 - 0.17% Coverage
+{{keep}} per the TomTom.
+Reference 12 - 0.47% Coverage
+Yes {{keep}} - the archive.org formatter should work for many items
+Reference 13 - 0.20% Coverage
+{{keep}} per TomTom and Jura
+Files\\properties for deletion\\PfDPropertyP802 - § 10 references coded [ 10.09% Coverage]
+Reference 1 - 4.67% Coverage
+{{Ping|VIGNERON}} Is there any rule or recommendation against one-to-many or did I misunderstand why you mentioned that? I suppose {{P|P1066}} is also one-to-many (so actually I’d say the concepts are many-to-many). Removing {{P|P802}} would supposedly remove also [[Property:P1066#P1696|inverse claim]], but it should first be investigated what that claim means in machine understanding of the property. I think many properties do enforce inverse property today, and even if it’s cumbersome to maintain it might be re-added later if we can’t make clear why it shouldn’t
+Reference 2 - 0.80% Coverage
+{keep}}: clearer relationship than anything else especially in relations from earlier centuries
+Reference 3 - 0.76% Coverage
+{{vk}} nghiên cứu sinh (doctoral student) is different by sinh viên (student) in Vietnamese.
+Reference 4 - 0.24% Coverage
+{vk}} Has language conflicts
+Reference 5 - 0.52% Coverage
+{{vk}} Useful for historical people whose students are not PhD.
+Reference 6 - 0.38% Coverage
+{{Keep}}, an important property for science.-
+Reference 7 - 0.32% Coverage
+{{Keep}}, I watched {{Q|Q91092801}},
+Reference 8 - 1.30% Coverage
+{{Vote keep}} See my above comment at [[#demonym (P1549)]], or find a solution that covers usage on other projects like Wikipedia, namely templates and modules.
+Reference 9 - 0.58% Coverage
+{{Keep}} I use this property to record the apprenticeships of artists. -
+Reference 10 - 0.52% Coverage
+{{Keep}} Important to have pupils and teachers on artist items.
+Files\\properties for deletion\\PropertyP8531 - § 4 references coded [ 30.37% Coverage]
+Reference 1 - 2.02% Coverage
+This property is also similar to others we already have such as {{P|7777}}.
+Reference 2 - 17.26% Coverage
+The examples and opinions show that the identifiers of the proposition are <u>not</u> always the same. The proponent (me) has clearly explained the gain in having this property and not citing other properties on the proposal is not a valid criterion. {{u-|Jura1}}’s opposition has already been rejected twice, [[Wikidata:Requests_for_deletions/Archive/2020/Properties/1#Property:P7777|here]] and then again in the debate. Therefore, like the last time, I will immediately request the early closure (without waiting 7 days) of this deletion request, because it has no serious basis. Thanks for the contributors’ waste of time
+Reference 3 - 10.41% Coverage
+{{keep}} Description of {{Q|1415290}} is ""German movie website"" (filmstarts.’’’de’’’) and so it is. I don’t know if the identifier is equal to Allocine-ID, but the content is not, e.g. for {{Q|52777610}} there is http://www.filmstarts.de/kritiken/254579/kritik.html and http://www.filmstarts.de/kritiken/254579/pressespiegel/ . This is absolutely NOT redundant. --
+Reference 4 - 0.67% Coverage
+The sites are different.
+Files\\properties for deletion\\Short name Birth name Official name - § 7 references coded [ 34.59% Coverage]
+Reference 1 - 10.89% Coverage
+I Don’t agree that birth name is redundant to the ’given name’ ’surname’ properties - people can change their name or can use an alias spelling so a property with monolingual text datatype is also required to give the exact spelling and the order of their birth and sur names (where people have middle names and double barelled surnames). Often people use various names. If they are famous then they may have their name transliterated in the title of wikipedia articles in other languages. In these cases the label is not not enough. We need a property to (for example) tell chinese people that ’布鲁斯·斯普林斯廷’ is known in his own language as ’Bruce Springsteen’. Also note that I didn’t say we should use ’Name’ without giving further information; the proposal is that qualifiers be used for the necessary further information.
+Reference 2 - 7.40% Coverage
+There is nothing ’’official’’ with a ’’short name’’. The official name of Stockholm Municipality is ""Stockholms kommun"" according to the Swedish municipality-law, but ""Stockholms stad"" according to Stockholm municipality counsil. Both of them are official, but ""Stockholm"" is not official anywhere. Short name is a property to make it easier to make templates that do not need the ’’full’’ official name or label. The portugese short name could be ""Estocolmo"" and the Finnish ""Tukholma"". But that is up to some fi- or pt-speakers to decide
+Reference 3 - 1.21% Coverage
+{{keep}}, it is more simple manage and use separate properties, then property+qualifier
+Reference 4 - 0.68% Coverage
+{{keep}}, it is easier to insert and easier to query
+Reference 5 - 2.32% Coverage
+How about a ""Designation""-property? I have a set of pages, where the ""name"" is only a designation. Using a ""name""-property will give it more authority than is intended
+Reference 6 - 10.86% Coverage
+’’’Insert:’’’ How many clicks are needed to insert ’Name’ property + ’Short name’ qualifier? How many clicks are needed to specify ’Short name’ property? ’’’Query:’’’ that is more simple and more stable: <nowiki>{{#property:P513}}</nowiki> or <nowiki>{{invoke:Wikidata | formatStatements|property=P186|qualifier=P518|qualifiervalue=Q12014132}}</nowiki>? Please give a sample of infobox where you need some name without specifying its type. ’’’Manage:’’’ How many error types are possible with P513? (I know two: invalid value, invalid domain) How many error types are possible with ’Name’ + qualifier? (I know: invalid value, invalid domain, missing qualifier, invalid qualifier property, invalid qualifier value, unexpected qualifier value). How to detect every of these error types?
+Reference 7 - 1.21% Coverage
+{{keep}} Very useful for queries and for adding sources (that cannot be done with labels).
+Files\\property proposal\\at - § 1 reference coded [ 10.67% Coverage]
+Reference 1 - 10.67% Coverage
+It is only computable when both leagues have exactly one league above and exactly one league below, this is not always true. For example lower leagues very often have different geographical scope. For example a team relegated from {{Q|Q58916}} may play the next season in either {{Q|Q59041}} or {{Q|Q58915}} depending on geography not only of the relegated team but also that of other teams relegated to, promoted from and promoted to the level below {{Q|Q58916}}. A team in the Midlands may also move between leagues without promotion or relegation to balance the leagues (e.g. if only southern teams are relegated from the national level). The representation method on Wikidata must work for all levels, not just national to national
+Files\\property proposal\\grammaticalnumber - § 3 references coded [ 3.65% Coverage]
+Reference 1 - 0.64% Coverage
+{{comment}} - but it must have also ""indefinite"" form, per Basque using i
+Reference 2 - 0.81% Coverage
+I tried this on [[Lexeme:L123]], it seems to be accepted. Not sure what other effect it may have.
+Reference 3 - 2.20% Coverage
+Counterexample: “zwei Eis am Stiel”. I previously did not consider this as a real plural but now tend to think otherwise, cf. [[wikt:de:Diskussion:Mikrogramm|my remarks in German]] (“Ich frage mich an der Stelle, was wir alles als Plural ansehen sollen.”)
+Files\\request for a comment\\Administativedivisionsandpopulatedplaces - § 2 references coded [ 3.49% Coverage]
+Reference 1 - 1.18% Coverage
+:So for a milion ~ of item whe must mantain 3 items? it’s very difficult to mantain database integrity
+Reference 2 - 2.31% Coverage
+If we have statistics about 4 different census designated places then we cannot include this data unless each of these places has it’s own item. Item splits should follow and match the statements.
+Files\\request for a comment\\DataqualityframeworkforWikidata - § 18 references coded [ 24.17% Coverage]
+Reference 1 - 2.70% Coverage
+I’m not sure that using notability as a strategy for limiting the amount of data given limited eyeballs is a good strategy. In the area of family history for example there are people who care about doing high quality research on the history of their family. ::Allowing those kinds of people into Wikidata would be valuable for growing the amount of eyeballs. 
+::Recently I looked at the family of {{Q|Q160202}}. After a bid of searching I found that his father-in-law owned {{Q|Q26252088}} at the Wiki for the History of the city of Vienna (the Wiki is a project of the city of Vienna). Knowing that the father-in-law was dead at the time of the marriage of {{Q|Q160202}} is interesting information that wasn’t available in the biographies of {{Q|Q160202}} that I read but only at the Vienna Wiki.
+::Being able to connect that information was interesting but the fact that the connection exist couldn’t be seen beforehand. The same is true for many people that lived in the 19th century or earlier. Their significance can only be found by gathering data from multiple sources.
+::The fact that Wikidata allows me to link the father to the pharmacy in which he worked also allows information to be documented that couldn’t have been documented in ancestry databases like http://www.ancestry.com/ that are also unfortunately closed information.
+::I think that generally information for which real sources exist and that isn’t simply personal opinion should be welcomed at Wikidata. I think it would also be very good to invite communities like the family history community into Wikidata to grow the amounts of eyeballs that we have. With editing family history the people are also interested in the locations where their family members acted and therefore likely won’t only edit items of people in their family
+Reference 2 - 1.80% Coverage
+Hi, thanks for letting me know COOL-WD, I didn’t know it and it is a very interesting tool. I have still not very clear how it works, I will read the paper they published about it to understand it a bit more. However, it covers only one of the three aspects of completeness in this framework draft, i.e. ’item completeness’. It is an aspect that can be approached by Item and does not need to be evaluated on Wikidata as a whole. The results obtained with COOL-WD could be compared to other approaches, in other to choose the one that offers the best performance. Furthermore, COOL-WD employs user-generated completeness statements: it is an interesting features, which nicely fits with the collaborative nature of Wikidata, but in order to be used on a large scale it would be to be implemented in the system.
+::::: The other completeness approach you suggest would be related to ’population completeness’. This is I think the type of completeness most related to the notability policy. Regarding to your idea to use external datasets, it would be actually good to use it to assess how complete Wikidata is on determined domains, e.g. biology; the problem is: how do we define golden standard external datasets?
+Reference 3 - 1.00% Coverage
+Part of the anwser is imho here. https://blog.wikimedia.de/2013/06/04/on-truths-and-lies/ . With wikidata, we’ll have tool to judge datasets : how consistent are they internally, how consistent are datasets wrt. each overs ? My guess is that good datasets will have more internal consistency for example.
+:::::: Also ’population completeness’ can’t be achived if our model is not complete enough to import some dataset - if we lack an essential property for example. So some answer on this may also lie in this direction : even if for some reason we don’t have the dataset, could we theorically to completely import its datas in the sense of the previous definitions ?
+Reference 4 - 1.84% Coverage
+""possible quality issues"" - I´m writing lua code that uses this data. My experience is that the lua code and the WD data is connected. Maybe I could say that the lua module shows the quality of the data, by crashing, showing nonsense or showing nothing. There is another lua module using the same data as my module and I have seen that sometimes the other module wants the data in a way that is different from the way my module want them. Another point is maybe ""Representational consistency"". I have build some flexibility into the lua modules so that the module could work with different ways (e.g. different qualifier) and items an information is stored. I´m afraid this will be a big problem for the future, maybe we will have a lot of work to rearrange the data in a more consistent way. Another problem is that for maintaining data it is necessary to find all those items that should be maintained with a sparql-query. But it is not possible to get 100% of all items belonging to a topic. Therefore there will always be some errors in the code. I would say that we need to have ways to show to users that there is an error and help is needed. A crashing lua module, for example, is no good way to do that. For companies there is something like ""ISO 9
+Reference 5 - 0.49% Coverage
+How connectedness is quality ? Some items may just be not really connected because they are not meant to, I don’t see how this make them bad quality. On the other hand, in text mining you have to remove some very frequent word because they are so used they just are not really relevant to the analysis and removing them just add nois
+Reference 6 - 0.28% Coverage
+I would say that this is what ranks are for or perhaps I am misunderstanding your comment. Also, you mention providing feedback to referring institutions, what do you mean by that? Thanks
+Reference 7 - 1.23% Coverage
+I completely disagree.
+::::Duplicating information is one of the worst practices in any database, not for the lack of ""conciseness"", but for the lack of consistency since the first minute that we have two different values that should be the same. In that moment, we stop knowing what’s right and what’s wrong, and this trend will presumably grow over time concluding, in the worst-case scenario, in a useless database for its data degradation.
+::::We neither have to waste the time of our contributors (the most valuable thing we have) reviewing and cleaning every violation report every single day (that’s what we are doing right now), nor allow adding mistakes and vandalisms in the cases that we know by hand that they are mistakes and vandalisms. This is currently a nonsense. This is as in Wikipedia, 10 years ago.
+Reference 8 - 0.73% Coverage
+I think the postmodern definition of accuracy that’s used in this proposal is problematic. I think one sign of real high quality data is that data is accurate with respect to the real world.
+:: The idea that government sources are impartial sources of information is also problematic. The GDP that the Chinese government reports in their official statistics isn’t a impartial number for any reasonable definition of ""impartial"" but it’s still an official number that should be listed.
+Reference 9 - 1.18% Coverage
+I agree with you that the current definition of accuracy is not perfect. However, it was formulated to adhere the definition of Wikidata as a ""secondary database"": if we keep this definition, then Wikidata’s accuracy cannot be assessed by comparing it to the real world – which could even be hard to define – but with respect to a primary source.
+::: It is true that assuming that government sources are impartial sources of information is problematic, but this is why Wikidata allows contrasting statements to exist. If an information contradicting a governmental source is present, that should be stated, together with a reference. Defining accuracy as conformity to what stated in a source allows to consider two contrasting pieces of information from different sources as accurate.
+Reference 10 - 4.93% Coverage
+""but this is why Wikidata allows contrasting statements to exist."" Yes, that’s why the Wikidata status quo exist. Your data quality guideline however doesn’t say anything about contrasting pieces of information when speaking about accuracy or reputation.
+:::: I think data end users care about data that matches reality. If a government of an African country releases statistics that make that government look good and an independent authoritative body that hasn’t a conflict of interest and has a reputation for accurate data has different data, I don’t think it should be Wikidata policy to weight the numbers of the African country has having a better reputation as your data quality document suggests. You standards claim that the most authoritative source says that the Armenian genocide didn’t happen given that it didn’t happen in the offical numbers that the government of the territory presents offers.
+:::: I see no reason why the data quality document should suggest that government data is impartial. If you want to point to an example of impartial information than point to peer reviewed academic numbers. 
+:::: Listing government data on Wikidata makes sense but for reasons that aren’t that the data is impartial. 
+:::: As far as defining whether data matches reality, if you want to have an operational definition I would use: ""Does a subject level expert consider the Wikidata number to be the best number available?"" That’s the kind of number that a data customer of Wikidata wants to get. 
+:::: Besides I’m not sure what ""A statement is said to be accurate if it is in agreement with what stated in its reference. "" means. Let’s say I have a statement that Joe is born at 30.03.1855. The statement also has an authoritative reference from an authoritative biography stating that he is born in 1855.
+:::: Technically there’s no disagreement between the two claims. They both agree. On the other hand the source doesn’t accept ""30.03.1855"" as true, it makes no statment about whether or not that specific data is true. From a data quality perspective I however think agreement is not enough.
+:::: It becomes more interesting when the statement has a second low quality reference from someone’s personal website saying that he’s born at 30.03.1855. I think then it becomes more unclear about whether it’s good data quality. I also don’t think that your data quality document gives me a good answer. 
+:::: Wikidata has the habit of requiring explicit statements about uncertainity of data. A lot of sources aren’t explicit about data uncertainty. There we again have a difference between the source being in agreement or whether the source accepts the statement as true. 
+:::: Another test case would be institutions. On Wikidata {{Q|Q152087}} is a successor of {{Q|Q20266330}}. {{Q|Q9235}} was a professor at {{Q|Q20266330}}. As Wikidata understands it {{Q|Q152087}} didn’t exist when } lived. There are other source who see {{Q|Q152087}} and {{Q|Q20266330}}. As the same organisation and say that {{Q|Q9235}} was a professor at Humboldt-Universität Berlin. I think it makes sense to not state on Wikidata that he was a professor at {{Q|Q20266330}}. Do you think it would be more accurate when Wikidata would state that he is and adds that the statement is disputed?
+Reference 11 - 0.35% Coverage
+@[[User:ChristianKl|ChristianKl]] I am not saying that government data is impartial, but – as stated in the link posted by [[User:TomT0m|TomT0m]] – Wikidata has verifiability as a criterion for inclusion, rather than veracity.
+Reference 12 - 0.73% Coverage
+According to the fact that Wikidata is not about truth, but about reporting referenced statements from primary databases, my answer to your question is: yes, I would not see any problem in adding a statement saying that Hegel was a professor at Humboldt University, provided that a reference is specified and appropriate ranks are given (I would add also some statement saying that Humboldt and Frederick William Universities are said to be the same somewhere). All this IMHO, of course
+Reference 13 - 1.41% Coverage
+Criteria for inclusion means that we don’t include information that can’t be verified. That doesn’t directly imply that we don’t care for veracity as you imply. We have ""deprecated"" to mark notable verified information that’s wrong.
+::::::There’s in principle no statement saying that Hegel was professor at Humboldt University as Wikidata doesn’t do strings. The question is whether he’s professor at {{Q|Q152087}}. {{Q|Q152087}} has the property that it was founded in 1949 and that it follows {{Q|Q20266330}}. I think it’s very strange to say {{Q|Q152087}} follows {{Q|Q20266330}} and is said-to-be-the-same. 
+::::::Additionally you likely will find statement for some professors at {{Q|Q20266330}} that they are employed at Humboldt University, so your proposal would mean that the data on Wikidata is internally inconsistent. You would have to drop the point about data consistency from your list of quality metrics. A
+Reference 14 - 0.58% Coverage
+not really as long as you can totally express rules (as in {{Project|Reasoning}} that express the fact that two models say the same thing. But it’s right that we don’t have to create 10 ways to say the same thing as we totally should have to translate the source data into OUR model, of course, as long as this is equivalent in meaning. We don’t have to use any model of any source to import them.
+Reference 15 - 1.38% Coverage
+In the case of Hegel, I think I’m translating information into our model when I say that he wasn’t professor at {{Q|Q152087}} (founded 1949) but at it’s predecessor {{Q|Q20266330}}. Do you disagree with this being translation into our model? 
+:::::::: Another interesting case would be drug names. There are data bases that list a drug and the chemical entity that it contains as the same thing. To me that doesn’t imply that Wikidata should copy that approach to modeling but it would be better if Wikidata internally distinguish the concept of the drug and the concept of it’s chemical.
+:::::::: Different brand names of a drug can have different Wikidata items.
+:::::::: Modeling a domain well, so that different concepts aren’t muddled together is for me a sign of data quality but that takes decisions about how to model data that aren’t simply about copying the structure of external databases as accurately as possible
+Reference 16 - 1.62% Coverage
+It seems to me like the current point of ""accuracy"" mixes two concepts. We could call them ""veracity"" and ""accurate source representation"". I would see ""veracity"" to exist when Wikidata gives an answer that a domain expert would consider the best answer. Wikidata’s answer could also be less specific than the answer of the domain expert without ""veracity"" suffering.
+:::::::::::: Apart from that it’s also important that if Wikidata has a reference that reference backs up the claim for which it’s cited. That’s ""accurate source representation"". I just noticed a case where the primary source tool took a source who said ""Georg Forster (ca.1510 — 12. November 1568)"" and translated it into the claim that Georg Forster was born in 1510 without the qualifier sourcing circumstances"" (P1480) with ""circa"". That violates my idea of ""accurate source representation"" and thus I filed a bug report at the tool under https://github.com/Wikidata/primarysources/issues/121.
+:::::::::::: There might be better names for the two, but both seem important to me
+Reference 17 - 1.62% Coverage
+Alessandro Piscopo is an academic who wants to study Wikidata. He’s not WMDE employee of as far as I can see is payed by a Wikimedia grant. Academic work doesn’t need to have direct practical implication. In this case publishing work about data quality that shows that Wikidata cares about data quality in a venue that people who care about open data read, makes it more likely that they consider Wikidata a serious project and donate their data to it. 
+: The people who did their work on vandalism detection in Wikidata have it easier in academia when they can cite a definition of quality standards.
+: Nothing in this article prevents you from having a discussion about direct ways to improve Wikidata’s usefulness for Wikipedia. But that’s not the discussion about the definition of data quality, it’s likely to be had elsewhere.
+: There are many ways to interact with Wikidata. Live and let live. 
+: If you want to improve Wikipedia integration it might make more sense to focus your energies on the practical project of https://www.wikidata.org/wiki/Wikidata:List_generation_in
+Reference 18 - 0.29% Coverage
+I will not support any proposal that does not include provisions for the protection of information regarding living people. Wikipedias will be less likely to trust us without such a provision.-
+Files\\request for a comment\\Findagraveremovedasasourceforinformation - § 39 references coded [ 41.14% Coverage]
+Reference 1 - 1.42% Coverage
+::: Regarding #3: I don’t think we can draw any useful conclusions about Find A Grave from the first table on that page, if that’s what you’re referring to. Two of the things in the list are finding cases where WikiTree is probably linking to the wrong Find A Grave page (which of course has nothing to do with Find A Grave). Two are listing cases where the two sites have different information, but that doesn’t tell us which one has the right information (assuming WikiTree has the correct link). The rest are finding cases where Find A Grave has more detailed data than WikiTree
+Reference 2 - 2.07% Coverage
+::::The conclusion is that as FindAGrave don’t source its information you can’t check it. More detailed doesnt help much if its not sourced....
+::::If you look at a WikiTree profile the intention is as with Wikipedia/Wikidata that you add sources connected to the facts, which makes it a better member in this echo system. As said earlier FindAGrave is not interested in using sources so they have very very weak evidences for the facts they state. For famous people I see often that both WIkitree and FindAGrave just copy/paste from Wikipedia... 
+::::As said earlier we need a ’’’quality scale’’’ of sources. The debate over at WikiTree is that a lot of people gets upset because the ’’Error reporting system’’ tells its a difference between WikiTree and FindAGrave as FindAGrave has no sources its some kind of a ’’dead end’’...... -
+Reference 3 - 1.23% Coverage
+:::::The New York Times does not list their sources either: ""Bill Dana was born William Szathmary in Quincy, Mass., on Oct. 5, 1924, the youngest of six children. His father, Joseph, a real estate developer, was an immigrant from Hungary; his mother worked in a millinery shop."" My estimate is that 1 in 20 New York Times front page stories has a correction appended to it. Pre Internet stories may or may not have had a correction added to the printed ""corrections"" column several days later.
+Reference 4 - 1.17% Coverage
+::::::{{Replyto|Richard Arthur Norton (1958- )}} please read [[Wikipedia:en:WP:V]] so we are on the same page. If we should speak about if a source is good enough or not and think it doesnt matter if we can verify it I feel we are moving into the ’’Fake news’’ direction..... You have some good presentations by [https://wikimediafoundation.org/wiki/User:Dtaraborelli User:Dtaraborelli] on this subject as its the future direction of Wikimedia see also [https://
+Reference 5 - 0.79% Coverage
+:::::::: from the examples Nikkimaria provided, I think that is actually false - FindAGrave often links to images of gravestones, which can be viewed by anybody to verify the transcribed information on dates, names, etc. So verifiability for FindAGrave can be quite a bit better than for many other sources we trust.
+Reference 6 - 0.65% Coverage
+:::::::::But the information provided is not a simple transcription of the gravestone - in one of the examples I’ve listed there is no image of the gravestone provided at all, and in many other cases the writeup provides details not supported by the gravestone.
+Reference 7 - 1.53% Coverage
+:::::::::::The gravestones doesn’t always give correct dates or year though, cause they messed up at the order for the dates on them... See for instance [https://commons.wikimedia.org/wiki/File:Ole_Olsen,_sk%C3%B8ytel%C3%B8per,_gravminne_p%C3%A5_Nordre_gravlund,_Oslo,_DSC_2122.JPG this memorial stone] for this guy (speed skater) {{Q|11993678}}. The year is discussed here in norwegian on [https://no.wikipedia.org/wiki/Diskusjon:Ole_Olsen_(sk%C3%B8ytel%C3%B8per) his norwegian wikipedia-discussionpage] with several external links for possible dates and year. Regards
+Reference 8 - 1.06% Coverage
+:::::::::As Wikidata has 
+:::::::::* FindAGrave [[d:Property:P535]]
+:::::::::* WikiTree [[d:Property:P2949]]
+:::::::::* Genealogics [[d:Property:P1819]] 
+:::::::::its easy to do a search and compare them see blogpost ’’’[http://minancestry.blogspot.se/2016/08/benchmark-wikitree-findagrave-wikipedia.html Benchmark wikitree findagrave wikipedia]’’’
+:::::::::I am not impressed of the quality
+Reference 9 - 0.59% Coverage
+*’’’Remove, not a valid source’’’. Poor sourcing leads to poor data quality; data that we can’t trust is absolutely worse than no data at all. Reliable sources disagreeing on something is a red herring since this isn’t a reliable source.
+Reference 10 - 1.57% Coverage
+* Automatically, importing FindAGrave data seems to be a bad idea. However, automatically removing it is also a bad idea. The point of quoting sources isn’t just reliability, it’s being open of the provenance of a statement. Removing data based on sources we don’t like encourages people to provide no information about where the information they add is coming from. <br /> A person who doesn’t trust FindAGrave can choose to ignore a value when we tell him that’s where the information is coming from. Sometimes FindAGrave has the image of the tombstone which is very useful for having a good idea of the birth and death date of a person.
+Reference 11 - 0.64% Coverage
+The initial Wikidata data set was from Freebase via Google and was compiled mostly from Wikipedia, which is community sourced. Some of the information came from IMDB and similar data sets. This is for biographical data, I do not know about geographical data
+Reference 12 - 2.43% Coverage
+I don’t think we should have restrictions on which sources are allowed. Wikidata provides data for many Wikimedia projects, not just the English Wikipedia. We can’t apply restrictions on sources from one project without forcing those restrictions on other projects (possibly against their wishes). It is better for Wikidata to remain as neutral as possible and for individual projects to filter out sources they don’t want when using the data. The most important thing (in my opinion) is that the data ’’has’’ references. If the data has references, people using the data can choose which ones they want to trust. Removing or disallowing Find A Grave references will not prevent people from using it as a source, we just won’t know that they have. There is no limit on how many references a statement can have. If someone wants the data to be referenced to somewhere other than Find A Grave, they are welcome to add additional references using a source they think is more reliable.
+Reference 13 - 1.47% Coverage
+I’d like to have some specific examples of problems here; as a general rule if some information was added to wikidata I’d like to have whatever source for that information recorded alongside that piece of information. We have a huge number of statements in wikidata that are referenced to ""imported from"" a specific wikipedia - which is obviously not a reliable source, but it is important to have that sourcing recorded so we know something about where the information came from. Without further information it seems to me that ""Findagrave"" would be no different from the wikipedia case.
+Reference 14 - 0.43% Coverage
+The Wikipedia case is specifically addressed [[Help:Sources#Different_types_of_sources|here]]; that would be an appropriate way to address use of this site as well.
+Reference 15 - 0.94% Coverage
+***Odd that we have a rule that you cannot list Wikipedia as the source of a fact when the Freebase data set was mostly derived from Wikipedia ... and then we imported disambiguation pages and other odd miscellany from Wikipedia. Does that mean we delete the tens of thousands of source tags for facts we later imported from Wikipedia to add data to new fields? I see them all the time
+Reference 16 - 0.33% Coverage
+That’s not a ""rule"", it’s merely a part of a help page, and one which is clearly out-of-step with current common practise, at that.
+Reference 17 - 1.08% Coverage
+*** [[User:Nikkimaria|Nikkimaria]] the Help page suggests to *replace* wikipedia links with more verifiable source links, not to delete them without adding a source. We’ve had lengthy discussions on this in other RFC’s and elsewhere. In any case, you didn’t respond to my request for a specific example of the sort of problem you see with this data, can you provide something that actually shows what problems might be caused here?
+Reference 18 - 2.76% Coverage
+***** {{Ping|Nikkimaria}} well the recent inconclusive [[Wikidata:Requests for comment/Verifiability and living persons|Verifiability and living persons]] RFC also went into the reliable source question - also inconclusively. A couple of years ago we had [[Wikidata:Requests_for_comment/Improve bot policy for data import and data modification|this RFC on improving bot imports]] that specifically discussed sourcing to wikipedia. And there’s been much discussion on Project Chat through the years too. There is definitely no consensus to remove ""imported from xxwiki"" statements - or references to any other ""unreliable"" sources at this point, with the wikidata community. And you still provide no specific example of a problem - what I’m expecting is for you to provide preferably several cases along the lines of: ""wikidata item Qxxxx has this statement Pyyyy vvvv sourced to FindAGrave, but it is incorrect according to this more reliable source zzzz"". If there’s not a track record of incorrect information from this source then I don’t see why we are even discussing it here.
+Reference 19 - 1.53% Coverage
+******A couple of quick examples: {{q|2991961}} cites it for a death date that contradicts multiple reliable sources (eg [http://www.bfi.org.uk/films-tv-people/4ce2b9fb2bc7e] or [http://www.ciudadaniaexterior.empleo.gob.es/es/pdf/cartas-de-espana/CdE-628-junio07.pdf]), and {{q|24169858}} cites it for a birth date that contradicts multiple reliable sources (eg. [https://babel.hathitrust.org/cgi/pt?id=nyp.33433076040579;view=1up;seq=41] and [http://famousamericans.net/henrymandeville/]). I see no reason why we should not replace it with more reliable sourcing.
+Reference 20 - 3.25% Coverage
+******* thank you for the examples. However, I note that neither BFI nor the newspaper you point to as sources for {{q|2991961}} death date (April 26, 2007) provide references, and the FindAGrave date (April 22) is supported also by IMDB. None of these meets a standard of ""verifiability"" beyond linking to the referenced source and seeing what it says. So, in a case like this, we should add the alternate stated date and its sources and leave it there as a disputed piece of information - if you suppress the April 22 entry you are hiding the fact that a disagreement exists. In the case of {{q|24169858}} I note that FindAGrave has a more precise death date than either of your references (which state only the year) so I’m wondering why you trust them more on the birth date? In the FindAGrave case, both birth and death dates can be further verified by examining the dates engraved on the gravestone, in the image provided there. So the FindAGrave values are MORE verifiable than the values from your other sources. Maybe whoever arranged the gravestone got it wrong by 2 days for some reason; again both dates should be added to indicate there is some disagreement on the topic. I don’t find in either case here that FindAGrave is providing anything but a useful reference. [[User:ArthurPSmith|ArthurPSmith]]
+Reference 21 - 2.61% Coverage
+:::I think step one is to define some common terms of quality. Saying something is more accurate because it is a bigger dataset is odd. 
+:::My ’’’advice measure’’’ 
+:::WikiTree with 14 000 000 million community sourced profiles thought it had about 2000 profiles marked unsourced or maybe 10 000. After finding a bug in the software WikiTree now have [https://www.wikitree.com/wiki/Special:Mostlinkedcategories +1 000 000] profiles marked unsourced. The same is with the above mentioned error reporting tool. It has found millions of errors. 
+:::Yes you can say something is incorrect just by checking the dates... lesson learned is with todays copy/paste and lack of sources and requirements of [[Wikipedia:en:WP:V|Verifibility]] people add things that makes no sense like mother born after child. 
+:::’’’Quality’’’ is not something you just get you need a process.....
+:::* We need to measure quality
+:::* Compare different sources
+:::* make it visible that this data is possible to verify with a source that has a proven record of quality
+Reference 22 - 1.36% Coverage
+{{vk}} A source is a source, and each source will always have a credibility measure. It would be true that Findagrave has community sourcing and that should be noted, it does {{smallcaps|not}} have its summary removal, it should simply allows its rating against other sources, or pointing to other potential source. If it is the only available source, it is better than nothing. For the vast bulk people of the world they will not be in published sources, especially the more notable sources, so these sources of less quality must be retained. &nbsp;
+Reference 23 - 0.65% Coverage
+:*The vast bulk of people of the world, who are not covered by reliable sources, are not notable. [[User:Nikkimaria|Nikkimaria]] ([[User talk:Nikkimaria|<span class=""signature-talk"">{{int:Talkpagelinktext}}]]) 00:06, 24 June 2017 (UTC)"
+Reference 24 - 0.50% Coverage
+::* {{ping|Nikkimaria}} For Wikidata notability and the question of which sources can be removed are two distinct questions. Wikidata happens to have a different notability policy than Wikipedia.
+Reference 25 - 0.79% Coverage
+:::*That’s not exactly true. Of the three points of [[Wikidata:Notability]], two are related to sourcing: #2 requires that an item have serious published sources about it, while #1 requires that an entry on another project, which generally speaking requires that sources are available to meet their notability pol
+Reference 26 - 1.82% Coverage
+::::* Seriousness is another standard than reliability. Wikidata also references information which we know to be wrong (and therefore not reliable) and marks those claims as deprecated. 
+::::: As far as I understand our current consensus we don’t see user-generated content automatically as not-serious. Wikipedia is a serious website. On the other hand, we also don’t automatically import user-generated data from places other than Wikipedia but only add it when a Wikidatian explicitly considers the data to be valuable in a specific use-case. 
+::::: Apart from that, the standard asks whether the item can be described with serious and public sources and not that the claims on its statements are supported by those sources.
+Reference 27 - 0.17% Coverage
+::::::What is the standard of ""seriousness"", if not reliability?
+Reference 28 - 0.29% Coverage
+::::::: It’s an intention to transfer reliable information. I think FindAGrave is a website that has that intention.
+Reference 29 - 0.61% Coverage
+::::::::: I don’t think there’s a single point where the standard get’s defined. It’s rather, that there are frequently discussions in RfC’s and the project chat where we agree about whether items are notable according to our criteria or aren’t
+Reference 30 - 0.49% Coverage
+* {{keep}} FindAGrave is clearly a useful source for wikidata since it (often) provides images of gravestones that can be directly examined to verify the information on birth and death dates, etc
+Reference 31 - 0.92% Coverage
+::::::: You used the same argument before at the IMDB discussion, so I will use the my same counter argument. You wrote: ""That’s not how this works"" This isn’t about what ’’I’’ think, or what ’’you’’ think. It is based on community consensus, if you want to change that consensus, you will have to persuade the community with statistics, not with emotions and anecdotes.
+Reference 32 - 0.49% Coverage
+**{{Tq|""Photos of gravestones are not citable sources""}} Really? And yet inscriptions on foundation stones, war memorials and commemorative plaques are? I fear the assertion I quote is false
+Reference 33 - 0.40% Coverage
+***Well, to clarify, they ’’shouldn’t’’ be citable for our purposes, nor should plaques and memorials. All can be rife with inaccuracies and ahistorical claims
+Reference 34 - 0.25% Coverage
+****As can books, newspapers and even academic journal articles. But thanks for the clarification
+Reference 35 - 0.82% Coverage
+**** The person who creates a grave stone usually cares a lot more about getting dates right than a journalist who writes a newspaper artice under a tight deadline. In my experience with journalists that interviewed me, it’s happens frequently that they get details wrong. Especially details that don’t matter to their main case
+Reference 36 - 0.62% Coverage
+* {{keep|not different from other sources}} Statements should be sourced and when statements are doubtful it make sense to deprecate or remove statements or to keep remarks about ""unreliable sources"". It is unhelpful to remove just references.
+Reference 37 - 0.35% Coverage
+::::::You stated above that we should ""keep remarks about ’unreliable sources’""; we cannot do that if we cannot mark a source as unreliable
+Reference 38 - 0.33% Coverage
+::::::: {{ping|Nikkimaria}} ""source as unreliable"" - ’’’nonsense’’’.
+::::::: Statements can be incorrect, but not sources.
+Reference 39 - 0.73% Coverage
+*{{Keep}} Findagrave ’’is community sourced’’ is not a good reason for not trusting it. Wikidata is also ’’community sourced’’. I will usually trust a gravestone more than other references for dates of birth and death and if the image can only be found on Findagrave than it is a great resource.
+Files\\request for a comment\\GuidelinesforRfCprocess - § 13 references coded [ 27.61% Coverage]
+Reference 1 - 4.86% Coverage
+#:: How is the proposal too rigid? The process has explicit room for flexibility, which would help to account for the varying nature of RFCs. Your opposition seems to be that ""RfCs on different subjects may have special requirements due to the nature of the subject matter"". Could you give an example of such special requirements, and how the proposed guidelines are too rigid to accommodate them? 
+#:: The proposal itself is simple. Break RFCs into two phases: discussion and decision. Discussions last one week, decisions last four weeks. Time can be extended if needed. Announce each phase in [[Wikidata:Project_chat|Project chat]]. Discuss the RFC on the talk page, and keep the main page as a running summary of the draft consensus. Vote on the proposal drawn from that draft consensus. If a significant number of voters suggest a change to the proposal, then restart the RFC.
+Reference 2 - 1.57% Coverage
+#::: For example, the CheckUser and Oversight RfCs each lasted a week because that was enough to form consensus. Furthermore, this structure makes no provision for multi-stage RfCs, nor multi-component RfCs. I don’t see what problem this would solve. It’s just pure inconvenience.
+Reference 3 - 1.15% Coverage
+#:::: You are right. But does the current approach support multi-stage RfCs or multi-component RfCs only because everything is discussed a little bit? Don’t we see that this leads to pointless discussions?
+Reference 4 - 0.73% Coverage
+#:No... you fail to consider the fact that RfCs may not fit to this - i.e. not everyone is going to be able to follow it with a discussion
+Reference 5 - 1.61% Coverage
+#:That’s great, but this is not the French Wikipedia, and we need a solution that works for Wikidata and that is agreeable to the community. For one, people do not come on here everyday (similar to Commons/Meta), and to find themselves cut off from discussion prematurely would be problematic
+Reference 6 - 5.40% Coverage
+#::: Sorry I break my own rules about no comment during decision part:@[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]] ’’For one, people do not come on here everyday (similar to Commons/Meta), and to find themselves cut off from discussion prematurely would be problematic’’, very nice argument but can you explain how the current process prevent closing a RfC before giving enough time to allow most contributors to have a chance to take part in the discussions/decisions ? And as you are taking care of the contributors which can have difficulties to take part in the discussions/decisions I hope you will do the necessary to announce each RfC with the different voting phases to each project chat. And please I never say we have to do as the French WP but as some persons say it too formal I just say that this is working in one important community so its manageable: French people are not the most formal persons so if it’s po
+Reference 7 - 2.07% Coverage
+#::::But what works for one community may not work for another. Out at the English Wikipedia we ’’don’t’’ structure most RFCs like this, and we still get stuff done. I never said that our current RFC process was fully effective, but I think that this would make it worse; I’ve even heard concerns that this very RFC is a knee-jerk reaction to the closure of the RFC that resulted in r
+Reference 8 - 1.35% Coverage
+#{{strong oppose}} all as too rigid. RfCs on different subjects may have special requirements due to the nature of the subject matter. While I agree RfC tracking is not as easy as it should be, none of this will go forward to solving that problem.--
+Reference 9 - 1.33% Coverage
+{{strong oppose}} per above. Also, depending on the activity level and what is achieved from the RfC, as well as the purpose of the RfC itself may not need the minimum 5 weeks as per the proposal. Some might not even need two weeks, it all depends
+Reference 10 - 0.65% Coverage
+# {{oppose}} While the RFC process could use improvements, making it this bureaucratic is not the way to go about it. --
+Reference 11 - 3.16% Coverage
+# {{oppose}} Largely per above. The point of having established processes and procedures is to allow people to tackle the issue at hand without having to worry about how to go about tackling the issue at hand. Applied to RfCs, this means that if everyone broadly agrees about how to conduct a discussion, they can go straight to the actual discussion. If established processes and procedures are so rigid, or are so rigidly enforced, that they become a distraction, they lose their value. This policy is too rigid, and therefore runs too great a risk of becoming a distraction.
+Reference 12 - 1.06% Coverage
+#{{oppose}} doesn’t even begin to solve the problem of massive, sweeping RfCs that are unintelligible to the average contributor. Lavallen’s solution is something that I would like to see.
+Reference 13 - 2.67% Coverage
+#An RFC on changing the RFC process... should ask for what problems exist and ask after why those might be the case. This RFC thus both a) fails to ask that question and b) because of that failure, fails to adequately solve the problem in a fashion which will with a high probability fix the problem. In general, it is better to propose solutions to problems after everyone agrees to what the problems are, and all I’ve seen is ""there are problems"" and not so much ""these are the problems""
+Files\\request for a comment\\HandlingofstoredIDsaftertheyvebeendeletedorredirectedintheexternaldatabase - § 15 references coded [ 18.27% Coverage]
+Reference 1 - 7.40% Coverage
+*:#Pros for keeping obsolete IDs (I quote the good overview by {{ping|Kam Solusar}}):
+*:## ""Our users might have datasets which still contain such IDs (including outdated ones) and can still use Wikidata to identify the subject of the deleted ID or even query the respective new IDs""
+*:### objections: true, third-party sources can confront their IDs with Wikidata IDs, see that some IDs are deprecated on Wikidata and in that way delete them; however, an alternative way of operating is possible, if Wikidata chooses to delete obsolete IDs: third-party sources confront their IDs with Wikidata IDs, see that some IDs are ’’absent’’ on Wikidata, so they go checking by themselves if the IDs are still valid and they easily see that they have become obsolete - same result, only little more trouble, or maybe less trouble (quoting {{ping|Sotho Tal Ker}} regarding {{P|227}}: ""If a clean up of their data is needed, I would advise those third parties to use the primary database directly, not any secondary one which usually lags behind a bit"")
+*:## ""Many third-party databases/services/websites or projects use such IDs and so they can be used (just as intended) for reconciliation between Wikidata and these external datasets""
+*:### objections: this is the best point in my opinion; nevertheless, if Wikidata deleted obsolete IDs reconciliation becomes (only in the relatively few cases where these IDs where used by third-party sources) only more difficult, but not totally impossible
+*:## ""But if IDs are stored here and considered valid IDs one day, but get deleted as outdated the next day, that doesn’t speak well for Wikidata’s reliability""
+*:### objections: storing obsolete IDs can make the update of these IDs easier for third-party sources using Wikidata, but in my opinion reliability means mainly storing correctly ’’actual’’ IDs
+*:## ""it is a preventive measure against the redirecting identifier being re-added again after removal"" ({{ping|MisterSynergy}})
+*:### objections: good point, but such additions can easily be found through constraint-violations and/or by bots
+*:#Pros for removing obsolete IDs (I quote some good ideas by {{ping|Sotho Tal Ker}} about {{P|227}}):
+*:## ""There is no use in keeping distinct values if they actually point to the same source"" (cfr. when a Wikipedia page is moved, the information of its previous name isn’t kept) + ""Keeping redirects will waste computing power as these redirects have then to be resolved externally""
+*:### objections: basically true, they are redundant, but they can still be useful for third-party sources (see above 1.1 and 1.2)
+*:## ""A cleaner database"": obsolete IDs occupy space (not so few, considering point 0 above) and make pages longer
+*:### objections: the space occupied is maybe not so much (here some estimate on some properties would be useful to have a more precise idea of the dimensions involved)
+*: Given all the previous points, weighing pros and cons, I tend to support {{vote delete|deletion}} ’’’also for ’’sources’’ redirected/obsolete IDs’’
+Reference 2 - 0.67% Coverage
+*::{{ping|Epìdosis}} do you know about the massive re-use of GND IDs, see e.g. [[:de:Wikipedia:BEACON]]? Do you know that Deutsche Biography also stores the old GND IDs - to allow longtime linking by old values? If WD doesn’t do that, it is very bad for users linking to WD by GND ID
+Reference 3 - 0.85% Coverage
+. keep both, I don’t see such a huge distinction, though if a source is routinely churning through its identifiers we might want to question using it as an external id at all here; On 2. No, do not add ""new"" obsolete IDs, my opinion is just that when an ID is added in Wikidata it should persist, at least for a while (in 10 years we can look at it again of course!)
+Reference 4 - 0.78% Coverage
+*:: Keep both. The valuable metadata that VIAF adds is the equivalency of IDs, as denoted by their ""clusters."" No, don’t add newly discovered obsolete IDs, that’s both extra (wasted) work and higher risk of bad reconciliation. My normal practice is to deprecate the old identifier and add the new identifier as preferred
+Reference 5 - 1.68% Coverage
+*:::It’s not a problem of support, as you can see from the proposals I’ve made, which differ very much from my above post. The problem regard the aspects about which most users (you included) have not yet expressed their opinion, mainly the following question: ""already-present obsolete IDs should be deprecated instead of deleted"" or also ""already-present obsolete IDs should be deprecated instead of deleted and it is fine to add ’’ex novo’’ other deprecated obsolete IDs""? And also other minor problems, which I have tried to list in the operative proposals below. A generic ""keep"" cannot be a conclusion of such a RfC, since it doesn’t deal with many important operative issues. Thanks,
+Reference 6 - 0.67% Coverage
+* {{Keep}} Deprecated values are a valuable information for our users. If they look up for an (old) identifier, that ia a redirect now they know now what item it belongs to and can look up for the current identifier. An authority control hub without such information is incomplete.
+Reference 7 - 0.40% Coverage
+* {{Keep}} - mark as depreciated and add {{P|2241}} qualifier. It can be useful to track changes to identifiers and this is difficult when the information disappears.
+Reference 8 - 0.58% Coverage
+*{{Keep}} External databases may use another external database ID as key to find wikidata entry. So external ID as part of items identification. Keeping historical records will allow to match links made by external outdated documents. -
+Reference 9 - 0.23% Coverage
+}} that means harder to obtain, than e.g. those GND redirects that are in the LDS file / GND dump.
+Reference 10 - 0.58% Coverage
+{{ping|MrProperLawAndOrder}} No problem for a bot that scans P214 values. For batches like I did up to some months ago, it is impossible starting from the day that VIAF removed the persist file from http://viaf.org/viaf/data. Absurd... -
+Reference 11 - 1.06% Coverage
+* {{comment}} You just created {{Q|96192295}} but I don’t know what criteria would be applied to determine this; most likely we would miss some widely reused id’s. Wikidata users generally don’t even have a good idea of how our own properties or items are used by third parties. Some reuse would be in private data collections that we would never even know about. I don’t believe making this distinction is good or useful; keep things simple.
+Reference 12 - 1.53% Coverage
+:{{ping|ArthurPSmith}} I expected this objection. The criterium of application of {{Q|96192295}} is simple: it is applied to a property adding as references the websites which use its IDs. Of course some private database could be missed, but I think that if a database is widely used, finding 5 websites which use it is quite simple, and if these 5 websites aren’t found, probably the use of the IDs is very much limited and keeping them in view of private databases’ utility may not be economic. However, I’ve created a second proposal below, removing this distinction. Please have a look and give your opinion about the remaining points.
+Reference 13 - 1.03% Coverage
+:no [[:en:WP:OR]] please: The item Wikidata property widely reused by third-party entities (Q96192295) is more WD OR. Just operate on regular items. Add statements to {{Q|423048}} and {{Q|Q54506313}} etc. and then define in SPARQL what should be selected. But there is no sign yet people want to distinguish between widely reused or not. I would just start with GND and look how it works, as a pilot project. Then the processes
+Reference 14 - 0.38% Coverage
+::[[:en:WP:OR]] is Wikipedia policy that doesn’t apply to Wikidata. We have no version of that policy on Wikidata where we face other challenges then Enwiki.
+Reference 15 - 0.45% Coverage
+No. As [[user:MisterSynergy]] mentioned on your talk page, redirects are just other names. And in general: Permission to have data in WD should not depend on historic presence of data in WD
+Files\\request for a comment\\Howtoclassifyitemslotsofspecifictypepropertiesorafewgenericones - § 23 references coded [ 37.23% Coverage]
+Reference 1 - 2.39% Coverage
+It depends on the case. However, if {{P|31}} is reasonable (as in the [[Wikidata:Properties_for_deletion#Property:P289|PFD I listed]]) (and probably the similar {{P|288}}), we should choose that. This is particularly clear when the class of items exists in the real world, like {{Q|559026}}. I don’t think that should always be a strict requirement (particularly since not all of Wikidata’s data is going to be used in infoboxes). But an item like Q559026 should allow filtering the instance ofs to avoid false positives (i.e. USS Ship is an instance of something besides a ship class, or the church example above) in infoboxes. This type of filtering requires a fix to [[bugzilla:47930]], since you need to check whether (e.g.) {{Q|309336}} is an instance of {{Q|559026}} when you’re on an individual ship’s page, such as {{Q|748902}}.
+Reference 2 - 1.05% Coverage
+::Hypothetically, assume [[bugzilla:47930]] is fixed (they’re planning to, and it’s marked ’critical’). Given that, what’s the benefit of having P289, and custom properties like it (that have item equivalents)? Once the Lua fix is done, we can accurately display the ship class (no false positives) on infoboxes (e.g. one on the Carl Vinson page) without needing P289
+Reference 3 - 1.22% Coverage
+::: [[bugzilla:47930]] seems to essentially be requesting support for [http://www.w3.org/TR/rdf-mt/#entail simple entailment] in Wikidata queries. Roughly speaking, simple entailment enables queries to include transitively-implied information about a subject. This is a core feature of querying in the Semantic Web -- it’s a basic feature of [[:en:SPARQL|SPARQL]], the W3C-recommended querying language for RDF.
+Reference 4 - 0.86% Coverage
+::::As I understand it, fixing [[bugzilla:47930]] will mean we can find the watercraft type ({{Q|1186981}} in this case) and add it to the ship item by following the {{P|279}} up the hierarchy instead of adding {{P|288}} to the ship item. This will mean we can delete {{P|288}} but we still need {{P|289}}.
+Reference 5 - 2.04% Coverage
+::::: The ticket is somewhat vague, and I would suggest that Matt’s use case in [https://bugzilla.wikimedia.org/show_bug.cgi?id=47930#c2 Comment 2] should be much more ambitious. We need to be able to go ""up the chain"" in a instance’s type hierarchy to retrieve all classes that the subject is an instance of. This would imply being able to retrieve the class at level n-1 (which would be defined by {{P|289}}) as well as the class at level n-2 (which would be defined by {{P|288}}). Ideally, I would imagine the number of levels up the type hierarchy the query reaches would be adjustable by some clause in the query. For example, this feature should be able to support the query ""return all instances of eukaryotes.""
+Reference 6 - 0.64% Coverage
+::::: Filceolaire, no, I think it’s the other way around. We would be able to delete {{P|289}} (since we could deduce in Lua using the item {{Q|559026}}), but I don’t yet no a way to avoid infobox false positives with {{P|288}}.
+Reference 7 - 1.75% Coverage
+::::::If we delete {{P|289}} then there is nothing to tell us what the ship class is, unless we replace {{P|289}} with {{P|31}} (which I would oppose for the reasons listed elsewhere on this page). If we keep {{P|289}} then the infobox has to check the item referred to by {{P|289}} and see what that is an {{P|279}}. If any of the items it is an subclass of are {{P|31}} waterclass then that is the waterclass of the ship. You only get a false positive if the ship class is listed as a subclass of 2 different waterclasses - an obvious exceptional circumstance which bots can monitor and flag for checking. I think that will work.
+Reference 8 - 1.15% Coverage
+It sounds interesting for cases when the subproperty refines the semantic relation between the item and the property value, but I do not think that would apply to [//www.wikidata.org/w/index.php?search=property%3Atype+of&button=&title=Special%3ASearch type of properties]. In other words, I would support this for {{P|289}}, but not for {{P|288}}, unless we can’t practically do otherwise.
+Reference 9 - 1.00% Coverage
+:::What about this? Each ship has a {{P|289}}. Each ’ship class’ item has property {{P|31}}:ship class and property {{P|279}}:battleship (or whatever watercraft type applies) (so P279 replaces P288 but we keep P289). Each item for a watercraft type has the property {{P|31}}:watercraft type and {{P|279}}:vehicle type. See my new section below.
+Reference 10 - 5.11% Coverage
+: I agree that Wikidata would greatly benefit by supporting [http://www.w3.org/TR/rdf-schema/#ch_subpropertyof rdfs:subPropertyOf], but I disagree that such a property would make it sensible to have a proliferation of domain-specific ’type of’ properties. In other words, I think specifying ’ship class’, ’watercraft type’, and the arbitrarily large number of ’type of’ properties as subproperties of ’instance of’ or ’subclass of’ would be a poor use of rdfs:subPropertyOf. 
+: Any Wikidata port of rdfs:subPropertyOf should be reserved for specifying deeper subproperty relations, like, say, the relationship between the transitive {{P|361}} property and an intransitive ""direct part"" subproperty (which many supported {{P|463}} as). Properties like ’ship class’ are different from ’instance of’ in only a very superficial sense: they specify ""instance of"" relations ’’in a specific class’’. I am not aware of any other large ontologies that use rdfs:subPropertyOf in this way. 
+: Beyond needlessly preserving evolutionary precursors of ’instance of’ and ’subclass of’ -- which domain-specific ""type of"" properties like ’ship class’ and ’watercraft type’ represent -- I see no reason to use rdfs:subPropertyOf like that. I don’t find the assertion that it will reduce confusion for new users compelling: they would still need to look up the appropriate domain-specific ""type of"" property to use in their particular niche of interest, and even then they would still need to know the difference between ""instance of"" and ""subclass of"" to use their niche’s custom ""type of"" subproperties accurately. I think it would be simpler to stick with the two W3C-based ""type of"" properties, and preserve uses of rdfs:subPropertyOf for deeper subproperty relations.
+Reference 11 - 0.65% Coverage
+:We already had a deleting discussion for {{P|107}}. Wikidata main type of item is ’’based’’ on GND types (otherwise we would have need to discuss one or two years what kind of ""main types"" we want), but it is not identical with GND
+Reference 12 - 6.18% Coverage
+Filceolaire, {{P|361}} is an important property we should also be considering when discussing basic membership properties. It’s based on the working draft [http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/ Simple part-whole relations in OWL Ontologies] from the W3C, and represents Wikidata’s top-level [[:en:Mereology|mereological]] property. ’located in’ (and thus ’is in administrative unit’) are really more subproperties of P361 than P279. 
+: As Kolja will tell you, I have been arguing against P107 for the reasons you cite for a while (cf. [[Wikidata:Requests_for_deletions/Archive/2013/Properties#Property:P107|P107 deletion discussion]], etc). I think it’s important to realize that the problem with P107 is not that it’s based on the GND, but that it’s premised on the idea of ""main types"". Main types are a taxonomic kludge that have some serious inherent problems; I outlined these in the rejected GND-independent ’main type’ property proposal (archived [[Wikidata:Property_proposal/Archive/7#en:Main_type_of_item_.28entity_type.29.2Fru:.D1.82.D0.B8.D0.BF_.D1.8D.D0.BB.D0.B5.D0.BC.D0.B5.D0.BD.D1.82.D0.B0_.28.D0.BE.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D0.BE.D0.B9_.D1.82.D0.B8.D0.BF.29.2Fde:Entit.C3.A4t_.28Typ.29.2Ffr:type_principal_.28entit.C3.A9.29|here]]).
+: So I think having multiple ""main types"" (whether GND or not) at the root of Wikidata’s type hierarchy is not a good idea. Wikidata’s type hierarchy should have a single root. Most large ontologies are rooted at a rough approximation of {{Q|35120}} (aka ""thing""), which is what I’ve used as the root while manually building a type hierarchy with {{P|279}}. The type hierarchy should also not contain any [[:en:Cycle_%28graph_theory%29|cycles]]. In other words, I think Wikidata’s type hierarchy -- its taxonomy of all knowledge -- should be a [[:en:Directed_acyclic_graph|DAG]] with a single root at ""entity"". There is slightly less agreement among widely used [[:en:Upper ontology|upper ontologies]] about which items appear below the root, but nothing like GND’s ""person"" type appears there
+Reference 13 - 2.17% Coverage
+::: I don’t see a need for two roots, for two reasons. Firstly, I don’t think classifying Wikimedia entities is valuable enough to be in scope for Wikidata. Secondly, even if it were, I don’t see anything that ontologically distinguishes Wikimedia entities like WikiProjects, templates, etc. from all other subjects in the world. If we were to pursue the (misguided, in my opinion) goal of classifying internal Wikimedia entities in addition to the rest of the world, then I would suggest that ""Wikidata page"" be a subclass of ""entity"" -- and probably not a direct subclass. Having things the other way around seems like it would be a basic, mistaken inversion for a taxonomy of all knowledge. It would also be different from all other knowledge representation sys
+Reference 14 - 0.48% Coverage
+:::::: They are real, aren’t they ? If they are not, the Internet is not real, and it seems i’m about to publish a comment on a real wikidata discussion page about right now :).
+Reference 15 - 0.79% Coverage
+:::::: Besides that, hat do they represent ? They represent an ambiguity, something that has a clear definition an event articles on Pedias. And an abbiguity is an abstract object, but ontologically it’s arguably something, something we actually all face on a day to day basis.
+Reference 16 - 2.19% Coverage
+::::::: No, no, look: [[:en:Sex (disambiguation)]] is a real thing (a service page of Wikipedia, or ambiguity, if you stretch it), and [[Q225833]] is also a real thing (a page of Wikidata). But if you look at what [[Q225833]] ’’represents’’? It’s just a collection of links to different disambiguations, [[:en:Sex (disambiguation)]], [[:ro:Sex (dezambiguizare)]]... Look, no matter, how many differences there are in pages about William Shakespeare, even different dates of birth or whatever, they still refer to the same person with some unique DNA (or our belief that he existed), and that is what the Wikidata item ’’represents’’. The disambiguation pages, however, are each different and carry no meaning – at least that’s the idea on Enwiki, see [[:en:WP:DDD]].
+Reference 17 - 0.93% Coverage
+We shouldn’t use ""*{{P|39}} => {{Q|30461}} => {{P|642}} => {{Q|30}}"". In Korean and Japanese, there is no way to translate it. In Korean, President of America is translated to 미국(America)의(of) 대통령(president). Korean is SOV language so some orders of words are different. Wikidata is global project so we need to consider it.
+Reference 18 - 1.11% Coverage
+No, we definitely should use ’’president of the united states’’. The fact that president of the united states is a special kind of president, of a states belongs in this item. It seems ways a better solutions, stating that for every president of the united states is a redundancy I can’t find a good use for. [[User:TomT0m|TomT0m]] ([[User talk:TomT0m|{{int:Talkpagelinktext}}]]) 22:22, 25
+Reference 19 - 0.98% Coverage
+disagree. By that logic, ""of"" can’t be used at all! That is preposterous. The issue of translating such a compound property is strictly a display/software problem, not a data structure problem, which is what is being discussed here. Furthermore, ’’it’s already present everywhere ""of"" is’’, so the argument seems somewhat spurious to me.
+Reference 20 - 1.35% Coverage
+*{{ping|Emw|Filceolaire}} There is an interesting distinction to be made between physical objects and works. On one hand, {{Q|Q1816474}} is a physical object that is ""{{P|31}} => {{Q|Q1845}}"". But compare that to {{Q|7765504}}, which I just marked as ""{{P|31}} => {{Q|2698259}}"". There are probably tens of thousands of copies of that episode on DVD, but it makes more sense to treat the item as a singular instance of a work rather than as a class of DVD copies of the work.
+Reference 21 - 0.68% Coverage
+**{{ping|Artic.gnome}} if you want to get technical it is a ’subclass of:DVD’ as well as an ’instance of:Seinfeld Episode’ (So ’Seinfeld Episode’ is a special type of class) but I don’t see any benefit in adding ’subclass of:DVD’ to the item.
+Reference 22 - 1.26% Coverage
+*** Mmm as far as I know TV series are usually distributed on DVD as a whole sequence of episodes. A season beeing usually distributed as a set of DVDs. So the ’’instance of’’ <DVD> seems weird here. A DVD is more like a container of digital copies of the work, each of the copies is technically (philosophically speaking) a {{Q’|945419}} virtual episode representation, as a book which contains a play text is a virtual performance based on that text.
+Reference 23 - 1.22% Coverage
+The area where we have the largest number of domain specific properties is in links to authority control and other types of database. Nearly all the properties with datatype ’string’ are in this category and they make up about a third of our properties. The whole lot could be replaced by {{P|528}} with qualifier {{P|972}}. I’m not convinced we should do it however. I suspect there may be reasons to have lots of separate properties
+Files\\request for a comment\\Interwikilinksforspecialpages - § 30 references coded [ 14.90% Coverage]
+Reference 1 - 0.56% Coverage
+***I don’t see why it would hurt, but it isn’t needed in that case. Well, maybe ombudsmen would like it, but even stewards locally grant checkuser to themselves before CU’ing or viewing the CU log
+Reference 2 - 0.21% Coverage
+**** None of the language links are ’needed’ but they are all nice to have.
+Reference 3 - 1.32% Coverage
+:: You can access these with the English names. That doesn’t mean everyone else can. Think of a person who’s first language isn’t English but who uses English Wikipedia because that is where the link they followed led her. They would like to contribute - that’s why they found their way to this special page - but are hesitant because they think their English isn’t good enough and en.WP is a bit of a bear pit. They need a link to find the equivalent page in their lang
+Reference 4 - 0.62% Coverage
+:: Even if they don’t ’need’ to do that having the link means they could do that, which might be the way they happen to find an other language wikipedia they would not have found otherwise. Don’t ask ’why?’ Ask ’Why not?’
+Reference 5 - 0.33% Coverage
+Why not? Because the list of links would be much longer than the form and make it incredibly difficult to load or use.
+Reference 6 - 0.39% Coverage
+**Polyglots who happen to hold the CheckUser permission on more than one Wikipedia, apparently (of which, there [[m:CU|are none]]). -
+Reference 7 - 0.35% Coverage
+***{{ping|Rschen7754}} or, you know, ombuds, who have that right on all wikis. <span style=""font-family:Arial"">
+Reference 8 - 0.48% Coverage
+****If the ombudsmen do their job correctly, they normally wouldn’t get into a situation where observations of checkuser logs on multiple wikis at once are necessary
+Reference 9 - 0.55% Coverage
+*{{Oppose}} Interwiki links from Wikidata on some of the special pages - such as Special:Recentchanges - are very useful. More on that in my answer in the section for Special:Recentchanges.
+Reference 10 - 0.20% Coverage
+*No. We should at least be able to allow some, on a case-by-case basis.
+Reference 11 - 0.42% Coverage
+Compared to the wikis which got these links without being asked this number and the effort needed for reverting this removal is pretty low, though
+Reference 12 - 0.27% Coverage
+:If stored on Wikidata, they will show up regardless of whether recentchangestext exists.
+Reference 13 - 0.85% Coverage
+::Not true, example of ’’’not created’’’ [[:bcl:MediaWiki:Recentchangestext|Recentchangestext]] → [[:bcl:Espesyal:RecentChanges|Recent changes]], and example of ’’’deleted’’’ [[:war:MedyaWiki:Recentchangestext|Recentchangestext]] → [[:war:Pinaurog:RecentChanges|R
+Reference 14 - 0.79% Coverage
+{{o}} [[:File:Q6293548_madness.PNG|This]] is not useful. Not to anyone, at all. Why do we need a page to list a page that we know exists on every single wiki, no matter what? It would be like creating an item for ""MediaWiki:recentchangestext"", or something even sillier.
+Reference 15 - 0.43% Coverage
+* Just ’cause ’we’ all know this doesn’t mean everyone knows this. These lists are useful to potential new editors looking for somewhere they can help.
+Reference 16 - 0.27% Coverage
+*:It was apparently useful to people who bothered to hardcode the links in pre-Wikidata era.
+Reference 17 - 0.47% Coverage
+{{oppose}} Firstly per Legoktm. Secondly, I don’t think we are in the position to enforce hundreds of communities to have these links without asking them before.
+Reference 18 - 0.55% Coverage
+’’’Oppose’’’ per above. Interwiki links on special pages are super-senseless; and it’s easy to find a special page on a different wiki anyway. Local adjustments can be made as wished there
+Reference 19 - 0.79% Coverage
+:Well, we discuss about links from ’’all’’ projects to ’’all’’ projects here, not only from big to small. And as it seems most ’’big’’ Wikipedias already link voluntarily to the ’’small’’ ones, preferably close to the wiki’s language, so this is nothing we need Wikidata for.
+Reference 20 - 0.17% Coverage
+They did link voluntarily but then we deleted this facility
+Reference 21 - 0.68% Coverage
+*{{s}} It would really only be useful for new editors or editors going from non-anglo --> anglo wikis, since you can access it at Special:RecentChanges (en anglais) no matter what language the wiki is. That being said, it could be useful.
+Reference 22 - 0.10% Coverage
+** You know that but newbies may not.
+Reference 23 - 0.99% Coverage
+***And I know some non-en ’’oldies’’ who hasn’t been aware of that the English names can be used in (almost) any wiki. To them it has only been the version they have used on Commons, no matter they like it or not. Long time ago, I had some discussion with a user who found what he considered improper use of a file in a non-latin wiki, where he did not even
+Reference 24 - 0.68% Coverage
+*{{o}} as this would affect thousands of users, who may not want the interwiki links. --’’’[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]’’’ 21:45, 24 December 2013 (UTC)"
+Reference 25 - 0.41% Coverage
+*{{Oppose}}, who wants to see links to empty watchlists? I think that many users don’t have pages in their watchlist in more than one project. -
+Reference 26 - 0.22% Coverage
+*{{Oppose}} with the same reason as against [[#Special:RecentChanges]].
+Reference 27 - 0.70% Coverage
+*: In no way. The watchlists are still local and you’d need to click on all links in the sidebar to check all your local warchlists. This doesn’t make it easier than it was before. [[User:Vogone|<span style=""color:#0E0;font-weight:bold;""
+Reference 28 - 0.38% Coverage
+**** If some wikis decide to add links it does not mean that every wiki has to have them. A wiki can still add them locally via the old way.
+Reference 29 - 0.18% Coverage
+*{{Oppose}} It will lose every one with a list of empty pages. --
+Reference 30 - 0.52% Coverage
+*: I really don’t understand this argument, it’s just a problem of how the links are shown and is no different from interwiki links in any page ... Fix the CSS or the display, in a word.
+Files\\request for a comment\\PropertyproposalorganisationreformtoamoreModelorinfoboxorientedprocess - § 3 references coded [ 20.76% Coverage]
+Reference 1 - 7.58% Coverage
+#:: Then we want a great organisation and perimeters of Wikiprojects. Wikiprojects have a problem: some of them are empty, and creating one of them take times, they are organized as they want and lack coherence. Having a ’’model’’ or ’’reference’’/’’whatever’’ is an entry point oeganized hierarchicaly is the same for everybody and will make the indexing of information easier. Then Wikiproject could monitor the subpages they are interested for and keep to be organized as they want. But I just want to push a better organization, the proposition is just a base.
+Reference 2 - 4.06% Coverage
+". One more thing I forgot : a model subpage would not need an active Wikiproject behind it to be maintained and modified, as some or them are often dead. The procedure does not need that as it’s the same for everody and it imply to keep things organised and information easy to find with a minimal investment.
+Reference 3 - 9.11% Coverage
+# I have to say that I don’t like the temr ""modeling"": we aren’t doing any modeling we just structure data in order to access them more easily. The correct term is for me ""data structure"" because we don’t care if the proposed properties in wikidata are the good ones to characterize an element, if they redundant or not.
+#: I don’t agree, déciding how to organize datas (this ’’how’’ is called ’’a model’’ that all datas of this sort (or almost in this case) should meet) is one definition of modeling (in computer science for example), there is not only one definition of modeling and we meet the most general one :). But I’m not opposed to another wording, I just can’t find any better.
+Files\\request for a comment\\Severaldatatypesforthesameproperty - § 4 references coded [ 34.90% Coverage]
+Reference 1 - 12.74% Coverage
+* I don’t agree with your argument, that it’s better to have the original name of an author (e.g. Chinese) than the Latin transcription for two reasons:
+# People who are not familiar with that language won’t have the ability to associate the name with a person, even if they know the person who wrote the book. Also they cannot remember the information behind the value of the property. If you see something, which is not understandable for you, you cannot remember it.
+# If the person does not use that language, maybe no font is installed on the computer which can render the letters of that language.
+Also I see a problem of unlinked items: If someone creates an item for that author, all string references to that author would have no link to that item and would need to be changed to the property with the item datatyp
+Reference 2 - 10.66% Coverage
+An alternative to string would be a multilanguage-string. It would allow us to translate the name of an author. You have the same kind of problems with mayors in smaller cities for example. Most of them will never have an article on any wp. Some arguments has been said, that it will be worth a lot to identify XY as a mayor i Z city, that XY also has written a book, won a gold medal in some sport. I’m not so sure if that is that easy. I have already large problems separating items with identical labels. On svwp, we recently identified a gold-medalist from one of the first modern olympics, as identical as a politican some decades later. What made it harder, was that he had changed names
+Reference 3 - 5.08% Coverage
+I’ve worked on articles about communes in France, some of them very small (less than 10 inhabitants). In order to provide data about their mayors we should have to write articles (tens of thousands at least) about all those people. It doesn’t make sense to write an article about somebody that was mayor of a 5-person commune
+Reference 4 - 6.42% Coverage
+Just think to the data user in wikipedia: with one property you can recover the data value using the code <nowiki>{{#property:p169}}</nowiki> but if you have 2 properties (one string and one item property) you will need to test each property, something like <nowiki>{{if|#property:p169|#property:p170}}</nowiki>. Not so easy to use if you don’t know that several properties exist for the same concep
+Files\\request for a comment\\Sortidentifiers - § 21 references coded [ 16.83% Coverage]
+Reference 1 - 0.40% Coverage
+** I noticed that VIAF is now going first, so I suppose it does. With this change, VIAF would go more or less last, unless treated specially (which would probably be confusing).
+Reference 2 - 0.61% Coverage
+"
+***** {{re|ArthurPSmith}} I don’t think this would be as useful as sorting alphabetically. Wikidata’s property ID order is more or less arbitrary, so this would mainly be useful to people who’ve memorized particular property IDs (which isn’t really a lot of people)
+Reference 3 - 0.36% Coverage
+*: I’d just sort the lot alphabetically, it would make it easier to know where to find any particular identifier without having to guess which category it’s in.
+Reference 4 - 0.72% Coverage
+**:I’ll like for identifiers to be sorted by topic and for identifiers to be grouped with other similar identifiers as suggested by Obsuser. While i like the idea of ordering by number of usages i can easily imagine a situation where the lesser used identifier are more useful and of higher quality than the more used one.
+Reference 5 - 0.36% Coverage
+:: I think sorting overall-alphabetical is actually the easiest option. Anything else will require that somebody decides how to group them into categories.
+Reference 6 - 1.70% Coverage
+:: That doesn’t seem amazingly difficult, though? We manage fine for normal properties, and it can easily be an incremental project to tinker with as time goes on.
+::: The more I think about it, the more alphabetical (or property-number-order) seems like a bad idea. Users will have to hop around a bit to find identifiers that naturally fit together - they’ll be in a reliable order, certainly, but not necessarily a ’’helpful’’ one. Plus people won’t always know that there are other relevant properties, or what they’re called - an alphabetical list will be just as unhelpful as a random-order list if you’re scrolling through looking for things that might be useful. Topic grouping avoids that problem, and it’s consistent with what we already have.
+Reference 7 - 1.36% Coverage
+* {{comment}} I’d rather first sort by subclasses of {{Q|18616576}} (of multiple present use the deepest) and within those groups something else would be needed. Okay, alphabetically, but which language? The users preferred language? So if two people, one with primary language set to German and the other to English, talk/share screen/communicate about the statements the have different orders? {{unsigned|CamelCaseNick}}
+** As far as I know, the sort order is listed at [[MediaWiki:Wikibase-SortedProperties]], and sorting differently according to the user’s language isn’t possible.
+Reference 8 - 0.21% Coverage
+** New properties are created quite often, but these only get added to the list on an adhoc basis
+Reference 9 - 0.73% Coverage
+’’’Support’’’ some kind of sorting, but ’’’Oppose’’’ alphabetical sorting. The VIAF identifier is one of the most important, and alphabetical sorting would put it last. It would make more sense to ask major Projects here which identifiers are the most useful and then consider sorting based on responses to that survey.
+Reference 10 - 1.35% Coverage
+* {{comment}} I’d like to remind an example WHY a good sorting is necessary [https://twitter.com/Alexmar983/status/1237106051083833346 here] I left a comment noticing that the first IDs of {{Q|84263196}} was subreddit. Now one [https://www.wikidata.org/w/index.php?title=Q84263196&type=revision&diff=1132871670&oldid=1132844714 user] finally add today also COVID-19 but for the first days the first ID we put on one of the most critical topic of the year was not only poorly scientific but even slightly worng (journalist call it coronavirus, but this is no good practice).-
+Reference 11 - 0.94% Coverage
+{{re|Epìdosis}} Before you formulate the formal RfC, is it actually necessary to do the sorting automatically (regardless of whether or not that’s possible)? Presumably it would be sufficient to re-order properties something like once a week or once a month. In any case, it’s not clear if it would be appropriate to edit the page automatically, since such edits would require a bot with administrator permissions
+Reference 12 - 0.76% Coverage
+{{comment}} What is the reason for giving priority to {{P|212}}, {{P|957}}, and {{P|236}}? In most instances where these values appear, they are either on the wrong data item, or appear with at most one or two other identifiers. So either we’re emphasizing incorrectly placed data, or applying a data sort that will have almost no utili
+Reference 13 - 2.07% Coverage
+:Looking at {{P|236}} I cannot see particular reasons for concern about wrong data, while the problem seems more serious for {{P|212}} and {{P|957}}, which are actually often misused in work-items. So, in my opinion the importance of one identifier isn’t spoilt by the fact it’s often misused (e.g. I would like to have {{P|214}} first even if it had 1M misuses; and ISBN is clearly the most important identifier for book editions, obviously from the 20th century), moreover the modification of the order would be less noted if the number of identifiers present in the items is small and this modification could make the problem of misuses more evident, prompting a discussion about possible solutions; in conclusion, I complessively think that this ordering would be positive, but if other users too think that evidentiating {{P|212}} and {{P|957}} would be bad, we can strip them out (’’’proposal 1bis’’’). -
+Reference 14 - 1.03% Coverage
+On Mediawiki we have a long history of people seeing something done, assuming it’s correct, and copying the same to multiple other pages or items. If we promote the ISBN identifiers, which are more often wrong than right, then we promote error in our dataset. Unless someone is willing to regularly run a bot that strips out ISBN identifiers from items that should not have them, then giving the identifier priority will cause far more issues than it will solv
+Reference 15 - 0.48% Coverage
+:: {{ping|EncycloPetey}} It could be done periodically using PetScan, no problem; if you want, I can remove most wrong IDs just now (I should remove all ISBN in items not having {{st||31|3331189}}, correct?). -
+Reference 16 - 0.13% Coverage
+If it isn’t {{st||31|3331189}} then it can’t have an ISBN.
+Reference 17 - 0.29% Coverage
+{ping|EncycloPetey}} OK, you can run [http://petscan.wmflabs.org/?psid=15691546&al_commands=-P212%0A-P957 this]. --
+Reference 18 - 0.13% Coverage
+{Contra}} {{P|846}} has more ids at hand than {{P|214}}.
+Reference 19 - 1.09% Coverage
+:{{ping|Succu}} The comment is true, although the difference is small (2128k vs 2030k). In my first comment I acknowledged that there are identifiers which are more widespread than VIAF, but I also said that they were much more sectorial, which is true also for {{P|846}}. Moreover, there are an inconsistency in your vote: [[Special:Search/haswbstatement:P214 haswbstatement:P846|there seem to be only 13 items]] containing both GBIF and VIAF ... so where is the problem?
+Reference 20 - 0.28% Coverage
+*::@Epìdosis: All of them are misplaced and I removed them. But we need a language independend, domain specific solution.
+Reference 21 - 1.84% Coverage
+# It sorts *English labels* alphabetically; this is now even more confusing for users with another UI language than English, as it sorts mostly alphabetically, but some identifiers are placed incorrectly. 
+:# ""Most important identifiers first"" makes an assumption about what’s important; from my perspective, it lists less-important and even least-important identifiers first now, and particularly the VIAF matching is so much flawed that I consider it broken beyond repair.
+:# It does not scale. Each new property needs to be added manually; each English label modification needs to be reflected in [[MediaWiki:Wikibase-SortedProperties]] as well.
+:Can we please make this opt-in for users? The sorting of regular properties can be left activated by default, but please do not force me to use this.
+Files\\request for a comment\\TimeDataTypeProperties - § 9 references coded [ 39.44% Coverage]
+Reference 1 - 5.66% Coverage
+:#I don’t think that item-type-specific properties should be used when a generic beginning/end of item’s existence property could be used, except maybe for birth and death. I don’t think that a ""key event"" property should be used in cases where a regular statements with a date qualifier could provide the same data, ie Discovered by X at time Y as opposed to Key event discovery time Y. In other cases, I’m not sure if key event is the best solution, or maybe just many properties should be made. I’m not really sure how many properties would likely arise from this. 
+:#:<small>(Actually, I’m not sure whether using qualifiers would usually work. Entities are sometimes discovered by more than one person, so the couldn’t really have combined qualifiers. Related point: {{P|575}} was added to some ~15,000 items recently... --
+Reference 2 - 4.71% Coverage
+:Why didn’t you made this RfC in the last months, while the discussion of the property proposals were ongoing? But I see the point. Even more, the same discussion we could make for other topics too: Why do we need a logo image, seal image, locator map image, coat of arms image, or flag image property, when we could just create one property image and use a image type qualifier to different between a logo, seal locator map,...? Why do we need properties for GND identifier, ISNI, LCCN identifier, VIAF identifier, NDL identifier, NLA identifier,...when we could just use one property authority control together with qualifiers? I think we should dicsuss this in generic, not only for events.
+Reference 3 - 6.27% Coverage
+Ok, back to your question: After I has thinking about it, I think we shouldn’t collect them together under one ’key event’ property. The main reason which make me think so is, that we just have one level for qualifiers. And if we use ’key event’ for the type and the qualifier for the date, we don’t have any possibility to define the statement more specific. Example: <Nintendo WII U> key event <publication> date <YYYY-MM-DD> already uses the qualifiers, so we can’t add more information like the countries in which the console was released at this date, since there are multiple launch dates in several countries. Ok, I can’t see any case where ""date of birth"" or ""date of death"" should have qualifiers, but this doesn’t mean there aren’t cases. Perhaps there are two different dates for ’real’ death and brain death? Having the qualifiers left we could use the qualifier. But if we already use the qualifier for the dat
+Reference 4 - 3.98% Coverage
+At first I thought ""key event"" is a good idea, but it seems we will have problems if we want to add specific sources to different qualifiers. For instance, when two sources state two different birth dates of a person respectively, we may want to know which date comes from which source. And if at the same time there are two other sources stating two different places of birth of the person, the situation will be even worse, we will have a lot of qualifiers and a lot of sources, but we don’t know the relations between the qualifiers and the sources. Is there any way to avoid this problem? --
+Reference 5 - 0.97% Coverage
+:There can be two same <key event> values. see the {{P|107}} of [//www.wikidata.org/w/index.php?title=Q8012976&oldid=49406793 this] -
+Reference 6 - 1.64% Coverage
+In my opinion, ""as of"" should mean ""when it was true"". E.g. say the Census Bureau said ""the population was X in May 2010""; we should use ""as of"" May 2010. They may have published that statement in 2012, but the ""as of"" is still May 2010.
+Reference 7 - 0.78% Coverage
+{{S}}. New [[Wikidata:Property_proposal/References#date_retrieved|’date retrieved’ property proposed]
+Reference 8 - 6.20% Coverage
+We really lack a way to point out something starts/ends ’’because of’’ something else. {{Q|451753}}: Her {{P|428}} changed, because her surname (still lacking property for that >.>) changed, because she married. So actually adding the start date of her marriage would be enough, ’’’if’’’ there were some way to state the consequences of that. As with your example of JFK: in principle it ’’could be’’ stated ""ends by: death"", but what if there are multiple possible claims this could refer to (Brandegee had actually been married two times)? To be precise there has to be a way to link a claim to another claim and I can’t even imagine this being implemented. The only solution I can think of for these cases would be to create items for each event (e.g. ""event of marriage between M. K. Curran and T. S. Brandegee"") and link all effected claims to it via an item property and state the actual time there, but that’
+Reference 9 - 9.22% Coverage
+@23PowerZ, a concept to solve this would be some sort of ""sub-items"", i.e. items that can only be created and used within the scope of their ""parent""-item. For each person, e.g., you could then create a sub-item ""death"" and set all properties like time, place, reason, etc. for it. Then you could use this sub-item as a value for properties of the item. In my opinion, this is what would actually be required for the ""key event"" property as well. With the current datamodel of property-value-qualifier, it can’t be implemented properly. However, as we probably all know, this is something that won’t come anytime soon (we don’t even have a number datatype yet).
+::@Yairrand: I’ve come across the same question (giving end date for a marriage), and I chose to enter the end date. The reason is that Wikidata is an open project which will never be finished; so if you see a marriage with a start date but no end date given, you can never be sure if it indeed lasted until a spouse’s death, or if it didn’t and just noone has entered the end date yet. This is the same for public offices - you can only know that JFK kept his office until his death when you know history. Dates, although appearing to be obvious at the time of entering the data, are additional information that you cannot derive, and rules when to enter a date and when not won’t be able to help there.--
+Files\\request for a comment\\makedeveloperandprogrammerpropertiesclearer - § 3 references coded [ 9.34% Coverage]
+Reference 1 - 5.22% Coverage
+{{P|943}} is a subproperty of {{P|178}} and should be used when we know the name of the programmer who wrote the software. {{P|178}} is more general and can be used when we know only the name of the organization and not the individual contributors (despite considering its current usage). Personally, I would distinguish between programmers and maintainers. However, distinguishing developers and programmers is difficult.
+Reference 2 - 2.62% Coverage
+Programming is just one part of the software development process. A software developer (person) is not necessarily a programmer, or vice versa. In the same way a property developer is not always a hands-on builder.
+Reference 3 - 1.50% Coverage
+A building developer is neither {{P|P84}} or {{P|P631}}, see https://www.designingbuildings.co.uk/wiki/Developer

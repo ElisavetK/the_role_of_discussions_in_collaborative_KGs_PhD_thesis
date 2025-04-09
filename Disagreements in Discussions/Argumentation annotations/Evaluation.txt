@@ -1,0 +1,86 @@
+﻿Files\\properties for deletion\\P107 - § 3 references coded [ 11.66% Coverage]
+Reference 1 - 2.64% Coverage
+That’s kind of irrelevant to me. Each property should be able to stand with or without another to replace it. We can discuss the replace property after-the-fact IMO. That said, Zolo’s outline on the below referenced talk page seems sensible and easy-to-use
+Reference 2 - 4.08% Coverage
+General classification is necessary especially in query to be able to restrict the search in a medium extend. I agree with you about GND classification and its small number of possibilities but we need this kind of classification. The only good way to delete GND property is to propose first another classification: don’t delete an bad system with nothing but with a proposition of a better system.
+Reference 3 - 4.95% Coverage
+{{Vote delete}} None of the several major problems with P107 that I laid out in [[Wikidata:Requests_for_deletions/Archive/2013/Properties/1#Property:P107|P107’s previous nomination for deletion]] have been resolved. [[Property:P31|P31]] and [[Property:P279|P279]] are much better alternatives to P107: they’re W3C recommendations for the Semantic Web that do what P107 does, but more robustly and without the major problems described in the linked discussion.
+Files\\properties for deletion\\PfDPropertyP1549 - § 4 references coded [ 7.16% Coverage]
+Reference 1 - 0.53% Coverage
+{{Vote_delete}} but probably wait some weeks/months until Lexemes are more stable.
+Reference 2 - 0.88% Coverage
+{{Vote_delete}} The property {{P|6271}} has been created. This one can now be deleted (first declare obsolete, move content, then delete).
+Reference 3 - 0.59% Coverage
+{{vd}} Very barely used, and replacement is even available for these not more than 100 usages. -
+Reference 4 - 5.16% Coverage
+{{Vote keep}} This is good for Wikidata but bad for infoboxes: Inverse properties is problematic, since is harder to code templates or modules to emulate the expected behaviour with inverse properties, and most of the nominators of those deletion request don’t even address the problems that leads this deletions. One of the warnings says clearly:
+:<blockquote>[[File:Skull and Crossbones.svg|25x25px]] Validate the property isn’t being used in other projects (using <code><nowiki>{{</nowiki>[[Template:ExternalUse|ExternalUse]]<nowiki>}}</nowiki></code>)
+: and if it is leave a message in Village pump of those projects!</blockquote> and this is an obvious case of potential use, and as this is already used, this request should be speedy closed. This should be discussed on other projects like Wikipedia first!
+Files\\properties for deletion\\PfDPropertyP3303 - § 1 reference coded [ 0.92% Coverage]
+Reference 1 - 0.92% Coverage
+{{vd}} {{ping|Jklamo}} No need to ""distinguish"", we should be neutral on every URL schemes
+Files\\properties for deletion\\PfDPropertyP802 - § 6 references coded [ 14.83% Coverage]
+Reference 1 - 3.35% Coverage
+{{vd}} Idem. {{P|802}} was originally supposed to keep only the main students but has been used in practice as an inverse property for {{P|1066}} (notably after the inception of an inverse contraint). I agree that using the property properly wasn’t that obvious (sources rarely differentiate the main and secondary students of a person). Anyway, it is currently cumbersome to maintain and do not bring anything new.
+Reference 2 - 1.93% Coverage
+{neutral}} leaning toward {{vd}} as it’s indeed redundant wuth the inverse and it’s a one-to-many relationship. Pinging the top 5 users of this property: {{ping|Simon Villeneuve|Yamaha5|Aiaiaiaiaia|Villy Fink Isaksen|AttoRenato}
+Reference 3 - 3.70% Coverage
+{{ping|Jagulin}} I understant this kind of properties actually mean ""remarkable students"", not ""all the students in his/her whole life"". So, if it has been overused, clean it is not a problem to me and even better for infoboxes, which must be a summary, not a list. However, may not be necessary to move to another property, but just clean it. My ""do not lose"" was refered to the effect of change the property, not to clean their not rellevant content. Thanks,
+Reference 4 - 4.48% Coverage
+*: {{Ping|Jura1}} I think it has been assumed that the inverse property is already matching, but you have a point in that this should be confirmed first. Do you agree that {{P|P802}} has been overused (for non-relevant students) and should those ""mistakes"" be transferred to {{P|P1066}} by bot or removed first? I interpret your vote here as ""moving to another claim will change nothing"", but I’m unsure if you also mean ""we should instead monitor data (e.g. relevance) and clarify the usage instructions"" or ""there is no problem with current usage""
+Reference 5 - 0.81% Coverage
+{{vd}} Clearly-than-god no consensus to keep such old-school schema. Replacement is now available
+Reference 6 - 0.56% Coverage
+{{Vote_delete}} too many, information should be stored by inverse.
+Files\\properties for deletion\\PropertyP8531 - § 1 reference coded [ 2.83% Coverage]
+Reference 1 - 2.83% Coverage
+It’s frequent that the same identifier is shared by several sites. It’s even the purpose of identifiers.
+Files\\property proposal\\grammaticalnumber - § 1 reference coded [ 4.97% Coverage]
+Reference 1 - 4.97% Coverage
+not entirely sure but agreed to wait before creation, there is not rush, we should take our time. {{u-|Tubezlob}}: ""mathématiques"" is an interesting example, some sources says it’s {{Q|138246}} but meanwhile some mathematicians use the singular ""mathématique"" (mostly in old text but some modern texts too, it regains some interest, for example {{Q|334065}} use almost only the singular), [[Lexeme:L471]] will be a nightmare to model too. I still think a property may be useful and do more than the ""grammatical features"" as properties can have qualifiers and references.
+Files\\request for a comment\\DataqualityframeworkforWikidata - § 2 references coded [ 1.19% Coverage]
+Reference 1 - 0.61% Coverage
+I am well aware of the difference between ’’data’’ and ’’information’’. Nevertheless, I decided to use the terms as synonyms in this case to keep the discussion open to non-specialists and avoid excessive technicalities. The choice of using the two terms without making any distinction is by the way common also to part of the scientific literature.--[[User:Alessandro Piscopo|Alessandro Piscopo]
+Reference 2 - 0.59% Coverage
+:This is actually quite interesting. A good outcome of this RfC could be, beyond defining which dimensions are important for data quality in Wikidata, to understand how constraints relate to each dimensions. This could be used afterwards to obtain a measure of how good is Wikidata with regard to different quality aspects. Which other constraints would you use to spot Consistency issues?
+Files\\request for a comment\\GuidelinesforRfCprocess - § 3 references coded [ 6.11% Coverage]
+Reference 1 - 2.42% Coverage
+# ’’’Strong approval’’’. --[[User:Filceolaire|Filceolaire]] ([[User talk:Filceolaire|talk]]) 16:48, 4 September 2013 (UTC)"
+". This seems to give a sensible structure to the RFC process and will help keep it useful for developing policy. Even where a more open ended discussion is desired this structure can be used - Just declare that the discussion did not arrive at a proposal for approval and the Approval stage will not be used.
+Reference 2 - 2.54% Coverage
+# {{Support}} Imposing a small extra degree of order and standardization to the RFC process as the proposal above does seems like a promising way to ensure energy isn’t needlessly wasted. The guidelines give room for flexibility -- e.g. noting that time-boxed discussion and decision phases can be extended if needed. If others think the proposed guidelines will prove excessively bureaucratic, how about we use this process with a few random RFCs as a pilot?
+Reference 3 - 1.15% Coverage
+#:::::I am inclined to agree. I do not think this would work for ’’this’’ project. And even if it works on the French Wikipedia, I would think it’s far less efficient because of the inflexibility of the approach
+Files\\request for a comment\\HandlingofstoredIDsaftertheyvebeendeletedorredirectedintheexternaldatabase - § 2 references coded [ 1.00% Coverage]
+Reference 1 - 0.15% Coverage
+*{{keep}} for widely re-used source IDs such as GND ID and ISNI.
+Reference 2 - 0.85% Coverage
+*:::{{ping|Epìdosis}} 10 years in internet, that is good :-) Yes, a definition is needed. And we should find out how to manage the data. I suggest starting with humans and with GND, because there the redirects can be downloaded from the source and GND IDs are widely re-used. The beacon files could be analyzed to find out if the sources substitute or not.
+Files\\request for a comment\\Howtoclassifyitemslotsofspecifictypepropertiesorafewgenericones - § 3 references coded [ 3.20% Coverage]
+Reference 1 - 0.81% Coverage
+:I think it’s a good solution. [http://www.w3.org/TR/rdf-schema/#ch_subpropertyof rdfs:subPropertyOf] is part of W3C recommendations, using it could help us to take the advantages of the generic properties and avoid their problems (such as ambiguity and confusing newcomers).
+Reference 2 - 1.75% Coverage
+:{{support}}. This gives us the best of both worlds. We can have the (messy) infobox inspired properties but group them into W3C approved super-properties (or property groups) for external queries. Where a property doesn’t fit into a super-property then that is probably an indication that we need to look again at that property. 
+::To implement this the first step is probably to add a field to the list of properties where the proposed super-property can be listed. 
+:: The problem with this is how do we manage substituting {{P|569}} and {{P|19}} with Property:Instance_of:birth with qualifiers ’date’ and ’place’.
+Reference 3 - 0.63% Coverage
+:: Authority control is used by WP. If we would change the system all WP templates would need to be rewritten. Imho {{P|528}} is only for minor (small) catalogs useful. The future UI will (hopefully) work with collapsed list.
+Files\\request for a comment\\Interwikilinksforspecialpages - § 1 reference coded [ 0.61% Coverage]
+Reference 1 - 0.61% Coverage
+:Maybe, provided the default is all the links. Logged in users get to set their preferences. Some clever javascript (if enabled) can prioritise the languages for anon users based on browser prefs, location etc.
+Files\\request for a comment\\Sortidentifiers - § 5 references coded [ 3.08% Coverage]
+Reference 1 - 0.49% Coverage
+**That’s an interesting point about the possible issues of using an alphabetical order. In any case, even the order based on the English label would be in my opinion an improvement compared to the current situation.-
+Reference 2 - 0.66% Coverage
+I’d like to add I’m happy with almost any solution for ordering, my ""P number"" suggestion was just a way to have a sensible default if no other ordering was specified (right now the default is the order in which identifiers are added to an item, so it changes from item to item which is annoying)
+Reference 3 - 0.41% Coverage
+* Than you for the summary... Look if P-ordering is the simplest one technically, that’s also fine with me. We can’t keep having randomly ordered IDs, it’s getting complex to handle.
+Reference 4 - 1.22% Coverage
+* {{Support}} For me it’s ok. In any case if we need a fixed order this way, let’s just assume we will also create a help page with the rationale linked from the general pages describing IDs and there we define a clear discussion talk page where we can monitor the situation and if other technical solution remain challenging, we can propose slight changes over the time. This aspect has a decent impact but it’s a very technical topic, I don’t expect cluttering, just a dozen users who really care who will discuss small adjustements once in a while
+Reference 5 - 0.30% Coverage
+{{s}} Proposal 1 seems fine. We could check with each Wikiproject to see what identifiers they care about most to prioritize those.
+Files\\request for a comment\\TimeDataTypeProperties - § 2 references coded [ 2.66% Coverage]
+Reference 1 - 1.56% Coverage
+:::I agree, we have the proposals of ""from time"", ""to time"", ""as of"", etc. for the cases the date is a qualifier of a specific statement, but ""key event"" is for something different, where the event itself is the statement.
+Reference 2 - 1.10% Coverage
+:You can have multiple qualifiers, but you can’t have qualifier of a qualifier. But you’re right that multiple qualifiers would solve the problem I descripted.

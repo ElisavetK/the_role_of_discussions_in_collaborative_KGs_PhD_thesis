@@ -1,0 +1,184 @@
+﻿Files\\properties for deletion\\P107 - § 2 references coded [ 10.95% Coverage]
+Reference 1 - 1.88% Coverage
+{{info}}. This property has already been proposed for deletion once 6 deletes and 11 keeps: [[Wikidata:Requests_for_deletions/Archive/2013/Properties/1#Property:P107]].
+Reference 2 - 9.07% Coverage
+Here’s a new reason it should be deleted: It’s use cannot be verified. Based on the discussion currently ongoing at [[WD:Project chat]], if we can’t verify a claim, then we probably shouldn’t make it. In that event then, P107 is tying us to an ontology which has not claimed to represent the million or so items which P107 is now on. I.e., it is not verifiable. On top of this, P107 can ’’only’’ be verified where there is already a GND ID. That fact makes it even useless for the cases where it can be verified, as the type can be gotten from querying the database if the type is even desirable for someone in those cases; its nonuse on en.wiki would indicate that that is not the case for our primary external users.<p>This is besides its other salient points for deletion, which are numerous and continuing to cause us problems in other ways. We should cease pretending like this is a good property.
+Files\\properties for deletion\\PfDPropertyP1549 - § 7 references coded [ 12.20% Coverage]
+Reference 1 - 1.95% Coverage
+I would like to note that the property is used as label for {{p|27}} at huwiki. If the property is deleted, the current data needs to be imported into the newly accepted structure, and huwiki needs to be notified to create a workaround to the new structure if possible. Ideally, the new structure should make it possible
+Reference 2 - 0.53% Coverage
+This is also the case for WD powered templates at svwiki, frwiki and probably many more
+Reference 3 - 0.34% Coverage
+[[:hu:Sablon:Személy infobox]] of the top of my head.
+Reference 4 - 1.72% Coverage
+On svwp, it is used by the module [[:sv:Modul:Wikidata2|Wikidata2]], which in invoked by a lot of templates (like [[:sv:Mall:Faktamall biografi WD|Faktamall biografi WD]] in biografies). I know frwiki had a similar system a year ago (it’s possible it has change since then).
+Reference 5 - 2.25% Coverage
+It is used to display nationality in [[:sv:Mall:Faktamall biografi WD|Faktamall biografi WD]] (via [[:sv:Modul:Wikidata2|Wikidata2]]). In the article [[:sv:Bill Gates|Bill Gates]], the template does not return ""USA"" but ""Amerikan"", which is the value of {{P|1549}} &#91;{{Q|1305037}}, {{Q|110786}}&#93; of {{Q|30}} (the {{P|27}} of {{Q|5284}}
+Reference 6 - 1.60% Coverage
+{{comment}} If this property is being used in an infobox or by a Lua module, it will need to be retained and to go on having its values added to and extended, at least and until such time as inverse property values become obtainable via Lua - as at present they are not
+Reference 7 - 3.81% Coverage
+{{comment}}. As noted, 1) there is no wikibase client for lexemes, 2) there is no Lua function available for backlinks or API queries, pending of [[phab:T185313]] that it seems silently declined for a year now. There is not any path from a wiki page like [[:w:fr:Paris]] to reach {{L|26359}}. If these blockers are solved, there are still some concerns. How to deal with {{L|26359}} or {{L|25620}}? How to obtain the demonym for a given language and a lexical category? At the end, it will be one more, or several, arbitrary access and it is expensive in Lua time usage that has limitations in infoboxes powered by Wikidata
+Files\\properties for deletion\\PfDPropertyP3303 - § 2 references coded [ 4.11% Coverage]
+Reference 1 - 2.43% Coverage
+FYI I added a preferred formatter URL a couple of days ago to {{P|8988}} and it DOES seem to have replaced the original one in the UI (after a few days to let it propagate). We might want to test some more, but it looks like maybe this issue is actually ok now
+Reference 2 - 1.68% Coverage
+{ping|Mormegil}} just noting that your suggested gadget sounds a little like [[WD:EE|Entity Explosion]], which shows these links even if you don’t start from Wikidata.
+Files\\properties for deletion\\PfDPropertyP646 - § 3 references coded [ 30.24% Coverage]
+Reference 1 - 2.38% Coverage
+Thinks for clarify. I have no interest for Sak4510 and his actions. Some time ago I reviewed IMDB, VIAF and some other. Its contain information that can be used for data verification and/or data import. I review Freebase too, but all found information was copied from Wikipedia and Wikidata by bot. Is Freebase too young or dead project maybe?.
+Reference 2 - 23.04% Coverage
+want to point out that two things:
+:: ’’’a)’’’ Is the Freebase - Wikidate relation is a ""’’’’’one way’’’’’"" issue? Are we able to create a peer to ask for new Freebase identifiers? Maybe some WD contributors are both skilled and willing to add WD related information to Freebase. Here some links:
+:: ""’’perfect’’"" [http://tools.wmflabs.org/wikidata-todo/autolist.html?q=claim%5B227%5D%20AND%20claim%5B646%5D%20AND%20claim%5B1036%5D%20AND%20claim%5B1245%5D items with 227 GND 646 FrB 1036 DDC 1245 Omegawiki identifiers] – (208 items)
+:: [http://tools.wmflabs.org/wikidata-todo/autolist.html?q=claim%5B227%5D%20AND%20claim%5B1036%5D%20AND%20claim%5B1245%5D%20AND%20noclaim%5B646%5D items with 227 GND 1036 DDC 1245 Omegawiki but ’’’without’’’ 646 FrB identifiers] – (16 items)
+:: The second link is a point to start identifying Freebase records and adding them to WD. If necessary FrB records should be created first.
+:: [http://tools.wmflabs.org/wikidata-todo/autolist.html?q=claim%5B227%5D%20AND%20noclaim%5B646%5D items with 227 GND 1036 but ’’’without’’’ 646 FrB identifiers] shows ’’’171.182’’’ hits. One reason might be that Freebase is mainly related / linked to en.Wikipedia and GND is not a copy of de.Wikipedia it is a national library database. This amount of data can not be handled by [[:en:crowd computing|crowd computing]] but with some maintenance / signaling conventions one could ""’’mark’’"" WD items which are ready to be used for semi-automatic Freebase record generation.
+:: ’’’b)’’’ The massive import of data into WD was made with different care. While I have not found OSM properties in disambiguation page I found the following:
+:: [http://tools.wmflabs.org/wikidata-todo/autolist.html?q=claim%5B31%3A%224167410%22%5D%20AND%20claim%5B214%5D Wikimedia disambiguation page (Q4167410) with VIAF identifier (P214)] - (17 items) for {{P|214}}
+:: [http://tools.wmflabs.org/wikidata-todo/autolist.html?q=claim%5B31%3A%224167410%22%5D%20AND%20claim%5B227%5D Wikimedia disambiguation page (Q4167410) with GND identifier (P227)] - (78 items) for {{P|227}}
+:: [http://tools.wmflabs.org/wikidata-todo/autolist.html?q=claim%5B31%3A%224167410%22%5D%20AND%20claim%5B345%5D Wikimedia disambiguation page (Q4167410) with IMDb identifier (P345)] – (31 items) for {{P|345}}
+:: [http://tools.wmflabs.org/wikidata-todo/autolist.html?q=claim%5B31%3A%224167410%22%5D%20AND%20claim%5B646%5D Wikimedia disambiguation page (Q4167410) with Freebase identifier (P646)] - ’’’(1127 items)’’’ for {{P|646}}
+:: [http://tools.wmflabs.org/wikidata-todo/autolist.html?q=claim%5B31%3A%224167410%22%5D%20AND%20claim%5B50%5D Wikimedia disambiguation page (Q4167410) with author (P50)] - (29 items) for {{P|50}}
+:: Manual addition as a first step helps getting aware of the arriving issues:
+:: [http://tools.wmflabs.org/wikidata-todo/autolist.html?q=claim%5B31%3A%224167410%22%5D%20AND%20claim%5B1036%5D Wikimedia disambiguation page (Q4167410) with Dewey Decimal Classification (P1036)] - <s>(1 items)</s> for {{P|1036}} - ’’’fixed’’’ see [{{FULLURL:Q720920|action=history}}#top history] for {{Q’|720920}}
+Reference 3 - 4.82% Coverage
+[http://tools.wmflabs.org/wikidata-todo/autolist.html?q=claim%5B31%3A%224167410%22%5D%20AND%20claim%5B1245%5D Wikimedia disambiguation page (Q4167410) with OmegaWiki Defined Meaning (P1245)] - (0 items) for {{P|1245}}
+:: [[Template:FindP]] helps to identify the presence of some property values; the search for Freebase - using SLASHES - fails. Unfortunately there are no tools known to me to verify the backward links. I have seen a dozen of faulty links but there is no place to post them, it seems that nobody is willed to take care of them. The most evident method would be to use WD inline quality statements. No person and no bot can say it was not aware of their presence.
+Files\\properties for deletion\\PfDPropertyP802 - § 2 references coded [ 3.44% Coverage]
+Reference 1 - 1.89% Coverage
+{{neutral}} Will somebody move the present values of P802 to P3342 ?. We access to P802 in [[:ca:template:infotaula persona|template:infotaula persona]] of cawiki. I have no problem to change, but without lose the contents. Thanks
+Reference 2 - 1.55% Coverage
+I assume that the <u>data moved will incorporate</u> a qualifier {{P|3831}} = {{q|Q48942}} or similar, because P3342 is a generic property and need the person role which is implicit in the P802
+Files\\property proposal\\grammaticalnumber - § 1 reference coded [ 2.98% Coverage]
+Reference 1 - 2.98% Coverage
+Forms are plural, not lexemes, I’d think. Yes, some lexemes like ""mathématiques"" only have plural forms, but to me, it seems, this has no import for the lexeme itself. (I might be entirely mistaken and I’m happy to learn, this is not my area of expertise). So yes, on Forms there definitively should be a number property - I am just not sure about Lexemes.
+Files\\request for a comment\\Administativedivisionsandpopulatedplaces - § 2 references coded [ 28.19% Coverage]
+Reference 1 - 2.48% Coverage
+Where a WP page discusses both then it can be considered to be about the larger unit and the smaller unit is discussed as part of that. Statements (boundaries, population etc. ) should only be about the larger unit
+Reference 2 - 25.72% Coverage
+I’ve looked at several open data sets related to administrative hierarchies last year from the point of view of building a reverse geocoder that can come up with the correct colloquial names for neighborhoods and areas. This requires both good data on boundaries and names of places. This is an extremely hard problem and the open data for this is highly fragmented across many datasets that add to the problem with problematic categorizations, a bias towards formal administrative names rather than the informal names that people actually use in real life, a lack of good data on boundaries, completeness and correctness of the data, and data licensing. E.g. open street maps is surprisingly useless for this problem since it only includes a few tens of thousands of boundaries for administrative hierarchies world wide. Foursquare made a rather heroic effort to unite several datasets worldwide including geonames, geoplanet and countless open datasets for specific regions. The result is published at quatroshapes.org. I believe wiki data can contribute in several ways. 1) where possible link to other datasets. A good start would be importing geoplanet woeids and geoname ids on dataitems where possible. I estimate that approximately 500000 wikipedia articles are linked directly from the geonames dataset already and there exist mappings to geoplanet as well. 2) adopt a categorization similar to geoplanet to distinguish e.g. places that have historical meaning (e.g. weimar republic) from formal names such as Bezirk Pankow, which contains several areas with less formal names. Geoplanet data has been archived at the internet archive and is available under cc 3.0 with attribution, if I remember correctly. 3) consider supporting geojson for describing boundaries and other geographic features. Coordinates only have limited use (positioning a map) and good polygon data would be very valuable. 4) identify problems in the data and seek community support for filling the gaps. For example good open neighborhood data is available for large parts of northern America but very hard to come by for e.g. Germany. There are currently no good datasets with global
+Files\\request for a comment\\DataqualityframeworkforWikidata - § 10 references coded [ 9.79% Coverage]
+Reference 1 - 1.23% Coverage
+I think that what ""deserves"" to be included in Wikidata, i.e. the notability policy and consequently the concept of completeness, defines the aim itself of the project. This is a topic much greater than this discussion, I believe. For this reason, it could be useful to define a level of completeness that the community thinks it fits the possible uses of Wikidata (well, also this point could be debated a lot, but perhaps it is simpler). 
+::: With regard to [[User:ArthurPSmith|ArthurPSmith]]’s remarks about the approach to be followed, this is actually the goal of this RfC and of our research. We would like to understand what quality means to Wikidata, which dimensions are important, and how we define them in order to successively build some metrics to measure the issues deemed as the most relevant by the community.
+Reference 2 - 0.31% Coverage
+Ranks are the outcome of some conflict resolution process. I think {{ping|Slowking4}} means the ability to report errors, diagnose the cause, report back to data source institutions, and track resolutio
+Reference 3 - 0.50% Coverage
+yes, saying every statement must be referenced is insufficient, rather you must provide a process for conflict resolution, and data improvements at sources. we are linking databases, and data quality will be improved throughout the data system. see also https://en.wikipedia.org/wiki/Virtual_International_Authority_File
+Reference 4 - 0.07% Coverage
+see also http://hangingtogether.org/?p=5710
+Reference 5 - 0.45% Coverage
+I fail to understand this one. External identifiers are data in itself, giving links to other datasets, and so yielding more ""interlinking"" (one of the suggested dimensions). They may or may not even be source of ""content data"". So perhaps you can clarify more extensively what you mean here? [
+Reference 6 - 3.44% Coverage
+I think that almost [[:Category:Constraint templates|all current constraints]] try to spot Consistency issues. But many of these soft constraints, when they are marked as mandatory, are only acting as community-driven patches to try to solve Wikidata structural deficiencies. For example, duplicating information is one of the worst things to do in a database, and this is possible, even demanded, in Wikidata on properties with the {{tl|Constraint:Symmetric}}. Wikidata should ensure (but is currently not ensuring) by itself the accomplishment of this constraint by automatically adding (B.propertyX := A) every time that (A.propertyX := B) is defined by a user, where propertyX is a property with a mandatory Constraint:Symmetric. The same with {{tl|Constraint:Inverse}}, mutatis mutandis. These soft constraints are currently not implemented as a part of the Wikidata interface, so well-known inconsistencies [[Wikidata:Database reports/Constraint violations/Mandatory constraints/Violations|grow dangerously over time]] and the Wikidata community cannot avoid this data degradation by now.
+::Apart from linked constraints:
+::* we shouldn’t let users include URLs that point to non-existent or non-accesible resources (for example, to pages that return a 404 error) as values for properties like {{P|2002}} (external identifier) or {{P|856}} (URL);
+::* we should use unit conversion to avoid inconsistencies as it would let us define range limits not only focused on numbers, but also on what these numbers mean with their units;
+::* we should limit quantity properties to integers when needed (see [[phab:T112247]]);
+::* we should only create couples of equal items on certain properties ({{Q|Q7810}} can be the {{P|26}} of {{Q|Q7828}}, and {{Q|Q76}} can be the {{P|26}} of {{Q|Q13133}}, but {{Q|Q7810}} cannot be the {{P|26}} of {{Q|Q13133}} as both are instances of different items);
+::* we should avoid that an item A can be a value for two incompatible or redundant properties on an item B (for example, {{Q|Q19943}} should not be marked as {{P|22}} of {{Q|Q191045}} and as {{P|1038}} of {{Q|Q191045}} at the same time);
+::* we could force users to define properties {{P|31}} or {{P|279}} for any new item.
+::Only some examples that come to mind.
+Reference 7 - 0.44% Coverage
+The problem is that currently accuracy as defined in this document isn’t about ""retrieve the informations he wants"". The data consumer cares a great deal about veracity but [[User:Alessandro Piscopo|Alessandro Piscopo]] thinks that veracity shouldn’t be in the data quality guidelines
+Reference 8 - 0.73% Coverage
+Hi [[User:ChristianKl|ChristianKl]], this RfC has been opened to collect advice and opinions and stimulate discussions about data quality within the community. The contribution of the community is important because we hope that the framework resulting from this discussion could be adopted by Wikidata in the future. In other words, any contribution is appreciated and valuable and you are free to suggest to include any dimension that was not included in the original draft. Thanks,
+Reference 9 - 1.62% Coverage
+Alessandro Piscopo is an academic who wants to study Wikidata. He’s not WMDE employee of as far as I can see is payed by a Wikimedia grant. Academic work doesn’t need to have direct practical implication. In this case publishing work about data quality that shows that Wikidata cares about data quality in a venue that people who care about open data read, makes it more likely that they consider Wikidata a serious project and donate their data to it. 
+: The people who did their work on vandalism detection in Wikidata have it easier in academia when they can cite a definition of quality standards.
+: Nothing in this article prevents you from having a discussion about direct ways to improve Wikidata’s usefulness for Wikipedia. But that’s not the discussion about the definition of data quality, it’s likely to be had elsewhere.
+: There are many ways to interact with Wikidata. Live and let live. 
+: If you want to improve Wikipedia integration it might make more sense to focus your energies on the practical project of https://www.wikidata.org/wiki/Wikidata:List_generation_in
+Reference 10 - 0.99% Coverage
+Academic work does not need to have direct practical implications, but – I believe – it should always take them into account and aim at concrete effects on things. I would not even find it totally correct to ask the Wikidata community to discuss this draft, if I did not think that it could be one day adopted (even partially) by Wikidata or at least be directly beneficial to it. So yes, it will be good if the outcome of this work will be published, it will be better it this will bring someone to donate to Wikidata, and it will be even better if quality measures will be developed and then used, based on this framework. And by the way, no, I do not get any Wikimedia grant :)
+Files\\request for a comment\\Findagraveremovedasasourceforinformation - § 3 references coded [ 0.89% Coverage]
+Reference 1 - 0.26% Coverage
+:::::::I would say the biggest problem with ’’’FindAGrave it is not verifiable’’’ as they have no sources
+Reference 2 - 0.46% Coverage
+** I think normal reverts and deletions are ""non automated main namespace edits"". If you on the other hand delete claims in bulk via a bot or QuickStatements that’s an automated edit.
+Reference 3 - 0.17% Coverage
+::: ’’’Not source’’’, but each statement: [[Help:Deprecation]]
+Files\\request for a comment\\HandlingofstoredIDsaftertheyvebeendeletedorredirectedintheexternaldatabase - § 3 references coded [ 2.69% Coverage]
+Reference 1 - 0.38% Coverage
+See [[Wikidata_talk:Identifiers#Deprecate_or_remove]]. There are currently a few separate discussions about specific identifiers and their quirks
+Reference 2 - 1.77% Coverage
+’’’FYI’’’: I have suggested to Europeana that we create an ’’’staging area’’’ using [[:en:Wikibase]] outside Wikidata to better track new, deleted, changed external properties both in Wikidata but also from the external source. Lesson learned is that most external sources areweak regarding version history, change management, talk pages, ping functions, subscriptions... 
+::* see 
+::** [https://phabricator.wikimedia.org/T251225#6088169 T251225#6088169] ""Change management of entities created and deleted in Europeana"" 
+::** [https://phabricator.wikimedia.org/T240738 T240738] ""More than 1200 Europeana Entities reference deleted Wikidata objects - task identify them but also Europeana need action""
+Reference 3 - 0.54% Coverage
+:: {{ping|MrProperLawAndOrder}} VIAF redirects are only available through the use of the link itself. The browser switches to the correct cluster, while a robot will receive the proper info. Something similar occurs for ab
+Files\\request for a comment\\Howtoclassifyitemslotsofspecifictypepropertiesorafewgenericones - § 9 references coded [ 13.89% Coverage]
+Reference 1 - 1.35% Coverage
+:: I think this RFC is more limited in scope. The discussion is about whether there should be many or few so-called ""type"" properties. For example, should we use type properties like {{P|289}}, {{P|60}}, {{P|31}} and {{P|279}} (the ""many"" option), or just the latter two generic type properties (the ""few"" option)? Whether we should use non-type property like ""producer"" in many different domains seems like a legitimate question, but beyond the scope of this RFC.
+Reference 2 - 1.37% Coverage
+:::::: To be clear, I am not requesting simple entailment in general, but a particular feature in the Lua library. See [https://bugzilla.wikimedia.org/show_bug.cgi?id=47930#c3 comment 3]. This should allow implementing a form of entailment on-wiki (the number of steps in the chain would probably be limited only by the standard Lua performance limits), but not necessarily in the most efficient way. For broader entailment support, you should probably file a separate bug.
+Reference 3 - 0.92% Coverage
+:The Wikidata type hierarchy seems to be heading towards 2 roots. ""Item"" for all the item pages and ""Wikipedia non-item page"" for all the wikipedia pages which have wikidata pages but which don’t correspond to single items which can be described in statements. I suppose the root joining these would be ""wikidata page"".
+Reference 4 - 0.72% Coverage
+:::: Precisely, but in my own the question is not ’’is it valuable enough to be in scope of wikidata’’, but ’’is it valuable enough to be usefull for wikimedia’’. If we choose the latter option, having two roots could be an equivalent of namespaces in mediawi
+Reference 5 - 1.31% Coverage
+:::::EMW: The distinction is practical, not ontological. Wikidata is organised as a bunch of pages. Each collection of statements corresponds to a page.
+:::::When you say ""entity"" what do you mean? Are you referring to a a wikidata ’item’ - a page with a collection of statements describing a ’thing’. 
+:::::Or are you referring to any wikidata page, no matter what it describes (i.e. items plus what I call ’wikipedia non-item pages’)?
+:::::Or something else?
+Reference 6 - 2.67% Coverage
+: They use the ""few generic"" option, i.e. only [http://www.w3.org/TR/rdf-schema/#ch_type rdf:type] (the basis of {{P|31}}) and [http://www.w3.org/TR/rdf-schema/#ch_subclassof rdfs:subClassOf] (the basis of {{P|279}}). A side note: these ""large, general-interest databases"" are called [[:en:Ontology_(information_science)|ontologies]]. For example, this includes [http://www.ifomis.org/bfo/ BFO] and the many [http://www.ifomis.org/bfo/users BFO domain ontologies], as well as [http://www.ontologyportal.org/ SUMO] and the many SUMO domain ontologies listed there. In fact, I am not aware of any Semantic Web ontology that has domain-specific [http://www.w3.org/TR/rdf-schema/#ch_subpropertyof subproperties] of rdf:type (instance of) or rdf:subClassOf (subclass of) -- i.e. the ""lots of specific type properties"" option -- as has been proposed by [[User:Filceolaire|Filceolaire]].
+Reference 7 - 1.12% Coverage
+:: Just to be clear; I am not in favour of ’’’lots’’’ of specific properties. We have a small number of properties which are specific to very broad classes (all admin units, all taxons, all astronomical objects) and seem to be useful and I am not in favour of deleting them until we can show that the replacement will work just as well. I don’t see the need for any more ’specific’ properties at the moment
+Reference 8 - 3.91% Coverage
+It is a class, [[User:Filceolaire|Filceolaire]]. The claim {{Q|1845}} {{P|31}} {{Q|571}} is incorrect because the Bible is a ’’type’’ of book that has particular, concrete instances. The overwhelming majority of items about books on Wikidata are about such classes of object. The Lincoln Bible is an instance of a book -- more specifically, {{Q|1816474}} {{P|31}} {{Q|1845}}. Items about instances of books are rare in Wikidata, but they’re a great illustration of how the class-instance distinction applies.
+: If an item has instances, then it is a class. {{Q|182323}} is a class of car, {{Q|826174}} is an instance of a car; {{Q|309336}} is a class of ship, {{Q|211658}} is an instance of a ship; {{Q|1116374}} is a class of tree, {{Q|590039}} is an instance of a tree; {{Q|5}} is a class of mammal, {{Q|187520}} is an instance of a mammal.
+: The fact that a mass-produced item is a class does not mean that information about branding, copyright, design, authorship, etc. cannot be captured. Properties like that apply to a class and are inherited by its instances. Consider the soft drink {{Q|2813}}. Yes, Coca-Cola is a brand of cola, but a ""brand"" is a type. Properties like ""calories per serving"", ""manufactured by"", ""[http://www.uspto.gov/trademarks/basics/#heading-2 trademark]"", etc. apply to the brand (i.e. type) and are inherited by all its instances
+Reference 9 - 0.51% Coverage
+: I think this RFC is more narrow in scope. The discussion is about whether there should be many or few so-called ""type"" properties. There is more than enough to discuss about that
+Files\\request for a comment\\Interwikilinksforspecialpages - § 6 references coded [ 4.30% Coverage]
+Reference 1 - 0.41% Coverage
+*::::No I don’t, my support vote is only for ’’’Recent changes’’’ (at least that’s what I thought we’re talking about), not on all special pages
+Reference 2 - 1.30% Coverage
+:@[[User:Bever|Bever]] - It’s a design feature of skin Cologne Blue (not specific to Recent changes), the skin actually shows the language links both at top and bottom. Here are examples with language links both coming from Wikidata: [https://pam.wikipedia.org/w/index.php?title=Pun_Bulong&useskin=cologneblue Main Page], and [https://en.wikipedia.org/w/index.php?title=World_War_II&useskin=cologneblue WWII article in en].
+Reference 3 - 0.44% Coverage
+:* We don’t force anyone to use any links. We just provide the info to make it easy for those that want to. Not having a wikidata page makes it so much harder.
+Reference 4 - 0.55% Coverage
+In said ’’any’’ page. That I normally not follow the links to Swahili, does not mean I think they are bad. Svwp have (or had) iw-links in the Special:Watchlist to the projects any user desired
+Reference 5 - 1.33% Coverage
+Is this about interlanguage or interproject interwikis? You mention Wikipedia and we’re on Wikipedia so I assume the latter. If you’re interested in interproject links, please comment on [[m:Requests for comment/Interproject links interface]]. In the meanwhile, it’s not too hard to import [[w:it:Template:Interprogetto]] and related code (or one of the other languages’ versions, though most of them apart fr.wiki’s and meta’s are derivations IIRC)
+Reference 6 - 0.26% Coverage
+*Providing interlang links is one of the basic functions for which wikidata was created. [
+Files\\request for a comment\\PropertyproposalorganisationreformtoamoreModelorinfoboxorientedprocess - § 1 reference coded [ 8.48% Coverage]
+Reference 1 - 8.48% Coverage
+:: I have not been clear enough, there would not be only one single page, just one single entry point with hierarchically organized subpages (which a Wikiproject could be responsible for). But the problem in my mind is that there will probably not be one Wikiproject per datatype (so many dead projects on pedias, there is already problems with no Wikiprojects discussed on project page for example), so we need something that is independant from them and regular enough so that anybody can take care of, and having the same organization in each case will help. I promised a mockup to discuss that more concretely, it will come sometime
+Files\\request for a comment\\Sortidentifiers - § 7 references coded [ 11.38% Coverage]
+Reference 1 - 0.32% Coverage
+{{comment}} There is already a sorting mechanism for Wikidata properties, but I don’t believe it includes any of the identifier properties?
+Reference 2 - 1.78% Coverage
+{{support}} I perfectly agree about the proposal of sorting identifiers in some way, in order to make it easier to find them. At the moment the sorting of all properties is managed through [[MediaWiki:Wikibase-SortedProperties]], {{ping|ArthurPSmith}}; the only identifier which is sorted at the moment is {{P|214}}, which is set to appear first, {{ping|Ghouston}}, as a result of [[Wikidata:Requests for comment/Sort identifier statements on items that are instances of human|this RFC]] which has just closed (to be more precise: the RFC resulted in a consensus to have VIAF as first identifier on human items; however, Wikibase-SortedProperties doesn’t have the possibility to restrict a sorting to a class of items at the moment, so I had to enforce the sorting on all items).
+Reference 3 - 0.76% Coverage
+** If you look at the labels on something like {{P|698}}, it’s basically ""PubMed"" in any Latin-scripted language. Some are using variants like ""identificador Pubmed"", and you’d still want to sort that under ""P"", not ""i"". So sorting by the English label would generally work in this case. I don’t know about Arabic, Chinese, etc
+Reference 4 - 0.39% Coverage
+*** @[[User:Ghouston|Ghouston]]: As far as I’m aware a lot of {{P|698}} labels (other than en) start with ’’ident’’*. I think this is true for a bulk of other external ids.
+Reference 5 - 1.73% Coverage
+Please apply any type of sorting as soon as possible, in order to have items with so many identifiers comparable. It is not actually important what type of sorting we have, currently there is no any and that is a shame for Wikidata that promises structured and not mixed up data.
+:And btw, please link somehow pencil link in Authority control and Official website templates on Wikipedia lead to Identifiers and Official website identifier/property if possible for the latter (if not then that one too to identifiers section because it is there where is website located, AC elements of course all are in Identifiers section and currently pencil just leads us to item on Wikidata and hover text says edit on Wikidata but one cannot immediately find it to edit it here). --
+Reference 6 - 5.56% Coverage
+# As can be seen in the [[#Summary of previous comments|summary]], most users (among which me) strongly preferred a sorting which would take into account each user’s interface language; unfortunately, [[MediaWiki:Wikibase-SortedProperties]] (the only way to sort properties at the moment) doesn’t allow such a solution, so English has seemed to me (and to the users who supported my proposal) the best compromise
+:*# """"Most important identifiers first"" makes an assumption about what’s important"": it’s perfectly true, opinions about ""most important identifiers"" can differ; if you have an alternative proposal for sorting, this can be voted of course (I numbered my proposal as ""1"" because I supposed other proposals would be made); talking specifically about VIAF, its first position hasn’t been decided here, but [[Sort identifier statements on items that are instances of human|here]] (the RfC regarded only humans, but again [[MediaWiki:Wikibase-SortedProperties]] at the moment doesn’t allow such a solution which differentiates sorting on the basis of {{P|31}}, so it was applied to all items), and the only objection which has been made has been ""{{P|846}} has more ids at hand than {{P|214}}"", which is true but in fact doesn’t matter, because there is no item which has both properties. I know VIAF has many problems of clustering (we are trying to list them [[Wikidata:WikiProject Authority control/VIAF errors|here]]), but I think that the majority of the clusters is substantially OK.
+:*# Yes, I know each new property and each English label modification should be added manually; however, it wouldn’t probably be impossible to have it done periodically by an admin-bot (I will [[Wikidata:Bot requests|make a request]] if we decide to keep proposal 1). Of course something automatic would be much better, but again [[MediaWiki:Wikibase-SortedProperties]] doesn’t allow such a solution at the moment.
+::Finally, I would certainly approve making this sorting an opt-in; however, again, [[MediaWiki:Wikibase-SortedProperties]] doesn’t allow such a solution at the moment. If you want to set your own order for identifiers, you can try [[User:Bargioni/personal sort identifiers.js]] - you can set an order for the identifiers, all the identifiers you don’t mention will appear sorted by P number. I finally ask {{ping|Lea Lacroix (WMDE)}} to check all my claims about ""doesn’t allow such a solution""
+Reference 7 - 0.84% Coverage
+{Ping|Pigsonthewing}} Mixer is the second most well known streaming service after Twitch. Both speedrun and HLTB are related to completion times with the former being more specific. Gamepedia tends to be of much higher quality than Fandom Wikia and are steadily becoming the more popular option. Comic Vine is a spin-off of Giant Bomb with both sharing similar layout. -
+Files\\request for a comment\\TimeDataTypeProperties - § 1 reference coded [ 4.55% Coverage]
+Reference 1 - 4.55% Coverage
+::Yes, multiple statements can work. But I thought the ""key event"" proposal is trying to combine different aspects (e.g. date and place) of an event (e.g. birth) together, such as:
+:::* <person X> ’’key event’’ <birth>, qualifiers: <place>, <date>
+:::Using multiple statements means we have to separate them (otherwise we will have redundant data) such as:
+:::* <person X> ’’key event’’ 1 <birth>, qualifier: <date 1>
+:::* <person X> ’’key event’’ 2 <birth>, qualifier: <date 2>
+:::* <person X> ’’key event’’ 3 <birth>, qualifier: <place 1>
+:::* <person X> ’’key event’’ 4 <birth>, qualifier: <place 2>
+:::I’m not saying it’s a bad idea, just not what I thought.
+Files\\request for a comment\\makedeveloperandprogrammerpropertiesclearer - § 2 references coded [ 6.42% Coverage]
+Reference 1 - 1.72% Coverage
+I don’t think because the property proposal says ""For building and structures, rather use {{P|P84}} or {{P|P631}}. See also {{P|P176}}."
+Reference 2 - 4.70% Coverage
+A software developer is a person who is involved in the design, construction of a model/prototype, pseudocode, then actual computer code. A programmer is a person who writes computer programs. Also called a coder, he/she is already given the design of the software he/she is building, to begin with. The coder needs to be only aware of the actual machine/platform that will run the code.

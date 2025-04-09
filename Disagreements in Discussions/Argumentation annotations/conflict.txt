@@ -1,0 +1,73 @@
+﻿Files\\properties for deletion\\P107 - § 2 references coded [ 2.84% Coverage]
+Reference 1 - 0.85% Coverage
+The first is irrelevant. The second makes no sense; why should there be a skeleton?
+Reference 2 - 1.99% Coverage
+""an effective way to quickly define an item"" is not what we are here to do. Beyond that, there are the many issues with the property that continue to go unanswered. See also Zolo’s proposal above
+Files\\properties for deletion\\PfDPropertyP1549 - § 1 reference coded [ 0.36% Coverage]
+Reference 1 - 0.36% Coverage
+Why do you all can’t agree with {{P|6271}} as replacement?
+Files\\properties for deletion\\PfDPropertyP646 - § 3 references coded [ 3.15% Coverage]
+Reference 1 - 1.12% Coverage
+{{comment}} It is getting ridiculous. [[User:Sak4510|Sak4510]] is a clown with one contribution only. I assume he is loud laughing about our bureaucratism.
+Reference 2 - 1.12% Coverage
+{{ping|לערי ריינהארט}} Please state the facts about the user (i.e. ""this is clearly a test from a user who only has one edit here"") without calling them a clown
+Reference 3 - 0.92% Coverage
+[[User:Ivan A. Krestinin|Ivan]], a nomination initiated with the one-word rationale ""Can."" is absurd and not worth discussing
+Files\\properties for deletion\\PropertyP8531 - § 3 references coded [ 15.81% Coverage]
+Reference 1 - 6.30% Coverage
+You and {{u-|99of9}} were the only ones opposed to the creation of this property. {{u-|Eihel}} responded on the creation proposal page to all your arguments. This property is also similar to others we already have such as {{P|7777}}.
+Reference 2 - 6.14% Coverage
+{vk}}The ""proposer"", It’s me ! You might have the courage of your convictions: when you write about a contributor, you notify him. It’s the least of politeness, because what you write is completely false and you know it very wel
+Reference 3 - 3.37% Coverage
+Not mentioning this was previously listed for deletion by the same person seems bad faith to me. Keep if only on those grounds.
+Files\\property proposal\\at - § 3 references coded [ 4.45% Coverage]
+Reference 1 - 1.26% Coverage
+Nope, [[User:Xaris333|Xaris333]], it’s your turn to clarify your propsal (at/to). -
+Reference 2 - 2.21% Coverage
+But you are saying ’’There should be a better (maybe generalized term)...’’. How can you be sure about that? What are we going to do? We need the qualifier.
+Reference 3 - 0.97% Coverage
+why? Can you suggest something else; I am trying to find something.
+Files\\request for a comment\\DataqualityframeworkforWikidata - § 2 references coded [ 1.07% Coverage]
+Reference 1 - 0.61% Coverage
+I am well aware of the difference between ’’data’’ and ’’information’’. Nevertheless, I decided to use the terms as synonyms in this case to keep the discussion open to non-specialists and avoid excessive technicalities. The choice of using the two terms without making any distinction is by the way common also to part of the scientific literature.--[[User:Alessandro Piscopo|Alessandro Piscopo]
+Reference 2 - 0.47% Coverage
+Are you really saying that ""References should be sources recognised as impartial and authoritative. E.g. for demographic data, census governmental sources are considered as trustworthy"" isn’t claiming that census government sources are impartial? That seems to me like a nonstandard usage of ""E.g.""
+Files\\request for a comment\\Findagraveremovedasasourceforinformation - § 12 references coded [ 6.21% Coverage]
+Reference 1 - 1.21% Coverage
+I have also politely asked [[User:Nikkimaria]] to migrate the Findagrave links she is fervently deleting at Wikipedia to Wikidata, before the information is lost. So far, she has not migrated any data, but continues to delete the information at Wikipedia. I think it had the opposite effect and caused her to start to ’’delete the information here at Wikidata’’ also. Can someone convince her of the importance of not losing the data? Is there anyway to see how much information she lost?
+Reference 2 - 0.60% Coverage
+* Findagrave is an unreliable source of information and should not be used. Photos of gravestones are not citable sources. Wikidata links to countless other knowledge bases, if you need to rely on Findagrave you aren’t trying hard enough.
+Reference 3 - 0.63% Coverage
+**Can you show us a study of how reliable/unreliable it is in comparison with the other data sources we use? I would love to see each of the data sets we used ranked by reliability objectively. You must be citing some study, can you provide a link for us? --[[
+Reference 4 - 0.38% Coverage
+***If you’d like, I can carry out an impromptu study of how easily I can get inaccurate information into Findagrave as a longtime Findagrave contributor.
+Reference 5 - 0.72% Coverage
+****I can vandalize Wikidata and Wikipedia and any other community sourced data set very easily also. Everyone understands the limits of community sourced data sets. However, your ""impromptu study"" does not include a comparison to other data sets and ’’their’’ inherent error rates.
+Reference 6 - 0.36% Coverage
+*****So all sources you prefer are considered accurate until someone else can provide a mass of data proving otherwise? That’s not how this works
+Reference 7 - 0.92% Coverage
+::::::: You used the same argument before at the IMDB discussion, so I will use the my same counter argument. You wrote: ""That’s not how this works"" This isn’t about what ’’I’’ think, or what ’’you’’ think. It is based on community consensus, if you want to change that consensus, you will have to persuade the community with statistics, not with emotions and anecdotes.
+Reference 8 - 0.49% Coverage
+**{{Tq|""Photos of gravestones are not citable sources""}} Really? And yet inscriptions on foundation stones, war memorials and commemorative plaques are? I fear the assertion I quote is false
+Reference 9 - 0.25% Coverage
+****As can books, newspapers and even academic journal articles. But thanks for the clarification
+Reference 10 - 0.33% Coverage
+::::::: {{ping|Nikkimaria}} ""source as unreliable"" - ’’’nonsense’’’.
+::::::: Statements can be incorrect, but not sources.
+Reference 11 - 0.05% Coverage
+::::::::Nonsense.
+Reference 12 - 0.26% Coverage
+* {{keep|not different from other sources}}. And I don’t need Nikkimaria also cemment my opinion and view
+Files\\request for a comment\\HandlingofstoredIDsaftertheyvebeendeletedorredirectedintheexternaldatabase - § 2 references coded [ 0.84% Coverage]
+Reference 1 - 0.46% Coverage
+*::But it isn’t, is it. Having found virtually no support here, you’ve posted, immediately below and within 24 hours, another lengthy reframing of the question. And pinged everyone again.
+Reference 2 - 0.38% Coverage
+strike 2025 - anyone can make a request in 2025 anyway, no use in writing this down. Or will this mean, if a proposal doesn’t include this, it cannot be reviewed?
+Files\\request for a comment\\Interwikilinksforspecialpages - § 2 references coded [ 0.59% Coverage]
+Reference 1 - 0.26% Coverage
+’’’Support’’’. Wikidata is not for creating nonsense about MediaWiki internal stuff. -
+Reference 2 - 0.33% Coverage
+*Except for the people who do not want the 286 links on their own personal watchlist and who are forced to have them. -
+Files\\request for a comment\\Sortidentifiers - § 1 reference coded [ 0.42% Coverage]
+Reference 1 - 0.42% Coverage
+I have adjusted your interpretations of my comments, I did ’’’not’’’ advocate for alphabetical sorting, and in fact I ’’’opposed’’’ it, but your interpretation said that I supported it.

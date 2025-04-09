@@ -1,0 +1,30 @@
+﻿Files\\properties for deletion\\P107 - § 1 reference coded [ 3.18% Coverage]
+Reference 1 - 3.18% Coverage
+It is clear that a large number of people don’t like this, but that there is no consensus for deleting it. This mirrors the last discussion. While I could let this drag out for a while longer, I have little doubt that it would matter. For discussions this complex, PfD is not an effective venue for finding a solution
+Files\\properties for deletion\\Short name Birth name Official name - § 1 reference coded [ 0.57% Coverage]
+Reference 1 - 0.57% Coverage
+{not deleted}} - no consensus to delete.--
+Files\\property proposal\\at - § 1 reference coded [ 0.57% Coverage]
+Reference 1 - 0.57% Coverage
+’’’Not done’’’, no consensus to create
+Files\\property proposal\\grammaticalnumber - § 1 reference coded [ 0.15% Coverage]
+Reference 1 - 0.15% Coverage
+Not enough suppor
+Files\\request for a comment\\Administativedivisionsandpopulatedplaces - § 1 reference coded [ 0.45% Coverage]
+Reference 1 - 0.45% Coverage
+Stale, not enough input for consensus
+Files\\request for a comment\\GuidelinesforRfCprocess - § 1 reference coded [ 0.26% Coverage]
+Reference 1 - 0.26% Coverage
+|No consensus for the adoption of this process.
+Files\\request for a comment\\Howtoclassifyitemslotsofspecifictypepropertiesorafewgenericones - § 1 reference coded [ 0.17% Coverage]
+Reference 1 - 0.17% Coverage
+This is stalish now and nothing really is coming out of this.
+Files\\request for a comment\\PropertyproposalorganisationreformtoamoreModelorinfoboxorientedprocess - § 1 reference coded [ 0.72% Coverage]
+Reference 1 - 0.72% Coverage
+|Stale, not enough discussion to make conclusions. [
+Files\\request for a comment\\TimeDataTypeProperties - § 1 reference coded [ 0.96% Coverage]
+Reference 1 - 0.96% Coverage
+top|There is no clear consensus regarding anything concerning the time datatypes, and there’s been no discussion here in almost two month
+Files\\request for a comment\\makedeveloperandprogrammerpropertiesclearer - § 1 reference coded [ 0.09% Coverage]
+Reference 1 - 0.09% Coverage
+|stale

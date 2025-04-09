@@ -1,0 +1,6 @@
+﻿Files\\properties for deletion\\PfDPropertyP3303 - § 1 reference coded [ 0.56% Coverage]
+Reference 1 - 0.56% Coverage
+rfd links|1=Property:P3303|2=Merge with {{P|P1630}}
+Files\\properties for deletion\\PfDPropertyP802 - § 1 reference coded [ 0.35% Coverage]
+Reference 1 - 0.35% Coverage
+{rfd links|1=Property:P802|2=same as for

@@ -1,0 +1,252 @@
+﻿Files\\properties for deletion\\P107 - § 2 references coded [ 10.48% Coverage]
+Reference 1 - 6.74% Coverage
+{{Vote delete}} – I looked at the archived discussion and saw many strong arguments for deletion, which in my opinion was not adequately answered by those who voted keep. P107 is by some supposed to give a high level classification system, but it doesn’t work. I have worked a lot with the database dumps for Wikidata, and it is hard to use P107 for anything useful. Pr. 2013-06-10 there was 1221158 items with GND type person, but I cannot tell how many reel persons there is. If we dropped that useless GND type property and instead used the resources to {{P|31}} and {{P|279}} and other properties giving reel information, I could tell much more about the items.
+Reference 2 - 3.74% Coverage
+{{vote delete}} Replace {{P|107}} with ’instance of GND Main type’ ONLY for the 7 pages which describe the GND main types. For all the other pages use instance of (and all it’s ’type of’ synonyms) to assign basic items to hundreds of classes then use ’subclass of’ to link the classes together in a hierarchy which may (or may not) eventually end in these seven classes.
+Files\\properties for deletion\\PfDPropertyP1549 - § 2 references coded [ 0.93% Coverage]
+Reference 1 - 0.56% Coverage
+{{Vote_delete}} but probably wait some weeks/months until Lexemes are more stable. Cdlt
+Reference 2 - 0.37% Coverage
+{{Vote_delete}} The property {{P|6271}} has been created
+Files\\properties for deletion\\PfDPropertyP3303 - § 3 references coded [ 14.77% Coverage]
+Reference 1 - 4.64% Coverage
+{{ping|IagoQnsi}} Maybe the name should be modified, but I don’t see the purpose of having multiple P1630’s on a property. The Wikibase UI will only use one of them, and I’m not sure it currently correctly selects the preferred one (there’s a delay in any case, so it’s complex to check). The advantage of a separate P3303 is that it makes clear that the entity making use of it needs to do the formatting themselves, the Wikibase UI won’t help. Merging with P1630 will confuse that.
+Reference 2 - 3.00% Coverage
+{{vd}} We don’t have a rule that {{P|P1630}} can only be filled with official formatter urls. If we want to store information about some formatter urls being official we can do that better explicitely via qualifiers. In addition we can use the preferred rank to chose the formatter url that’s used by default.
+Reference 3 - 7.13% Coverage
+I feel like there is something important missing in this discussion. There are multiple use cases at play: 1. The built-in functionality of linkifying the property value. 2. Secondary links to various more- or less- related websites/tools using the same identifier. I completely agree the current official distinction between #1 and #2 (#1 is “first-party/official”, #2 is “third-party/unofficial”) is wrong (and that distinction is not even important or interesting) and does not match the current usage. What we need is one linkifying URL template (OK, we could use the preferred rank for that), plus a potentially unbounded set of URL templates with an agreed-upon way to indicate where that URL leads. I mean, {{P|5102}}
+Files\\property proposal\\at - § 1 reference coded [ 3.67% Coverage]
+Reference 1 - 3.67% Coverage
+In English at least, I don’t think that ""at"" is the right thing for your use case. I would expect ""at"" to have a value of a location, an event or a time of day. ""to"" is what I’d expect, or possibly something more specific if ""to"" is too generic for others
+Files\\property proposal\\grammaticalnumber - § 6 references coded [ 14.77% Coverage]
+Reference 1 - 0.52% Coverage
+Wouldn’t it be sufficient to simply not have a singular form?
+Reference 2 - 0.72% Coverage
+{{o}} - already covered by the ""grammatical features"" functionality of Lexemes.
+Reference 3 - 0.75% Coverage
+Hmm, are you allowed to indicate {{Q|138246}} as the Lexical Category, instead of noun?
+Reference 4 - 3.09% Coverage
+{{o}} this is not a property of a Lexeme, but a grammatical feature of a Form. Since grammatical features are modeled directly, no Property is needed. For things like ""avionics"", use ’’’{{P|31}}’’’ {{Q|138246}}. I’d recommend against using {{Q|138246}} as a lexical category; it’s more useful to stick to established parts-of-speech like {{Q|1084}} there
+Reference 5 - 6.18% Coverage
+As the suggestion appears now it seems to mix up with the grammatical features. However, there does seem to be a necessity for some form of property that indicates what kind of grammatical numbers are possible for the feature. It relates (also) to {{Q|489168}} and {{Q|1520033}}. I suppose that {{P|31}} could be used as mention above by [[User:Duesentrieb|Duesentrieb]]? [https://www.wikidata.org/w/index.php?title=Lexeme:L117&diff=686352937&oldid=685167668 Example]. One Danish word that I am unsure of is ""vand"" (water). Usually that is {{Q|489168}}, so you do not say ""one water"" nor ""two waters"". However, in one sense of ""vand"" you can say ""one vand"" (short for ""one sodavand"", {{Q|147538}})
+Reference 6 - 3.51% Coverage
+The same ambiguity exists in German: ""Wasser"" in general (the plural, ""Wässer"", exists but is so rare it’s rather obscure and strange sounding) vs. ""ein Wasser"" as ""a drink of water"", the the plural being the same: ""zwei Wasser bitte!"". One could argue that these should be two separate lexemes, since they have different morphology (different plural forms). Strangely, we do not do the same with food.
+Files\\request for a comment\\Administativedivisionsandpopulatedplaces - § 3 references coded [ 12.51% Coverage]
+Reference 1 - 1.83% Coverage
+Same items ppl (populated place) + administrative division with different proprieties to maintain adherence with the majority of the Wikipedia entries
+Reference 2 - 1.65% Coverage
+Different items for ppl and admin division but there will be confusion with links to Wikipedia someone will point to admin div someone to ppl
+Reference 3 - 9.03% Coverage
+Take a look at {{Q|1879056}}. It’s not an item about an adm unit and a ppl with the same name, but rather about a ppl divided between two statistical entities. They have the same name, but are separated by the statistical office described as ""North"" and ""South"". I think this also can be used for such cases as Assisi. Instead of more properties and qualifiers to separate the statements, we keep one item @ Wikidata per item @ Statistics Whatever. And it does not make any difference if there is two, three or 12 entities in the same article, or what kind of entities they are. The drawback is that Wikidata maybe not will solve the Interwiki if one project have one article, while others have two. But such problems already exists, with Cain and Abel, Bonnie and Clyde etc etc
+Files\\request for a comment\\DataqualityframeworkforWikidata - § 15 references coded [ 15.25% Coverage]
+Reference 1 - 1.16% Coverage
+It seems to me this is an excellent way to think about and assess quality issues. However, I don’t believe, and I’m guessing the wikidata community won’t feel, that all these are of equal importance, or even necessarily desirable as goals. Completeness for example - we have discussed notability requirements before; the main reason to be concerned about notability is that having a huge number of less-frequented items invites neglect and abuse. So the degree of completeness is dependent on the number of eyeballs we have available (enhanced by whatever automated tools we have) to review things. So I’m guessing the approach would be more to figure out along which dimensions we are doing well, which ones we need to improve, and which ones we can neglect (at least for now
+Reference 2 - 2.25% Coverage
+he area of family history for example there are people who care about doing high quality research on the history of their family. ::Allowing those kinds of people into Wikidata would be valuable for growing the amount of eyeballs. 
+::Recently I looked at the family of {{Q|Q160202}}. After a bid of searching I found that his father-in-law owned {{Q|Q26252088}} at the Wiki for the History of the city of Vienna (the Wiki is a project of the city of Vienna). Knowing that the father-in-law was dead at the time of the marriage of {{Q|Q160202}} is interesting information that wasn’t available in the biographies of {{Q|Q160202}} that I read but only at the Vienna Wiki.
+::Being able to connect that information was interesting but the fact that the connection exist couldn’t be seen beforehand. The same is true for many people that lived in the 19th century or earlier. Their significance can only be found by gathering data from multiple sources.
+::The fact that Wikidata allows me to link the father to the pharmacy in which he worked also allows information to be documented that couldn’t have been documented in ancestry databases like http://www.ancestry.com/ that are also unfortunately closed information.
+::I think that generally information for which real sources exist and that isn’t simply personal opinion should be welcomed at Wikidata. I think it would also be very good to invite communities like the family history community into Wikidata to grow the amounts of eyeballs that we have.
+Reference 3 - 2.07% Coverage
+We already have a tool to asses completeness of a dataset. It’s way more easy to define the boundaries of subdatasets of wikidata and to work on their completeness than to define notability in general, evaluate how complete is wikidata as a whole wrt. the whole potential entities that could exists and the totals potential data there is for each, which is not the same considering not only the type of entities themselves but also beetween entities of the same kind - take a politician career, it can have a very different number of lines considering the politician. This is an holistic approach, but what about a ""part to whole"" approach using https://www.wikidata.org/wiki/Wikidata:Tools/External_tools/fr#COOL-WD:_A_Completeness_Tool_for_Wikidata that would evaluate the completeness of subsets of wikidata, the proportion of items covering of such specific complete datasets wrt. a defined criteria wrt the whole wikidata dataset, and as such evaluate some kind of quality score of one subset of wikidata. This seem way more practical to have a divide and conquer strategy than to try to take the problem holistically. And this would not require once and for all to have binary criterias such has ""OK to go in, not OK"". By definition of ""non notable"" entities on other wikimedia projects, they should have a poor covering score and we hardly would be able to prove t
+Reference 4 - 0.24% Coverage
+Another completeness approach, as wikidata aims to be a secondary database, is a relative one : how much wikidata is complete on some dataset wrt. another one ?
+Reference 5 - 0.71% Coverage
+Part of the anwser is imho here. https://blog.wikimedia.de/2013/06/04/on-truths-and-lies/ . With wikidata, we’ll have tool to judge datasets : how consistent are they internally, how consistent are datasets wrt. each overs ? My guess is that good datasets will have more internal consistency for example.
+:::::: Also ’population completeness’ can’t be achived if our model is not complete enough to import some dataset - if we lack an essential property for example. So
+Reference 6 - 0.86% Coverage
+To go a little further, there might be a solution to totally reverse the problem ""inclussionnist versus suppresssionnist"" : We take an inclusionnist approach BUT we provide a score with the datas. If the data can’t be seconded, then it’s condemned to stay with a poor public quality score. Then we could keep the data and spare the effort to delete it which is time consuming and conflict prone - this can destroy a community - and providing people with high standards with quality information and let them have a personal discipline ""I ignore information with a score no higher
+Reference 7 - 0.29% Coverage
+Uniqueness - Is there more than one definiton or representation for the same information. E.g. Q5 and Q22828631 for human.
+
+Connectedness - How well Wikidata items are connected to each other
+Reference 8 - 0.45% Coverage
+Conflict resolution - is there a stable process to flag and resolve conflicts in sources and referring databases? to the extent wikidata reflects many data sources, as in VIAF, there may be conflicts, and a stable process to provide feedback to referring institution, for resolution will be important
+Reference 9 - 0.14% Coverage
+Multi-sourcing -- provide multiple independent sources if possible (mentioned on talk) <br/
+Reference 10 - 0.18% Coverage
+Non-reliance on external identifier -- a quality dataset shouldn’t rely primarily on an external identifier selection
+Reference 11 - 1.61% Coverage
+I think the framework could be improved a lot by differentiating between {{Q|Q1757694}} and {{Q|Q3412851}}. It is common to mix ""data"" and ""information"" but a study on their quality should better use a clear terminology. I cannot give a perfect definition of both but I’d say simplified 
+
+* ’’data quality:’’ alignment to a specification
+* ’’information quality:’’ fitness for use
+
+Data quality and information quality can match if you can define criteria to be fulfilled for use but ’’as soon as you need to ask people or to compare data with ""reality""’’, this cannot be expressed in data quality. Note that data quality and information quality can even collide, if specification and use do not align (this is very common in information systems because use scenarios are much more complex than any specification can be)! 
+
+From the given list if definitions only consistency, schema completeness, item completeness can be part of data quality (and part of timeliness but not whether there are ""enough"" updates). The other dimensions are about information quality. --
+Reference 12 - 0.78% Coverage
+Description about consistency seems incomplete. Consistency isn’t only related to class membership relations, but it concerns a wide range of statements between values that should be satisfied. For example, we should implement the {{tl|Constraint:Contemporary}} as soon as possible. It’s risky to be able to say that {{Q|Q882}} was {{P|26}} of {{Q|Q11903}}, or that {{Q|Q76}} is {{P|P463}} the {{Q|Q1114493}}. However, this is, and will be, absolutely possible if we only focus on class membership relations.
+Reference 13 - 2.74% Coverage
+itative source says that the Armenian genocide didn’t happen given that it didn’t happen in the offical numbers that the government of the territory presents offers.
+:::: I see no reason why the data quality document should suggest that government data is impartial. If you want to point to an example of impartial information than point to peer reviewed academic numbers. 
+:::: Listing government data on Wikidata makes sense but for reasons that aren’t that the data is impartial. 
+:::: As far as defining whether data matches reality, if you want to have an operational definition I would use: ""Does a subject level expert consider the Wikidata number to be the best number available?"" That’s the kind of number that a data customer of Wikidata wants to get. 
+:::: Besides I’m not sure what ""A statement is said to be accurate if it is in agreement with what stated in its reference. "" means. Let’s say I have a statement that Joe is born at 30.03.1855. The statement also has an authoritative reference from an authoritative biography stating that he is born in 1855.
+:::: Technically there’s no disagreement between the two claims. They both agree. On the other hand the source doesn’t accept ""30.03.1855"" as true, it makes no statment about whether or not that specific data is true. From a data quality perspective I however think agreement is not enough.
+:::: It becomes more interesting when the statement has a second low quality reference from someone’s personal website saying that he’s born at 30.03.1855. I think then it becomes more unclear about whether it’s good data quality. I also don’t think that your data quality document gives me a good answer. 
+:::: Wikidata has the habit of requiring explicit statements about uncertainity of data. A lot of sources aren’t explicit about data uncertainty. There we again have a
+Reference 14 - 0.60% Coverage
+OK, I might have forgotten some adverbs there. I think that census governmental sources should be generally considered, at least for western countries, as impartial and authoritative. This mean that they cannot always deemed as such and distinctions should be made (let’s leave aside how as for now). E.g. if I want to get data about the British population, the ONS provides accurate and reliable data.
+Reference 15 - 1.16% Coverage
+Thanks to the Wikipédia articles / Items mapping, we could compare the graphs generated by the internal links in wikipedias and the wikidata graph. For example, I expect that for a complete item, almost every articles linked in a language version of wikipédia (or the union of all versions) be very close - say, one or two statements away - of the items used in the corresponding Wikidata item or that uses it. Maybe a very simple proportion of such items that uses the item we want to know is complete union all the items used by it compared to the items of the sitelinks of the corresponding article could be a good heuristic to evaluate the completeness of an item wrt. Wikipedia. <span style=""border: 1px #C9C9C9;""><span style=""background-color:#E8E8E8;padding:3px;
+Files\\request for a comment\\HandlingofstoredIDsaftertheyvebeendeletedorredirectedintheexternaldatabase - § 4 references coded [ 9.92% Coverage]
+Reference 1 - 0.58% Coverage
+*:[[User:MisterSynergy|MisterSynergy]], maybe as a pilot project WD could test how to best do it for {{P|227}} on P31=Q5. Each redirect should be clearly related to the target ID, the item is not enough if WD has one item for multiple GND items
+Reference 2 - 7.76% Coverage
+*:# ’’aggregators’’: identifiers which contain no native information, but only aggregate other identifiers (notable example: {{P|214}})
+*:# ’’sources’’: identifiers which contain native information (the great majority, e.g. {{P|227}}, {{P|244}}, {{P|345}} etc.)
+*:I think these two categories of IDs deserve different treatments. As said by the Kam, we keep properties of external IDs which have become obsolete ""for historical purposes and because there’s still value in keeping them for our users"". So, let’s reason about why external users can use IDs: if an external user uses an ’’aggregator’’, he uses it because it aggregates different sources; if an external user uses a ’’source’’, he uses it for the information it contains in itself. The same is also true for Wikidata: we use ’’aggregators’’ because they aggregate different sources, we use ’’sources’’ because of their intrinsic value. Let’s go further: if Wikidata contains not only an ’’aggregator’’, but also all the sources aggregated by it (which is the case of {{P|214}} and VIAF members), the external source can use Wikidata itself as aggregator, with no more need of the previous aggregator; so it becomes evident that keeping redirected and deleted entries of the ’’aggregator’’ is useless. Other aspect, valid at least for {{P|214}}: most of the duplicate IDs which eventually get merged are kind of minimal (see e.g. the 11 {{P|214}} in {{Q|102371}}; items having more than 10 VIAFs are not an exception as might seem, unfortunately), usually containing only one source, and they have basically no external use outside Wikidata, so keeping all them (after redirection) would make the item inconveniently heavier and less readable, with no real benefit for third parties. In conclusion, I strongly support {{vote delete}} ’’’’’aggregators’’ redirected/obsolete IDs’’’ when the ’’sources’’ aggregated by them are external IDs stored on Wikidata.
+*:Now, let’s come to the great majority of external IDs, those I called ’’sources’’. Here the problem is more complex, so pros for each solution should be evaluated. However, I should make a consideration first (point 0): I would consider inconsistent for Wikidata just having some redirects and not others; in other terms, if we choose to keep redirected/deleted IDs (obviously marking them as deprecated and qualifying them with {{P|2241}}), it would also be more consistent also to program, whenever possible, some systematic addition of redirected IDs to our items - if we choose completeness, why should we have only IDs which become obsolete ’’after’’ having been added to Wikidata? Also IDs which have become obsolete ’’before’’ being added to Wikidata would deserve addition, and there would not be any clear reason for reverting users adding obsolete IDs to items. If we consider how big is the number of redirects resolved in the history of big databases such as {{P|227}}, {{P|244}} and {{P|345}}, the quantity of obsolete information to be stored becomes relevant (see the above comment by {{ping|ArthurPSmith}}: ""unless there are thousands of them on one item, in which case I can see wanting to delete them""). Now I try to list some pros and cons, with objections:
+Reference 3 - 1.36% Coverage
+*:*{{ping|MrProperLawAndOrder}} I think that a distinction between widely reused sources ({{P|213}} and {{P|227}}) and less widely (= ""minor"") sources can be useful, although we should reach a clear agreement about the definition of ""widely reused"".
+*:*[[:de:Wikipedia:BEACON]] is very interesting, of course. Possible solution: ’’’we can keep obsolete IDs only for a given time after obsolescence’’’ (e.g. 2 or 5 or 10 years, to be decided) in order to allow third parties to substitute them with valid ones.
+*::What do you think about these two points?
+Reference 4 - 0.21% Coverage
+Instead of {{st||31|96192295}} I would prefer creating a new property for the purpos
+Files\\request for a comment\\Howtoclassifyitemslotsofspecifictypepropertiesorafewgenericones - § 11 references coded [ 19.86% Coverage]
+Reference 1 - 0.14% Coverage
+== A lot of specific type properties ==
+=== Pros ===
+Reference 2 - 1.56% Coverage
+*This is the general direction I’d like to go in. We should have every infobox field have a property. Sometimes these can overlap (""producer"" for a film, ""producer"" for a video game, and ""producer"" for an album all can share a property). There is a fine line between trimming down redundant properties and damaging usability of the data and ease of use for the maintainers and enterers of the data. Given a choice, I’d rather see a few redundant properties than suffer the headache of having to juryrig information into properties that don’t fit well
+Reference 3 - 0.50% Coverage
+== Few generic type properties ==
+If this will be the choice of the community, we will need to open a discussion to establish rules and qualifiers for a flexible classification.
+Reference 4 - 0.99% Coverage
+For the bottom of the hierarchy we keep property {{P|289}} for each ship referring to it’s ship class such as {{Q|309336}} but {{Q|309336}} has properties {{P|31}}{{Q|559026}} and {{P|279}}{{Q|1186981}} and so on up the classification hierarchy to a Main Type. (Yes. This does mean {{P|107}} is removed from all except the 7 or so Main type items).
+Reference 5 - 1.27% Coverage
+This is not on the roadmap, and someone asked on the question to developper page on this wiki (the answer was no) but if that become a real problem it may change : there exist a ’’subproperty of’’ relation beetwen properties in the semantic web world which could help us combine the advantages of both solution. It is as an example [http://semantic-mediawiki.org/wiki/Help:Special_property_Subproperty_of implemented in Semantic Mediawiki].
+Reference 6 - 5.11% Coverage
+: I agree that Wikidata would greatly benefit by supporting [http://www.w3.org/TR/rdf-schema/#ch_subpropertyof rdfs:subPropertyOf], but I disagree that such a property would make it sensible to have a proliferation of domain-specific ’type of’ properties. In other words, I think specifying ’ship class’, ’watercraft type’, and the arbitrarily large number of ’type of’ properties as subproperties of ’instance of’ or ’subclass of’ would be a poor use of rdfs:subPropertyOf. 
+: Any Wikidata port of rdfs:subPropertyOf should be reserved for specifying deeper subproperty relations, like, say, the relationship between the transitive {{P|361}} property and an intransitive ""direct part"" subproperty (which many supported {{P|463}} as). Properties like ’ship class’ are different from ’instance of’ in only a very superficial sense: they specify ""instance of"" relations ’’in a specific class’’. I am not aware of any other large ontologies that use rdfs:subPropertyOf in this way. 
+: Beyond needlessly preserving evolutionary precursors of ’instance of’ and ’subclass of’ -- which domain-specific ""type of"" properties like ’ship class’ and ’watercraft type’ represent -- I see no reason to use rdfs:subPropertyOf like that. I don’t find the assertion that it will reduce confusion for new users compelling: they would still need to look up the appropriate domain-specific ""type of"" property to use in their particular niche of interest, and even then they would still need to know the difference between ""instance of"" and ""subclass of"" to use their niche’s custom ""type of"" subproperties accurately. I think it would be simpler to stick with the two W3C-based ""type of"" properties, and preserve uses of rdfs:subPropertyOf for deeper subproperty relations.
+Reference 7 - 5.10% Coverage
+After reading the deletion discussion for {{P|132}} and sleeping on this I realised there is another way to do some of this which doesn’t always need a new""subproperty"".
+
+Here is an example: {{P|132}} refers to items which are ’administrative units’. We should ensure each of these ’administrative unit’ types have the property {{P|31}} ’administrative unit’. Bots can do sanity checks on edits by checking if the items referenced by P132 are the right type of item as given by their instance of property while we can still have exceptions where needed. 
+
+Each ’Administrative unit’ item also needs to have the property {{P|279}} ’geographical feature’. Then ’geographical feature’ can have the property {{P|107}} ’geographical feature’ (or maybe ’instance of:GND Main type’). In this way we create a hierarchy of ’instance of’ and ’subclass of’ items and you can tell something is an ’instance of’ by following the hierarchy. Effectively this is an alternative to the GND hierarchy of types and yes it would mean deleting {{P|107}} from all except a few items at the top of the hierarchy.
+
+That works for ’instance of’ because all items are an ’instance of’ something. Other properties will need the subproperty type. Take for example {{P|131}}. This is a subproperty of ’located in’ which could be seen as a subproperty of {{P|279}} (if you squint real hard). If we just delete P131 and use only P279 then we lose some useful information and we also lose hints in the property titles which help editors find the right properties and allow bots to do sanity checks.
+
+Similarly {{P|569}} is a sub-property of ’key event - date’ which is a sub-property of ’key event’.
+
+Are there any other properties defined by W3C besides ""instance of’, ’subclass of’ and ’sub-property of’ which we should be considering?
+Reference 8 - 1.06% Coverage
+I’m not sure I totally understands, but I’m pretty sure that a main type is totally useless if we use a subclass/instanceof (and related subproperties). Let’s not make a mess by mixing different systems :) If we don’t have ’’subproperty’’ maybe we could find another way to model the fact that a property is a refinement of another (it seems to me that it is what we are trying to do)
+Reference 9 - 1.20% Coverage
+more precisely, we do not know them because we can define something as ’’main type’’ as just a subset of the types which are at the top level of the hierarchy and let that emerge from the collaborative work. ’’Main types’’ would then not be needed to be stated and choosed explicitely (with all the limitations we know with GND), just deduced from the actual type hierarchy, and would not be treated differently as any other type.
+Reference 10 - 1.71% Coverage
+=== Should it be both? ===
+The question of whether to be specific or general isn’t limited to {{P|31}} and {{P|107}}, many properties have this issue. For example, in {{Q|76}}, do we use
+*{{P|39}} => {{Q|11696}} or
+*{{P|39}} => {{Q|30461}} => {{P|642}} => {{Q|30}}?
+As I understand it, we should use both because people or algorithms sorting the data might want to sort by either option depending on what they’re doing. Shouldn’t the same be true for classification? Something could be an instance of a broad term and specific terms, like
+*{{P|31}}
+**=> {{Q|811979}}
+**=> {{Q|186363}}
+**=> {{Q|16970}}
+Reference 11 - 1.22% Coverage
+The area where we have the largest number of domain specific properties is in links to authority control and other types of database. Nearly all the properties with datatype ’string’ are in this category and they make up about a third of our properties. The whole lot could be replaced by {{P|528}} with qualifier {{P|972}}. I’m not convinced we should do it however. I suspect there may be reasons to have lots of separate properties
+Files\\request for a comment\\Interwikilinksforspecialpages - § 7 references coded [ 4.22% Coverage]
+Reference 1 - 0.20% Coverage
+== Interwiki links for all special pages are to be stored on Wikidata ==
+Reference 2 - 0.22% Coverage
+== Interwiki links for none of the special pages are to be stored on Wikidata ==
+Reference 3 - 0.22% Coverage
+== Interwiki links for some of the special pages may be stored on Wikidata ==
+Reference 4 - 0.36% Coverage
+=== [[Special:Recentchanges]] ===
+[[File:Q6293548_madness.PNG|thumb|Special:RecentChanges with Wikidata links]]
+Reference 5 - 0.37% Coverage
+*I think MediaWiki should have a new function to let users visit special pages in other Wikimedia projects (included Wikipedia)
+Reference 6 - 1.86% Coverage
+agree that having 200+ interwiki’s on a special page might be a bit over the top. Having none at all is not a very nice option either. I really like how babel works here on Wikidata: I included French on my [[User:Multichill|userpage]] and I see French. Wouldn’t that be a nice approach for the special pages too? On [[:nl:User:Multichill]] I included Dutch, English, French and German. Would be nice if special pages like [[:nl:Speciaal:RecentChanges ]] or [[:nl:Special:Watchlist|my watchlist]] have links to the same special pages in the other languages I selected. From a technical point of view this should be too hard to implement I think
+Reference 7 - 0.98% Coverage
+:I’m not a big fan of storing [what are essentially] preferences in wikitext, except in pages where editing is restricted to the user and admins (User:*/*.{js,css}). Why not make this a real setting in Special:Preferences? <span style=""font-family:Arial"">[[User:PiRSquared17|<b style=""color:#f90"">πr<sup>2</sup></b>]]
+Files\\request for a comment\\PropertyproposalorganisationreformtoamoreModelorinfoboxorientedprocess - § 2 references coded [ 9.67% Coverage]
+Reference 1 - 4.47% Coverage
+#I don’t like that we are introducing a new jargon word ""model"". I don’t like that we are introducing yet another new page.
+#:In my opinion we should 
+#* rename the ’Task force’ pages as ’WikiProject’ pages, to match the other projects.
+#* Move all the proposed, pending and approved Properties to the appropriate WikiProject pages.
+Reference 2 - 5.21% Coverage
+: Then we can forget to manage a help page with all model/data structures in a single page or even in a reduced number of page: just have a look at [[Help:Sources]] to the length of a page containing a small structure complexity. The best is to let the task forces organizing the models/data structures and to use and help page only to provide a page with all links to the models/data structures.
+Files\\request for a comment\\Severaldatatypesforthesameproperty - § 3 references coded [ 17.65% Coverage]
+Reference 1 - 2.53% Coverage
+I think a better solution would be to expand notability to include authors and editors of reference items. Along with the reference items themselves, of course
+Reference 2 - 10.66% Coverage
+An alternative to string would be a multilanguage-string. It would allow us to translate the name of an author. You have the same kind of problems with mayors in smaller cities for example. Most of them will never have an article on any wp. Some arguments has been said, that it will be worth a lot to identify XY as a mayor i Z city, that XY also has written a book, won a gold medal in some sport. I’m not so sure if that is that easy. I have already large problems separating items with identical labels. On svwp, we recently identified a gold-medalist from one of the first modern olympics, as identical as a politican some decades later. What made it harder, was that he had changed names
+Reference 3 - 4.46% Coverage
+Personally I don’t see why every author of an obscure reference or every mayor of a tiny village needs to be named at all but if the consensus is that they should be then they certainly don’t each need a separate Wikidata item page so I guess a property with a string variable is the way to go
+Files\\request for a comment\\Sortidentifiers - § 7 references coded [ 12.66% Coverage]
+Reference 1 - 4.62% Coverage
+: I agree with the proposal of setting first the most important identifiers and then others in alphabetical order; it can be considered the possibility of establishing an alphabetical order between topic-groups of identifiers (e.g. all cinema identifiers sorted alphabetically between them, then all music identifiers sorted alphabetically between them, then etc.). The most important task is, firstly, establishing which are the ’’most important identifiers’’, which should go first. I think two criteria should be considered: how many times a property is used and how diverse are the items where it is used. Looking at [[Wikidata:Database reports/List of properties/Top100]] (update six months ago), the most widely used identifier is {{P|698}}; however, it is used only in scientific articles items, so in my opinion it shouldn’t go first; similar cases of sectorial identifiers are, in that list, {{P|932}}, {{P|5875}}, {{P|846}}, {{P|2326}}, {{P|830}}, {{P|351}}, {{P|5055}}, {{P|352}}, {{P|3382}}, {{P|590}}, {{P|3151}}, {{P|815}}, {{P|637}}, in some sense also {{P|345}}); in conclusion, the most widely used and ""universal"" identifiers seem to be, in this order, {{P|356}}, {{P|1566}}, {{P|214}}, {{P|646}}, {{P|244}}, {{P|213}}, {{P|227}}. However, there is a problem: this list has been updated six months ago and it takes into account all uses of the identifiers (not only as main value, but also as qualifiers and references), so it is not completely fit to our scope.
+: Given all these premises, I would suggest to proceed in the following way: finding an updated statistic of all identifiers which have more than 500k (or 100k, as preferred) uses as main value; choosing, from that list, only the identifiers which are used on a wide range of items, not only in a restricted sector; sorting the choosed identifiers to make them appear always first; then start reflecting on the sorting of other identifiers, evaluating the possibility of sorting them alphabetically according to topic-groups. -
+Reference 2 - 0.38% Coverage
+**** Rather than alphabetical, how about having the default ordering identifiers be by property ID (i.e. P999 before P1000 etc.) - that’s neutral and somewhat logical.
+Reference 3 - 0.76% Coverage
+I think sorting identifiers in a alphabetical order is not the best way. When I look for item which uses {{P|39}}, then I think that the start time should be mentioned before the end time. Then it is easier to calculate the difference between that to dates for a human. So there should be a scheme for the order the identifiers are mentioned.
+Reference 4 - 1.36% Coverage
+* {{comment}} I’d rather first sort by subclasses of {{Q|18616576}} (of multiple present use the deepest) and within those groups something else would be needed. Okay, alphabetically, but which language? The users preferred language? So if two people, one with primary language set to German and the other to English, talk/share screen/communicate about the statements the have different orders? {{unsigned|CamelCaseNick}}
+** As far as I know, the sort order is listed at [[MediaWiki:Wikibase-SortedProperties]], and sorting differently according to the user’s language isn’t possible.
+Reference 5 - 0.83% Coverage
+Discussing this RFC with {{ping|Gentile64}}, we agree about sorting identifiers by ascending P <b>number</b>. This solution could be the default, meaning that identifiers could also be managed on a user basis, like the Babel template filters and sorts languages. E.g.: &#123;&#123;IDs:P214|P213|P5379|P5371&#125;&#125;, or even &#123;&#123;IDs:P214|
+Reference 6 - 3.13% Coverage
+So, here is my proposal.
+
+At the moment there are 4799 properties with datatype ""external-id"".
+
+For now the only ordering enacted for identifiers is: ’’{{P|214}} first’’ (according to [[Wikidata:Requests for comment/Sort identifier statements on items that are instances of human|this RFC]]).
+
+According to some favorable opinions to setting authority controls first, I propose to set the following order:
+# {{P|214}} (as it is now)
+# {{P|213}}
+# All VIAF members, ordered according to their VIAF code (51 IDs in total), as showed by the following query
+#:{{SPARQL|query=
+SELECT ?id ?idLabel ?cod
+WHERE {
+?id wdt:P31 wd:Q55586529 ;
+p:P1552 [ ps:P1552 wd:Q26921380; pq:P3295 ?cod ] .
+SERVICE wikibase:label { bd:serviceParam wikibase:language ""[AUTO_LANGUAGE],en"". }
+}
+ORDER BY ?cod
+}}
+# {{P|356}}
+# {{P|212}}
+# {{P|957}}
+# {{P|236}}
+# {{P|7363}}
+# All the other 4799 - 58 = 4741 properties ’’temporarily’’ ordered according to their English label [waiting for further discussions about the order of topics and of IDs afferent to the same topic]
+
+It’s obviously possible to propose adjustments or entirely different orderings. I wait for your comments {{ping|Obsuser|Nw520|Trade|Jc86035|Andrew Gray|Adam Harangozó}} {{ping|Moebeus|CamelCaseNick|EncycloPetey|Wostr|Hogü-456|Ghouston}} {{ping|ArthurPSmith|Alexmar983|Bargioni|Gentile64}}. By
+Reference 7 - 1.58% Coverage
+:besides adding some geenric obvious guideline about taking into account massive cross-use as IDs or as sources or as authority control on local projects, we could allow a voting phase as a final passage... it’s not perfect but a threshold of ""at least X users supporting the insertion above the alphabetical order with less than X% opposing"" is not elegant but more or less should work. This should also encourages to inform projects about it and share more and more different scenarios among us. I am actually interested to discover more point of views on the best possible order, fixing the first part of this list is obviously an interative process if we cannot adopt any other ""formal"" method-
+Files\\request for a comment\\TimeDataTypeProperties - § 5 references coded [ 10.63% Coverage]
+Reference 1 - 2.04% Coverage
+:Just because we have qualifiers we don’t must use it everywhere. Yes we need some consistent systematic and yes maybe it would be better to have only one Imagetype with qualifiers but I think things like birth and death are quite intuitive to use and putting everything one layer above helps nobody. -
+Reference 2 - 2.57% Coverage
+think a ’key event’ property with a ’date’ qualifier (to be created) would be useful for some events but we should still keep birthdate and deathdate for now as they such widely used properties. 
+
+:I think we should go ahead and create the ’date’ property now even without ’key event’ as it will be useful as a qualifier to many other properties (along with ’start date’ and ’end date’
+Reference 3 - 3.03% Coverage
+I think the idea is to have it like this
+:::::*<person X>
+::::::*""key event"" <birth>. Qualifiers: ""Date"" <date 1>, ""Place"" <place 1>, ""Source"" <nowiki><source 1></nowiki>
+::::::*""key event"" <birth>. Qualifiers: ""Date"" <date 2>, ""Place"" <place 2>, ""Source"" <nowiki><source 2></nowiki>
+::::Having said that I, personally, think we should keep Date of birth and Date of death and only use Key event for other properties
+Reference 4 - 1.68% Coverage
+Can we use {{P|585}} as a qualifier for web sites citations or should we create a separate ’date retrieved’ property?
+:I would say that we need a separate property, as {{P|585}} could also be intepreted to mean something like ""publication date. -
+Reference 5 - 1.30% Coverage
+<strike>For sources referencing web pages and online databases we need to note the date the information was downloaded. Should we use {{P|585}} or create a new ""date accessed"" property?
+Files\\request for a comment\\makedeveloperandprogrammerpropertiesclearer - § 4 references coded [ 18.39% Coverage]
+Reference 1 - 5.22% Coverage
+{{P|943}} is a subproperty of {{P|178}} and should be used when we know the name of the programmer who wrote the software. {{P|178}} is more general and can be used when we know only the name of the organization and not the individual contributors (despite considering its current usage). Personally, I would distinguish between programmers and maintainers. However, distinguishing developers and programmers is difficult.
+Reference 2 - 2.39% Coverage
+Then these are two separate concepts that just happen to use the same term in English, I think developer in terms of building should be a separate property (which I believe doesn’t currently exist)
+Reference 3 - 6.80% Coverage
+I agree. My thoughts are {{P|178}} should only refer to software and be the person/group that oversaw entire creation of the software and {{P|631}} should be the person/group that wrote/edited the code specifically. Generally I’d prefer to have just developer of a game or software as the group that created it but include programmer if there’s an individual/organization that’s particularly notable. Usually the programmers will be part of the development team or contracted out by the developers. As an example I think {{Q|189784}} does it correctly.
+Reference 4 - 3.99% Coverage
+I came to the conclusion that {{P|178}} refers to anything that can be developed, and {{P|P943}} shouldn’t be a subproperty of {{P|P178}} because a programmer/software developer isn’t necessary a creator, but can also be a maintainer. Maybe we need a ""software house"" property where the software is developed by a company.

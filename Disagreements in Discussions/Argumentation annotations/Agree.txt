@@ -1,0 +1,87 @@
+﻿Files\\properties for deletion\\P107 - § 1 reference coded [ 0.49% Coverage]
+Reference 1 - 0.49% Coverage
+{{keep|Speedy keep}} as a repeated nomination
+Files\\properties for deletion\\PfDPropertyP1549 - § 1 reference coded [ 1.32% Coverage]
+Reference 1 - 1.32% Coverage
+I agree that we should eventually replace the existing property with lexemes, but we shouldn’t delete this until people are able to switch to using lexemes. We still need to decide how we want to link things together
+Files\\properties for deletion\\PfDPropertyP3303 - § 2 references coded [ 2.36% Coverage]
+Reference 1 - 0.79% Coverage
+If Wikibase can select the preferred format over multiple claims, I’ll support i
+Reference 2 - 1.56% Coverage
+{ping|Mormegil}} I like this idea of a gadget to make these ""live"" - I think we’d need an additional qualifier though to label the links in a drop-down list, no?
+Files\\properties for deletion\\PfDPropertyP802 - § 3 references coded [ 1.13% Coverage]
+Reference 1 - 0.06% Coverage
+{{vd}}
+Reference 2 - 0.85% Coverage
+{vd}}, but please make sure that no data is lost (including qualifiers and sources) during the transition
+Reference 3 - 0.22% Coverage
+{vd}} if moved to {{P|1066}
+Files\\property proposal\\at - § 2 references coded [ 0.62% Coverage]
+Reference 1 - 0.29% Coverage
+Ok, rename to ""to""
+Reference 2 - 0.33% Coverage
+{{support}} as ""to""
+Files\\request for a comment\\DataqualityframeworkforWikidata - § 1 reference coded [ 3.44% Coverage]
+Reference 1 - 3.44% Coverage
+Hi Alessandro, thanks for the RfC and your valiant participation in the discussion.
+
+Many of the contributions to the discussion point to specific implementations that can help by finding errors easier - such as constraints on data values, or consistency rules. I think those are very important in order to keep control of the data set - but in the end, they are merely a proxy to measuring quality. They do not really capture your quality measures, such as ‘accuracy’ and ‘completeness’, etc.
+
+While these suggestions and implementations are very important, I would be extremely happy to see you stay focused on the quality dimensions you mention. Your definitions look sane and good. Personally, I would weight these dimensions - e.g. have accuracy very high, consistency rather low, etc. - but your selection looks already quite complete, and I am not sure I would drop anything, besides on the completeness dimension.
+
+For schema completeness, I would argue that since Wikidata does not have a standard class system, maybe we should focus on the properties only.
+
+For item completeness, I would argue that focusing on just the classes and see whether they have all relevant properties is insufficient. My suggestion would be to compare to the Wikipedia article and see whether the most important information about a given item that is mentioned in the article is actually covered. 
+
+For population completeness, again I would argue against relying solely on classes.
+
+All of the three subdimensions of completeness I would actually consider maybe complementing or partially replacing with query completeness. Given relevant queries, can we express these queries and do we get all results we are expecting. This would cover your subdimensions, and is also motivated by Wikidata’s arguably most important role, to support the Wikimedia projects. Query results are planned to be available for integration and exposure in the other Wikimedia projects at some point (the legendary Phase 3 of the Wikidata project), and such a query completeness would directly capture how realistic such a goal is.
+
+I am looking forward to see your suggestions on how to operationalize these quality dimensions and the concrete metrics and measurements you will suggest. I hope this helps, and again, thank you!
+Files\\request for a comment\\HandlingofstoredIDsaftertheyvebeendeletedorredirectedintheexternaldatabase - § 2 references coded [ 0.05% Coverage]
+Reference 1 - 0.02% Coverage
+{{keep}}
+Reference 2 - 0.02% Coverage
+{{Keep}}
+Files\\request for a comment\\Interwikilinksforspecialpages - § 14 references coded [ 1.25% Coverage]
+Reference 1 - 0.02% Coverage
+*{{n}}-
+Reference 2 - 0.03% Coverage
+{{s}} Yes.
+Reference 3 - 0.05% Coverage
+{{s}} Per Vogone
+Reference 4 - 0.11% Coverage
+{Support}} per Vogone and MF-Warburg.
+Reference 5 - 0.16% Coverage
+{{S}} Of course. consider these on a case by case basis.
+Reference 6 - 0.04% Coverage
+{{s}} Indeed
+Reference 7 - 0.14% Coverage
+*{{support|stöder}} What’s the noise about? --
+Reference 8 - 0.20% Coverage
+*{{S}} links to smaller projects from bigger projects are alway good.
+Reference 9 - 0.02% Coverage
+{{s}}.
+Reference 10 - 0.04% Coverage
+* Supported by
+Reference 11 - 0.23% Coverage
+Strong {{support}}. It’s a fair substitution of long-waited global watchlist.
+Reference 12 - 0.04% Coverage
+*{{support}}
+Reference 13 - 0.07% Coverage
+* {{s}} No harm in that.
+Reference 14 - 0.09% Coverage
+::I completely like this idea
+Files\\request for a comment\\Sortidentifiers - § 6 references coded [ 1.15% Coverage]
+Reference 1 - 0.13% Coverage
+* {{support}} Sounds more useful than the current order
+Reference 2 - 0.21% Coverage
+{{Support}} It’s extremely jarring to have properties sorted in order but not identifiers
+Reference 3 - 0.34% Coverage
+{Support}} Grouped by topic, then sorted alphabetically would be my preference. But honestly any sorting is great, tweaking can surely be done later.
+Reference 4 - 0.14% Coverage
+:put this way, I don’t see a practical problem, in facts.--[
+Reference 5 - 0.02% Coverage
+{{s}} --
+Reference 6 - 0.31% Coverage
+* {{s}} Yep. I especially appreciate that authority control identifiers are at top and more general identifiers above sectorial ones. --

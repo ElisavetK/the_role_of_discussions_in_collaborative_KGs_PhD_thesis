@@ -1,0 +1,30 @@
+﻿Files\\properties for deletion\\PfDPropertyP1549 - § 1 reference coded [ 0.29% Coverage]
+Reference 1 - 0.29% Coverage
+{vd}} Doesn’t useful, replacement available
+Files\\properties for deletion\\PfDPropertyP646 - § 1 reference coded [ 0.22% Coverage]
+Reference 1 - 0.22% Coverage
+Consensus to keep the property.
+Files\\properties for deletion\\PropertyP8531 - § 1 reference coded [ 1.90% Coverage]
+Reference 1 - 1.90% Coverage
+{Not deleted}}, no willingness to delete except that of the proposer.
+Files\\request for a comment\\DataqualityframeworkforWikidata - § 1 reference coded [ 0.22% Coverage]
+Reference 1 - 0.22% Coverage
+Discussion top|result=The below discussion was closed on 7 December 2016‎ by Alessandro Piscopo with the summary ""Sufficient feedback received
+Files\\request for a comment\\Findagraveremovedasasourceforinformation - § 1 reference coded [ 0.10% Coverage]
+Reference 1 - 0.10% Coverage
+consensus to keep Findagrave as source
+Files\\request for a comment\\Interwikilinksforspecialpages - § 3 references coded [ 3.08% Coverage]
+Reference 1 - 2.70% Coverage
+* The interwikis for all Special pages is a failed proposal with consensus being mainly against it.
+* The proposal for none of the interwikis is a failed proposal with around 45% consensus in favour.
+* For some interwiki links on Special pages does not have enough discussion but it can see it is a far too broad proposal as-is.
+** Special:RecentChanges is a failed proposal with a vote-based conclusion with consensus at 52% however argument based; it is a passed proposal. All the comments in regards to Legoktm’s argument are ignore mainly due to the fact it is a design of a skin used by a small population of Wikimedia users and alone is a some-what old skin. Design factors of old skins should not steer consensus of entire projects.
+** Special:Watchlist is a failed proposal. Even counting is design aspects, 300+ links on Special:Watchlist is not necessarily useful and probably not something Wikidata should be handling at this time.
+:
+Reference 2 - 0.26% Coverage
+’’’Support’’’. Wikidata is not for creating nonsense about MediaWiki internal stuff. -
+Reference 3 - 0.12% Coverage
+’’’Support’’’ per Vogone and MF-Warburg
+Files\\request for a comment\\Sortidentifiers - § 1 reference coded [ 0.28% Coverage]
+Reference 1 - 0.28% Coverage
+|Consensus was reached to sort identifiers and a system is now in place using [[MediaWiki:Wikibase-SortedProperties]].

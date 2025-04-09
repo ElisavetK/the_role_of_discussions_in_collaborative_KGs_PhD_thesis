@@ -1,0 +1,130 @@
+﻿Files\\properties for deletion\\P107 - § 1 reference coded [ 1.94% Coverage]
+Reference 1 - 1.94% Coverage
+I do not quite understand. P107 can not be used to separate fictional people from real ones, so what is the connection between this property and the missing consensus about fictional people
+Files\\properties for deletion\\PfDPropertyP1549 - § 3 references coded [ 1.73% Coverage]
+Reference 1 - 0.27% Coverage
+Where is it used on huwiki/svwiki/frwiki?
+Reference 2 - 0.46% Coverage
+o you have any specific place where this spcific property is used on svwiki?
+Reference 3 - 1.00% Coverage
+{{ping|HarryNº2|Obsuser}} Please do not just [[w:WP:USEFUL|say ""keep""]] for things that are under deletion discussions as simple and confusing ""useful"
+Files\\properties for deletion\\PfDPropertyP3303 - § 2 references coded [ 1.75% Coverage]
+Reference 1 - 0.51% Coverage
+Is there some Wikibase code change that allows that?
+Reference 2 - 1.24% Coverage
+Can somebody test/confirm that Wikidata’s UI does correctly select the preferred Formatter URL value, if there are several?
+Files\\properties for deletion\\PfDPropertyP646 - § 2 references coded [ 1.04% Coverage]
+Reference 1 - 0.39% Coverage
+:Could you explain why this property should be deleted?
+Reference 2 - 0.65% Coverage
+Could you explain your position in details? Why we need this property? What tasks will use it?
+Files\\properties for deletion\\PfDPropertyP802 - § 3 references coded [ 7.11% Coverage]
+Reference 1 - 3.72% Coverage
+Did I misunderstand that the proposition was mainly a means to remove the less prominent/relevant student-relations. Are you suggesting to move each current claim as a first step, to prevent new students added and the ""relevance"" evaluated over time, or that the evaluation of relevance performed before the move? Isn’t the problem in that case that {{P|P1066}} will still be overused? 
+*:: {{Ping|Nomen ad hoc}} Did you also have feedback on these questions?
+Reference 2 - 1.96% Coverage
+When you say ""without loss"", are you disagreeing that the student property is overused or do you just want to make sure that the ’’important students’’ are not lost? Would it be feasible to use {{P|P1066}} in infobox if that was complete enough?
+Reference 3 - 1.43% Coverage
+Discuss’’’ {{Ping|Nomen ad hoc}} Did you already have a successful case with {{P|185}} to tell about? How did the community react to the change and what kind of bot-work was done?
+Files\\property proposal\\at - § 3 references coded [ 3.55% Coverage]
+Reference 1 - 0.36% Coverage
+Like what? Suggest one..
+Reference 2 - 2.21% Coverage
+But you are saying ’’There should be a better (maybe generalized term)...’’. How can you be sure about that? What are we going to do? We need the qualifier.
+Reference 3 - 0.97% Coverage
+why? Can you suggest something else; I am trying to find something.
+Files\\property proposal\\grammaticalnumber - § 4 references coded [ 3.79% Coverage]
+Reference 1 - 0.32% Coverage
+How does this make sense on the Lexeme?
+Reference 2 - 0.47% Coverage
+OK, but where do you indicate that the lexeme is plural?
+Reference 3 - 1.89% Coverage
+OK it’s covered by ""grammatical features"" for forms. But I cited the example of ""mathématiques"" in French that is a {{Q|138246}}. How can we indicate this if we can’t add ""grammatical number: plural"" in a statement?
+Reference 4 - 1.11% Coverage
+I noted that [[Lexeme:L362]] has the lexical category {{Q|202444}}. I suppose that is not an ""established parts-of-speech""?
+Files\\request for a comment\\DataqualityframeworkforWikidata - § 4 references coded [ 1.31% Coverage]
+Reference 1 - 0.13% Coverage
+How does Connectedness differ from Interlinking? Would you join these two dimensions?-
+Reference 2 - 0.45% Coverage
+I fail to understand this one. External identifiers are data in itself, giving links to other datasets, and so yielding more ""interlinking"" (one of the suggested dimensions). They may or may not even be source of ""content data"". So perhaps you can clarify more extensively what you mean here? [
+Reference 3 - 0.26% Coverage
+Hi, could you make an example of the consistency issues that would arise from such data duplication?
+::::: Do you suggest to automatically fix constraint violations, then?
+Reference 4 - 0.47% Coverage
+Are you really saying that ""References should be sources recognised as impartial and authoritative. E.g. for demographic data, census governmental sources are considered as trustworthy"" isn’t claiming that census government sources are impartial? That seems to me like a nonstandard usage of ""E.g.""
+Files\\request for a comment\\Findagraveremovedasasourceforinformation - § 9 references coded [ 4.13% Coverage]
+Reference 1 - 0.58% Coverage
+::::::::::{{Tq|""in one of the examples I’ve listed there is no image of the gravestone...""}} And is that the case for every item where you’ve removed a FaG citation, or are you also removing them in cases where there ’’is’’ an image?
+Reference 2 - 0.93% Coverage
+It is very difficult to form an opinion based on the scarce input which was given in this RfC until now. I do not see a problem with “community sourced” databases in general, so do we have any statistical information about data quality in FindAGrave that implies serious concerns? Which Wikipedias consider this source unreliable, and where do I find relevant discussions?
+Reference 3 - 1.08% Coverage
+*** [[User:Nikkimaria|Nikkimaria]] the Help page suggests to *replace* wikipedia links with more verifiable source links, not to delete them without adding a source. We’ve had lengthy discussions on this in other RFC’s and elsewhere. In any case, you didn’t respond to my request for a specific example of the sort of problem you see with this data, can you provide something that actually shows what problems might be caused here?
+Reference 4 - 0.18% Coverage
+::::::::Not the implementation. Is that standard recorded somewhere?
+Reference 5 - 0.35% Coverage
+*{{comment}} Looks like we can close this. As point of procedure, do reverts and deletions count as ""non automated main namespace edits""?
+Reference 6 - 0.15% Coverage
+* how do you cite a gravestone in a way that is ’verifiable’?
+Reference 7 - 0.63% Coverage
+**Can you show us a study of how reliable/unreliable it is in comparison with the other data sources we use? I would love to see each of the data sets we used ranked by reliability objectively. You must be citing some study, can you provide a link for us? --[[
+Reference 8 - 0.11% Coverage
+:*How might one mark a source as unreliable?
+Reference 9 - 0.13% Coverage
+:::::{{ping|Nikkimaria}} what is a problem and how?
+Files\\request for a comment\\HandlingofstoredIDsaftertheyvebeendeletedorredirectedintheexternaldatabase - § 2 references coded [ 1.00% Coverage]
+Reference 1 - 0.80% Coverage
+*:{{ping|Pigsonthewing}} This should be the last, hopefully :) Just a precisation: would you support only ""already-present obsolete IDs should be deprecated instead of deleted"" or also ""already-present obsolete IDs should be deprecated instead of deleted and it is fine to add ’’ex novo’’ other deprecated obsolete IDs""?
+Reference 2 - 0.20% Coverage
+{{ping|Bargioni}} if the redirects are not provided there, how to obtain the data?
+Files\\request for a comment\\Howtoclassifyitemslotsofspecifictypepropertiesorafewgenericones - § 5 references coded [ 3.22% Coverage]
+Reference 1 - 1.31% Coverage
+:::::EMW: The distinction is practical, not ontological. Wikidata is organised as a bunch of pages. Each collection of statements corresponds to a page.
+:::::When you say ""entity"" what do you mean? Are you referring to a a wikidata ’item’ - a page with a collection of statements describing a ’thing’. 
+:::::Or are you referring to any wikidata page, no matter what it describes (i.e. items plus what I call ’wikipedia non-item pages’)?
+:::::Or something else?
+Reference 2 - 0.35% Coverage
+::::Plus, can you tell me how to make sense ontologically of fir example disambiguations? What do they represent in the real
+Reference 3 - 0.27% Coverage
+:{{ping|콩가루}} Good point. Could we use ""President => {{P|1001}} => United States"" instead? -
+Reference 4 - 0.60% Coverage
+’’Databases’’’ How do ’’other’’ large, general-interest databases handle this? It’s not necessarily incumbent upon us to mimic them but they may have some best practices which we could adopt. Does anyone know?
+Reference 5 - 0.68% Coverage
+We use ’{{P|31}}:{{Q|Q571}}’ for {{Q|Q1845}} and for {{Q|Q1816474}}. This is a problem with all sorts of mass produced items (except ships). Is a mass produced item an instance of a brand/model/copyright/design or is it a class of objects?
+Files\\request for a comment\\Interwikilinksforspecialpages - § 11 references coded [ 2.70% Coverage]
+Reference 1 - 0.12% Coverage
+**Including [[Special:CheckUserLog]]?
+Reference 2 - 0.29% Coverage
+Why would a new editor need to do that for [[Special:Block]] or [[Special:CheckUserLog]] though?
+Reference 3 - 0.09% Coverage
+we should really say which pages
+Reference 4 - 0.24% Coverage
+n}} It depends on kind of special page So I think we need to ask comments for each thin
+Reference 5 - 0.16% Coverage
+{{Neutral}}, I don’t know. If it gives some advantages.
+Reference 6 - 0.47% Coverage
+Then propose Special:Watchlist to be an exemption. As [[User:PiRSquared17|PiRSquared17]] already has pointed out above, voting here is rather pointless. [
+Reference 7 - 0.38% Coverage
+:::Do you have an idea how this would work techically for other special pages without a system message like ""Recentchangestext""?
+Reference 8 - 0.09% Coverage
+{n}} Is this really useful?--
+Reference 9 - 0.18% Coverage
+*::WHy do the links show up on the top instead of on the sidebar?
+Reference 10 - 0.18% Coverage
+** Why do you say remove them? There have never been any links.
+Reference 11 - 0.50% Coverage
+**:Fix it on all 900 WMF wikis by hand, you mean? Or use already sparse developer resources to fix it? And this still doesn’t solve the problem of how long the links take to load.
+Files\\request for a comment\\Sortidentifiers - § 4 references coded [ 1.35% Coverage]
+Reference 1 - 0.19% Coverage
+{neutral}}: Any idea how this could be implemented in a language independent way?
+Reference 2 - 0.41% Coverage
+: {{ping|Trade}} There is wide consensus about the necessity of some ordering: which would be your preference (alphabetical, by topic, a mix of the two, by number of usages etc.)?
+Reference 3 - 0.70% Coverage
+{{ping|Bargioni}} Thanks! The ordering by P number seems not much supported (see above), however the idea of personalizing the order on user basis in a way similar to the #babel is really interesting. {{ping|Lea Lacroix (WMDE)}} Would such a personalization of the order of external identifiers be possible?
+Reference 4 - 0.05% Coverage
+Why that order? <span
+Files\\request for a comment\\TimeDataTypeProperties - § 1 reference coded [ 0.39% Coverage]
+Reference 1 - 0.39% Coverage
+ou can? Could you please give a link to an example of this? -
+Files\\request for a comment\\makedeveloperandprogrammerpropertiesclearer - § 1 reference coded [ 1.85% Coverage]
+Reference 1 - 1.85% Coverage
+Could {{P|178}} also be used on {{Q|10630822}} with values including those in category [[:en:Category:Real_estate_and_property_developers]]?

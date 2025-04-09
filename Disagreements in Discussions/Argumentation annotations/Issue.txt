@@ -1,0 +1,295 @@
+﻿Files\\properties for deletion\\P107 - § 1 reference coded [ 1.20% Coverage]
+Reference 1 - 1.20% Coverage
+Its use is arbitrary and specific to an external source. There is no reason that I see why we should keep this property.
+Files\\properties for deletion\\PfDPropertyP1549 - § 1 reference coded [ 14.24% Coverage]
+Reference 1 - 14.24% Coverage
+[[User:Jura1]] [[User:VIGNERON]] [[User:Tubezlob]] [[User:Jheald]] [[User:Lockal]] [[User:Infovarius]] [[User:Putnik]] [[User:Laddo]] [[User:Kalogeropoulos]] [[User:Innocent bystander]] [[User:Event]] [[User:Jakec]] [[User:Vinhtantran]] [[User:MaGa]] [[User:Labant]] [[User:K175]] [[User:Autom]] [[User:Robin van der Vliet]] [[User:Matěj Suchánek]] [[User:Janezdrilc]] [[User:Ctschiebout]] [[User:Kevin Scannell]] [[User:Maria zaos]] [[User:Horcrux]] [[User:Soued031]] [[User:Metsavend]] [[User:Obaid Raza]] [[User:İncelemeelemani]] [[User:Pinky sl]] [[User:Andreasmperu]] [[User:Рөстәм Нурыев]] [[User:Pmt]] [[User:Gustavo Rubén]] [[User:Oriciu]] [[User:Mr. Ibrahem]] [[User:زكريا]] [[User:ToJack]] [[User:Renessaince]] [[User:Arnaugir]] [[User:MisterSynergy]] [[User:AmaryllisGardener]] [[User:Beta16]] [[User:Mahir256]] [[User:Спасимир]] [[User:Asierog]] [[User:Avatar6]] [[User:Wylve]] [[User:Şêr]] [[User:Jc86035|Jc86035]] ([[User talk:Jc86035|<span class=""signature-talk"">{{int:Talkpagelinktext}}]]) 10:39, 4 November 2018 (UTC)"
+" <span style=""display:none"">[[User:Krupolskiy Anonim]] [[User:YMS]] [[User:ಶಿವಕುಮಾರ್ ನಾಯಕ್]] [[User:Hibm98]] [[User:GAllegre]] [[User:Epìdosis]] [[User:Jklamo]] [[User:David1010]] [[User:SR5]] [[User:Máté]] [[User:Ślimaczek]] [[User:HakanIST]] [[User:FocalPoint]] [[User:Allen4names]] [[User:Mbch331]] [[User:Zygimantus]] [[User:Fnielsen]] [[User:Peppepz]] [[User:Geraki]] [[User:Supaplex]] [[User:Thierry Caro]] [[User:NMaia]] [[User:Loischantada]] [[User:ANDROBETA]] [[User:Marklar2007]] [[User:Kikos]] [[User:Raid5]] [[User:Doostdar]] [[User:Palapa]] [[User:Octahedron80]] [[User:Милан Јелисавчић]] [[User:Frokor]] [[User:Rippitippi]] [[User:Conny]] [[User:Qllach]] [[User:Miguillen]] [[User:יונה בנדלאק]] [[User:Liuxinyu970226]] [[User:桂鷺淵]] [[User:Bjankuloski06]] [[User:Thomas11]] [[User:Ayack]] [[User:Чаховіч Уладзіслаў]] [[User:Александр Сигачёв]] [[User:Jc86035|Jc86035]] ([[User talk:Jc86035|<span class=""signature-talk"">{{int:Talkpagelinktext}}]]) 10:41, 4 November 2018 (UTC)"
+Files\\properties for deletion\\PfDPropertyP3303 - § 2 references coded [ 9.53% Coverage]
+Reference 1 - 4.61% Coverage
+Merge with {{P|P1630}}. The distinction between first-party and third-party URLs is rather arbitrary. And because Wikidata.org only creates external links for P1630 and not for P3303, third-party URLs are often placed in P1630 if no first-party URL exists (e.g. {{P|P3797}}, {{P|P8727}}). We can use ranks to define the best URL(s), and use {{P|P5102}} to mark URLs as ’official’ or ’unofficial’ if need be, but having two separate properties just seems unnecessary
+Reference 2 - 4.92% Coverage
+What I’d like to have is a drop-down menu next to each [[Property:P212|ISBN]] statement, showing me the links to various online book databases, libraries, e-shops, whatever (now, for the specific case of ISBNs, we outsourced this job to [[Special:Booksources]] which is the “official formatter” for ISBNs… funny, right?). Ditto for DOIs, OIDs, MeSH codes, … So, sure, we ’’might’’ merge P1630 and P3303 and use the rank to mark the primary linkifier. But I think it is not the greatest priority. For now,
+Files\\properties for deletion\\PfDPropertyP646 - § 1 reference coded [ 0.24% Coverage]
+Reference 1 - 0.24% Coverage
+{{rfd links|Propery:P646|can}}
+Files\\properties for deletion\\PfDPropertyP802 - § 1 reference coded [ 1.76% Coverage]
+Reference 1 - 1.76% Coverage
+Same as for {{P|185}}: generally too many, and redundant with the reverse property. The most prominent students could be referenced with {{P|3342}} (and a [[Property:P2868|role]] qualified as {{Q|48282}}) instead
+Files\\properties for deletion\\PropertyP8531 - § 1 reference coded [ 10.41% Coverage]
+Reference 1 - 10.41% Coverage
+{rfd links|1=Property:P8531|2=redundant (see creation discussion)}}
+
+Redundant (see [[Wikidata:Property proposal/Filmstarts title ID|creation discussion]]): the same identifiers is used on several websites of the publisher and we already have a property for it ([[Property:P1265]]). Unfortunatly the proposer omitted mentioning this when the proposal was first made. --
+Files\\properties for deletion\\Short name Birth name Official name - § 1 reference coded [ 9.20% Coverage]
+Reference 1 - 9.20% Coverage
+Delete {{P|513}}, {{P|743}} and proposed property [[Wikidata:Property_proposal/Pending/3#Official_name_.2F_Name_.2F_Nom_.2F|Official name]] and replace with new property ’Name’ (with monolingual datatype).
+
+People and things have all kinds of names. If we have a separate property for each type of name then an infobox or a query must guess which property has been used for an item. If all names use the same property then it is easier to find a persons names. When we have ranks we can mark one name as preferred. We can use {{P|31}} as a qualifier to indicate the type of name (birth name, pen name, stage name, nom de guerre, legal name) or start date/end date as qualifiers where a name
+Files\\property proposal\\at - § 1 reference coded [ 2.32% Coverage]
+Reference 1 - 2.32% Coverage
+I need a qualifier to show where a team promoted or relegated, to show where the team played the next season due to promotion or relegation of the previous season.
+Files\\property proposal\\grammaticalnumber - § 1 reference coded [ 0.71% Coverage]
+Reference 1 - 0.71% Coverage
+Statement directly in the lexeme for the main form, and in forms for specific forms.
+Files\\request for a comment\\Administativedivisionsandpopulatedplaces - § 1 reference coded [ 8.55% Coverage]
+Reference 1 - 8.55% Coverage
+As already said in [[Wikidata:Project chat#Population]] problem is that Wikipedia in almost all cases merge populated place and administrative division. For example {{Q|20103}} is both an administrative division {{Q|747074}} and a populated place (the city itself), but administrative division has got 27377 people because include many {{Q|1134686}} , populated place only 3732 people, the same problem is for altitude ecc., in the future we will have same problems with boundaries coordinates. This problem affects millions of items on data and is also a problem for the usability of the data, so it is necessary to establish a guideline that applies to all items with strong consensus 
+(feel free to correct or modify)
+Files\\request for a comment\\DataqualityframeworkforWikidata - § 1 reference coded [ 14.99% Coverage]
+Reference 1 - 14.99% Coverage
+Dear Wikidata members,
+
+Providing high-quality data will be crucial for Wikidata’s future. To achieve high quality, it is important to define first what data quality is on this knowledge base.
+As part of the Web and Internet Science group at the University of Southampton, I am currently a guest of Wikimedia Deutschland, where I am carrying out a study about data quality on Wikidata.
+My research group aims to prepare a data-quality framework to describe the quality issues affecting Wikidata, and ultimately to perform a large-scale assessment of it.
+Wikidata community members are responsible for the creation and maintenance of this knowledge base, and are likely to be aware of the quality issues that are most important for Wikidata. With this request for comment, we would like to leverage the user contribution to:
+* Help describe and categorise Wikidata quality issues;
+* Add further quality aspects (dimensions) to those that have already been identified, or to improve the focus of dimensions that have already been selected.
+We ask users to provide comments and advice about the data-quality dimensions we have already identified. We will be glad to discuss about each data quality aspect why it is important, what are practical examples of it, and whether there are other aspects that may be of interest. The discussion will be open until 4 September 2016.
+
+Data quality is usually defined as fitness for use, which means that it is evaluated from the point of view of the data consumer and with respect to a task at hand. Nevertheless, the specifics of collaboratively created knowledge bases require us to look at data quality under a different perspective. Following Lukanyenko et al., 2014<ref>Lukyanenko, R., Parsons, J., & Wiersma, Y. F. (2014). The IQ of the crowd: understanding and improving information quality in structured user-generated content. ’’Information Systems Research, 25’’(4), 669-689.</ref>, we define data quality as “the extent to which stored information represents the phenomena of interest to data consumers (and project sponsors), as perceived by information contributors”.
+Data quality dimensions are the aspects of quality that can be considered while assessing a knowledge base. In the first step of our research, we have selected a number of dimensions from the scientific literature. The main sources for our selection have been articles of Wang & Strong, 1996<ref>Wang, R. Y., & Strong, D. M. (1996). Beyond accuracy: What data quality means to data consumers. ’’Journal of management information systems, 12’’(4), 5-33.</ref> and Zaveri et al., 2015<ref>Zaveri, A., Rula, A., Maurino, A., Pietrobon, R., Lehmann, J., & Auer, S. (2015). Quality assessment for Linked Data: A survey. ’’Semantic Web, 7’’(1), 63-93</ref>. We decided to include or discard dimensions on the basis of their relevance to the peculiarities of Wikidata and of their possible application for a large-scale quality evaluation.
+However, Wikidata is a community project: its active community is its strength and the main responsible for its maintenance and growth. Therefore, as mentioned above, we would like to refine the quality dimensions selected with the help of the community. We publish them here, inviting everyone to contribute by commenting or providing any advice, to discuss the choices made, improve the definitions created, and develop appropriate metrics for the relevant dimensions. 
+You will probably notice the repeated use of words such as “relevant” and “appropriate”. What these words actually refer to depends on context. The help of the Wikidata community will allow us to better define them.
+Any contribution by community members will be appreciated; please feel free to ask any questions if you find anything unclear.
+
+Many thanks,
+--[[User:Alessandro Piscopo|Alessandro Piscopo]] ([[User talk:Alessandro Piscopo|<span class=""signature-talk"">{{int:Talkpagelinktext}}]])
+
+== Intrinsic dimensions ==
+Intrinsic dimensions refer to characteristics of data that can be evaluated independently from the context. The ones we included are accuracy, objectivity, reputation, and consistency.
+
+=== Accuracy === 
+The extent to which data are accepted as true and free of error. 
+* ’’’Description and examples’’’: A statement is said to be accurate if it is in agreement with what stated in its reference. In case a reference is not available or not needed, a statement is considered as accurate if it correctly represent a fact in the real world. For example, Milan’s population as of 31 December 2015 is stated as 1,359,905 ([[Q490]]). This value corresponds to that in the specified source, therefore it can be considered as accurate. 
+
+=== Objectivity ===
+The extent to which data are free of bias and impartial.
+* ’’’Description and examples’’’: Labels, descriptions, and aliases should not be derogatory and as much as possible not express a partial point of view. In case of debated facts, statements accounting for different positions should be given.
+
+=== Reputation ===
+The extent to which sources specified for data are trustworthy.
+* ’’’Description and examples’’’: References should be sources recognised as impartial and authoritative. E.g. for demographic data, census governmental sources are considered as trustworthy, whereas poorly documented websites are not. Sources must be easily verifiable as well: the referenced piece of information should be easy to find within the source, e.g. a human or a machine should be possibly able to retrieve it directly on the page linked. In the above case of Milan ([[Q490]]), for instance, after clicking on the source link, users must click on another link to open a PDF file where the data is found.
+
+=== Consistency ===
+The extent to which data comply with or concur to form a consistent knowledge representation.
+* ’’’Description and examples’’’: Class membership relations must be clear and consistent. Misuse of subclass of and instance of relations is among the causes of errors related to this dimension.
+
+== Contextual dimensions ==
+Contextual dimensions refer to the extent to which data are fit for the task at hand. They may be therefore hard to measure without clear use cases defined and may need to identify an optimal standard. The contextual dimensions we included are ’’timeliness’’ and ’’completeness’’.
+
+=== Timeliness ===
+The extent to which data are sufficiently up to date.
+* ’’’Description and examples’’’: This dimension refers to how frequently is data updated, whether its validity time is specified (start and end date), and its currency, i.e. whether it represents a present state of things in the real world.
+
+=== Completeness ===
+Completeness describes whether data have sufficient breadth, depth, and scope. Following the literature, we identify:
+
+==== Schema completeness ====
+The extent to which a sufficient number of classes and properties is present.
+* ’’’Description and examples’’’: Classes and properties should allow to represent concepts and state facts with a certain degree of precision, but they cannot be in a number such as to be a burden for users when adding new content.
+
+==== Item completeness ====
+The extent to which the instances of a class (i.e. Items) include all the properties/statements relevant to that class.
+* ’’’Description and examples’’’: All instances of the class ""human"" ([[Q5]]) must have the ""date of birth"" ([[Property:P569]]) property.
+
+==== Population completeness ====
+The extent to which all the possible instances of a class are represented.
+* ’’’Description and examples’’’: All Italian towns should be present, given the class ""comune of Italy"" ([[Q747074]]).
+
+== Representational dimensions ==
+
+=== Interpretability ===
+The extent to which data can be interpreted by machines without ambiguity.
+* ’’’Description and examples’’’: The value of a property must be expressed in an appropriate format and with appropriate units, enriched with ranks, and described using external vocabularies. Classes and properties should be linked to external KBs, by using the ""equivalent class"" ([[Property:P1709]]) property or the ""equivalent property"" ([[Property:P1628]]) property.
+
+=== Ease of understanding ===
+The extent to which data can be comprehended without ambiguity by humans.
+* ’’’Description and examples’’’: Labels and descriptions should be provided in an appropriate number of languages.
+
+== Accessibility ==
+
+=== Interlinking ===
+The extent to which data are sufficiently interlinked to other resources, either within or without Wikimedia.
+* ’’’Description and examples’’’: Items should be linked to equivalent entities in other knowledge bases; Items should have an appropriate number of links to other Wikimedia projects.
+
+== Other dimensions ==
+The following are quality dimensions that were in the framework we mainly relied upon (Wang & Strong, 1996<ref>Wang, R. Y., & Strong, D. M. (1996). Beyond accuracy: What data quality means to data consumers. ’’Journal of management information systems, 12’’(4), 5-33.</ref>), but which were not included in our selection. The definitions are from Wang & Strong (1996).
+
+;Believability
+The extent to which data are accepted or regarded as true, real, and credible.
+
+;Relevancy
+The extent to which data are applicable and helpful for the task at hand.
+
+;Value-added
+The extent to which data are beneficial and provide advantages from their use.
+
+;Appropriate amount of data
+The extent to which the quantity or volume of available data is appropriate.
+
+;Representational consistency
+The extent to which data are always presented in the same format and are compatible with previous data.
+
+;Concise representation
+The extent to which data are compactly represented without being overwhelmed.
+
+;Accessibility
+The extent to which data are available or easily and quickly retrievable.
+
+;Access security
+The extent to which access to data can be restricted and hence kept secure.
+Files\\request for a comment\\Findagraveremovedasasourceforinformation - § 1 reference coded [ 0.86% Coverage]
+Reference 1 - 0.86% Coverage
+Should data items here at Wikidata that are sourced to Findagrave be removed? Wikipedia considers Findagrave to be unreliable because it is community sourced. The argument for/against Findagrave has been going on for at least 5 years at Wikipedia. The discussion has begun at [[User talk:Nikkimaria]] but should be open for all to discuss here.
+Files\\request for a comment\\GuidelinesforRfCprocess - § 1 reference coded [ 10.63% Coverage]
+Reference 1 - 10.63% Coverage
+==Proposal==
+The RfC process needs improvements: right now there is no possibility to follow the progress of a RfC if you don’t participate from the begining. To improve the current process the following guidelines are proposed:
+
+# A request for comment is composed of 2 parts: a discussion part and a decision part. The discussion part is used to define the questions, the framework and the conditions of the topic which is proposed in the RfC.
+# The discussion part lasts at least one week and the decision part at least four weeks. If one part needs more time an extension can be decided. The deadline of each part has to be mentioned in the main page of the request.
+# When a part starts (discussion or decision) an announcement has to be made in the [[Special:MyLanguage/Project:Community_portal|Community portal]] in English (a new section has to be created). Announcement in the different project chats is strongly recommended.
+# During the discussion chat the main page of the request should be keep blank of any comments or discussions. Only the results of the discussion should be displayed. The discussions have their place in the talk page. The main page is used for the draft proposal only, updated and modified as the discussion progresses. So each person opening the discussion page can see the current summary of the discussions.
+# Once the discussion part is complete and a draft proposal has been agreed then the decision part begins. This consists of users voting on the Project page for or against the proposal.
+# If any party decides that he or she can only accept the current proposal if a change is made to it then that party should vote no and add a comment referring to the desired change. If the proposal is voted down but a significant number of voters have called for the same change to the wording of the proposal then the RFC process can restart with a discussion of the new proposal followed by another decision phase.
+Files\\request for a comment\\HandlingofstoredIDsaftertheyvebeendeletedorredirectedintheexternaldatabase - § 2 references coded [ 16.33% Coverage]
+Reference 1 - 9.49% Coverage
+Sometimes external databases/services erroneously create more then one entry for the same topic. And Wikidata users searching and adding the IDs routinely add all the IDs they find to the item, since they are all valid IDs. Then later, when the database/website gets around to fixing this redundancy, the entries/IDs are either turned into redirects or outright deleted.
+
+’’’The question is: what should Wikidata do with stored external IDs that have been turned into redirects or deleted? Keep them stored or simply delete them?’’’
+
+Over the years there have been various discussions and disputes between users over the handling of such cases. Unfortunately, official/help pages don’t offer clear cut instructions for this case, which is why I’m starting this RFC to find a community concensus. Some users (including me) think that these IDs still provide value and should be kept. The outdated IDs get marked as deprecated plus additional qualifiers like {{statement||P2241|Q45403344}} or {{statement||P2241|Q55396945}}. That way, they can still be found via queries, but are no longer flagged as single value constraint violations. Other users have insisted on removing such old IDs, as they no longer consider them valid IDs.
+
+Among the problems that arose in the past were
+* a) since most properties for external IDs have a {{Q|19474404}}, two or more IDs are automatically flagged as constraint violations and get listed on the constraints violations report page. And while marking outdated IDs as deprecated removes the constraint violation flags on the item page, the bots updating the constraint violations pages unfortunately fail to recognize the deprecated status and treat them like values with normal rank. Which results in deprecated values erroneously being listed as violations in the reports- prompting users trying to fix errors to simply delete these deprecated IDs in order to empty the error list.
+* b) some bots have been programmed to check whether values of some external ID properties are redirects and then automacally replace these IDs with the IDs they are redirected to. Which means that instead of the current plus old values, there are suddenly several identical values stored for the same property. Which in turn automatically triggers other bots that remove redundant ID values. So in the end, older IDs that have been turned into redirects are removed without any human input.
+
+Personally, I think deleting these IDs instead of simply marking them as outdated doesn’t really offer us any advantages. They were valid IDs at one point and we usually don’t delete outdated data, we use ranks to indicate the current/best value. Just like we don’t delete properties for external IDs when the external source is no longer around or changes to a different ID - we keep them for historical purposes and because there’s still value in keeping them for our users. Our users might have datasets which still ccontain such IDs (including outdated ones) and can still use Wikidata to identify the subject of the deleted ID or even query the respective new IDs. Since Wikidata’s importance and value as a central Linked Data Hub has grown immensely over the years, external IDs stored here aren’t used just to create links on Wikimedia projects. Many third-party databases/services/websites or projects use such IDs and so they can be used (just as intended) for reconciliation between Wikidata and these external datasets. So if a dataset contains external IDs like {{P|244}} or {{P|345}} - be it current or outdated IDs - these datasets can be easily matched to the corresponding Wikidata item. But if IDs are stored here and considered valid IDs one day, but get deleted as outdated the next day, that doesn’t speak well for Wikidata’s reliability. --[[User:Kam Solusar|Kam Solusar]] ([[User talk:Kam Solusar|<span class=""signature-talk"">{{int:Talkpagelinktext}}]]) 16:41, 6 June 2020 (UTC)"
+Reference 2 - 6.83% Coverage
+* possibility or not to insert IDs which are already obsolete at the moment of insertion
+* standardization of the way of treating valid IDs (preferred or normal rank) and obsolete IDs (normal or deprecated rank)
+
+So, here is my proposal. 
+# when an external database has an obsolete (redirected or withdrawn) ID, you should act in one of the following two ways:
+## case 1: the external database is {{st||31|96192295}}, with at least five references which demonstrate the effective wideness of its external use (e.g. {{P|214}}, {{P|227}}) – since the reason for which we keep obsolete external IDs is to offer the possibility to external databases of fixing them, we should make sure there are some external databases interested to the IDs we keep
+### if an ID is still valid, it should have [[Help:Ranking#Normal rank|normal rank]] and should possibly be placed in first place
+### if an ID already present has been redirected, it should have [[Help:Ranking#Deprecated rank|deprecated rank]] + the qualifier {{st||2241|45403344}}
+### if an ID already present has been withdrawn, it should have [[Help:Ranking#Deprecated rank|deprecated rank]] + the qualifier {{st||2241|21441764}}
+### if an ID has been redirected or withdrawn before being added to the item, it should not be added to the item directly as deprecated
+#### an exception is made for redirected or withdrawn IDs which have been removed in the past: they can be reinserted directly as deprecated, because they were once present in the item
+## case 2: the external database isn’t {{st||31| 96192295}} or has fewer than five references which support this statement
+### if an ID is still valid, it should have [[Help:Ranking#Normal rank|normal rank]]
+### if an ID has been redirected or withdrawn, it should simply be deleted
+# technical notes:
+## the bots updating constraint violations lists should be instructed about ignoring deprecated values
+## the bots updating items should mark as redirected or withdrawn the IDs in the way mentioned above; if an ID has been redirected, they should also add the valid ID using normal rank and possibly placing it in first place
+## the following option should be added to [[Special:Preferences]] and possibly enabled by default: in the section external-IDs, all deprecated values should be collapsed, with a button on each property allowing to show them – the reasons are the following: most users aren’t interested in viewing obsolete IDs, which make long pages still longer and may confound the readers; additionally, collapsing these IDs reduces the risk that newbies, not understanding their usefulness, remove them in good faith or accidentally
+# <s>final note: in 2025 the choice between continuing keeping the IDs deprecated in 2020 or before and deleting them will be subject of a new RfC</s>
+
+Ready to receive your comments! Bye
+Files\\request for a comment\\Howtoclassifyitemslotsofspecifictypepropertiesorafewgenericones - § 1 reference coded [ 1.62% Coverage]
+Reference 1 - 1.62% Coverage
+It is time to decide how to organize type properties in Wikidata before massive importation of data.
+We have now a lot of specific ""type properties"" and some generic ones: {{P|31}}, {{P|279}}, {{P|361}}, {{P|527}}. Some of us suggest to remove specific properties for using generic ones (e.g. [[Wikidata:Properties for deletion#Property:P289|deletion request of P:P289]]). With this discussion I (= [[User:Paperoastro|Paperoastro]]) ask to the community what direction we want to take to organize items: few generic type properties or a lot of specific ones?
+Files\\request for a comment\\Interwikilinksforspecialpages - § 1 reference coded [ 2.51% Coverage]
+Reference 1 - 2.51% Coverage
+The aim of this RfC is to gain consensus on the question whether we want to host interwiki links for special pages. Note that currently special pages are excluded by [[WD:N|our notability policy]]. The [[Wikidata:Notability/Inclusion criteria|only exception]] listed is [[Q6293548|Special:Recent Changes]]. However, recent deletion and undeletion of [[Q6293548]] showed that there is certain opposition to deletion of such pages, and the question is best discussed as RfC.--[[User:Ymblanter|Ymblanter]] ([[User talk:Ymblanter|{{int:Talkpagelinktext}}]]) 20:50, 20 December 2013 (UTC)"
+"
+
+Previous discussions:
+* [[Wikidata:Project chat#Where did Wikipedia’s Special:RecentChanges go?]]
+* [[Special:PermaLink/94602363|deletion discussion about Recent Changes item]]
+* [[Wikidata:Project_chat/Archive/2013/11#Watchlists]]
+Files\\request for a comment\\PropertyproposalorganisationreformtoamoreModelorinfoboxorientedprocess - § 1 reference coded [ 39.32% Coverage]
+Reference 1 - 39.32% Coverage
+This topic have been discussed on [[Wikidata:Project_chat/Archive/2013/07#How_long_should_property_proposal_discussed.3F|Project chat]], where there was an agreement that we need to change the property process, and changes has been proposed, but no decisions has been taken. This proposal is meant to (at best) take concrete decision approved by community and to discuss how the new process will be implemented.
+
+
+== Towards a model oriented Workflow ==
+=== Introduction : organizing models ===
+;models
+:I propose we, in the spirit of infoboxes task forces pages, introduce a new type of pages who serve as a reference for structuring datas : ’’model pages’’
+:Those model pages will be linked to one or more datatypes and will define how to organise datas into a specific domains, such as genes and protein datas, TV serials data, source and editions (like in [[Help:sources]]). In that spirit, the [[Wikidata:Requests_for_comment/Typing_:_class_⇄_instance_relationship_in_Wikidata|previously proposed RfC about a language to define model]] is an attempt to define how the model could be expressed on those pages.
+;model pages content
+:* Some example items
+:* A model in a community approved regular format, which for example could be processed by bot
+:* Example and documentation, explanation, ...
+; model organisation
+: A main ’’model page’’ would allow the access to all domain specific model as a hierarchical index page, organized hierarchically with pages associated with a whole domain referencing models associated with it’s subdomains, eg.
+::*Audiovisual
+::** programs
+::*** series
+::** channels
+: These organization would not have to be perfect as there is several possible hierarchy, but would meant for a user to easily find what he is looking for
+: A general model page would be created which recence general rules that should be followed by domain specific models as much as possible, indexing general properties and so on.
+
+=== proposed Workflow===
+We propose that instead of discussing property creation, we discuss : model and datatypes introduction (or removal) and model modification. These discussion would check, for example:
+* if the proposed model does not already exists if it’s a model proposal
+* if the general rules for models are well followed
+* if there is not alternatives solutions which does not require new properties addition ...
+* {{question}} other stuffs ?
+
+{{question|open questions}}
+* Where is the best place to discuss these proposals:
+** A model modification proposal general page ?
+** The discussion page of a model, with an announce on a announce page ?
+** other suggestions ?
+
+When a consensus is reached, if the proposal is accepted :
+* We modify the model reference page with the proposed amendments, or we create the new model
+* We archive the discussion
+* We create the needed items and properties if required.
+
+=== Other open questions ===
+The proposed section
+Files\\request for a comment\\Severaldatatypesforthesameproperty - § 1 reference coded [ 15.02% Coverage]
+Reference 1 - 15.02% Coverage
+Starting to add references to statements I have a problem to introduce data about author and editor: these properties requires item datatype but I don’t have an item for all authors and editors. (And if you want to have an idea about the problem of creating an item for each author, in the chemical infobox of [[:fr:Méthane]] I have 10 authors for different references)
+
+My proposition is to create new properties for author and editor with the string datatype and I want to have the opinion of the community about the fact of having different properties used for the same purpose. I know that string datatype doesn’t allow an automatic translation, but if an author is Chinese and uses its Chinese name to publish, better to have the correct name in Chinese instead of an translation which won’t be useful because not used.
+
+If people consider those properties as a source of confusion we can think to reserve those new properties for referencing purpose only.
+Files\\request for a comment\\Sortidentifiers - § 2 references coded [ 2.58% Coverage]
+Reference 1 - 0.88% Coverage
+propose sorting identifiers alphabetically when displayed, so that user can easily follow them. If there are those of priority, they would be first of course (such as Freebase, or I don’t know which but I know there are some of priority). Others can be sorted alphabetically or some grouped (e.g. Instagram always follows Facebook if available because they are of same characteristics)
+Reference 2 - 1.71% Coverage
+Given the technical limitations of [[MediaWiki:Wikibase-SortedProperties]], we can assume (correct me if I’m wrong) that at the moment ordering by usage and ordering alphabetically are actually impossible in an automatic way; reviewing periodically the order of all identifiers given the stats about their usage is clearly inconvenient, so it should be discarded; sorting properties alphabetically can’t rely on each user’s interface language, but requires choosing one language (English). 
+
+Given the previous summary, we can also assume (again, correct me if I’m wrong) that ordering by P number is not much supported and that ordering only alphabetically is also not so popular, while ordering in some way by topic is widely appreciated. --[
+Files\\request for a comment\\TimeDataTypeProperties - § 2 references coded [ 13.25% Coverage]
+Reference 1 - 5.04% Coverage
+So time datatype is available, finally. This raises some questions of course. We already have:
+
+*{{P|569}}
+*{{P|570}}
+*{{P|571}}
+*{{P|572}}
+*{{P|573}}
+*{{P|574}}
+*{{P|575}}
+*{{P|576}}
+*{{P|577}}
+*{{P|578}}
+*{{P|580}}
+*{{P|582}}
+*{{P|585}}
+
+== Problems ==
+
+This is one way to handle it, but there is a completely different system proposed at [[Wikidata:Property_proposal/Generic#Key_event]]. One property that specifies the exact type of event by an item (for example: ’’key event: {{Q|4}}’’) with a ’’date:’’ qualifier to specify the date. I think this prevents massive redundancy, because otherwise we would have to create an enormous amount of properties for each different type of event.
+
+What are your thoughts on this?
+Reference 2 - 8.21% Coverage
+I think it makes sense to use ""start date"" as a qualifier of ""spouse"" to indicate date of marriage, but does it make sense to add ""end date"" if the spouse dies? This is relevant data, but it could be deduced from preexisting data in a separate item. Should we have a list of rules for when start date or end date could be considered deducible or assumed? We would probably put start and end dates for given names and such if it was changed, but would be put start dates for the name the person was given shortly after birth or end dates for names that the person died with? A problem with a general rule of no start date signifying since birth/start and no end date signifying until death/end is that sometimes we just don’t have the data added yet. We can’t put ""unknown"", because that’s an actual statement saying that it’s unknown to the world, and not just unknown to the current Wikidata database. Also, it is sometimes ambiguous: JFK died as President of the United States, so one might think that adding an end date to his term as president would be unnecessary, as it could be deduced from his death date. However, Kim Il-Sung died on 8 July 1994, yet still holds the office of Eternal President of North Korea. -
+Files\\request for a comment\\makedeveloperandprogrammerpropertiesclearer - § 1 reference coded [ 5.43% Coverage]
+Reference 1 - 5.43% Coverage
+{{P|178}} has two issues:
+* is it limited to software?
+:If so, what’s the purpose of {{P|943}}?
+:Otherwise, why his subject items are ""software developer"" and ""software house"" and why it’s an instance of {{Q|21126229}};
+* is it limited to creators?
+:If so, why not renaming it to something like ""software creator"", given that a developer can be also the current maintainer of a software?
+:Otherwise, why is it a subproperty of {{P|170}}?--
