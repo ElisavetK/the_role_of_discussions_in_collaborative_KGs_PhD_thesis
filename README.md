@@ -31,7 +31,9 @@ This folder contains code and data for the analysis in Chapter 8.
 
 ## **Disagreements in Discussions** 
 This folder includes code and data for the analysis in Chpater 9.
-* **raw_data** and **radial_trees_connections**: These folders include data for the process of radial trees.
+* **raw_data**: This folder includes a dataset of Wikidata discussions
+* **radial_trees_connections**: This folder includes data for the process of radial trees.
 * **radial_trees_process.ipynb**: This notebook consists of the analysis related to radial trees.
 * **num_revisios_types_v2.csv** and **num_revision_usercount_editcount.csv**: These files include the data for the section Exploratory Data Analysis.
 * **exploratory_data_analysis.ipynb**: This notebook includes the analysis of the section Exploratory Data Analysis.
+* **Argumentation_annotation**: This folder includes an annotated dataset for the argumentation analysis.
